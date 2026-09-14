@@ -1,0 +1,1 @@
+"""Ingestion pipeline: inventory, parsing, chunking, versioning, rebuild."""
