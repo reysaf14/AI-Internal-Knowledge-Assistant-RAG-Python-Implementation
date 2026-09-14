@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Runtime state (index corpus = turunan Confidential; state polling teknis)
+.runtime/
+
+# Env secrets & local profiles - TIDAK pernah di-commit
+.env
+.env.test
+.env.local
+.env.vps
+*.key
+*.pem
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
