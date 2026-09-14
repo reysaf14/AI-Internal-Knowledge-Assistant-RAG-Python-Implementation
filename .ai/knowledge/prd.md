@@ -2,11 +2,11 @@
 
 - Delivery lane: `PROFESSIONAL`
 - Scope version: `0.3`
-- PRD version: `1.0`
-- Tanggal: `2026-09-13`
+- PRD version: `1.1`
+- Tanggal: `2026-09-14`
 - Status: `APPROVED`
 - Approved by: `Human`
-- Approval date: `2026-09-13`
+- Approval date: `2026-09-14`
 
 ## Latar Belakang
 
@@ -34,7 +34,11 @@ Tujuan bisnis:
 
 Pemilik/manajer menjadi pengesah corpus dan owner operasi awal sampai Human menetapkan pihak lain. Operator hanya memuat dokumen yang sudah disahkan. Dokumen yang ditambah atau diganti harus tercatat sebagai bagian corpus berlaku sebelum pemuatan ulang.
 
-Tidak ada autentikasi per karyawan pada scope ini. Satu bot dipakai bersama oleh karyawan internal. Retensi percakapan dan mekanisme provisioning akan ditetapkan pada desain, tanpa memperluas izin penggunaan data.
+Tidak ada autentikasi per karyawan pada scope ini. Satu bot dipakai bersama oleh karyawan internal. Runtime Telegram menggunakan polling. Isi percakapan tidak disimpan oleh aplikasi; pemrosesan hanya berlangsung selama request aktif. Metadata teknis minimum boleh disimpan bila diperlukan untuk offset/update, idempotency, observability, atau diagnosis, tetapi tidak boleh memuat isi pertanyaan/jawaban, identitas pengguna, username, atau chat ID.
+
+## Implementation & Runtime Boundary
+
+Implementasi menggunakan kode aplikasi penuh dan tidak menggunakan n8n atau platform orkestrasi workflow sejenis. Delivery memiliki dua entry point kode: pemuatan ulang knowledge base dan runtime tanya-jawab Telegram. Runtime pertama ditujukan untuk mesin lokal dan harus dapat dipindahkan ke VPS melalui konfigurasi yang sama secara konseptual. Komponen model ditulis secara generik agar percobaan lokal dapat menggunakan model yang tersedia tanpa mengunci PRD pada vendor atau teknologi tertentu.
 
 ## User Stories
 
@@ -49,12 +53,12 @@ Tidak ada autentikasi per karyawan pada scope ini. Satu bot dipakai bersama oleh
 | ID | Kebutuhan bisnis | Prioritas | Hasil yang disepakati |
 |---|---|---|---|
 | `REQ-001` | Knowledge base menggunakan seluruh dokumen resmi yang berlaku dan dapat dimuat ulang setelah pembaruan | Wajib | Baseline mencakup 26 dokumen Markdown `00`–`25`; operator dapat menjalankan pemuatan ulang dan mengidentifikasi corpus yang berlaku |
-| `REQ-002` | Karyawan internal dapat mengirim pertanyaan dan menerima jawaban melalui bot Telegram bersama | Wajib | Setiap pertanyaan valid menghasilkan satu respons yang dapat dibaca karyawan; autentikasi/personalization per karyawan tidak disediakan |
+| `REQ-002` | Karyawan internal dapat mengirim pertanyaan dan menerima jawaban melalui bot Telegram bersama | Wajib | Setiap pertanyaan valid menghasilkan satu respons yang dapat dibaca karyawan melalui runtime polling; autentikasi/personalization per karyawan tidak disediakan |
 | `REQ-003` | Isi jawaban hanya didasarkan pada corpus resmi | Wajib | Akurasi isi mencapai sedikitnya `12/15` pada eval set approved berdasarkan rubric biner yang tidak menuntut kecocokan kata-per-kata |
 | `REQ-004` | Jawaban supported menyebut sumber yang benar | Wajib | Seluruh 12 pertanyaan supported mencantumkan setidaknya satu nama dokumen yang mendukung; setiap sumber tambahan juga relevan |
 | `REQ-005` | Asisten tidak mengarang ketika corpus tidak mendukung jawaban | Wajib | Seluruh 3 pertanyaan unsupported menghasilkan pernyataan tidak tahu, tanpa klaim kebijakan atau sumber palsu |
-| `REQ-006` | Respons tersedia dalam waktu yang layak untuk penggunaan operasional | Wajib | Masing-masing dari 15 pertanyaan eval menerima respons dalam `<5,0 detik`, diukur sejak workflow menerima pertanyaan sampai pengiriman jawaban ke Telegram dinyatakan berhasil |
-| `REQ-007` | Hasil dapat disiapkan, dievaluasi, dan dipelihara oleh operator yang ditunjuk | Wajib | Tersedia dua workflow yang dapat diekspor, panduan setup/penggantian dokumen, hasil evaluasi per pertanyaan beserta catatan kegagalan, dan demo percakapan yang telah disanitasi |
+| `REQ-006` | Respons tersedia dalam waktu yang layak untuk penggunaan operasional | Wajib | Masing-masing dari 15 pertanyaan eval menerima respons dalam `<5,0 detik`, diukur sejak aplikasi menerima pertanyaan sampai pengiriman jawaban ke Telegram dinyatakan berhasil |
+| `REQ-007` | Hasil dapat disiapkan, dievaluasi, dan dipelihara oleh operator yang ditunjuk | Wajib | Tersedia aplikasi kode penuh dengan dua entry point operasional—pemuatan ulang knowledge base dan runtime bot tanya-jawab—beserta panduan setup lokal/VPS, panduan penggantian dokumen, hasil evaluasi per pertanyaan dengan catatan kegagalan, dan demo percakapan tersanitasi |
 
 ## Fitur Tambahan
 
@@ -73,19 +77,20 @@ Rubric isi menggunakan nilai biner `LULUS` atau `GAGAL`. Jawaban supported lulus
 | Requirement | Kriteria keberhasilan | Dasar pengukuran aman |
 |---|---|---|
 | `REQ-001` | Seluruh 26 dokumen baseline tercatat sebagai corpus berlaku dan pemuatan ulang dapat menghasilkan corpus versi terbaru yang dapat diidentifikasi | Inventaris nama file dan metadata proses yang disanitasi; tanpa credential atau isi mentah dalam laporan |
-| `REQ-002` | 15 pertanyaan eval masing-masing menghasilkan satu respons Telegram yang dapat dibaca | Fixture sintetis dan evidence eksekusi yang disanitasi |
+| `REQ-002` | 15 pertanyaan eval masing-masing menghasilkan satu respons Telegram yang dapat dibaca | Fixture sintetis dan evidence eksekusi polling yang disanitasi |
 | `REQ-003` | Minimal 12 dari 15 jawaban lulus rubric isi (`≥80%`) | Penilaian per pertanyaan terhadap kunci jawaban approved; wording tidak harus identik |
 | `REQ-004` | Ketepatan sumber `12/12` untuk pertanyaan supported | Perbandingan nama dokumen yang disebut dengan sumber approved; setiap sumber tambahan harus relevan |
 | `REQ-005` | Abstention `3/3` untuk pertanyaan unsupported | Pemeriksaan bahwa jawaban menyatakan tidak tahu, tidak membuat klaim kebijakan, dan tidak mengarang sumber |
-| `REQ-006` | Waktu respons `<5,0 detik` pada `15/15` pertanyaan | Selisih timestamp penerimaan pertanyaan oleh workflow dan keberhasilan pengiriman respons; laporkan setiap durasi |
-| `REQ-007` | Seluruh deliverable wajib tersedia dan dapat ditinjau oleh pemilik/manajer | Daftar artefak, panduan penggunaan, laporan evaluasi, dan demo tersanitasi; tidak ada credential atau payload mentah |
+| `REQ-006` | Waktu respons `<5,0 detik` pada `15/15` pertanyaan | Selisih timestamp penerimaan pertanyaan oleh aplikasi dan keberhasilan pengiriman respons; laporkan setiap durasi |
+| `REQ-007` | Seluruh deliverable wajib tersedia dan dapat ditinjau oleh pemilik/manajer | Daftar entry point kode, panduan penggunaan lokal/VPS, panduan penggantian dokumen, laporan evaluasi, dan demo tersanitasi; tidak ada credential atau payload mentah |
 
 Kegagalan pada hard gate sumber, abstention, atau waktu respons tidak dapat ditutupi oleh skor akurasi agregat. Hasil evaluasi harus tetap menampilkan status setiap pertanyaan dan catatan kegagalan.
 
-Kandidat eval set yang diberikan Human memerlukan penyesuaian agar sesuai dengan komposisi approved. Tiga baris di luar corpus akan menjadi unsupported dan satu baris di luar corpus akan diganti dengan pertanyaan supported dari dokumen `00`. Human telah mengonfirmasi seluruh isi kandidat sintetis, sehingga salinan kerja boleh disiapkan pada tahap berikutnya. File sumber tidak diubah pada tahap PM.
+Dataset `QA_Dataset_15_Pasangan.csv` yang diberikan Human berisi 15 baris unik dengan kolom `Pertanyaan`, `Jawaban_Benar`, dan `Dokumen_Sumber`; pemeriksaan struktur menemukan tidak ada sel kosong. Baris 3, 7, 8, dan 15 merujuk dokumen di luar corpus resmi `00–25`. Tiga baris pertama akan menjadi skenario unsupported, sedangkan baris 15 harus diganti dengan pertanyaan supported dari dokumen `00` agar komposisi final menjadi 12 supported + 3 unsupported. Human telah mengonfirmasi seluruh isi dataset sebagai sintetis, sehingga salinan kerja boleh disiapkan pada tahap berikutnya. File sumber di `D:/QA_Dataset_15_Pasangan.csv` tidak diubah dan kandidat belum menjadi eval set approved sampai penyesuaian serta kunci jawaban disahkan.
 
 ## Riwayat Revisi
 
 | Versi | Tanggal | Perubahan | Diminta oleh |
 |---|---|---|---|
 | `1.0` | `2026-09-13` | PRD awal berdasarkan Scope Card `0.3` yang approved; menetapkan corpus 26 dokumen dan rubric 12 supported + 3 unsupported | Human |
+| `1.1` | `2026-09-14` | Menetapkan implementasi kode penuh tanpa n8n, Telegram polling, kebijakan tanpa penyimpanan isi percakapan, entry point operasional, serta status dataset kandidat 12+3 | Human |
