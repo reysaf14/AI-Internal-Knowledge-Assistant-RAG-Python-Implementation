@@ -1,0 +1,1 @@
+"""Storage layer: SQLite FTS5 index and runtime state."""
