@@ -13,6 +13,7 @@ so a rejected or failed answer can never be mistaken for a sourced policy answer
 """
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 
 from rag_assistant.answering.prompts import ABSTENTION_TEXT, SOURCE_LINE_PREFIX
@@ -20,6 +21,16 @@ from rag_assistant.domain.types import AnswerResult
 from rag_assistant.retrieval.grounding import (
     GroundedContext,
     validate_source_claims,
+)
+
+# The prompt asks for the source on its own line, and the line-start check runs
+# first so a compliant model is parsed exactly as before.  Local models often
+# emit the marker inline instead ("12 hari per tahun. SUMBER: doc.md"); that is
+# a formatting variance, not a grounding failure, so a fallback accepts the
+# final inline marker.  Grounding is unchanged either way: every claimed source
+# is still validated against the context, so a fake source can never pass.
+_INLINE_SOURCE_RE = re.compile(
+    re.escape(SOURCE_LINE_PREFIX), re.IGNORECASE
 )
 
 ABSTENTION_MARKERS = (
@@ -42,7 +53,13 @@ class ValidatedAnswer:
 
 
 def extract_claimed_sources(answer_text: str) -> tuple[str, ...]:
-    """Return source names from every ``SUMBER:`` line, in first-seen order."""
+    """Return source names from every ``SUMBER:`` marker, in first-seen order.
+
+    Line-start markers are preferred (the documented output contract).  When a
+    model emits the marker inline on the same line as the answer body, the
+    trailing marker is used as a fallback so a formatting slip does not discard
+    an otherwise correctly grounded answer.
+    """
     claimed: list[str] = []
     seen: set[str] = set()
     for raw_line in answer_text.splitlines():
@@ -53,16 +70,22 @@ def extract_claimed_sources(answer_text: str) -> tuple[str, ...]:
                 if token not in seen:
                     seen.add(token)
                     claimed.append(token)
-    return tuple(claimed)
+    if claimed:
+        return tuple(claimed)
+    return _claimed_sources_inline(answer_text)
 
 
 def strip_source_line(answer_text: str) -> str:
-    """Return the answer body without any ``SUMBER:`` line."""
-    kept = [
-        raw
-        for raw in answer_text.splitlines()
-        if not raw.strip().upper().startswith(SOURCE_LINE_PREFIX)
-    ]
+    """Return the answer body without any ``SUMBER:`` marker.
+
+    A line that is entirely a marker is dropped; an inline marker is truncated
+    so the citation does not remain glued to the answer body.
+    """
+    kept: list[str] = []
+    for raw in answer_text.splitlines():
+        if raw.strip().upper().startswith(SOURCE_LINE_PREFIX):
+            continue
+        kept.append(_INLINE_SOURCE_RE.split(raw)[0].rstrip())
     return "\n".join(kept).strip()
 
 
@@ -122,3 +145,18 @@ def _split_sources(value: str) -> tuple[str, ...]:
         if cleaned:
             tokens.append(cleaned)
     return tuple(tokens)
+
+
+def _claimed_sources_inline(text: str) -> tuple[str, ...]:
+    """Return sources from a trailing inline ``SUMBER:`` marker, if any.
+
+    Only the text after the *last* marker is considered, so an answer body that
+    happens to mention the word earlier cannot be mistaken for a citation list.
+    The result still passes through :func:`validate_source_claims`, so an
+    out-of-context name is rejected exactly as a line-start claim would be.
+    """
+    matches = list(_INLINE_SOURCE_RE.finditer(text))
+    if not matches:
+        return ()
+    remainder = text[matches[-1].end():]
+    return _split_sources(remainder.splitlines()[0] if remainder else "")
