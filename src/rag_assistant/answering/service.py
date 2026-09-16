@@ -14,6 +14,7 @@ from __future__ import annotations
 import time
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import TimeoutError as FuturesTimeoutError
+from urllib.parse import urlparse
 
 from rag_assistant.answering.adapter import (
     ChatMessage,
@@ -21,6 +22,7 @@ from rag_assistant.answering.adapter import (
     ModelClient,
     ModelError,
     ModelTimeoutError,
+    OllamaModelClient,
 )
 from rag_assistant.answering.prompts import ABSTENTION_TEXT, build_messages
 from rag_assistant.answering.validator import validate_model_answer
@@ -179,9 +181,21 @@ def build_answer_service(
     cfg: AppConfig, client: ModelClient | None = None
 ) -> AnswerService:
     """Wire configuration and the default HTTP adapter into a service."""
-    model_client = client or HttpModelClient(
+    model_client = client or _build_configured_model_client(cfg)
+    return AnswerService(model_client, timeout_seconds=float(cfg.llm_timeout))
+
+
+def _build_configured_model_client(cfg: AppConfig) -> ModelClient:
+    """Select native Ollama only for the explicitly local Ollama endpoint."""
+    parsed = urlparse(cfg.llm_base_url)
+    if parsed.hostname in {"127.0.0.1", "localhost"} and parsed.port == 11434:
+        return OllamaModelClient(
+            base_url=cfg.llm_base_url,
+            model_name=cfg.llm_model,
+            api_key=cfg.llm_api_key or None,
+        )
+    return HttpModelClient(
         base_url=cfg.llm_base_url,
         model_name=cfg.llm_model,
         api_key=cfg.llm_api_key or None,
     )
-    return AnswerService(model_client, timeout_seconds=float(cfg.llm_timeout))
