@@ -301,6 +301,12 @@ def rebuild_corpus(cfg: AppConfig) -> CorpusBuildResult:
         logger.info(f"Corpus rebuild successful: {result}")
         return result
 
+    except BaseException:
+        # Cancellation/interruptions must clean the unactivated candidate while
+        # preserving the previously active index.  Re-raise so callers retain
+        # the normal interrupt semantics instead of receiving a false success.
+        temp_db.unlink(missing_ok=True)
+        raise
     except Exception as exc:  # noqa: BLE001 - fail-closed: unlink temp index and abort
         temp_db.unlink(missing_ok=True)
         error_msg = f"Rebuild failed during indexing: {exc}"
