@@ -5,6 +5,7 @@ approved 12+3 or Telegram sandbox evidence.
 """
 from __future__ import annotations
 
+import time
 from pathlib import Path
 
 from rag_assistant.answering.adapter import ChatMessage
@@ -31,6 +32,14 @@ class M5GroundedModel:
                 source = line.split("] ", 1)[1].split(" | ", 1)[0].strip()
                 break
         return f"{body}\nSUMBER: {source}"
+
+
+class SlowM5GroundedModel(M5GroundedModel):
+    """Synthetic model with bounded work to prove per-case timing isolation."""
+
+    def complete(self, messages: list[ChatMessage], timeout_seconds: float) -> str:
+        time.sleep(0.15)
+        return super().complete(messages, timeout_seconds)
 
 
 def _runner(tmp_path: Path, synthetic_docs: Path) -> LocalEvaluationRunner:
@@ -142,3 +151,51 @@ def test_local_runner_checks_m5_target_shape_without_claiming_acceptance(
     assert summary.source_passed == 12
     assert summary.abstention_passed == 3
     assert summary.latency_passed == 15
+
+
+def test_local_runner_measures_each_case_without_batch_queue_time(
+    tmp_path: Path, synthetic_docs: Path
+):
+    """A bounded model delay in one case must not charge later cases for it."""
+    from rag_assistant.config import AppConfig
+
+    cfg = AppConfig(
+        app_env="test",
+        docs_path=synthetic_docs,
+        index_path=tmp_path / ".runtime" / "index.sqlite3",
+        expected_file_count=5,
+        project_root=tmp_path,
+    )
+    assert rebuild_corpus(cfg).success
+    runner = LocalEvaluationRunner(
+        retriever=Retriever(IndexStore(cfg.resolve_index_path())),
+        answer_service=AnswerService(SlowM5GroundedModel(), timeout_seconds=1.0),
+        state_dir=tmp_path / ".runtime" / "m5-eval",
+        max_latency_seconds=0.5,
+    )
+    supported = tuple(
+        EvaluationCase(
+            case_id=f"timing-supported-{index}",
+            question="Apa saja metode pembayaran yang diterima?",
+            expected_supported=True,
+            expected_sources=("02_FAQ_Pembayaran.md",),
+            expected_answer_terms=("tunai", "QRIS"),
+        )
+        for index in range(12)
+    )
+    unsupported = tuple(
+        EvaluationCase(
+            case_id=f"timing-unsupported-{index}",
+            question=f"Pertanyaan di luar corpus {index}",
+            expected_supported=False,
+        )
+        for index in range(3)
+    )
+
+    summary = runner.run(supported + unsupported)
+
+    assert summary.latency_passed == 15
+    assert all(
+        observation.latency_ms is not None and observation.latency_ms < 500
+        for observation in summary.observations
+    )
