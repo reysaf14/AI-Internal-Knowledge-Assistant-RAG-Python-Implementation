@@ -8,6 +8,7 @@ from rag_assistant.answering.adapter import (
     ModelInvalidResponseError,
     ModelProviderError,
     ModelTimeoutError,
+    OllamaModelClient,
 )
 from rag_assistant.answering.prompts import (
     ABSTENTION_TEXT,
@@ -32,6 +33,7 @@ __all__ = [
     "ModelInvalidResponseError",
     "ModelProviderError",
     "ModelTimeoutError",
+    "OllamaModelClient",
     "ValidatedAnswer",
     "build_answer_service",
     "build_messages",
