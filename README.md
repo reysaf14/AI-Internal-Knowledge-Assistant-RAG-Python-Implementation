@@ -5,9 +5,10 @@ Internal knowledge assistant for Toko Makmur Jaya. The application indexes the
 through an OpenAI-compatible local model endpoint, and can deliver responses
 through a Telegram polling boundary.
 
-M5 remains `NOT_VERIFIED`: the approved 12+3 evaluation and local Qwen runtime
-were not available. This guide documents the reproducible local operator path;
-it does not replace the M5 or independent QA/Security gates.
+M5 remains `NOT_VERIFIED`: the approved CSV currently has an 11+4 source
+composition, so it is not yet the required 12+3 evaluation. This guide
+documents the reproducible local operator path; it does not replace the M5 or
+independent QA/Security gates.
 
 ## Prerequisites
 
@@ -15,8 +16,8 @@ it does not replace the M5 or independent QA/Security gates.
 - `uv` for dependency/environment management.
 - The repository root as the working directory.
 - The approved corpus: exactly 26 files named `00_*.md` through `25_*.md`.
-- A local OpenAI-compatible model endpoint for live bot use. The current
-  decision is Qwen 8B served locally; no external router is required.
+- A local Ollama model endpoint for live bot use. The current local run uses
+  `gemma4:e2b-it-qat`; no external router is required.
 - A Telegram bot token only for live Telegram use. It is not required for
   ingestion, tests, or mock-boundary checks.
 
@@ -34,9 +35,11 @@ loads `.env` for `APP_ENV=local`; process/injected environment values always
 override file values. Test and VPS profiles do not implicitly load `.env`.
 
 Canonical model variables are `LLM_BASE_URL`, `LLM_MODEL`,
-`LLM_TIMEOUT_SECONDS`, and optional `LLM_API_KEY`. For a local Qwen endpoint,
-replace the safe example `local-default` with the concrete served model name;
-keep `LLM_API_KEY` empty unless the endpoint explicitly requires auth.
+`LLM_TIMEOUT_SECONDS`, and optional `LLM_API_KEY`. For the local Ollama endpoint
+at `http://127.0.0.1:11434/v1`, replace the safe example `local-default` with
+the concrete served model name; keep `LLM_API_KEY` empty unless the endpoint
+explicitly requires auth. The application selects Ollama's native `/api/chat`
+path and sends `think=false` for this local endpoint.
 
 Never commit `.env`, a token, an API key, a production payload, or a runtime
 database. The application does not print credential values.
@@ -98,6 +101,17 @@ uv run python -m compileall -q src tests
 Tests use synthetic fixtures and local boundaries. They do not prove Telegram
 network delivery, production credentials, or the approved M5 12+3 evaluation.
 
+### Run the local CSV evaluation
+
+```powershell
+.venv\Scripts\python.exe scripts\run_local_csv_eval.py
+```
+
+The command keeps the answer key in memory, emits sanitized metrics only, and
+uses a temporary technical state directory. The current approved input is
+expected to remain `NOT_VERIFIED` until its Human-approved composition is
+12 supported cases plus 3 unsupported cases.
+
 ## Runtime files and corpus replacement
 
 - `docs/` is the approved corpus boundary; do not add operator guides or
@@ -125,6 +139,6 @@ controls and must not be interpreted as a successful answer.
 ## Current verification boundary
 
 M0–M4 evidence remains implementer-level and M5 is still `NOT_VERIFIED`.
-Telegram sandbox credentials, the approved M5 dataset/rubric, and the local
-Qwen runtime are intentionally not required for this packaging milestone.
+Telegram sandbox delivery and the approved M5 12+3 rubric remain separate
+acceptance gates; the local Gemma runtime is available for engineering tests.
 Independent QA, Security, and release approval remain separate gates.
