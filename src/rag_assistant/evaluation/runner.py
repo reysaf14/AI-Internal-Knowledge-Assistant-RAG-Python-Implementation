@@ -127,23 +127,24 @@ class LocalEvaluationRunner:
         self._state_dir.mkdir(parents=True, exist_ok=True)
         observations: list[EvaluationObservation] = []
 
-        updates = tuple(
-            IncomingUpdate(update_id_start + index, f"{chat_id}-{index}", case.question)
-            for index, case in enumerate(cases)
-        )
-        boundary = TimedLocalBoundary(updates)
-        poller = TelegramPoller(
-            boundary=boundary,
-            state_store=StateStore(self._state_dir / "polling-state.sqlite3"),
-            retriever=self._retriever,
-            answer_service=self._answer_service,
-            poll_timeout_seconds=self._poll_timeout_seconds,
-            max_question_chars=self._max_question_chars,
-            max_iterations=1,
-            sleep=sleep or (lambda _seconds: None),
-        )
-        poller.run()
-        for case, update in zip(cases, updates, strict=True):
+        for index, case in enumerate(cases):
+            update = IncomingUpdate(
+                update_id_start + index, f"{chat_id}-{index}", case.question
+            )
+            boundary = TimedLocalBoundary((update,))
+            poller = TelegramPoller(
+                boundary=boundary,
+                state_store=StateStore(
+                    self._state_dir / f"case-{index:04d}" / "polling-state.sqlite3"
+                ),
+                retriever=self._retriever,
+                answer_service=self._answer_service,
+                poll_timeout_seconds=self._poll_timeout_seconds,
+                max_question_chars=self._max_question_chars,
+                max_iterations=1,
+                sleep=sleep or (lambda _seconds: None),
+            )
+            poller.run()
             observations.append(self._observe(case, boundary, update.update_id))
 
         return self._summarize(observations)
@@ -246,10 +247,13 @@ class LocalEvaluationRunner:
             max(item.response_count - 1, 0) for item in observations
         )
 
-        metrics_match = (
+        shape_match = (
             total == 15
             and expected_supported == 12
             and expected_unsupported == 3
+        )
+        metrics_match = (
+            shape_match
             and supported_content_passed >= expected_supported
             and source_passed == expected_supported
             and abstention_passed == expected_unsupported
@@ -257,8 +261,10 @@ class LocalEvaluationRunner:
             and responses_sent == total
             and duplicate_responses == 0
         )
-        if not metrics_match:
-            verdict = "NOT_VERIFIED" if total != 15 else "FAIL"
+        if not shape_match:
+            verdict = "NOT_VERIFIED"
+        elif not metrics_match:
+            verdict = "FAIL"
         elif self._verification_level != "telegram-sandbox":
             verdict = "NOT_VERIFIED"
         else:
