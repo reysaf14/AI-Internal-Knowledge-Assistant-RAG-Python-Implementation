@@ -31,7 +31,10 @@ def _run_ingest() -> None:
 def _run_bot() -> None:
     from rag_assistant.answering.service import build_answer_service
     from rag_assistant.config import load_config, validate_runtime_config
-    from rag_assistant.retrieval.service import Retriever
+    from rag_assistant.retrieval.service import (
+        Retriever,
+        build_retrieval_policy,
+    )
     from rag_assistant.storage.index_store import IndexStore
     from rag_assistant.storage.state_store import StateStore
     from rag_assistant.telegram.lock import InstanceLockError, SingleInstanceLock
@@ -50,7 +53,10 @@ def _run_bot() -> None:
             request_timeout_seconds=cfg.telegram_request_timeout,
         ),
         state_store=StateStore(runtime_dir / "bot_state.sqlite3"),
-        retriever=Retriever(IndexStore(cfg.resolve_index_path())),
+        retriever=Retriever(
+            IndexStore(cfg.resolve_index_path()),
+            policy=build_retrieval_policy(cfg.rag_context_limit),
+        ),
         answer_service=build_answer_service(cfg),
         poll_timeout_seconds=cfg.telegram_poll_timeout,
         max_question_chars=cfg.max_question_chars,
