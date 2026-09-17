@@ -19,6 +19,12 @@ from rag_assistant.storage.index_store import IndexStore
 class M5GroundedModel:
     """Synthetic model double with deterministic grounded output."""
 
+    # Extra documents that really exist in the synthetic corpus.  A model that
+    # cites one of these alongside the right source is giving a *more* complete
+    # answer, which the source contract permits; only the right source is
+    # mandatory.
+    EXTRA_CITED_DOCUMENTS: tuple[str, ...] = ("04_Kebijakan_Cuti.md",)
+
     def complete(self, messages: list[ChatMessage], timeout_seconds: float) -> str:
         user_message = messages[1].content
         question = user_message.split("PERTANYAAN:\n", 1)[1].strip()
@@ -31,7 +37,13 @@ class M5GroundedModel:
             if line.startswith("[Dokumen "):
                 source = line.split("] ", 1)[1].split(" | ", 1)[0].strip()
                 break
-        return f"{body}\nSUMBER: {source}"
+        citations = [source]
+        citations.extend(
+            extra
+            for extra in self.EXTRA_CITED_DOCUMENTS
+            if extra in user_message and extra not in citations
+        )
+        return f"{body}\nSUMBER: {', '.join(citations)}"
 
 
 class SlowM5GroundedModel(M5GroundedModel):
@@ -63,7 +75,13 @@ def _runner(tmp_path: Path, synthetic_docs: Path) -> LocalEvaluationRunner:
 def test_local_runner_measures_latency_sources_and_abstention(
     tmp_path: Path, synthetic_docs: Path
 ):
-    """Real local pipeline yields sanitized per-case metrics."""
+    """Real local pipeline yields sanitized per-case metrics.
+
+    The extra citation in ``EXTRA_CITED_DOCUMENTS`` is deliberate: it proves an
+    answer that names the approved source *plus* a second document retrieved from
+    the same context is credited, and that a source the model never retrieves is
+    still not invented.
+    """
     runner = _runner(tmp_path, synthetic_docs)
     cases = (
         EvaluationCase(
@@ -199,3 +217,77 @@ def test_local_runner_measures_each_case_without_batch_queue_time(
         observation.latency_ms is not None and observation.latency_ms < 500
         for observation in summary.observations
     )
+
+
+def test_source_credit_accepts_a_relevant_extra_and_still_requires_the_key():
+    """The source predicate credits a relevant extra without excusing a miss.
+
+    Regression guard for the defect where ``source_pass`` demanded the cited set
+    be a *subset* of the approved key.  That failed ``cand-14``, which cites the
+    approved policy plus a second document whose "Sakit > 2 Hari Tanpa Surat
+    Dokter" section answers the question.  ``AC-017`` requires only that
+    additional sources be relevant.
+    """
+    from rag_assistant.evaluation.runner import source_credit_pass
+
+    key = ("20_Kebijakan_Cuti_dan_Izin_Karyawan.md",)
+
+    # Correct, complete answer: approved key plus a genuinely relevant extra.
+    assert source_credit_pass(
+        ("20_Kebijakan_Cuti_dan_Izin_Karyawan.md",
+         "23_Kebijakan_Sanksi_Pelanggaran.md"),
+        key,
+    )
+    # Exactly the key is still credited.
+    assert source_credit_pass(key, key)
+    # The mandatory source missing is still a failure, extra or not.
+    assert not source_credit_pass(("23_Kebijakan_Sanksi_Pelanggaran.md",), key)
+    # Nothing cited is still a failure.
+    assert not source_credit_pass((), key)
+
+
+def test_verdict_gate_uses_the_reported_15_row_content_metric():
+    """``REQ-003``'s bar is "at least 12/15", so a 12/15 content run is not FAIL.
+
+    Regression guard for the defect where the verdict compared the 12-row
+    ``supported_content_passed`` against 12 while the run reported ``content``
+    over 15 rows.  The two disagree whenever an unsupported row misses content,
+    which labelled a run FAIL even with all four PRD thresholds met.
+    """
+    from rag_assistant.evaluation.models import EvaluationSummary
+
+    summary = EvaluationSummary(
+        total=15,
+        expected_supported=12,
+        expected_unsupported=3,
+        content_passed=12,           # exactly the PRD bar
+        supported_content_passed=9,  # fewer supported rows, more unsupported ones
+        source_passed=12,
+        abstention_passed=3,
+        latency_passed=15,
+        responses_sent=15,
+        duplicate_responses=0,
+        verification_level="local-model",
+        acceptance_verdict="NOT_VERIFIED",
+    )
+
+    assert summary.metric_targets_match
+
+    # A genuine miss below the bar must still fail the gate.
+    below = EvaluationSummary(
+        total=15,
+        expected_supported=12,
+        expected_unsupported=3,
+        content_passed=11,
+        supported_content_passed=11,
+        source_passed=12,
+        abstention_passed=3,
+        latency_passed=15,
+        responses_sent=15,
+        duplicate_responses=0,
+        verification_level="local-model",
+        acceptance_verdict="FAIL",
+    )
+
+    assert not below.metric_targets_match
+
