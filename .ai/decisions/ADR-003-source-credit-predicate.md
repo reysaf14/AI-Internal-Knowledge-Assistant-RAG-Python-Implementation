@@ -1,9 +1,10 @@
 # ADR-003 — Predikat kredit sumber pada evaluasi (`REQ-004`)
 
-- Status: `PROPOSED`
+- Status: `APPROVED`
 - Tanggal: `2026-09-17`
 - Lane: `PROFESSIONAL`
 - Mengubah: `src/rag_assistant/evaluation/runner.py`, `src/rag_assistant/evaluation/models.py`
+- Pengambil keputusan: `Human`, disetujui `2026-09-17` — *"approve adr 003"*
 - Terkait: Architecture `1.1` §7 (`AC-017`, `REQ-004`), PRD `1.1` (`REQ-003`, `REQ-004`), ADR-002
 
 ## Konteks
@@ -79,6 +80,9 @@ begitu juga setelah perbaikan `cand-13` tetap `failures=content` saja. Klaim di
 laporan itu dikoreksi, bukan dibiarkan berdiri.
 
 ## Keputusan
+
+**Disetujui Human `2026-09-17`** (*"approve adr 003"*), setelah bukti di §Bukti
+dan ketiga alternatif di §Alternatif ditolak.
 
 `source_pass` diubah agar menguji predikat yang **secara harfiah diminta
 kontrak**, diekstrak ke fungsi bernama yang dapat diuji:
