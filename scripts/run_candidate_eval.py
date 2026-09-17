@@ -59,24 +59,10 @@ def prewarm_model(cfg) -> tuple[bool, float]:
 
 EXPECTED_HEADERS = ("Pertanyaan", "Jawaban_Benar", "Dokumen_Sumber")
 
-# Row -> assertion terms, drawn from the approved answer key.  Terms are
-# answer keywords only, never question words: a correct terse answer must pass.
-# Rows 5, 6 and 13 stay strict on purpose -- those are genuine system failures
-# (wrong passage, incomplete answer, vague boilerplate) and must remain visible.
-CANDIDATE_RUBRIC: dict[int, tuple[str, ...]] = {
-    1: ("21", "tutup"),
-    2: ("12", "hari"),
-    4: ("500.000", "bonus"),
-    5: ("3", "hari"),
-    6: ("tunai", "QRIS", "debit"),
-    8: ("200.000", "dipotong"),
-    9: ("retur", "supplier"),
-    10: ("belum", "loyalty"),
-    11: ("75.000", "potongan"),
-    12: ("300.000",),
-    13: ("diskon", "expired"),
-    14: ("sakit", "gaji"),
-}
+# Row -> assertion terms, from the single shared table (scripts/candidate_rubric.py).
+# Two copies of a rubric drift apart, and a rubric that disagrees with itself
+# invalidates every comparison made with it.
+from candidate_rubric import RUBRIC as CANDIDATE_RUBRIC
 
 
 def _cases(dataset: Path, corpus: Path) -> tuple[EvaluationCase, ...]:
