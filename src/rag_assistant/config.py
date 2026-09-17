@@ -29,12 +29,22 @@ _REQUIRED_KEYS = [
 # environment-schema v1.0 keeps working unchanged.  The API key is optional:
 # an empty value means "no auth header" (local model), a value enables
 # ``Authorization: Bearer <key>``.  The key value is never logged.
+#
+# ``LLM_TIMEOUT_SECONDS`` default is 30, raised from 3 by ADR-004.  The budget
+# must cover a model that is not resident yet: a local model endpoint unloads an
+# idle model (Ollama's default is roughly five minutes) and the next request
+# pays a one-off cold load of ~26 s.  At 3 s that request always timed out, and
+# every timeout is answered with a fixed "tidak menemukan informasi yang cukup"
+# line -- which the caller cannot distinguish from a genuine abstention.  A warm
+# answer costs ~1-4 s, so 30 s leaves the steady state untouched and only
+# absorbs the cold path.  This is a ceiling, not a target: ``REQ-006`` still
+# measures delivered latency against its own threshold.
 _OPTIONAL_DEFAULTS: dict[str, str] = {
     "TELEGRAM_POLL_TIMEOUT_SECONDS": "30",
     "TELEGRAM_REQUEST_TIMEOUT_SECONDS": "4",
     "LLM_BASE_URL": "http://127.0.0.1:8080/v1",
     "LLM_MODEL": "local-default",
-    "LLM_TIMEOUT_SECONDS": "3",
+    "LLM_TIMEOUT_SECONDS": "30",
     "MAX_QUESTION_CHARS": "2000",
     "LOG_LEVEL": "info",
     "RAG_CONTEXT_LIMIT": "5",
@@ -74,7 +84,7 @@ class AppConfig:
     llm_base_url: str = "http://127.0.0.1:8080/v1"
     llm_api_key: str = ""
     llm_model: str = "local-default"
-    llm_timeout: int = 3
+    llm_timeout: int = 30
     max_question_chars: int = 2000
     log_level: str = "info"
     # Retrieval breadth.  This is the one retrieval parameter whose best value
