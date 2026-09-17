@@ -19,7 +19,7 @@ from tempfile import TemporaryDirectory
 from rag_assistant.answering.service import build_answer_service
 from rag_assistant.config import load_config, load_operator_env
 from rag_assistant.evaluation import EvaluationCase, LocalEvaluationRunner
-from rag_assistant.retrieval.service import Retriever
+from rag_assistant.retrieval.service import Retriever, build_retrieval_policy
 from rag_assistant.storage.index_store import IndexStore
 
 
@@ -113,11 +113,19 @@ def main() -> int:
 
     warmed, warm_ms = prewarm_model(cfg)
     print(f"prewarm_ok={warmed} prewarm_ms={round(warm_ms)}")
+    # State the effective breadth in the evidence, not just the source default.
+    # An eval run at RAG_CONTEXT_LIMIT != 5 is not a reproduction of the approved
+    # M5 baseline, and a report that does not say which value produced it cannot
+    # be compared with the baseline at all (ADR-002).
+    print(f"context_limit={cfg.rag_context_limit}")
 
     cases = _cases(dataset, cfg.resolve_docs_path())
     state_root = cfg.resolve_index_path().parent
     runner = LocalEvaluationRunner(
-        retriever=Retriever(IndexStore(cfg.resolve_index_path())),
+        retriever=Retriever(
+            IndexStore(cfg.resolve_index_path()),
+            policy=build_retrieval_policy(cfg.rag_context_limit),
+        ),
         answer_service=build_answer_service(cfg),
         state_dir=Path(state_root),
         verification_level="local-model",
