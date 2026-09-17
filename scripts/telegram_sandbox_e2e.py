@@ -74,27 +74,48 @@ CHAT_ID_CACHE = Path(".runtime/sandbox-e2e-chatid.txt")
 
 
 class TimingBoundary:
-    """Wrap the real boundary and record receive->send timing per update."""
+    """Wrap the real boundary and record receive->send timing per update.
 
-    def __init__(self, inner: PtbTelegramClient) -> None:
+    It also records *which chat* each update came from, and flags any update
+    that is not from the chat the run was pointed at.  That check is the whole
+    reason this wrapper exists: a bot in a group also receives private messages,
+    ``getUpdates`` returns both, and the pipeline answers whatever it is handed
+    -- so a run aimed at a group will silently consume and answer a direct
+    message instead, leaving the group with no answer and the counters looking
+    almost plausible.  Two earlier runs were misdiagnosed exactly that way.
+    """
+
+    def __init__(self, inner: PtbTelegramClient, expected_chat_id: int = 0) -> None:
         self._inner = inner
+        self._expected = str(expected_chat_id) if expected_chat_id else ""
         self.received: dict[int, float] = {}
         self.sent: dict[int, float] = {}
         self.messages: dict[int, list[str]] = {}
+        self.chats: dict[int, str] = {}
+        self.off_target: list[int] = []
 
     def get_updates(self, offset: int, timeout_seconds: int):
         updates = self._inner.get_updates(offset, timeout_seconds)
         now = time.perf_counter()
         for update in updates:
+            chat_id = update.chat_id or "none"
             self.received.setdefault(update.update_id, now)
+            self.chats[update.update_id] = chat_id
+            if self._expected and chat_id != self._expected:
+                self.off_target.append(update.update_id)
         # Print every arrival the instant it happens, with an explicit flush.
         # Redirected stdout is block-buffered, so without this the only record
         # of an arrival can sit in a buffer that never gets written when the
         # window is cut short -- which makes a delivered question look like a
         # question that never came.
-        if updates:
+        for update in updates:
+            chat_id = self.chats[update.update_id]
+            verdict = "MATCH" if not self._expected else (
+                "MATCH" if chat_id == self._expected else "OFF_TARGET"
+            )
             print(
-                "received_ids=" + ",".join(str(u.update_id) for u in updates),
+                f"received uid={update.update_id} chat_suffix={chat_id[-4:]}"
+                f" target_match={verdict}",
                 flush=True,
             )
         return updates
@@ -486,7 +507,7 @@ def _main() -> int:
         _say(f"ask_{index}={question}")
     _say(f"ACTION=send those {EXPECTED_UPDATES} messages into the chat now")
 
-    boundary = TimingBoundary(bot_a)
+    boundary = TimingBoundary(bot_a, expected_chat_id=chat_id)
 
     def build_poller() -> TelegramPoller:
         """One short-lived poller sharing the persistent state store."""
@@ -522,6 +543,14 @@ def _main() -> int:
         f" sends_unknown={counters['sends_unknown']}"
     )
     _say(f"poll_failures={counters['poll_failures']}")
+    if boundary.off_target:
+        # Not a warning: a hard finding.  The run is void as group evidence.
+        _say(
+            f"FAIL=answered_wrong_chat updates={boundary.off_target};"
+            f" expected chat ending {str(chat_id)[-4:]},"
+            " these came from another chat (a private message is delivered to"
+            " the same bot). The group questions were never received."
+        )
     if counters["updates"] != EXPECTED_UPDATES:
         _say(
             f"WARN=updates({counters['updates']}) != expected({EXPECTED_UPDATES}); "
