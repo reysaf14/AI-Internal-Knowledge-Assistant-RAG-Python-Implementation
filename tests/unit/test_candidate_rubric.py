@@ -35,6 +35,8 @@ if str(SCRIPTS) not in sys.path:
 
 from candidate_rubric import (
     RUBRIC,
+    STRICT_ROWS,
+    WEAK_ROWS,
     mandatory_numeric_anchors,
 )
 
@@ -98,8 +100,24 @@ def test_mandatory_anchor_list_matches_the_rubric():
     }, "anchor list names terms that are not asserted anywhere"
 
 
-@pytest.mark.parametrize("row", [5, 6, 13])
+@pytest.mark.parametrize("row", STRICT_ROWS)
 def test_strict_rows_stay_strict(row: int):
-    """Rows 5, 6 and 13 are real model-side failures and must stay visible."""
+    """Rows 5, 6 and 13 are real model-side failures and must stay visible.
+
+    These rows are not required to hold a fixed number of terms -- an assertion
+    term the approved key does not contain is a guess, not a rubric (see
+    ``test_every_term_is_present_in_its_approved_answer_key``).  What must not
+    happen is the row losing its grading, which would hide the failure.
+    """
     assert row in RUBRIC, f"row {row} lost its assertion terms entirely"
-    assert len(RUBRIC[row]) >= 2, f"row {row} was weakened to a single term"
+    assert RUBRIC[row], f"row {row} was emptied, hiding a genuine failure"
+
+
+def test_weak_rows_are_declared_not_accidental():
+    """A row graded weakly must say why, so it is a decision, not an oversight."""
+    for row, reason in WEAK_ROWS.items():
+        assert row in RUBRIC, f"declared weak row {row} is not graded at all"
+        assert reason.strip(), f"row {row} declares no reason"
+        assert len(RUBRIC[row]) <= 1, (
+            f"row {row} is declared weak but asserts {len(RUBRIC[row])} terms"
+        )
