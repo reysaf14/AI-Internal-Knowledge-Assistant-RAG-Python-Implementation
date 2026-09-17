@@ -17,7 +17,7 @@ from tempfile import TemporaryDirectory
 from rag_assistant.answering.service import build_answer_service
 from rag_assistant.config import load_config, load_operator_env
 from rag_assistant.evaluation import EvaluationCase, LocalEvaluationRunner
-from rag_assistant.retrieval.service import Retriever
+from rag_assistant.retrieval.service import Retriever, build_retrieval_policy
 from rag_assistant.storage.index_store import IndexStore
 
 EXPECTED_HEADERS = ("Pertanyaan", "Jawaban_Benar", "Dokumen_Sumber")
@@ -92,7 +92,11 @@ def main() -> int:
 
     cases = _parse_cases(dataset_path, config.resolve_docs_path())
     state_root = config.resolve_index_path().parent
-    retriever = Retriever(IndexStore(config.resolve_index_path()))
+    retriever = Retriever(
+        IndexStore(config.resolve_index_path()),
+        policy=build_retrieval_policy(config.rag_context_limit),
+    )
+    print(f"context_limit={config.rag_context_limit}")
     answer_service = build_answer_service(config)
 
     started = time.perf_counter()
