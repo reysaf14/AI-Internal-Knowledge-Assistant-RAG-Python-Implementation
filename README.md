@@ -5,10 +5,11 @@ Internal knowledge assistant for Toko Makmur Jaya. The application indexes the
 through an OpenAI-compatible local model endpoint, and can deliver responses
 through a Telegram polling boundary.
 
-M5 remains `NOT_VERIFIED`: the approved CSV currently has an 11+4 source
-composition, so it is not yet the required 12+3 evaluation. This guide
-documents the reproducible local operator path; it does not replace the M5 or
-independent QA/Security gates.
+M0–M6 are implemented and self-tested, and M5 is verified at the
+`telegram-sandbox` level over the full approved 12+3 set (`content` 12/15,
+`sources` 12/12, `abstention` 3/3, `latency` 15/15). This guide documents the
+reproducible local operator path; it does not replace independent QA or
+Security review, which remain separate gates.
 
 ## Prerequisites
 
@@ -35,7 +36,16 @@ loads `.env` for `APP_ENV=local`; process/injected environment values always
 override file values. Test and VPS profiles do not implicitly load `.env`.
 
 Canonical model variables are `LLM_BASE_URL`, `LLM_MODEL`,
-`LLM_TIMEOUT_SECONDS`, and optional `LLM_API_KEY`. For the local Ollama endpoint
+`LLM_TIMEOUT_SECONDS`, and optional `LLM_API_KEY`.
+
+`LLM_TIMEOUT_SECONDS` defaults to `30` (ADR-004). It is a **ceiling, not a
+target**: a local model endpoint unloads an idle model, and the next request
+pays a one-off cold load of roughly 26 s on the reference machine. At the
+earlier default of 3 s such a request always timed out, and a timeout is
+reported with the same fixed line as a normal abstention, so it was
+indistinguishable to the person asking. Warm answers cost about 1–4 s and are
+unaffected. Note that a timeout does **not** fail closed: the fallback text is
+sent as a successful response with no sources. For the local Ollama endpoint
 at `http://127.0.0.1:11434/v1`, replace the safe example `local-default` with
 the concrete served model name; keep `LLM_API_KEY` empty unless the endpoint
 explicitly requires auth. The application selects Ollama's native `/api/chat`
@@ -90,6 +100,33 @@ token injected through the approved secret path. It uses `.runtime/bot.lock`
 to prevent two polling instances. Exit code `4` means another instance owns
 the lock.
 
+## Known limitations
+
+These are accepted boundaries, not bugs to be fixed silently. Changing any of
+them means changing an approved artefact, so it needs a Human decision first
+(see `.ai/decisions/`).
+
+- **Wording, not meaning, is matched.** Retrieval requires every search term of
+  a question to appear in a document; the support gate is lexical and the
+  approved architecture excludes vector search by name. A question phrased in
+  the corpus's own vocabulary is answered even when it is a full paraphrase:
+  *"toko ini tutup jam berapa?"* is answered correctly from a different
+  document than the one *"Jam berapa toko Makmur Jaya tutup?"* uses. A question
+  that swaps a word is not: *"kapan tokonya tutup?"* abstains, because `tokonya`
+  is `toko` plus a suffix (and `toko` is itself a stopword), and
+  *"berapa jatah cuti setahun?"* abstains because `jatah`/`setahun` are
+  synonyms of `hari`/`tahunan`.
+- **Consequence for reading an abstention.** An abstention does **not** mean the
+  corpus lacks the answer. It may mean the question used different words. If a
+  reasonable question abstains, try rephrasing it with the vocabulary the
+  documents use before concluding the answer is missing (ADR-004).
+- **No typo correction and no stemming.** Misspellings and inflected forms
+  (`cutinya`, `cuti2`) are not recognised.
+- **The bot answers any chat that reaches it.** The runtime does not restrict
+  which chat it replies in, so anyone who finds the bot can query internal
+  policy. An allowlist is recommended before this runs beyond a test machine,
+  and is tracked as a separate decision (ADR-004, "not fixed").
+
 ### Run the self-tests
 
 ```powershell
@@ -108,9 +145,10 @@ network delivery, production credentials, or the approved M5 12+3 evaluation.
 ```
 
 The command keeps the answer key in memory, emits sanitized metrics only, and
-uses a temporary technical state directory. The current approved input is
-expected to remain `NOT_VERIFIED` until its Human-approved composition is
-12 supported cases plus 3 unsupported cases.
+uses a temporary technical state directory. It reads `RAG_CONTEXT_LIMIT` and
+prints the effective `context_limit` it ran at. The local runner reports
+`acceptance_verdict=NOT_VERIFIED` by design: the targets are checked locally,
+but only `telegram-sandbox` execution can lift the verification level.
 
 ## Runtime files and corpus replacement
 
@@ -138,7 +176,9 @@ controls and must not be interpreted as a successful answer.
 
 ## Current verification boundary
 
-M0–M4 evidence remains implementer-level and M5 is still `NOT_VERIFIED`.
-Telegram sandbox delivery and the approved M5 12+3 rubric remain separate
-acceptance gates; the local Gemma runtime is available for engineering tests.
-Independent QA, Security, and release approval remain separate gates.
+M0–M6 evidence is implementer-level self-test. M5 additionally has
+`telegram-sandbox` evidence over the full approved 12+3 set via the live
+Telegram boundary. Both are still **self-reported**: the architecture states
+that an architecture pass is not a security pass, and that a milestone result is
+not by itself independent QA. Independent QA, Security, and release approval
+remain separate gates, as does VPS readiness.
