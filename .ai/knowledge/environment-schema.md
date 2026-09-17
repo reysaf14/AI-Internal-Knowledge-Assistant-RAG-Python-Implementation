@@ -1,8 +1,10 @@
 # Environment Schema — Asisten Pengetahuan Internal Toko Makmur Jaya
 
-- Schema version: `1.1`
-- Tanggal: `2026-09-14`
-- Status: `APPROVED` sebagai bagian dari architecture `1.1`
+- Schema version: `1.2`
+- Tanggal: `2026-09-17` (versi `1.1`: `2026-09-14`)
+- Status: `APPROVED`. Versi `1.2` menambahkan satu baris `RAG_CONTEXT_LIMIT`
+  berdasarkan ADR-002, disetujui Human `2026-09-17`. Tidak ada baris `1.1` yang
+  diubah atau dihapus.
 - Canonical template yang akan dibuat Engineer: `.env.example` di root project
 - Nilai credential nyata tidak dicatat di sini.
 
@@ -18,6 +20,7 @@
 | `LLM_API_KEY` | Credential endpoint model bila diperlukan | Optional; kosong untuk Qwen lokal tanpa auth | `local`, `test`, `vps` | kosong: `LLM_API_KEY=` | Human melalui runtime injection bila endpoint memerlukan auth | Yes | Model adapter; tidak pernah dilog |
 | `LLM_MODEL` | Identifier model generik | Required untuk bot runtime | `local`, `test`, `vps` | `local-default` | Human/Engineer melalui runtime profile | No | Model adapter; tidak boleh kosong atau placeholder saat runtime aktif |
 | `LLM_TIMEOUT_SECONDS` | Batas waktu pembangkitan jawaban | Required untuk bot runtime | `local`, `test`, `vps` | `3` | Architect/Engineer; harus menyisakan headroom dari `<5,0 detik` | No | Model adapter; positive numeric value, timeout menghasilkan fallback aman |
+| `RAG_CONTEXT_LIMIT` | Jumlah chunk konteks retrieval yang diserahkan ke model jawaban | Optional; default aplikasi `5`, yaitu nilai seluruh pengukuran M2/M5 yang di-approve | `local`, `test`, `vps` | `5` | Engineer/Architect; nilai optimal bergantung model jawaban (lihat ADR-002) | No | `build_retrieval_policy`; positive integer; **hanya** mengekspos `context_limit` — field support gate (`min_coverage`, `min_matched_terms`) tetap beku di kode |
 | `MAX_QUESTION_CHARS` | Batas ukuran pertanyaan teks | Optional; default aplikasi harus didokumentasikan | `local`, `test`, `vps` | `2000` | Architect/Engineer | No | Update validator; positive integer, input di atas batas ditolak sebelum model |
 | `LOG_LEVEL` | Level logging | Optional; default `info` | `local`, `test`, `vps` | `info` | Engineer / application default | No | Logger; enum tervalidasi dan tidak menonaktifkan redaction |
 
