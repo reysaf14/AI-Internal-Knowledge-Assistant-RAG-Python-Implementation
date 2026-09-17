@@ -61,7 +61,10 @@ def test_defaults_are_used_when_llm_keys_are_absent(
     assert cfg.llm_base_url == "http://127.0.0.1:8080/v1"
     assert cfg.llm_api_key == ""
     assert cfg.llm_model == "local-default"
-    assert cfg.llm_timeout == 3
+    # 30 since ADR-004: the budget must cover a cold model load, not just a warm
+    # answer, otherwise every cold request silently degrades to the timeout
+    # fallback text.
+    assert cfg.llm_timeout == 30
 
 
 def test_empty_llm_values_fall_back_to_defaults(
