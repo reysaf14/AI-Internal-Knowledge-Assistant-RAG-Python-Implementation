@@ -22,6 +22,8 @@ _REQUIRED_KEYS = [
     "INDEX_PATH",
 ]
 
+# ``RAG_CONTEXT_LIMIT`` is documented as model-dependent in ADR-002: it is the
+# retrieval breadth handed to the answering model, not a calibrated M2 gate.
 # Generic LLM endpoint keys. ``LLM_*`` is the current name and ``MODEL_*`` is
 # accepted as a legacy fallback so an environment written against
 # environment-schema v1.0 keeps working unchanged.  The API key is optional:
@@ -35,6 +37,7 @@ _OPTIONAL_DEFAULTS: dict[str, str] = {
     "LLM_TIMEOUT_SECONDS": "3",
     "MAX_QUESTION_CHARS": "2000",
     "LOG_LEVEL": "info",
+    "RAG_CONTEXT_LIMIT": "5",
 }
 
 # Current key -> legacy key accepted when the current one is unset or empty.
@@ -74,6 +77,12 @@ class AppConfig:
     llm_timeout: int = 3
     max_question_chars: int = 2000
     log_level: str = "info"
+    # Retrieval breadth.  This is the one retrieval parameter whose best value
+    # depends on the answering model (see ADR-002 and
+    # rag_assistant.retrieval.service.DEFAULT_CONTEXT_LIMIT).  Default 5 is the
+    # value the approved M2/M5 measurements were taken at, so an unset variable
+    # reproduces the approved artifact exactly.
+    rag_context_limit: int = 5
     expected_file_count: int = 26
     project_root: Path = field(default_factory=lambda: Path.cwd())
 
@@ -266,6 +275,12 @@ def load_config(project_root: Path | None = None) -> AppConfig:
         log_level=os.environ.get(
             "LOG_LEVEL", _OPTIONAL_DEFAULTS["LOG_LEVEL"]
         ).strip().lower(),
+        rag_context_limit=_validate_int(
+            "RAG_CONTEXT_LIMIT",
+            os.environ.get(
+                "RAG_CONTEXT_LIMIT", _OPTIONAL_DEFAULTS["RAG_CONTEXT_LIMIT"]
+            ),
+        ),
         project_root=root,
     )
 
