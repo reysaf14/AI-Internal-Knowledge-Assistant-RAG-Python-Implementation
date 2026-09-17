@@ -37,22 +37,9 @@ from rag_assistant.storage.index_store import IndexStore
 
 EXPECTED_HEADERS = ("Pertanyaan", "Jawaban_Benar", "Dokumen_Sumber")
 
-# Answer keywords only, drawn from the approved key -- never question words, so
-# a correct terse answer passes.  Kept in step with run_candidate_eval.py.
-CANDIDATE_RUBRIC: dict[int, tuple[str, ...]] = {
-    1: ("21", "tutup"),
-    2: ("12", "hari"),
-    4: ("500.000", "bonus"),
-    5: ("3", "hari"),
-    6: ("tunai", "QRIS", "debit"),
-    8: ("200.000", "dipotong"),
-    9: ("retur", "supplier"),
-    10: ("belum", "loyalty"),
-    11: ("75.000", "potongan"),
-    12: ("300.000",),
-    13: ("diskon", "expired"),
-    14: ("sakit", "gaji"),
-}
+# The rubric lives in one place so this probe and run_candidate_eval.py can never
+# disagree about what a correct answer looks like.
+from candidate_rubric import RUBRIC as CANDIDATE_RUBRIC
 
 
 def prewarm(cfg) -> float:
