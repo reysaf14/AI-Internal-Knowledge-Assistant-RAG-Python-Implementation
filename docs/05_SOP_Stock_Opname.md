@@ -1,135 +1,135 @@
-# SOP Stock Opname (Cek Stok Berkala)
-**Toko Makmur Jaya | Efektif: 2026**
+# SOP Stock Opname (Periodic Stock Count)
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Melakukan verifikasi fisik persediaan barang di toko dan gudang, membandingkan dengan data sistem, serta mengidentifikasi selisih dan penyebabnya untuk akurasi inventory.
+## Purpose
+To perform a physical verification of inventory in the store and warehouse, compare it with system data, and identify discrepancies and their causes for inventory accuracy.
 
-## Jadwal Pelaksanaan
-- **Stock Opname Bulanan:** Akhir bulan (tanggal 28–30), setelah jam tutup toko (21.00–selesai)
-- **Stock Opname Tahunan:** Akhir Desember (comprehensive, libur operasional jika perlu)
-- **Stock Opname Temporer:** Jika ada indikasi barang hilang atau penghapusan besar
+## Schedule
+- **Monthly Stock Count:** End of the month (28–30), after store closing hours (21:00–closing)
+- **Annual Stock Count:** End of December (comprehensive, operational holiday if necessary)
+- **Temporary Stock Count:** If there is an indication of missing items or major deletions
 
-## Personel yang Bertanggung Jawab
-- Pemilik/Manajer (koordinator & verifikasi akhir)
-- Kasir Senior (cross-check data sistem)
-- Staf Gudang 1 & 2 (inventaris fisik, pencatatan)
-- Pramuniaga (membantu pencocokan label/harga)
+## Responsible Personnel
+- Owner/Manager (coordinator & final verification)
+- Senior Cashier (cross-check system data)
+- Warehouse Staff 1 & 2 (physical inventory, recording)
+- Sales Assistants (assist with label/price matching)
 
-## Prosedur Stock Opname Bulanan
+## Monthly Stock Count Procedure
 
-### 1. Persiapan Sebelum Hari H (1–2 Hari Sebelumnya)
-- Pemilik menyiapkan Jadwal Opname dan membagikan ke semua karyawan
-- Siapkan Formulir Stock Opname (template per kategori barang)
-- Siapkan alat: clipboard, pulpen, marker, label sticker, kalkulator, kamera (foto barang yang mencurigakan)
-- Print laporan inventory dari sistem POS (Inventory Report per kategori)
-- Identifikasi area inventory (rak penjualan, gudang, back office, display).
-- Pastikan sistem POS tidak ada transaksi after-hours (matikan akses kecuali untuk dokumentasi)
+### 1. Preparation Before D-Day (1–2 Days Prior)
+- Owner prepares the Count Schedule and distributes it to all employees
+- Prepare Stock Count Forms (template per item category)
+- Prepare tools: clipboard, pen, marker, sticker labels, calculator, camera (photos of suspicious items)
+- Print inventory reports from the POS system (Inventory Report per category)
+- Identify inventory areas (sales racks, warehouse, back office, display).
+- Ensure the POS system has no after-hours transactions (disable access except for documentation)
 
-### 2. Persiapan Area & Pembagian Tim (Pukul 21.15)
-**Area Inventory dibagi menjadi 5 zona:**
-1. **Zona A (Makanan & Minuman)** – Staf Gudang 1
-2. **Zona B (Peralatan Rumah Tangga)** – Staf Gudang 2
-3. **Zona C (Produk Pembersih & Sanitasi)** – Pramuniaga 1
-4. **Zona D (Tembakau & Rokok – Aman)** – Pramuniaga 2 + Pemilik (supervisi)
-5. **Zona E (Display & Kasir)** – Kasir Senior
+### 2. Area Preparation & Team Assignment (21:15)
+**Inventory Area divided into 5 zones:**
+1. **Zone A (Food & Beverages)** – Warehouse Staff 1
+2. **Zone B (Household Goods)** – Warehouse Staff 2
+3. **Zone C (Cleaning & Sanitizing Products)** – Sales Assistant 1
+4. **Zone D (Tobacco & Cigarettes – Secure)** – Sales Assistant 2 + Owner (supervision)
+5. **Zone E (Display & Cashier)** – Senior Cashier
 
-**Setiap Tim diberi:**
-- Formulir Stock Opname (blank)
-- Clipboard & pulpen (minimal 2 per zona)
-- Marker untuk label barang yang sudah dihitung
-- Foto inventory report dari sistem (sebagai reference)
+**Each Team is provided with:**
+- Stock Count Forms (blank)
+- Clipboard & pen (minimum 2 per zone)
+- Marker for items already counted
+- Inventory report photos from the system (as reference)
 
-### 3. Penghitungan Fisik per Zona (Pukul 21.30–23.00)
-**Prosedur Penghitungan Standar:**
+### 3. Physical Counting per Zone (21:30–23:00)
+**Standard Counting Procedure:**
 
-Setiap item di zona:
-1. Ambil barang, baca label/SKU produk
-2. Hitung jumlah secara teliti:
-   - Produk lepas: hitung satu-satu
-   - Produk dalam dus: buka dus untuk verifikasi (ambil sampling minimal 1 dus untuk validasi), atau hitung dus kemudian kalikan isi per dus
-   - Contoh: 5 dus × 12 botol per dus = 60 botol
-3. Catat nama produk, SKU, jumlah fisik di Formulir Stock Opname
-4. Beri sticker/tanda pada kemasan yang sudah dihitung (untuk menghindari penghitungan ulang)
-5. Lanjut item berikutnya
+For each item in the zone:
+1. Take the item, read the label/SKU
+2. Count the quantity carefully:
+   - Loose items: count one by one
+   - Items in boxes: open the box for verification (take a sample of at least 1 box for validation), or count the boxes then multiply by the contents per box
+   - Example: 5 boxes × 12 bottles per box = 60 bottles
+3. Record the product name, SKU, and physical quantity on the Stock Count Form
+4. Apply a sticker/mark to the counted packaging (to avoid recounting)
+5. Proceed to the next item
 
-**Catatan Khusus Produk:**
-- **Makanan/Minuman Berkadaluarsa:** Verifikasi tanggal expired saat hitung, pisahkan yang sudah expired atau akan expired bulan depan
-- **Tembakau/Rokok:** Hitung sangat teliti, catat batch/seri jika ada, khusus supervisi Pemilik
-- **Produk Elektronik Kecil:** Hitung fisik, jika ada item display/demo, catat terpisah
+**Special Product Notes:**
+- **Perishable Food/Beverages:** Verify the expiration date during counting, separate those that are expired or will expire next month
+- **Tobacco/Cigarettes:** Count very carefully, record batch/serial number if available, special supervision by the Owner
+- **Small Electronic Products:** Count physically, if there are display/demo items, record separately
 
-### 4. Entri Data ke Sistem (Pukul 23.00–23.45)
-- Kasir Senior mulai input semua data fisik hasil opname ke sistem POS (di menu Inventory Adjustment)
-- Pilih tanggal opname (tanggal terakhir bulan)
-- Input per zona (masukkan nomor SKU & jumlah fisik yang terdata)
-- Sistem otomatis hitung selisih:
-  - **Selisih Positif (Over):** Jumlah fisik > sistem (barang tidak terdaftar penjualan)
-  - **Selisih Negatif (Short):** Jumlah fisik < sistem (barang hilang/tidak tercatat)
-- Print laporan selisih (Variance Report)
+### 4. Data Entry into System (23:00–23:45)
+- Senior Cashier begins input all physical count data into the POS system (in the Inventory Adjustment menu)
+- Select the count date (last day of the month)
+- Input per zone (enter SKU number & physical quantity recorded)
+- The system automatically calculates the discrepancy:
+  - **Positive Discrepancy (Over):** Physical quantity > system quantity (items not recorded as sales)
+  - **Negative Discrepancy (Short):** Physical quantity < system quantity (missing/unrecorded items)
+- Print the discrepancy report (Variance Report)
 
-### 5. Analisis Selisih & Investigasi (Pukul 23.45–00.30)
-- Pemilik & Kasir review Variance Report
-- Investigasi selisih per item:
-  - **Selisih Kecil (< 5%):** Kemungkinan besar kekeliruan pencatatan, hitung ulang item tersebut atau approve
-  - **Selisih Besar (> 5% dari nilai):** Lakukan investigasi mendalam
+### 5. Discrepancy Analysis & Investigation (23:45–00:30)
+- Owner & Cashier review the Variance Report
+- Investigate discrepancies per item:
+  - **Small Discrepancy (< 5%):** Likely a recording error, recount the item or approve
+  - **Large Discrepancy (> 5% of value):** Conduct in-depth investigation
   
-**Contoh Investigasi:**
-- Item: Minyak Goreng 2L, Jumlah Sistem: 20, Jumlah Fisik: 15, Selisih: -5 (Short 5 unit)
-- Penyebab kemungkinan: (a) Penjualan tidak tercatat, (b) Barang hilang/dicuri, (c) Kerusakan saat penerimaan
-- Tindakan: Cross-check receipt 1 minggu terakhir, lihat ada penjualan minyak goreng tidak tercatat atau tidak?
+**Investigation Example:**
+- Item: 2L Cooking Oil, System Quantity: 20, Physical Quantity: 15, Discrepancy: -5 (Short 5 units)
+- Possible Causes: (a) Unrecorded sales, (b) Missing/stolen goods, (c) Damage during receiving
+- Action: Cross-check receipts from the last 1 week, check if there were any unrecorded sales of cooking oil or not?
 
-- Jika tidak ada bukti penjualan, kemungkinan barang hilang → catat di Formulir Selisih & Short
-- Jika ada bukti kerusakan waktu penerimaan → cek Formulir GRN, approve write-off
+- If there is no proof of sale, the item is likely missing → record in the Discrepancy Form & Short
+- If there is proof of damage at the time of receiving → check the GRN Form, approve write-off
 
-### 6. Approval & Adjustment Final (Pukul 00.30–01.00)
-- Pemilik review semua investigasi & analisis
-- Approve adjustment ke dalam sistem:
-  - Short yang terbukti → write-off (hapus dari sistem)
-  - Over yang masuk → add ke sistem (jika produk tidak terdaftar sebelumnya)
-  - Selisih kecil yang diapprove → adjust ke jumlah fisik
-- Kasir final input adjustment ke sistem
-- Print Laporan Hasil Opname Final (dengan approval Pemilik & Kasir)
+### 6. Approval & Adjustment Final (00.30–01.00)
+- Owner reviews all investigations & analyses
+- Approve adjustment in the system:
+  - Proven Short → write-off (delete from system)
+  - Over → add to system (if the product was not previously registered)
+  - Small difference that is approved → adjust to physical quantity
+- Cashier inputs final adjustment into the system
+- Print Final Stocktaking Report (with Owner & Cashier approval)
 
-### 7. Dokumentasi & Arsip
-- Isi Formulir Ringkasan Stock Opname (tanggal, total item, total selisih, penyebab, tindakan)
-- Catat di Buku Log Opname Bulanan
-- Arsipkan semua Formulir Stock Opname per zona
-- Arsipkan Variance Report & Adjustment Report
-- Serah dokumen ke Pemilik untuk file tahunan
+### 7. Documentation & Archive
+- Fill out Stocktaking Summary Form (date, total items, total difference, cause, action)
+- Record in the Monthly Stocktaking Log Book
+- Archive all Stocktaking Forms per zone
+- Archive Variance Report & Adjustment Report
+- Hand over documents to the Owner for annual files
 
-## Prosedur Stock Opname Tahunan (Akhir Desember)
-- Prosedur sama dengan opname bulanan, tapi lebih comprehensive
-- Opname tahunan bisa memakan waktu 2–3 hari (jika perlu tutup operasional)
-- Melibatkan semua karyawan (8 orang = 4 tim pembagian area)
-- Hasil opname tahunan menjadi basis inventory opening tahun depan
+## Annual Stocktaking Procedure (End of December)
+- Procedure is the same as monthly stocktaking, but more comprehensive
+- Annual stocktaking can take 2–3 days (if operational shutdown is required)
+- Involves all employees (8 people = 4 teams for area division)
+- The results of the annual stocktaking become the basis for next year's inventory opening
 
-## Contoh Tabel Hasil Opname
-| Zona | Kategori | SKU | Nama Produk | Sistem | Fisik | Selisih | Status | Penyebab |
+## Stocktaking Result Table Example
+| Zone | Category | SKU | Product Name | System | Physical | Difference | Status | Cause |
 |------|----------|-----|-------------|--------|-------|---------|--------|----------|
-| A | Makanan | SKU-001 | Minyak Goreng 2L | 20 | 18 | -2 | Short | Penjualan tidak tercatat |
-| A | Makanan | SKU-005 | Telur Ayam 10 | 15 | 15 | 0 | OK | - |
-| D | Rokok | SKU-150 | Gudang Garam Kretek | 50 | 50 | 0 | OK | - |
-| B | Alat RT | SKU-200 | Sapu Nilon | 12 | 14 | +2 | Over | Barang tidak terdaftar |
+| A | Food | SKU-001 | Cooking Oil 2L | 20 | 18 | -2 | Short | Sales not recorded |
+| A | Food | SKU-005 | Chicken Eggs 10 | 15 | 15 | 0 | OK | - |
+| D | Tobacco | SKU-150 | Kretek Salt Warehouse | 50 | 50 | 0 | OK | - |
+| B | RT Tools | SKU-200 | Nylon Broom | 12 | 14 | +2 | Over | Item not registered |
 
-## Toleransi Selisih yang Diakui
-- **Untuk kategori Makanan/Minuman:** Toleransi 2% dari jumlah
-- **Untuk kategori Alat/Elektronik:** Toleransi 1% dari jumlah
-- **Untuk kategori Tembakau:** Toleransi 0% (zero tolerance, harus 100% akurat)
-- **Selisih melebihi toleransi:** Investigasi mendalam & write-off jika perlu
+## Tolerable Difference Thresholds
+- **For Food/Beverage category:** Tolerance 2% of the amount
+- **For Tool/Electronics category:** Tolerance 1% of the amount
+- **For Tobacco category:** Tolerance 0% (zero tolerance, must be 100% accurate)
+- **Difference exceeding tolerance:** In-depth investigation & write-off if necessary
 
-## Checklist Stock Opname
-- [ ] Jadwal opname sudah dikomunikasikan
-- [ ] Formulir & alat sudah disiapkan
-- [ ] Area opname sudah dibersihkan & siap
-- [ ] Tim sudah dibagi per zona
-- [ ] Penghitungan fisik selesai per zona
-- [ ] Data dientry ke sistem
-- [ ] Variance Report sudah di-review
-- [ ] Investigasi selisih selesai
-- [ ] Adjustment final sudah diapprove
-- [ ] Dokumentasi lengkap diarsipkan
+## Stocktaking Checklist
+- [ ] Stocktaking schedule has been communicated
+- [ ] Forms & tools have been prepared
+- [ ] Stocktaking area has been cleaned & ready
+- [ ] Teams have been divided per zone
+- [ ] Physical counting is complete per zone
+- [ ] Data entered into the system
+- [ ] Variance Report has been reviewed
+- [ ] Difference investigation is complete
+- [ ] Final adjustment has been approved
+- [ ] Documentation is fully archived
 
-## Catatan Penting
-- Stock Opname harus dilakukan dengan teliti (tidak terburu-buru), karena hasil akan mempengaruhi laporan keuangan
-- Setiap barang minimal dihitung 1x, barang bernilai tinggi / tembakau dihitung 2x oleh orang berbeda
-- Jika ada diskrepansi besar (> 10%), investigasi lebih lanjut ke supplier & data penjualan historis
-- Hasil opname dilaporkan ke Pemilik, disiapkan untuk auditor/PPN jika ada
+## Important Notes
+- Stocktaking must be done carefully (not rushed), as the results will affect financial reports
+- Every item must be counted at least 1x; high-value items / tobacco must be counted 2x by different people
+- If there is a large discrepancy (> 10%), further investigation into supplier & historical sales data is required
+- Stocktaking results are reported to the Owner, prepared for auditors/VAT if applicable

@@ -1,137 +1,135 @@
 # FAQ Program Member & Loyalty
-**Toko Makmur Jaya | Update: 2026**
+**Makmur Jaya Store | Update: 2026**
 
-## Program Member Toko Makmur Jaya
+## Makmur Jaya Store Member Program
 
-Saat ini (2026), **Toko Makmur Jaya belum memiliki program member formal atau loyalty card**.
-
----
-
-## Status Program Member (Update 2026)
-
-### Saat Ini
-✗ **Tidak Ada Member Card** – Belum ada kartu member atau sistem poin
-✗ **Tidak Ada Loyalty Program** – Belum ada akumulasi poin atau reward
-✗ **Tidak Ada Diskon Member Khusus** – Semua pelanggan diperlakukan sama
-
-### Rencana Masa Depan
-Pemilik sedang mempertimbangkan untuk membuat program member di tahun 2027, dengan fitur:
-- Kartu member digital/fisik
-- Akumulasi poin per pembelian
-- Reward/diskon eksklusif untuk member
-- Notifikasi promo via WhatsApp
-
-**Status:** Masih dalam tahap perencanaan (belum pasti tanggal peluncuran)
+Currently (2026), **Makmur Jaya Store does not have a formal member program or loyalty card**.
 
 ---
 
-## Promosi & Diskon Saat Ini
+## Member Program Status (Update 2026)
 
-**Meskipun tidak ada program member, toko menawarkan:**
+### Current Status
+✗ **No Member Card** – There are no member cards or point systems
+✗ **No Loyalty Program** – There is no point accumulation or reward
+✗ **No Special Member Discounts** – All customers are treated equally
 
-### 1. Diskon Barang Mendekati Expired
-- Produk makanan/minuman yang akan kadaluarsa dipotong harga 20–30%
-- Label: "DISKON EXPIRY" di rak
-- Benefit: Hemat hingga 30% untuk produk sama
+### Future Plans
+The owner is considering creating a member program in 2027, with features:
+- Digital/physical member card
+- Point accumulation per purchase
+- Exclusive rewards/discounts for members
+- Promo notifications via WhatsApp
 
-### 2. Diskon Barang Rusak/Cacat
-- Produk dengan kemasan sedikit rusak tapi isi baik dipotong harga 10–20%
-- Tanyakan ke kasir atau cek rak "Diskon Khusus"
-
-### 3. Promo Musiman (Fleksibel)
-- Hari Raya, Tahun Baru, atau event khusus: bisa ada diskon atau buy 1 get 1
-- Perhatikan poster/pengumuman di toko atau tanya ke kasir
-
-### 4. Belanja Dalam Jumlah Besar (Grosir)
-- Untuk pembelian bulk (misal: 10+ dus makanan), bisa negosiasi harga khusus
-- Hubungi pemilik/kasir untuk diskusi
+**Status:** Still in the planning stage (launch date not yet confirmed)
 
 ---
 
-## FAQ Program Member & Loyalty
+## Current Promotions & Discounts
 
-**Q: Apakah ada member card atau loyalty program?**
-A: Belum ada (per 2026). Semua pelanggan melayani sama tanpa member khusus. Rencana program member sedang dipertimbangkan untuk 2027.
+**Although there is no member program, the store offers:**
 
-**Q: Bagaimana cara mendapat poin/reward?**
-A: Saat ini tidak ada sistem poin. Diskon hanya berlaku untuk barang expired atau cacat.
+### 1. Discount on Expired Items
+- Food/beverage products that are about to expire are discounted by 20–30%
+- Label: "EXPIRY DISCOUNT" on the shelf
+- Benefit: Save up to 30% on the same product
 
-**Q: Apakah sering ada promo diskon?**
-A: Ada, tapi tidak rutin. Diskon biasanya untuk:
-- Barang yang akan kadaluarsa (20–30% off)
-- Barang rusak packaging (10–20% off)
-- Promo musiman atau event khusus
+### 2. Discount on Damaged/Defective Items
+- Products with slightly damaged packaging but good contents are discounted by 10–20%
+- Ask the cashier or check the shelf for "Special Discount"
 
-**Q: Kapan program member diluncurkan?**
-A: Belum pasti tanggal pastinya. Target awal 2027 (masih dalam proses perencanaan). Nanti akan ada pengumuman via poster toko.
+### 3. Seasonal Promotions (Flexible)
+- Holidays, New Year, or special events: there may be discounts or buy 1 get 1
+- Check the posters/announcements in the store or ask the cashier
 
-**Q: Bagaimana cara mengetahui ada promo terbaru?**
-A: Cek:
-1. Poster di dalam toko (depan kasir & rak diskon)
-2. Tanyakan langsung ke kasir saat berkunjung
-3. Hubungi toko via WhatsApp: +62 xxx-xxxx-xxxx (akan diupdate segera)
-
-**Q: Jika saya sering belanja, apakah ada benefit khusus?**
-A: Saat ini belum ada program loyalitas formal. Namun Anda bisa:
-- Manfaatkan diskon barang expired (hemat hingga 30%)
-- Belanja dalam jumlah besar → negosiasi harga ke pemilik
-- Menunggu program member 2027
-
-**Q: Apakah ada diskon untuk pelanggan langganan?**
-A: Belum ada sistem diskon langganan formal. Semua pelanggan diberikan harga yang sama.
+### 4. Bulk Purchases (Wholesale)
+- For bulk purchases (e.g., 10+ boxes of food), special pricing can be negotiated
+- Contact the owner/cashier for discussion
 
 ---
 
-## Cara Hemat di Toko Makmur Jaya (Sebelum Ada Program Member)
+## Member Program & Loyalty FAQ
 
-1. **Belanja di Rak Diskon**
-   - Cek area "Diskon Khusus" untuk barang rusak/expired
-   - Hemat hingga 30%
+**Q: Is there a member card or loyalty program?**
+A: Not yet (as of 2026). All customers are served equally without special members. The member program is being considered for 2027.
 
-2. **Belanja Produk Mendekati Kadaluarsa**
-   - Makanan/minuman dengan sisa umur ≤ 30 hari biasanya di-diskon
-   - Cek tanggal expired sebelum membeli
+**Q: How do I get points/rewards?**
+A: There is currently no point system. Discounts only apply to expired or defective items.
 
-3. **Belanja Dalam Jumlah Besar**
-   - Jika membeli 10+ unit barang sama: negosiasikan dengan pemilik
-   - Biasanya ada potongan harga grosir
+**Q: Are there often discount promotions?**
+A: Yes, but not regularly. Discounts are usually for:
+- Items about to expire (20–30% off)
+- Damaged packaging items (10–20% off)
+- Seasonal promotions or special events
 
-4. **Ikuti Promo Musiman**
-   - Selalu tanya ke kasir tentang promo terbaru
-   - Perhatikan poster toko
+**Q: When will the member program be launched?**
+A: The exact date is not yet certain. Initial target is 2027 (still in the planning process). There will be an announcement via store posters later.
 
-5. **Hubungi Via WhatsApp**
-   - Follow WhatsApp Toko Makmur Jaya untuk update promo terbaru
-   - Nomor: +62 xxx-xxxx-xxxx
+**Q: How can I find out about the latest promotions?**
+A: Check:
+1. Posters inside the store (at the cashier and discount shelves)
+2. Ask the cashier directly when visiting
+3. Contact the store via WhatsApp: +62 xxx-xxxx-xxxx (will be updated soon)
 
----
+**Q: If I shop often, are there special benefits?**
+A: There is currently no formal loyalty program. However, you can:
+- Utilize discounts on expired items (save up to 30%)
+- Shop in bulk → negotiate prices with the owner
+- Wait for the 2027 member program
 
-## Rencana Program Member 2027
-
-**Fitur yang Direncanakan (Estimasi):**
-- Kartu member digital (via aplikasi atau WhatsApp)
-- 1 poin per Rp 1.000 belanja
-- Tukar poin dengan diskon/produk gratis
-- Notifikasi promo eksklusif untuk member
-- Akses early bird untuk produk limited edition
-
-**Update terbaru:** Tunggu pengumuman resmi di toko atau via WhatsApp pada Q2 2027.
+**Q: Are there discounts for regular customers?**
+A: There is no formal subscription discount system. All customers are given the same price.
 
 ---
 
-## Kontak & Informasi Lanjut
+## How to Save at Makmur Jaya Store (Before Member Program)
 
-**Tanya Tentang Program Member:**
+1. **Shop at the Discount Shelf**
+   - Check the "Special Discount" area for damaged/expired items
+   - Save up to 30%
+
+2. **Shop for Items About to Expire**
+   - Food/drinks with a remaining shelf life of ≤ 30 days are usually discounted
+   - Check the expiry date before buying
+
+3. **Shop in Bulk**
+   - If buying 10+ units of the same item: negotiate with the owner
+   - Usually there is a wholesale discount
+
+4. **Follow Seasonal Promotions**
+   - Always ask the cashier about the latest promotions
+   - Pay attention to store posters
+
+5. **Contact via WhatsApp**
+   - Follow Makmur Jaya Store WhatsApp for the latest promo updates
+   - Number: +62 xxx-xxxx-xxxx
+
+---
+
+## 2027 Member Program Plan
+
+**Planned Features (Estimate):**
+- Digital member card (via app or WhatsApp)
+- 1 point per IDR 1,000 spent
+- Redeem points for discounts/free products
+- Exclusive promo notifications for members
+- Early access to limited edition products
+
+**Latest Update:** Wait for the official announcement in the store or via WhatsApp in Q2 2027.
+
+---
+
+## Contact & Further Information
+
+**Ask About the Member Program:**
 - **WhatsApp:** +62 xxx-xxxx-xxxx
-- **Telepon:** (021) xxxx-xxxx
-- **Jam Operasional:** 07.00–21.00
-- **Lokasi:** Jalan Raya Kecamatan No. 45
+- **Phone:** (021) xxxx-xxxx
+- **Operating Hours:** 07:00–21:00
+- **Location:** Jalan Raya Kecamatan No. 45
 
----
-
-## Catatan Penting
-- **Belum ada program member resmi (per 2026)**
-- **Semua pelanggan mendapat harga yang sama** (tidak ada diskriminasi)
-- **Diskon terbatas hanya untuk barang expired/cacat atau promo musiman**
-- **Pantau pengumuman 2027 untuk peluncuran program loyalty**
-- **Hubungi toko jika ada pertanyaan lebih detail**
+## Important Notes
+- **No official member program yet (as of 2026)**
+- **All customers receive the same price** (no discrimination)
+- **Discounts are limited only to expired/defective items or seasonal promotions**
+- **Monitor announcements for 2027 loyalty program launch**
+- **Contact the store if you have further questions**

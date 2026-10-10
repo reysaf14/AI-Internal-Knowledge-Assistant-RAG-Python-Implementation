@@ -1,201 +1,201 @@
-# FAQ Cara Komplain
-**Toko Makmur Jaya | Update: 2026**
+# FAQ How to Complain
+**Makmur Jaya Store | Update: 2026**
 
-## Prosedur Pengajuan Komplain
+## Complaint Submission Procedure
 
-Kami menghargai feedback pelanggan. Jika Anda memiliki keluhan atau masalah dengan produk/layanan, silakan ikuti prosedur di bawah.
-
----
-
-## Jenis Komplain & Cara Mengajukan
-
-### 1. Komplain Barang Rusak/Cacat
-
-**Definisi:** Barang yang dibeli rusak, cacat pabrik, atau tidak sesuai dengan kondisi expected.
-
-**Cara Mengajukan:**
-1. **Segera lapor ke kasir** saat masih di toko (jika ditemukan sebelum pulang)
-   - Tunjukkan barang rusak ke kasir
-   - Jelaskan kondisi rusak (pecah, cacat, salah kemasan, dll)
-   - Kasir akan catat & proses penyelesaian
-
-2. **Atau datang kembali ke toko** dalam 3 hari (jika ditemukan di rumah)
-   - Bawa barang rusak + struk pembelian
-   - Tunjukkan ke kasir/pemilik
-   - Isi Formulir Komplain Barang Rusak
-   - Kasir akan evaluasi & tawarkan solusi
-
-**Dokumentasi yang Dibutuhkan:**
-- Struk pembelian asli
-- Barang rusak (dalam kondisi asli, tidak dibongkar/dimodifikasi)
-- Foto barang rusak (optional, untuk bukti)
-
-**Solusi Penyelesaian:**
-- Tukar barang dengan barang sejenis baru (tanpa biaya tambahan)
-- Atau diskon/potongan harga jika barang tidak bisa ditukar
-
-**Waktu Proses:** Max 1–2 hari (kasir akan informasikan estimasi waktu saat komplain)
+We value customer feedback. If you have a complaint or issue with a product/service, please follow the procedure below.
 
 ---
 
-### 2. Komplain Kesalahan Harga/Kasir
+## Types of Complaints & How to Submit
 
-**Definisi:** Barang dikenakan harga salah di kasir, atau ada double charge, atau pembelian tidak sesuai.
+### 1. Complaint Regarding Damaged/Defective Goods
 
-**Cara Mengajukan:**
-1. **Saat di kasir (real-time):**
-   - Jika Anda notice ada kesalahan harga saat checkout, segera beri tahu kasir
-   - Kasir akan cek harga di POS & label barang
-   - Jika ada perbedaan, kasir akan perbaiki & charge harga yang benar (lebih murah)
-   - **Jangan perlu komplain formal** – kasir akan koreksi langsung
+**Definition:** Goods purchased are damaged, have manufacturing defects, or do not meet expected conditions.
 
-2. **Setelah pulang (via telepon/WhatsApp):**
-   - Hubungi toko: +62 xxx-xxxx-xxxx atau (021) xxxx-xxxx
-   - Jelaskan: tanggal pembelian, barang apa, harga yang dibayar vs harga harusnya
-   - Kasir akan cek struk & sistem
-   - Jika benar ada kesalahan: kasir akan computed selisih & kembalikan via:
-     - Uang tunai (jika Anda datang kembali)
-     - Transfer bank (jika di atas Rp 50.000 & pembayaran via QRIS/transfer)
-     - Voucher belanja (alternatif, jika Anda tidak mau uang kembali)
+**How to Submit:**
+1. **Report immediately to the cashier** while still in the store (if found before leaving)
+   - Show the damaged item to the cashier
+   - Explain the condition of the damage (broken, defective, wrong packaging, etc.)
+   - The cashier will record & process the resolution
 
-**Dokumentasi yang Dibutuhkan:**
-- Struk pembelian
-- Foto struk jika ada (untuk backup)
+2. **Or return to the store** within 3 days (if found at home)
+   - Bring the damaged item + purchase receipt
+   - Show it to the cashier/owner
+   - Fill out the Goods Damage Complaint Form
+   - The cashier will evaluate & offer a solution
 
-**Solusi Penyelesaian:**
-- Refund selisih harga (tunai, transfer, atau voucher)
-- Jika selisih kecil (< Rp 5.000), bisa diabaikan atau kasir akan koreksi di struk
+**Required Documentation:**
+- Original purchase receipt
+- Damaged item (in original condition, not disassembled/modified)
+- Photo of the damaged item (optional, for proof)
 
-**Waktu Proses:** Same day (jika datang ke toko) atau 1–3 hari (jika via WhatsApp, pending transfer)
+**Resolution Solution:**
+- Exchange the item for a new similar item (no additional cost)
+- Or a discount/price reduction if the item cannot be exchanged
 
----
-
-### 3. Komplain Stok Barang Kosong/Tidak Tersedia
-
-**Definisi:** Barang yang ingin dibeli tidak ada stok.
-
-**Cara Mengajukan:**
-1. **Tanyakan ke kasir/pramuniaga** saat di toko
-   - Kasir akan cek stok di sistem POS
-   - Jika tidak ada: kasir bisa tawarkan barang sejenis alternatif atau pre-order
-
-2. **Via WhatsApp/Telepon:**
-   - Hubungi toko: +62 xxx-xxxx-xxxx
-   - Tanyakan: "Apakah ada barang [nama]?"
-   - Kasir akan cek stok live & informasikan
-   - Jika tidak ada: kasir bisa offer pre-order
-
-**Solusi Penyelesaian:**
-- Barang alternatif sejenis (kasir rekomendasi)
-- Pre-order dari supplier (estimasi 3–7 hari, DP 50%)
-- Atau tunggu stok berikutnya (kasir akan hubungi via WhatsApp saat ada)
-
-**Waktu Proses:** Real-time (saat tanya) atau 3–7 hari (jika pre-order)
+**Processing Time:** Max 1–2 days (the cashier will inform the estimated time when complaining)
 
 ---
 
-### 4. Komplain Pelayanan Kasir/Karyawan
+### 2. Complaint Regarding Price/Cashier Errors
 
-**Definisi:** Kasir atau karyawan tidak ramah, lambat, atau berperilaku tidak baik.
+**Definition:** An item is charged the wrong price at the cashier, there is a double charge, or the purchase does not match.
 
-**Cara Mengajukan:**
-1. **Langsung ke Pemilik** saat masih di toko atau segera pulang
-   - Jelaskan detail: tanggal, jam, nama/ciri-ciri karyawan, apa yang terjadi
-   - Pemilik akan dengar & catat komplain
+**How to Submit:**
+1. **At the cashier (real-time):**
+   - If you notice a price error during checkout, immediately inform the cashier
+   - The cashier will check the price on the POS & item label
+   - If there is a difference, the cashier will correct it & charge the correct price (cheaper)
+   - **No need for a formal complaint** – the cashier will correct it directly
 
-2. **Via WhatsApp/Telepon:**
-   - Hubungi toko: +62 xxx-xxxx-xxxx
-   - Sampaikan keluhan lengkap dengan detail
-   - Pemilik akan follow up & investigating
+2. **After leaving (via phone/WhatsApp):**
+   - Contact the store: +62 xxx-xxxx-xxxx or (021) xxxx-xxxx
+   - Explain: purchase date, what item, price paid vs. the correct price
+   - The cashier will check the receipt & system
+   - If there is a mistake: the cashier will compute the difference & refund via:
+     - Cash (if you come back)
+     - Bank transfer (if over Rp 50,000 & payment via QRIS/transfer)
+     - Shopping voucher (alternative, if you do not want a refund)
 
-**Dokumentasi yang Dibutuhkan:**
-- Tanggal & jam kejadian
-- Nama/deskripsi karyawan (jika ingat)
-- Detail apa yang terjadi (cerita urut)
+**Required Documentation:**
+- Purchase receipt
+- Photo of the receipt if available (for backup)
 
-**Solusi Penyelesaian:**
-- Pemilik akan investigate & train karyawan jika ada kesalahan
-- Jika ada kompensasi (voucher, potongan harga berikutnya), pemilik akan tawarkan
+**Resolution Solution:**
+- Refund the price difference (cash, transfer, or voucher)
+- If the difference is small (< Rp 5,000), it can be ignored or the cashier will correct it on the receipt
 
-**Waktu Proses:** 1–3 hari (pemilik akan follow up dengan Anda)
+**Processing Time:** Same day (if you come to the store) or 1–3 days (if via WhatsApp, pending transfer)
 
 ---
 
-## Langkah-Langkah Mengajukan Komplain Formal
+### 3. Complaint Regarding Out-of-Stock/Unavailable Items
 
-### Step 1: Identifikasi Jenis Komplain
-Tentukan terlebih dulu: apakah barang rusak, harga salah, stok kosong, atau pelayanan buruk?
+**Definition:** An item you wish to purchase is out of stock.
 
-### Step 2: Kumpulkan Bukti/Dokumentasi
-- Struk pembelian
-- Foto barang/struk (jika ada)
-- Catatan tanggal & jam
-- Daftar detail masalah (urut & jelas)
+**How to Submit:**
+1. **Ask the cashier/sales associate** while in the store
+   - The cashier will check the stock in the POS system
+   - If unavailable: the cashier can offer a similar alternative item or pre-order
 
-### Step 3: Hubungi Toko
-**Pilihan:**
-- **Langsung ke kasir/pemilik di toko** (fastest)
-- **Via WhatsApp:** +62 xxx-xxxx-xxxx (bisa attach foto bukti)
-- **Via Telepon:** (021) xxxx-xxxx (jelaskan detail verbal)
+2. **Via WhatsApp/Phone:**
+   - Contact the store: +62 xxx-xxxx-xxxx
+   - Ask: "Is the [item name] available?"
+   - The cashier will check live stock & inform you
+   - If unavailable: the cashier can offer a pre-order
 
-### Step 4: Isi Formulir Komplain (Jika Diperlukan)
-Kasir/pemilik akan minta Anda isi Formulir Komplain Pelanggan dengan detail:
-- Nama & nomor kontak Anda
-- Tanggal pembelian & nomor transaksi
-- Jenis barang
-- Deskripsi masalah
-- Foto bukti (jika ada)
-- Solusi yang diharapkan
+**Resolution Solution:**
+- Similar alternative items (recommended by the cashier)
+- Pre-order from the supplier (estimated 3–7 days, 50% deposit)
+- Or wait for the next stock (the cashier will contact you via WhatsApp when available)
+
+**Processing Time:** Real-time (when asking) or 3–7 days (if pre-order)
+
+---
+
+### 4. Complaint Regarding Cashier/Employee Service
+
+**Definition:** The cashier or employee is unfriendly, slow, or behaves inappropriately.
+
+**How to Submit:**
+1. **Go directly to the Owner** while still in the store or immediately upon leaving
+   - Explain the details: date, time, employee's name/description, what happened
+   - The Owner will listen & record the complaint
+
+2. **Via WhatsApp/Phone:**
+   - Contact the store: +62 xxx-xxxx-xxxx
+   - Convey the complete complaint with details
+   - The Owner will follow up & investigate
+
+**Required Documentation:**
+- Date & time of the incident
+- Employee's name/description (if remembered)
+- Details of what happened (chronological story)
+
+**Resolution Solution:**
+- The Owner will investigate & train the employee if there is an error
+- If there is compensation (voucher, next discount), the Owner will offer it
+
+**Processing Time:** 1–3 days (the Owner will follow up with you)
+
+---
+
+## Steps for Submitting a Formal Complaint
+
+### Step 1: Identify the Type of Complaint
+Determine first: is it a damaged item, wrong price, out of stock, or poor service?
+
+### Step 2: Gather Evidence/Documentation
+- Purchase receipt
+- Photos of item/receipt (if available)
+- Date & time notes
+- Detailed list of issues (ordered & clear)
+
+### Step 3: Contact the Store
+**Options:**
+- **Go directly to the cashier/owner at the store** (fastest)
+- **Via WhatsApp:** +62 xxx-xxxx-xxxx (can attach evidence photos)
+- **Via Phone:** (021) xxxx-xxxx (explain details verbally)
+
+### Step 4: Fill Out Complaint Form (If Necessary)
+The cashier/owner will ask you to fill out the Customer Complaint Form with details:
+- Your Name & contact number
+- Purchase date & transaction number
+- Item type
+- Description of the issue
+- Evidence photos (if available)
+- Desired solution
 
 ### Step 5: Follow Up
-- Kasir/pemilik akan catat & investigate masalah
-- Pemilik akan hubungi Anda kembali dalam 1–3 hari dengan solusi
-- Jika ada refund/voucher, pemilik akan informasikan cara penerimaan
+- The cashier/owner will record & investigate the issue
+- The owner will contact you again within 1–3 days with a solution
+- If there is a refund/voucher, the owner will inform you how to receive it
 
 ---
 
-## Tabel Ringkasan Komplain & Solusi
+## Complaint & Solution Summary Table
 
-| Jenis Komplain | Bukti | Waktu Proses | Solusi |
+| Type of Complaint | Evidence | Processing Time | Solution |
 |---|---|---|---|
-| Barang Rusak | Struk, Barang, Foto | 1–2 hari | Tukar barang / Diskon |
-| Kesalahan Harga | Struk, Foto struk | Same day | Refund selisih / Voucher |
-| Stok Kosong | - | Real-time | Alternatif / Pre-order |
-| Pelayanan Buruk | Detail deskripsi | 1–3 hari | Training staff / Kompensasi |
+| Damaged Item | Receipt, Item, Photo | 1–2 days | Item exchange / Discount |
+| Price Error | Receipt, Receipt Photo | Same day | Refund of difference / Voucher |
+| Out of Stock | - | Real-time | Alternative / Pre-order |
+| Poor Service | Detailed description | 1–3 days | Staff training / Compensation |
 
 ---
 
-## Kontak Untuk Komplain
+## Contact For Complaints
 
-### Opsi Kontak
+### Contact Options
 1. **WhatsApp (Fastest):** +62 xxx-xxxx-xxxx
-   - Bisa attach foto & penjelasan detail
-   - Kasir akan reply dalam 1–2 jam (jam operasional)
+   - Can attach photos & detailed explanations
+   - Cashier will reply within 1–2 hours (business hours)
 
-2. **Telepon:** (021) xxxx-xxxx
-   - Hubungi 07.00–21.00 (jam operasional)
-   - Jelaskan masalah verbal
+2. **Phone:** (021) xxxx-xxxx
+   - Call 07.00–21.00 (business hours)
+   - Explain the issue verbally
 
-3. **Datang Langsung ke Toko:**
-   - Alamat: Jalan Raya Kecamatan No. 45
-   - Jam: 07.00–21.00 (setiap hari)
-   - Tanyakan Pemilik (Budi Santoso)
-
----
-
-## Komitmen Kami
-
-✓ Setiap komplain akan didengarkan dengan serius
-✓ Kami akan investigate & cari solusi terbaik
-✓ Proses penyelesaian max 3 hari (kecuali kasus khusus)
-✓ Kami menjamin pelayanan ramah & profesional
-✓ Anda tidak akan dirugikan jika ada kesalahan toko
+3. **Visit the Store Directly:**
+   - Address: Jalan Raya Kecamatan No. 45
+   - Hours: 07.00–21.00 (every day)
+   - Ask for the Owner (Budi Santoso)
 
 ---
 
-## Catatan Penting
-- **Komplain harus diajukan max 3 hari** setelah pembelian (kecuali barang yang baru ditemukan rusak di rumah)
-- **Simpan struk pembelian** sebagai bukti utama komplain
-- **Jangan modifikasi/dibongkar barang rusak** sebelum komplain (untuk investigasi)
-- **Hubungi kasir/pemilik sesegera mungkin** jika ada masalah (jangan tunda)
-- **Kami terbuka untuk feedback** & improvement berkelanjutan
+## Our Commitment
+
+✓ Every complaint will be taken seriously
+✓ We will investigate & find the best solution
+✓ Resolution process max 3 days (except for special cases)
+✓ We guarantee friendly & professional service
+✓ You will not be harmed if there is a store error
+
+---
+
+## Important Notes
+- **Complaints must be submitted max 3 days** after purchase (except for items found damaged at home)
+- **Keep the purchase receipt** as the main evidence for the complaint
+- **Do not modify/disassemble damaged items** before complaining (for investigation)
+- **Contact the cashier/owner as soon as possible** if there is an issue (do not delay)
+- **We are open to feedback** & continuous improvement

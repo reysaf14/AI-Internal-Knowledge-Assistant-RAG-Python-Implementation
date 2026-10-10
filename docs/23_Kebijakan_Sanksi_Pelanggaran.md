@@ -1,289 +1,289 @@
-# Kebijakan Sanksi Pelanggaran (Keterlambatan, dll)
-**Toko Makmur Jaya | Efektif: 2026**
+# Sanction Policy for Violations (Lateness, etc.)
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Menjaga kedisiplinan karyawan melalui sistem sanksi yang adil, bertingkat, dan transparan.
-
----
-
-## Sistem Sanksi Bertingkat
-
-Toko Makmur Jaya menggunakan sistem **Progressive Discipline** (sanksi berjenjang):
-
-**Tingkat 1:** Reminder/Warning Verbal
-**Tingkat 2:** Warning Tertulis (Form Warning)
-**Tingkat 3:** Pengurangan Gaji / Bonus Dihentikan
-**Tingkat 4:** Pemutusan Hubungan Kerja (Termination)
-
-Setiap pelanggaran diproses dari Tingkat 1 ke atas. Jika ada repeat offense, naik ke tingkat selanjutnya.
+## Objective
+To maintain employee discipline through a fair, tiered, and transparent sanction system.
 
 ---
 
-## Kategori Pelanggaran & Sanksi
+## Tiered Sanction System
 
-### KATEGORI A: PELANGGARAN RINGAN
+Makmur Jaya Store uses a **Progressive Discipline** system:
 
-#### 1. Keterlambatan Masuk
-| Durasi | Frekuensi | Sanksi | Detail |
+**Tier 1:** Verbal Reminder/Warning
+**Tier 2:** Written Warning (Form Warning)
+**Tier 3:** Salary Reduction / Bonus Suspension
+**Tier 4:** Termination
+
+Each violation is processed starting from Tier 1 upwards. If there is a repeat offense, move to the next tier.
+
+---
+
+## Violation Categories & Sanctions
+
+### CATEGORY A: MINOR VIOLATIONS
+
+#### 1. Late Arrival
+| Duration | Frequency | Sanction | Detail |
 |---|---|---|---|
-| 1–15 menit | 1x | Reminder verbal | Catat di buku kehadiran |
-| 16–30 menit | 1x | Warning tertulis + potongan gaji 0.5 jam | Rp [X] dipotong |
-| 31–60 menit | 1x | Warning tertulis + potongan gaji 1 jam + denda Rp 50.000 | Total dipotong Rp [X + 50.000] |
-| > 60 menit / tanpa kabar | 1x | Absen (potongan gaji 1 hari penuh + denda Rp 100.000) | Rp [X gaji + 100.000] |
-| Berulang (3x dalam 1 bulan) | - | Warning final + bonus dihentikan sebulan | Last chance |
+| 1–15 minutes | 1x | Verbal Reminder | Record in attendance book |
+| 16–30 minutes | 1x | Written Warning + 0.5 hour salary deduction | Rp [X] deducted |
+| 31–60 minutes | 1x | Written Warning + 1 hour salary deduction + Rp 50,000 fine | Total deduction Rp [X + 50,000] |
+| > 60 minutes / no notification | 1x | Absent (full 1-day salary deduction + Rp 100,000 fine) | Rp [X salary + 100,000] |
+| Repeated (3x in 1 month) | - | Final Warning + bonus suspended for one month | Last chance |
 
-**Escalation:** Jika terlambat terus-menerus (> 4x dalam 1 bulan) → Dapat dikembalikan/dipecat.
+**Escalation:** If consistently late (> 4x in 1 month) → May result in return/termination.
 
-#### 2. Pulang Cepat Tanpa Izin
-| Durasi | Frekuensi | Sanksi | Detail |
+#### 2. Leaving Early Without Permission
+| Duration | Frequency | Sanction | Detail |
 |---|---|---|---|
-| < 1 jam | 1x | Reminder verbal | Catat di log |
-| 1–2 jam | 1x | Warning tertulis + potongan gaji sesuai durasi | Rp [X] |
-| > 2 jam | 1x | Warning tertulis + potongan gaji penuh + denda Rp 50.000 | Rp [X + 50.000] |
-| Berulang (2x dalam 1 bulan) | - | Warning final + bonus dihentikan | Last chance |
+| < 1 hour | 1x | Verbal Reminder | Record in log |
+| 1–2 hours | 1x | Written Warning + salary deduction according to duration | Rp [X] |
+| > 2 hours | 1x | Written Warning + full salary deduction + Rp 50,000 fine | Rp [X + 50,000] |
+| Repeated (2x in 1 month) | - | Final Warning + bonus suspension | Last chance |
 
-#### 3. Penampilan Tidak Rapi
-| Kali ke- | Tindakan |
+#### 3. Unkempt Appearance
+| Count | Action |
 |---|---|
-| 1–2 | Reminder verbal ("Perbaiki penampilan") |
-| 3–4 | Warning tertulis (Form Warning) |
-| 5+ | Potongan bonus Rp 100.000 / termination |
+| 1–2 | Verbal Reminder ("Improve appearance") |
+| 3–4 | Written Warning (Form Warning) |
+| 5+ | Rp 100,000 bonus deduction / termination |
 
-**Detail:** Seragam kusut, rambut acak-acakan, sepatu bersih, kuku panjang, dll.
+**Detail:** Wrinkled uniform, messy hair, clean shoes, long nails, etc.
 
-#### 4. Tidak Mengikuti SOP
-| Contoh | Tindakan | Sanksi |
+#### 4. Not Following SOP
+| Example | Action | Sanction |
 |---|---|---|
-| Tidak cuci tangan sebelum kasir | Reminder + training | Jika repeat: warning |
-| Pelanggan komplain pelayanan lambat | Reminder + training | Jika repeat: warning |
-| Tidak absensi / catat log | Reminder verbal | Jika repeat: denda Rp 25.000 |
+| Not washing hands before cashier | Reminder + training | If repeat: warning |
+| Customer complains about slow service | Reminder + training | If repeat: warning |
+| No attendance / log entry | Verbal Reminder | If repeat: Rp 25,000 fine |
 
 ---
 
-### KATEGORI B: PELANGGARAN SEDANG
+### CATEGORY B: MEDIUM VIOLATIONS
 
-#### 1. Absensi (Tidak Hadir Tanpa Alasan)
-| Durasi | Sanksi | Detail |
+#### 1. Attendance (Absent Without Reason)
+| Duration | Sanction | Detail |
 |---|---|---|
-| 1 hari | Potongan gaji 1 hari + denda Rp 100.000 | Rp [X gaji + 100.000] |
-| 2 hari berturut-turut | Potongan gaji 2 hari + denda Rp 200.000 + warning tertulis | Rp [2X gaji + 200.000] |
-| 3+ hari dalam 1 bulan | Potongan gaji 3 hari + denda Rp 300.000 + warning final | Rp [3X gaji + 300.000] + potential termination |
+| 1 day | 1-day salary deduction + Rp 100,000 fine | Rp [X salary + 100,000] |
+| 2 consecutive days | 2-day salary deduction + Rp 200,000 fine + written warning | Rp [2X salary + 200,000] |
+| 3+ days in 1 month | 3-day salary deduction + Rp 300,000 fine + final warning | Rp [3X salary + 300,000] + potential termination |
 
-#### 2. Sakit > 2 Hari Tanpa Surat Dokter
-| Durasi | Sanksi | Detail |
+#### 2. Sick Leave > 2 Days Without Doctor's Note
+| Duration | Sanction | Detail |
 |---|---|---|
-| 3 hari | Potongan gaji 3 hari (tidak ada pembayaran) | Rp 0 untuk 3 hari itu |
-| 4–5 hari | Potongan gaji penuh + warning tertulis | Gaji 0 untuk periode sakit |
-| > 5 hari | Dianggap abandon post, dapat dikembalikan/dipecat | Termination |
+| 3 days | 3-day salary deduction (no payment) | Rp 0 for those 3 days |
+| 4–5 days | Full salary deduction + written warning | Salary 0 for the sick period |
+| > 5 days | Considered abandon post, may result in return/termination | Termination |
 
-**Catatan:** Jika ada surat dokter, sakit tidak dipotong gaji (dilindungi).
+**Note:** If a doctor's note is provided, sick leave will not result in salary deduction (protected).
 
-#### 3. Tidak Mengikuti Instruksi Pemilik
-| Contoh | Tindakan |
+#### 3. Not Following Owner's Instructions
+| Example | Action |
 |---|---|
-| Diminta restock tapi tidak dikerjakan | Warning tertulis + reminder |
-| Diminta laporan tapi tidak dikerjakan | Warning tertulis + target ulang |
-| Argumen/membantah order tanpa alasan | Warning final + denda Rp 100.000 |
+| Asked to restock but not done | Written Warning + reminder |
+| Asked for a report but not done | Written Warning + target reset |
+| Arguing/disputing orders without reason | Final Warning + Rp 100,000 fine |
 
-#### 4. Kehilangan/Merusak Barang Toko
-| Nilai Barang | Sanksi |
+#### 4. Loss/Damage of Store Items
+| Item Value | Sanction |
 |---|---|
-| < Rp 100.000 | Ganti 100% + denda Rp 50.000 |
-| Rp 100.000–500.000 | Ganti 100% + denda Rp 100.000 + warning tertulis |
-| > Rp 500.000 | Ganti 100% + denda Rp 200.000 + potential termination |
+| < Rp 100,000 | 100% replacement + Rp 50,000 fine |
+| Rp 100,000–500,000 | 100% replacement + Rp 100,000 fine + written warning |
+| > Rp 500,000 | 100% replacement + Rp 200,000 fine + potential termination |
 
-**Contoh:** Gelas pecah (Rp 20.000) → ganti Rp 20.000 + denda Rp 50.000 = Rp 70.000 (dipotong gaji).
+**Example:** Broken glass (Rp 20,000) → replace Rp 20,000 + fine Rp 50,000 = Rp 70,000 (deducted from salary).
 
-#### 5. Mencuri Barang / Uang
-**Sanksi:** IMMEDIATE TERMINATION + Laporan Polisi
+#### 5. Theft of Items / Money
+**Sanction:** IMMEDIATE TERMINATION + Police Report
 
-(Tidak ada kesempatan kedua untuk kasus pencurian)
+(No second chance for theft cases)
 
 ---
 
-### KATEGORI C: PELANGGARAN BERAT
+### CATEGORY C: SERIOUS VIOLATIONS
 
-#### 1. Mabuk / Memakai Obat Terlarang di Toko
-**Sanksi:** IMMEDIATE TERMINATION + Laporan Polisi
+#### 1. Intoxication / Use of Prohibited Drugs in Store
+**Sanction:** IMMEDIATE TERMINATION + Police Report
 
-#### 2. Kekerasan / Permusuhan dengan Rekan Kerja
-**Sanksi:** IMMEDIATE TERMINATION (untuk yang bersalah)
+#### 2. Violence / Hostility with Colleagues
+**Sanction:** IMMEDIATE TERMINATION (for the guilty party)
 
-#### 3. Pelecehan Seksual / Harassment
-**Sanksi:** IMMEDIATE TERMINATION + Laporan Polisi
+#### 3. Sexual Harassment
+**Sanction:** IMMEDIATE TERMINATION + Police Report
 
-#### 4. Mengabaikan Keamanan Toko / Kelalaian Serius
-**Contoh:** Lupa kunci toko (pencuri masuk), delay membayar supplier (toko rugi), jual barang dengan harga tidak sesuai POS (merugikan toko)
+#### 4. Neglecting Store Security / Serious Negligence
+**Examples:** Forgetting the store key (theft entry), delaying supplier payment (store loss), selling goods at prices not matching POS (harming the store)
 
-**Sanksi:** Warning final + denda besar (Rp 200.000–500.000) atau termination
+**Sanctions:** Final Warning + large fine (IDR 200,000–500,000) or termination
 
-#### 5. Menyebarkan Informasi Rahasia Toko
-**Contoh:** Share pelanggan premium ke toko lain, share strategi bisnis, dsb
+#### 5. Spreading Store Confidential Information
+**Examples:** Sharing premium customers with other stores, sharing business strategies, etc.
 
-**Sanksi:** IMMEDIATE TERMINATION
+**Sanctions:** IMMEDIATE TERMINATION
 
 ---
 
-## Form Warning Resmi
+## Official Warning Form
 
 ```
-FORM PERINGATAN (WARNING LETTER)
-Tanggal Warning: ________________
-Nama Karyawan: _________________ 
-Posisi: ________________
-Nomor Peringatan: [ ] 1st Warning  [ ] 2nd Warning  [ ] Final Warning
+WARNING FORM
+Warning Date: ________________
+Employee Name: _________________
+Position: ________________
+Warning Number: [ ] 1st Warning [ ] 2nd Warning [ ] Final Warning
 
-PELANGGARAN:
-Jenis Pelanggaran: _____________________
-Tanggal Pelanggaran: _____________________
-Deskripsi Detail: _____________________
-Dampak Pelanggaran: _____________________
+VIOLATION:
+Type of Violation: _____________________
+Date of Violation: _____________________
+Detailed Description: _____________________
+Impact of Violation: _____________________
 
-RIWAYAT PELANGGARAN (Jika Ada):
-Pelanggaran Sebelumnya: 
-- [tanggal]: [jenis pelanggaran]
-- [tanggal]: [jenis pelanggaran]
+VIOLATION HISTORY (If Any):
+Previous Violation:
+- [date]: [type of violation]
+- [date]: [type of violation]
 
-SANKSI YANG DIBERIKAN:
-[ ] Potongan Gaji: Rp _______________
-[ ] Denda: Rp _______________
-[ ] Bonus Dihentikan: [periode]
-[ ] Lainnya: _____________________
+SANCTION ISSUED:
+[ ] Salary Deduction: Rp _______________
+[ ] Fine: Rp _______________
+[ ] Bonus Suspended: [period]
+[ ] Other: _____________________
 
-HARAPAN & TUNTUTAN:
-Karyawan diminta untuk:
+EXPECTATIONS & REQUIREMENTS:
+Employee is requested to:
 1. _____________________
 2. _____________________
 3. _____________________
 
-Jika pelanggaran terulang dalam [periode: 1 bulan / 3 bulan], 
-akan diambil tindakan lebih lanjut termasuk termination.
+If the violation recurs within [period: 1 month / 3 months],
+further action including termination will be taken.
 
-PERSETUJUAN:
-Saya telah menerima dan memahami warning ini.
-Saya berkomitmen untuk tidak mengulangi pelanggaran ini.
+ACKNOWLEDGEMENT:
+I have received and understood this warning.
+I am committed not to repeat this violation.
 
-Tanda Tangan Karyawan: _________________ Tgl: __________
+Employee Signature: _________________ Date: __________
 
-Tanda Tangan Pemilik: _________________ Tgl: __________
+Owner Signature: _________________ Date: __________
 
-Saksi (Kasir Senior): _________________ Tgl: __________
+Witness (Senior Cashier): _________________ Date: __________
 
-CATATAN: Form ini disimpan di file karyawan untuk dokumentasi.
+NOTES: This form is kept in the employee's file for documentation.
 ```
 
 ---
 
-## Proses Pemberian Sanksi
+## Sanction Process
 
-### Langkah 1: Identifikasi Pelanggaran
-- Pemilik/Kasir Senior observe pelanggaran
-- Catat detail: tanggal, jam, jenis pelanggaran, kronologi
+### Step 1: Violation Identification
+- Owner/Senior Cashier observes the violation
+- Record details: date, time, type of violation, chronology
 
-### Langkah 2: Konfirmasi & Dengar Penjelasan
-- Pemilik memanggil karyawan
-- Jelaskan pelanggaran yang dilakukan
-- Berikan kesempatan karyawan untuk menjelaskan/membela diri (fair hearing)
+### Step 2: Confirmation & Hearing
+- Owner calls the employee
+- Explain the violation committed
+- Give the employee an opportunity to explain/defend themselves (fair hearing)
 
-### Langkah 3: Tentukan Tingkat Pelanggaran
-- Lihat Kategori A/B/C di atas
-- Tentukan apakah repeat offense (escalation)
-- Hitung sanksi sesuai tabel
+### Step 3: Determine Violation Level
+- Refer to Category A/B/C above
+- Determine if it is a repeat offense (escalation)
+- Calculate sanction according to the table
 
-### Langkah 4: Sampaikan Sanksi
-- Beritahu karyawan secara verbally (jelas & direkta)
-- Jelaskan alasan, bukti, dan sanksi yang diberikan
-- Tunjukkan Form Warning (jika warning tertulis)
-- Minta tanda tangan karyawan di Form Warning
+### Step 4: Deliver Sanction
+- Inform the employee verbally (clear & direct)
+- Explain the reason, evidence, and the sanction being given
+- Show the Warning Form (if the warning is written)
+- Ask the employee to sign the Warning Form
 
-### Langkah 5: Dokumentasi & Implementasi
-- Simpan Form Warning di file karyawan
-- Catat di Buku Log Sanksi (untuk tracking)
-- Implementasikan sanksi (potongan gaji, denda, dll)
-- Follow up: monitor behavior karyawan (improvement atau repeat?)
+### Step 5: Documentation & Implementation
+- File the Warning Form in the employee's file
+- Record in the Sanction Log Book (for tracking)
+- Implement the sanction (salary deduction, fine, etc.)
+- Follow up: monitor employee behavior (improvement or repeat?)
 
-### Langkah 6: Appeal (Optional)
-- Jika karyawan merasa tidak adil, bisa appeal ke pemilik dalam 3 hari
-- Pemilik akan re-evaluate & tentukan final decision
-- Keputusan final pemilik adalah binding (tidak bisa appeal lagi)
-
----
-
-## Potongan Gaji & Denda
-
-### Mekanisme Potongan
-- **Potongan Gaji:** Langsung dikurangi dari gaji bulan terjadinya pelanggaran
-- **Denda:** Langsung dikurangi dari gaji atau dikumpulkan untuk dibayar akhir bulan
-- **Bonus Dihentikan:** Jika ada bonus bulanan, tidak dibayar untuk bulan penalaran
-
-### Contoh Perhitungan
-**Gaji Kasir:** Rp 3.000.000 per bulan (Rp 150.000 per hari)
-
-**Skenario 1: Terlambat 30 menit**
-- Potongan gaji 0.5 jam = Rp 75.000 (dipotong dari gaji bulan itu)
-
-**Skenario 2: Terlambat 45 menit**
-- Potongan gaji 1 jam = Rp 150.000
-- Denda = Rp 50.000
-- Total dipotong = Rp 200.000
-
-**Skenario 3: Absen 1 hari**
-- Potongan gaji 1 hari = Rp 150.000
-- Denda = Rp 100.000
-- Total dipotong = Rp 250.000
-- Bonus bulan itu dihentikan (jika ada bonus Rp 500.000, tidak dibayar)
+### Step 6: Appeal (Optional)
+- If the employee feels it is unfair, they can appeal to the owner within 3 days
+- The owner will re-evaluate & determine the final decision
+- The owner's final decision is binding (cannot be appealed further)
 
 ---
 
-## Pemanfaatan Denda
+## Salary Deductions & Fines
 
-### Penggunaan Dana Denda
-- **70% Digunakan:** Untuk operasional toko (cash flow)
-- **30% Disimpan:** Dana CSR / kesejahteraan karyawan (bonus bersama atau gathering)
+### Deduction Mechanism
+- **Salary Deduction:** Directly deducted from the salary of the month of the violation
+- **Fine:** Directly deducted from the salary or collected to be paid at the end of the month
+- **Bonus Suspension:** If there is a monthly bonus, it will not be paid for the month of the penalty
 
-**Transparansi:** Pemilik akan informasi penggunaan denda setiap kuartal (laporan ke staff).
+### Calculation Example
+**Cashier Salary:** Rp 3,000,000 per month (Rp 150,000 per day)
 
----
+**Scenario 1: Late by 30 minutes**
+- Salary deduction 0.5 hours = Rp 75,000 (deducted from that month's salary)
 
-## Batas Akhir Pelanggaran
+**Scenario 2: Late by 45 minutes**
+- Salary deduction 1 hour = Rp 150,000
+- Fine = Rp 50,000
+- Total deduction = Rp 200,000
 
-### Reset Warning
-- **Warning Ringan:** Reset setelah 3 bulan tanpa pelanggaran baru
-- **Warning Sedang:** Reset setelah 6 bulan tanpa pelanggaran baru
-- **Warning Berat/Final:** Tidak ada reset (jika ada pelanggaran lagi, termination)
-
-**Contoh:** Terlambat & dapat warning pada Jan 2026, jika sampai Apr 2026 tidak ada pelanggaran lagi → warning dihapus dari rekam jejak.
-
----
-
-## Termination (Pemutusan Hubungan Kerja)
-
-### Alasan Termination
-✓ Pelanggaran berat (pencurian, mabuk, kekerasan, dll)
-✓ Warning final + repeat offense
-✓ Abandon post (tidak datang > 5 hari)
-✓ Kesalahan serius yang merugikan toko (> Rp 1 juta)
-
-### Proses Termination
-1. Pemilik bermusyawarah dengan karyawan (dengar penjelasan akhir)
-2. Berikan surat termination formal (alasan jelas, efektif kapan)
-3. Hitung final settlement: gaji sisa bulan + bonus (jika ada) - denda/kerugian
-4. Ambil badge ID & seragam karyawan
-5. Arsipkan dokumen termination di file karyawan
-
-### Settlement Akhir
-- **Gaji Sisa Bulan:** Dibayarkan 3 hari sebelum akhir masa kerja
-- **Bonus/Insentif:** Dibayarkan MINUS denda/kerugian (jika ada)
-- **BPJS (Jika Ada):** Diurus sesuai peraturan ketenagakerjaan
-- **Referensi Kerja:** Berikan surat referensi objektif (jika diminta)
+**Scenario 3: Absent 1 day**
+- Salary deduction 1 day = Rp 150,000
+- Fine = Rp 100,000
+- Total deduction = Rp 250,000
+- That month's bonus is suspended (if there is a bonus of Rp 500,000, it will not be paid)
 
 ---
 
-## Catatan Penting
+## Fine Utilization
 
-- **Fairness & Transparency:** Setiap sanksi harus adil & transparan (dijelaskan alasannya)
-- **Dokumentasi:** Setiap pelanggaran harus didokumentasikan (Form Warning)
-- **Appeal Right:** Karyawan punya hak untuk membela diri & appeal
-- **Consistency:** Sanksi yang sama untuk pelanggaran yang sama (tidak boleh double standard)
-- **Progressive:** Mulai dari warning, baru naik ke sanksi berat (tidak langsung termination, kecuali pelanggaran serius)
-- **Compassion:** Pemilik harus menunjukkan compassion (bukan menghukum dengan semena-mena)
+### Use of Fine Funds
+- **70% Used:** For store operations (cash flow)
+- **30% Saved:** CSR funds / employee welfare (shared bonus or gathering)
+
+**Transparency:** The owner will provide information on the use of fines every quarter (report to staff).
+
+---
+
+## Final Violation Limits
+
+### Warning Reset
+- **Light Warning:** Reset after 3 months without new violations
+- **Medium Warning:** Reset after 6 months without new violations
+- **Severe/Final Warning:** No reset (if there is another violation, termination)
+
+**Example:** Late and receive a warning in Jan 2026, if there are no further violations until Apr 2026 → the warning is removed from the record.
+
+---
+
+## Termination (Termination of Employment)
+
+### Termination Reasons
+✓ Severe violation (theft, intoxication, violence, etc.)
+✓ Final warning + repeat offense
+✓ Abandon post (not showing up > 5 days)
+✓ Serious error that harms the store (> Rp 1 million)
+
+### Termination Process
+1. Owner discusses with the employee (final explanation)
+2. Issue a formal termination letter (clear reason, effective date)
+3. Calculate final settlement: remaining salary + bonus (if any) - fine/loss
+4. Collect employee ID badge & uniform
+5. Archive termination documents in the employee's file
+
+### Final Settlement
+- **Remaining Salary:** Paid 3 days before the end of the employment term
+- **Bonus/Incentive:** Paid MINUS fine/loss (if any)
+- **BPJS (If Applicable):** Handled according to labor regulations
+- **Work Reference:** Provide an objective reference letter (if requested)
+
+---
+
+## Important Notes
+
+- **Fairness & Transparency:** Every sanction must be fair & transparent (reason explained)
+- **Documentation:** Every violation must be documented (Warning Form)
+- **Appeal Right:** Employees have the right to defend themselves & appeal
+- **Consistency:** The same sanction for the same violation (no double standard)
+- **Progressive:** Start with a warning, then escalate to severe sanction (not immediate termination, unless the violation is serious)
+- **Compassion:** The owner must show compassion (not punishing arbitrarily)

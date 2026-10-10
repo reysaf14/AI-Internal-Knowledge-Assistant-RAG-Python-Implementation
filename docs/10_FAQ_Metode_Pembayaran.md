@@ -1,93 +1,93 @@
-# FAQ Metode Pembayaran
-**Toko Makmur Jaya | Update: 2026**
+# FAQ Payment Methods
+**Makmur Jaya Store | Update: 2026**
 
-## Metode Pembayaran yang Diterima
+## Accepted Payment Methods
 
-Toko Makmur Jaya menerima 3 metode pembayaran utama untuk kemudahan Anda:
+Makmur Jaya Store accepts 3 main payment methods for your convenience:
 
-### 1. Pembayaran Tunai (Uang Kertas & Koin)
-- **Diterima:** Rp 100.000, Rp 50.000, Rp 20.000, Rp 10.000, Rp 5.000, Rp 2.000, Rp 1.000
-- **Uang Koin:** Rp 1.000, Rp 500, Rp 100 (diterima tapi jarang digunakan)
-- **Kembalian:** Kasir akan memberikan kembalian dalam bentuk uang & koin
-- **Catatan:** Uang palsu tidak diterima (kasir akan verifikasi untuk jumlah besar)
+### 1. Cash Payment (Paper Money & Coins)
+- **Accepted:** IDR 100,000, IDR 50,000, IDR 20,000, IDR 10,000, IDR 5,000, IDR 2,000, IDR 1,000
+- **Coin:** IDR 1,000, IDR 500, IDR 100 (accepted but rarely used)
+- **Change:** The cashier will provide change in the form of cash & coins
+- **Note:** Counterfeit money is not accepted (cashier will verify for large amounts)
 
 ### 2. QRIS (QR Code Indonesian Standard)
-- **Apa itu QRIS?** Kode QR yang bisa di-scan dari aplikasi e-wallet apapun (GCash, OVO, Dana, Gopay, Link Aja, dll)
-- **Diterima:** Ya, semua aplikasi e-wallet yang support QRIS
-- **Cara Bayar:**
-  1. Buka aplikasi e-wallet favorit Anda
-  2. Pilih "Scan QRIS" atau "Bayar dengan QR"
-  3. Arahkan kamera ke kode QRIS di mesin kasir
-  4. Verifikasi nominal & tekan "Bayar"
-  5. Tunggu 2–3 detik hingga transaksi berhasil (mesin kasir akan berbuyi)
-  6. Terima bukti transaksi di struk kasir
-- **Aplikasi yang diterima:** GCash, OVO, Dana, Gopay, LinkAja, Jago, Kredivo, Akulaku, dan semua yang support QRIS
-- **Keuntungan QRIS:** Cepat, aman, tidak perlu uang tunai, bisa tracking via aplikasi
+- **What is QRIS?** A QR code that can be scanned from any e-wallet application (GCash, OVO, Dana, Gopay, Link Aja, etc.)
+- **Accepted:** Yes, all e-wallet applications that support QRIS
+- **How to Pay:**
+  1. Open your favorite e-wallet application
+  2. Select "Scan QRIS" or "Pay with QR"
+  3. Direct the camera to the QRIS code at the cashier machine
+  4. Verify the amount & press "Pay"
+  5. Wait 2–3 seconds until the transaction is successful (the cashier machine will process)
+  6. Receive the transaction receipt on the cashier slip
+- **Accepted Applications:** GCash, OVO, Dana, Gopay, LinkAja, Jago, Kredivo, Akulaku, and all that support QRIS
+- **QRIS Advantage:** Fast, secure, no need for cash, can track via application
 
-### 3. Kartu Debit
-- **Diterima:** Visa Debit, Mastercard Debit, lokal bank (BCA, Mandiri, BRI, BNI, dll)
-- **Cara Bayar:**
-  1. Kasir akan minta kartu debit Anda
-  2. Tarik kartu/insert ke mesin card reader di mesin kasir
-  3. Atau kasir melakukan swipe/tap untuk transaksi
-  4. Anda akan diminta PIN (ketik di keypad)
-  5. Transaksi selesai, terima bukti struk
-- **Limit Transaksi:** Sesuai limit kartu bank Anda (biasanya Rp 500.000–5.000.000 per transaksi)
-- **Catatan:** Jangan share PIN ke siapapun; transaksi diproses secara aman
-
----
-
-## Pertanyaan Umum Metode Pembayaran
-
-**Q: Apakah Toko Makmur Jaya terima uang koin?**
-A: Ya, koin diterima (Rp 1.000, Rp 500, Rp 100) tapi jarang digunakan. Lebih praktis gunakan uang kertas atau e-wallet.
-
-**Q: Bisakah saya bayar pakai 2 metode sekaligus (misal: tunai + QRIS)?**
-A: Untuk pembayaran sebagian, hubungi kasir terlebih dahulu. Sistem POS standar kami hanya process 1 metode per transaksi, tapi kasir bisa bantu memisahkan 2 transaksi terpisah jika diperlukan.
-
-**Q: Berapa nominal minimum/maksimum pembayaran dengan QRIS?**
-A: Tidak ada minimum (bahkan Rp 1.000 bisa), maksimum tergantung limit e-wallet Anda (biasanya Rp 10.000.000 per transaksi).
-
-**Q: Apakah ada biaya tambahan untuk pembayaran QRIS atau kartu debit?**
-A: Tidak, tidak ada biaya tambahan dari kami untuk Anda. Biaya (jika ada) adalah tanggung jawab penyedia aplikasi e-wallet, bukan toko.
-
-**Q: E-wallet saya lagi error, bisa bayar kombinasi tunai + QRIS?**
-A: Bisa, kami pisahkan jadi 2 transaksi: yang bisa dibayar e-wallet tetap QRIS, sisanya tunai. Minta bantuan kasir.
-
-**Q: Bagaimana jika QRIS saya error saat transaksi?**
-A: Kasir akan batalkan transaksi QRIS (uang langsung kembali ke e-wallet). Silakan bayar dengan tunai atau kartu debit, atau coba QRIS ulang setelah beberapa menit.
-
-**Q: Berapa lama proses transaksi QRIS/kartu debit?**
-A: Rata-rata 5–10 detik. Jika > 30 detik, kemungkinan ada error jaringan. Kasir akan cek & retry.
-
-**Q: Apakah struk transaksi digital e-wallet cukup sebagai bukti belanja?**
-A: Ya, struk QRIS dari aplikasi e-wallet cukup sebagai bukti. Namun kami juga cetak struk fisik dari mesin kasir sebagai double-check.
-
-**Q: Bagaimana jika saya ingin bayar tahunan/cicilan?**
-A: Untuk pembelian besar (alat elektronik), tanyakan ke kasir atau pemilik tentang opsi cicilan atau partner kredit yang bekerja sama dengan toko.
-
-**Q: Apakah ada diskon khusus jika pembayaran dengan metode tertentu?**
-A: Tidak ada diskon khusus per metode. Semua metode pembayaran diperlakukan sama. Diskon hanya berlaku untuk promosi/program loyalty tertentu.
+### 3. Debit Card
+- **Accepted:** Visa Debit, Mastercard Debit, local banks (BCA, Mandiri, BRI, BNI, etc.)
+- **How to Pay:**
+  1. The cashier will ask for your debit card
+  2. Swipe/insert the card into the card reader machine at the cashier
+  3. Or the cashier will perform a swipe/tap for the transaction
+  4. You will be asked for a PIN (type on the keypad)
+  5. Transaction complete, receive the receipt
+- **Transaction Limit:** According to your bank card limit (usually IDR 500,000–5,000,000 per transaction)
+- **Note:** Do not share your PIN with anyone; transactions are processed securely
 
 ---
 
-## Keamanan Transaksi
+## Frequently Asked Questions About Payment Methods
 
-### Perlindungan Data Pribadi
-- **Kartu Debit:** Mesin card reader kami dilengkapi enkripsi. PIN Anda tidak terlihat oleh kasir.
-- **QRIS:** Aplikasi e-wallet Anda yang handle keamanan. Kami tidak simpan data e-wallet Anda.
-- **Tunai:** Paling aman & tidak ada tracking data pribadi.
+**Q: Does Makmur Jaya Store accept coins?**
+A: Yes, coins are accepted (IDR 1,000, IDR 500, IDR 100) but are rarely used. It is more practical to use paper money or e-wallet.
 
-### Jika Ada Masalah
-- **Transaksi QRIS error/uang terpotong tapi barang tidak terima:** Hubungi customer service e-wallet Anda atau datang kembali ke toko dengan bukti, kasir akan bantu investigasi.
-- **Kartu debit decline tapi transaksi processed:** Hubungi bank Anda untuk cek status transaksi.
-- **Uang tunai rusak/palsu:** Tanyakan ke kasir, kami akan verifikasi & tukar dengan uang baik jika ditemukan error.
+**Q: Can I pay with 2 methods at once (e.g., cash + QRIS)?**
+A: For partial payments, please contact the cashier first. Our standard POS system only processes 1 method per transaction, but the cashier can help separate 2 separate transactions if needed.
+
+**Q: What is the minimum/maximum payment amount with QRIS?**
+A: There is no minimum (even IDR 1,000 is possible), the maximum depends on your e-wallet limit (usually IDR 10,000,000 per transaction).
+
+**Q: Are there any additional fees for QRIS or debit card payments?**
+A: No, there are no additional fees from us for you. (If any fees exist) are the responsibility of the e-wallet provider, not the store.
+
+**Q: My e-wallet is having an error, can I pay with a combination of cash + QRIS?**
+A: Yes, we will separate it into 2 transactions: the part payable by e-wallet remains QRIS, the rest is cash. Ask the cashier for assistance.
+
+**Q: What happens if my QRIS fails during a transaction?**
+A: The cashier will cancel the QRIS transaction (money will be returned directly to the e-wallet). Please pay with cash or debit card, or try the QRIS again after a few minutes.
+
+**Q: How long does the QRIS/debit card transaction process take?**
+A: Average 5–10 seconds. If > 30 seconds, there is a possibility of a network error. The cashier will check & retry.
+
+**Q: Is the digital e-wallet transaction receipt enough as proof of purchase?**
+A: Yes, the QRIS receipt from the e-wallet application is sufficient proof. However, we also print a physical receipt from the cashier machine for double-check.
+
+**Q: What if I want to pay annually/in installments?**
+A: For large purchases (electronic devices), ask the cashier or the owner about installment options or credit partners that work with the store.
+
+**Q: Are there any special discounts for certain payment methods?**
+A: There are no special discounts per method. All payment methods are treated equally. Discounts only apply to specific promotions/loyalty programs.
 
 ---
 
-## Ringkasan Metode Pembayaran
-| Metode | Diterima | Kecepatan | Keamanan | Catatan |
-|--------|----------|-----------|----------|---------|
-| Tunai | Ya | Instant | Tinggi | Tidak perlu internet |
-| QRIS | Ya | 5–10 detik | Tinggi | Perlu aplikasi e-wallet |
-| Kartu Debit | Ya | 10–15 detik | Tinggi | Perlu PIN |
+## Transaction Security
+
+### Personal Data Protection
+- **Debit Card:** Our card reader is equipped with encryption. Your PIN is not visible to the cashier.
+- **QRIS:** Your e-wallet application handles the security. We do not store your e-wallet data.
+- **Cash:** Safest & no personal data tracking.
+
+### If There Are Issues
+- **QRIS transaction error/money deducted but item not received:** Contact your e-wallet customer service or come back to the store with proof, the cashier will help investigate.
+- **Debit card declined but transaction processed:** Contact your bank to check the transaction status.
+- **Damaged/fake cash:** Ask the cashier, we will verify & exchange with good money if an error is found.
+
+---
+
+## Payment Method Summary
+| Method | Accepted | Speed | Security | Notes |
+|--------|----------|-------|----------|--------|
+| Cash | Yes | Instant | High | No internet required |
+| QRIS | Yes | 5–10 seconds | High | Requires e-wallet application |
+| Debit Card | Yes | 10–15 seconds | High | Requires PIN |

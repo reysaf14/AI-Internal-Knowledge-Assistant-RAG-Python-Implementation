@@ -1,239 +1,239 @@
-# Kebijakan Jadwal Shift Kerja
-**Toko Makmur Jaya | Efektif: 2026**
+# Work Schedule Policy
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Menjamin toko beroperasional 24/7 (setiap hari 07.00–21.00) dengan pembagian shift kerja yang adil dan efisien.
-
----
-
-## Jam Operasional Toko
-
-**Toko Makmur Jaya Buka:** Setiap hari Senin – Minggu, pukul 07.00–21.00 (tidak libur)
-
-**Total Jam Operasional:** 14 jam per hari × 7 hari = 98 jam per minggu
+## Objective
+To ensure the store operates 24/7 (every day 07:00–21:00) with fair and efficient shift distribution.
 
 ---
 
-## Struktur Shift Kerja
+## Store Operating Hours
 
-### Sistem Shift: 2 Shift Utama + 1 Shift Fleksibel
+**Makmur Jaya Store Opens:** Every day Monday – Sunday, 07:00–21:00 (no days off)
 
-#### Shift Pagi: 07.00–14.00 (7 jam kerja + 1 jam istirahat = 8 jam total)
-**Personel:**
-- Siti Nurhaliza (Kasir Senior)
-- Eka (Pramuniaga 1)
-- Hendra (Staf Gudang 1)
-
-**Tugas Shift Pagi:**
-- Buka toko (setup kasir, inventory, kebersihan pagi)
-- Layani pelanggan pagi (07.00–14.00)
-- Stock opname & restock produk
-- Persiapan untuk shift sore
-
-#### Shift Sore: 14.00–21.00 (7 jam kerja + 1 jam istirahat = 8 jam total)
-**Personel:**
-- Rudi Hartono (Kasir)
-- Dito (Pramuniaga 2)
-- Joko (Staf Gudang 2)
-
-**Tugas Shift Sore:**
-- Layani pelanggan sore/malam
-- Maintain stok & display
-- Stock opname sore (jika diperlukan)
-- Tutup toko (kasir closing, security, dokumentasi)
-
-#### Shift Fleksibel: Variasi 1–2 hari per minggu
-**Personel:**
-- Bima (Pramuniaga 3)
-- Budi Santoso (Pemilik/Manajer) – fleksibel sesuai kebutuhan
-
-**Tugas Shift Fleksibel:**
-- Backup staff (jika ada yang sakit/izin)
-- Hari ramai (weekend, hari promosi)
-- Stock opname bulanan (harian tambahan)
-- Maintenance rutin
+**Total Operating Hours:** 14 hours per day × 7 days = 98 hours per week
 
 ---
 
-## Jam Kerja & Istirahat
+## Shift Structure
 
-### Durasi Kerja
-- **Shift Pagi:** 07.00–14.00 (7 jam kerja)
-- **Shift Sore:** 14.00–21.00 (7 jam kerja)
-- **Istirahat:** 1 jam per shift (di luar jam kerja utama)
+### Shift System: 2 Main Shifts + 1 Flexible Shift
 
-### Waktu Istirahat (Makan & Beristirahat)
-- **Shift Pagi:** Istirahat Pukul 11.30–12.30 (1 jam, sesuai rotasi)
-- **Shift Sore:** Istirahat Pukul 17.00–18.00 (1 jam, sesuai rotasi)
+#### Morning Shift: 07:00–14:00 (7 hours work + 1 hour break = 8 hours total)
+**Personnel:**
+- Siti Nurhaliza (Senior Cashier)
+- Eka (Sales Associate 1)
+- Hendra (Warehouse Staff 1)
 
-### Rotasi Istirahat Untuk Memastikan Kontinuitas
-**Karena toko harus selalu ada staff, istirahat TIDAK BOLEH BERSAMAAN per shift:**
+**Morning Shift Duties:**
+- Open store (cashier setup, inventory, morning cleaning)
+- Serve morning customers (07:00–14:00)
+- Stock take & product restock
+- Preparation for the afternoon shift
 
-**Shift Pagi (07.00–14.00):**
-- Siti istirahat 11.30–12.30
-- Eka & Hendra istirahat secara bergantian (rotasi per hari)
+#### Afternoon Shift: 14:00–21:00 (7 hours work + 1 hour break = 8 hours total)
+**Personnel:**
+- Rudi Hartono (Cashier)
+- Dito (Sales Associate 2)
+- Joko (Warehouse Staff 2)
 
-**Shift Sore (14.00–21.00):**
-- Rudi istirahat 17.00–18.00
-- Dito & Joko istirahat secara bergantian (rotasi per hari)
+**Afternoon Shift Duties:**
+- Serve afternoon/evening customers
+- Maintain stock & display
+- Afternoon stock take (if required)
+- Close store (cashier closing, security, documentation)
+
+#### Flexible Shift: Variation 1–2 days per week
+**Personnel:**
+- Bima (Sales Associate 3)
+- Budi Santoso (Owner/Manager) – flexible according to needs
+
+**Flexible Shift Duties:**
+- Backup staff (if someone is sick/on leave)
+- Busy days (weekends, promotional days)
+- Monthly stock take (additional daily work)
+- Routine maintenance
 
 ---
 
-## Jadwal Mingguan Standar
+## Working Hours & Breaks
 
-| Hari | Shift Pagi (07–14) | Shift Sore (14–21) | Shift Fleksibel |
+### Working Duration
+- **Morning Shift:** 07:00–14:00 (7 hours work)
+- **Afternoon Shift:** 14:00–21:00 (7 hours work)
+- **Break:** 1 hour per shift (outside main working hours)
+
+### Break Times (Meal & Rest)
+- **Morning Shift:** Break at 11:30–12:30 (1 hour, according to rotation)
+- **Afternoon Shift:** Break at 17:00–18:00 (1 hour, according to rotation)
+
+### Break Rotation To Ensure Continuity
+**Since the store must always have staff, breaks CANNOT be simultaneous per shift:**
+
+**Morning Shift (07:00–14:00):**
+- Siti breaks 11:30–12:30
+- Eka & Hendra take turns breaking (rotation per day)
+
+**Afternoon Shift (14:00–21:00):**
+- Rudi breaks 17:00–18:00
+- Dito & Joko take turns breaking (rotation per day)
+
+---
+
+## Standard Weekly Schedule
+
+| Day | Morning Shift (07–14) | Afternoon Shift (14–21) | Flexible Shift |
 |---|---|---|---|
-| Senin | Siti, Eka, Hendra | Rudi, Dito, Joko | - |
-| Selasa | Siti, Eka, Hendra | Rudi, Dito, Joko | Bima (1 shift) |
-| Rabu | Siti, Eka, Hendra | Rudi, Dito, Joko | - |
-| Kamis | Siti, Eka, Hendra | Rudi, Dito, Joko | Bima (1 shift) |
-| Jumat | Siti, Eka, Hendra | Rudi, Dito, Joko | - |
-| Sabtu | Siti, Eka, Hendra | Rudi, Dito, Joko | Bima (1–2 shift) |
-| Minggu | Siti, Eka, Hendra | Rudi, Dito, Joko | Bima (1 shift) |
+| Monday | Siti, Eka, Hendra | Rudi, Dito, Joko | - |
+| Tuesday | Siti, Eka, Hendra | Rudi, Dito, Joko | Bima (1 shift) |
+| Wednesday | Siti, Eka, Hendra | Rudi, Dito, Joko | - |
+| Thursday | Siti, Eka, Hendra | Rudi, Dito, Joko | Bima (1 shift) |
+| Friday | Siti, Eka, Hendra | Rudi, Dito, Joko | - |
+| Saturday | Siti, Eka, Hendra | Rudi, Dito, Joko | Bima (1–2 shifts) |
+| Sunday | Siti, Eka, Hendra | Rudi, Dito, Joko | Bima (1 shift) |
 
-**Catatan:** Jadwal ini adalah standar. Dapat berubah sesuai cuti, sakit, atau kebutuhan operasional.
-
----
-
-## Kelebihan Shift (Overtime)
-
-### Ketika Ada Kelebihan Shift?
-- Karyawan sakit/cuti
-- Hari ramai (promo khusus, hari libur nasional)
-- Stock opname bulanan (kerja tambahan)
-- Maintenance/cleaning khusus
-
-### Kompensasi Kelebihan Shift
-- **Overtime 1–2 jam:** Upah tambahan Rp 25.000 per jam (dibayar tunai atau transferes)
-- **Overtime 2–4 jam:** Upah tambahan Rp 30.000 per jam (dibayar tunai atau transfer)
-- **Overtime > 4 jam:** Upah tambahan Rp 35.000 per jam (dibayar tunai atau transfer)
-
-### Contoh Perhitungan Overtime:
-- Shift normal 8 jam (07–14 = 7 jam kerja + 1 jam istirahat)
-- Kerja tambahan sampai jam 16.00 = 2 jam overtime
-- Kompensasi: 2 jam × Rp 25.000 = Rp 50.000 (dibayar akhir bulan)
-
-### Persetujuan Overtime
-- Overtime harus disetujui pemilik SEBELUM karyawan mulai bekerja lebih
-- Tidak boleh kerja lebih tanpa approval (risiko tidak digaji tambahan)
-- Minta approval via WhatsApp/verbal ke pemilik atau kasir senior
+**Note:** This schedule is standard. It may change according to leave, sickness, or operational needs.
 
 ---
 
-## Sistem Pembagian Shift Fleksibel (Bima & Pemilik)
+## Shift Overtime
 
-### Bima (Pramuniaga 3) – Shift Fleksibel
-- **Jam Kerja:** 1–2 hari per minggu (fleksibel sesuai kebutuhan)
-- **Rata-rata:** 10–14 jam per minggu (130–180 jam per bulan)
-- **Jam Kerja Per Hari:** Bisa 07.00–14.00 ATAU 14.00–21.00 (sesuai kebutuhan)
-- **Jadwal Ditentukan:** 1–2 minggu sebelumnya (Pemilik komunikasi jadwal ke Bima via WhatsApp)
-- **Kompensasi:** Gaji per jam Rp [X] (sudah termasuk overtime jika ada)
+### When is Overtime Occurs?
+- Employee sick/on leave
+- Busy days (special promotions, national holidays)
+- Monthly stock take (additional work)
+- Special maintenance/cleaning
 
-### Pemilik (Budi Santoso) – Fleksibel
-- **Jam Kerja:** Fleksibel (hadir saat dibutuhkan, minimal 1x sehari)
-- **Prioritas Kehadiran:**
-  - Buka toko (07.00–09.00) – untuk overview pagi
-  - Closing kasir (20.30–21.00) – untuk verifikasi & approval
-  - Hari ramai/event khusus – untuk supervisi
-  - Stock opname – untuk koordinasi & keputusan
-- **Availability:** 24/7 via WhatsApp untuk keputusan darurat
+### Overtime Compensation
+- **Overtime 1–2 hours:** Additional wage of Rp 25,000 per hour (paid in cash or transfer)
+- **Overtime 2–4 hours:** Additional wage of Rp 30,000 per hour (paid in cash or transfer)
+- **Overtime > 4 hours:** Additional wage of Rp 35,000 per hour (paid in cash or transfer)
 
----
+### Overtime Calculation Example:
+- Normal shift 8 hours (07–14 = 7 working hours + 1 hour break)
+- Additional work until 16:00 = 2 hours overtime
+- Compensation: 2 hours × Rp 25,000 = Rp 50,000 (paid at the end of the month)
 
-## Pergantian Shift & Penggantian
-
-### Prosedur Pergantian Shift
-1. **Jika Ada Sakit/Cuti:** Informasi sedini mungkin ke pemilik
-2. **Pemilik Mencari Pengganti:** Hubungi staff lain untuk cover (via WhatsApp)
-3. **Pengganti Confirm:** Staff menjawab setuju/tidak dalam 1 jam
-4. **Update Jadwal:** Pemilik update jadwal & informasi ke semua staff
-5. **Catat di Buku Jadwal:** Tandai siapa pengganti untuk dokumentasi
-
-### Kompensasi Untuk Pengganti
-- **Jika pengganti merelakan tanpa bayar tambahan:** Tetap diberi bonus/reward bulanan
-- **Jika pengganti minta dibayar:** Overtime sesuai tarif (Rp 25.000–35.000 per jam)
+### Overtime Approval
+- Overtime must be approved by the owner BEFORE the employee starts working extra
+- Working extra hours without approval is not allowed (risk of not receiving additional pay)
+- Request approval via WhatsApp/verbally to the owner or senior cashier
 
 ---
 
-## Hari Libur & Hari Ramai
+## Flexible Shift Distribution System (Bima & Owner)
 
-### Hari Libur Nasional
-- **Libur yang Diberikan:** Hari Raya Idul Fitri (2–3 hari), Hari Raya Idul Adha (1 hari)
-- **Status:** Cuti kolektif (semua staff libur, gaji penuh)
-- **Jadwal Announcement:** Diumumkan 1 bulan sebelumnya
+### Bima (Sales Associate 3) – Flexible Shift
+- **Working Hours:** 1–2 days per week (flexible according to needs)
+- **Average:** 10–14 hours per week (130–180 hours per month)
+- **Daily Working Hours:** Can be 07:00–14:00 OR 14:00–21:00 (depending on needs)
+- **Schedule Determined:** 1–2 weeks in advance (Owner communicates schedule to Bima via WhatsApp)
+- **Compensation:** Hourly wage of Rp [X] (already includes overtime if any)
 
-### Hari Ramai (Increase Staffing)
-- **Hari Jumat–Minggu:** Potensi ramai, kemungkinan Bima ditambahkan
-- **Sebelum Hari Raya:** Ramai, semua staff diminta hadir
-- **Flash Sale/Promo Khusus:** Semua staff full attendance
-
----
-
-## Jadwal Posting & Update
-
-### Kapan Jadwal Dipublikasikan?
-- **Jadwal Mingguan Berikutnya:** Setiap Jumat sore (jam 17.00)
-- **Pengumuman:** Via WhatsApp group staff / posting di toko
-- **Jadwal Darurat:** Diumumkan max 2 hari sebelumnya (jika ada perubahan last-minute)
-
-### Tempat Informasi Jadwal
-1. **WhatsApp Group Toko Makmur Jaya (Staff)** – grup eksklusif untuk koordinasi internal
-2. **Buku Jadwal Fisik** – di meja pemilik (verifikasi langsung)
-3. **Papan Pengumuman Karyawan** – jika ada (di back office)
+### Owner (Budi Santoso) – Flexible
+- **Working Hours:** Flexible (present when needed, minimum 1x per day)
+- **Attendance Priorities:**
+  - Store Opening (07.00–09.00) – for morning overview
+  - Cashier Closing (20.30–21.00) – for verification & approval
+  - Busy days/Special events – for supervision
+  - Stock opname – for coordination & decision-making
+- **Availability:** 24/7 via WhatsApp for emergency decisions
 
 ---
 
-## Peraturan Kehadiran & Keterlambatan
+## Shift Change & Replacement
 
-### Jam Masuk (Clock In)
-- **Shift Pagi:** Harus hadir pukul 06.50 (10 menit sebelum shift)
-- **Shift Sore:** Harus hadir pukul 13.50 (10 menit sebelum shift)
-- **Toleransi:** Max 5 menit terlambat (lebih dari itu dianggap terlambat)
+### Shift Change Procedure
+1. **If Sick/Leave:** Inform the owner as soon as possible
+2. **Owner Finds Replacement:** Contact other staff for cover (via WhatsApp)
+3. **Replacement Confirms:** Staff responds with agreement/disagreement within 1 hour
+4. **Schedule Update:** Owner updates the schedule & information to all staff
+5. **Record in Schedule Book:** Mark who the replacement is for documentation
 
-### Terlambat (Late)
-- **1–15 menit:** Warning (catat di buku kehadiran)
-- **16–30 menit:** Potongan gaji 0.5 jam kerja (Rp [X])
-- **31–60 menit:** Potongan gaji 1 jam kerja (Rp [X]) + warning
-- **> 60 menit atau tanpa kabar:** Absen (potongan gaji 1 hari penuh + denda Rp 100.000)
-
-### Pulang Tepat Waktu
-- **Shift Pagi:** Harus pulang maksimal 14.30 (tidak boleh lembur tanpa approval)
-- **Shift Sore:** Harus pulang maksimal 21.30 (tutup toko = selesai)
-- **Exception:** Jika ada lembur / closing kasir panjang (overtime sesuai tarif)
+### Compensation for Replacement
+- **If the replacement agrees to work without additional pay:** Still receives a monthly bonus/reward
+- **If the replacement requests payment:** Overtime according to the rate (Rp 25,000–35,000 per hour)
 
 ---
 
-## Kewajiban Shift
+## Holidays & Busy Days
 
-### Kewajiban Setiap Staff Setiap Shift
-1. Hadir 10 menit sebelum shift (persiapan)
-2. Ikuti SOP toko (buka/tutup, keamanan, dll)
-3. Layani pelanggan dengan ramah & profesional
-4. Maintain kebersihan & keamanan area kerja
-5. Catat absensi (scan fingerprint atau tanda tangan di buku)
-6. Report masalah ke kasir/pemilik
+### National Holidays
+- **Granted Holidays:** Eid al-Fitr (2–3 days), Eid al-Adha (1 day)
+- **Status:** Collective leave (all staff off, full salary)
+- **Announcement Schedule:** Announced 1 month in advance
 
-### Larangan
-✗ Tidak boleh tidur/main ponsel saat shift
-✗ Tidak boleh meninggalkan tempat tanpa informasi ke kasir
-✗ Tidak boleh mengutamakan urusan pribadi daripada pelanggan
-✗ Tidak boleh keluar-keluar tanpa izin
+### Busy Days (Increase Staffing)
+- **Friday–Sunday:** Potential for high traffic, possibility of Bima being added
+- **Before Holidays:** Busy, all staff requested to be present
+- **Flash Sale/Special Promo:** All staff full attendance
 
 ---
 
-## Checklist Sebelum Shift
+## Posting & Update Schedule
 
-**Sebelum Jam Kerja Mulai:**
-- [ ] Hadir 10 menit lebih awal
-- [ ] Cek jadwal apa peran Anda hari ini
-- [ ] Cek chat WhatsApp grup (ada update jadwal?)
-- [ ] Siap untuk memulai pekerjaan
-- [ ] Seragam rapi, penampilan profesional
+### When is the Schedule Published?
+- **Next Weekly Schedule:** Every Friday afternoon (17.00)
+- **Announcement:** Via staff WhatsApp group / posting in the store
+- **Emergency Schedule:** Announced max 2 days in advance (if there are last-minute changes)
+
+### Schedule Information Locations
+1. **Makmur Jaya Store WhatsApp Group (Staff)** – exclusive group for internal coordination
+2. **Physical Schedule Book** – on the owner's desk (direct verification)
+3. **Employee Notice Board** – if available (in the back office)
 
 ---
 
-## Catatan Penting
-- **Jadwal bisa berubah:** Ikuti update dari pemilik (WhatsApp grup)
-- **Komunikasi adalah kunci:** Berita sedini mungkin jika tidak bisa hadir
-- **Kehadiran = Kinerja:** Keterlambatan/absen berpengaruh pada gaji & bonus
-- **Overtime adalah opportunity:** Jika ingin earning lebih, bisa minta shift tambahan
+## Attendance & Lateness Rules
+
+### Clock In Times
+- **Morning Shift:** Must be present at 06.50 (10 minutes before the shift)
+- **Evening Shift:** Must be present at 13.50 (10 minutes before the shift)
+- **Tolerance:** Max 5 minutes late (more than that is considered late)
+
+### Late
+- **1–15 minutes:** Warning (record in attendance book)
+- **16–30 minutes:** Deduction of 0.5 hours of work (Rp [X])
+- **31–60 minutes:** Deduction of 1 hour of work (Rp [X]) + warning
+- **> 60 minutes or no notice:** Absent (deduction of 1 full day's salary + fine of Rp 100,000)
+
+### Leaving On Time
+- **Morning Shift:** Must leave no later than 14.30 (no overtime without approval)
+- **Evening Shift:** Must leave no later than 21.30 (store closing = finished)
+- **Exception:** If there is overtime / long cashier closing (overtime according to the rate)
+
+---
+
+## Shift Obligations
+
+### Obligations of Every Staff Every Shift
+1. Be present 10 minutes before the shift (preparation)
+2. Follow store SOP (opening/closing, security, etc.)
+3. Serve customers with friendliness & professionalism
+4. Maintain cleanliness & security of the work area
+5. Record attendance (scan fingerprint or sign in the book)
+6. Report problems to the cashier/owner
+
+### Prohibitions
+✗ Not allowed to sleep/play on phone during the shift
+✗ Not allowed to leave the place without informing the cashier
+✗ Not allowed to prioritize personal matters over customers
+✗ Not allowed to leave without permission
+
+---
+
+## Shift Checklist
+
+**Before Shift Starts:**
+- [ ] Arrive 10 minutes early
+- [ ] Check the schedule for your role today
+- [ ] Check the WhatsApp group chat (any schedule updates?)
+- [ ] Ready to start work
+- [ ] Uniform neat, professional appearance
+
+---
+
+## Important Notes
+- **Schedule can change:** Follow updates from the owner (WhatsApp group)
+- **Communication is key:** Inform as early as possible if you cannot attend
+- **Attendance = Performance:** Lateness/absence affects salary & bonus
+- **Overtime is an opportunity:** If you want to earn more, you can request extra shifts

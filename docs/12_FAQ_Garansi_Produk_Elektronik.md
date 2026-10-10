@@ -1,142 +1,142 @@
-# FAQ Garansi Produk Elektronik & Alat Rumah Tangga
-**Toko Makmur Jaya | Update: 2026**
+# FAQ Electronic & Home Appliance Product Warranty
+**Makmur Jaya Store | Update: 2026**
 
-## Garansi Produk
+## Product Warranty
 
-Tidak semua produk di Toko Makmur Jaya mempunyai garansi resmi. Garansi tergantung pada jenis & brand produk.
-
----
-
-## Produk dengan Garansi Resmi
-
-### Kategori Produk yang Ada Garansi
-**Elektronik:**
-- Charger/power adapter merek terkenal (2W, Anker, Baseus) → **6–12 bulan**
-- Powerbank → **6–12 bulan** (tergantung brand & kapasitas)
-- Lampu LED → **12–24 bulan** (tergantung watt & brand)
-- Baterai alkaline merek branded → **12 bulan**
-
-**Alat Rumah Tangga:**
-- Sapu/kemoceng merek terkenal → **Biasanya NO garansi** (produk konsumsi cepat)
-- Gelas/piring → **NO garansi** (mudah pecah, bukan faktor manufaktur)
-- Peralatan dapur (pisau, penggaris, gunting) → **NO garansi** (keausan normal)
-- Cermin → **NO garansi** (mudah pecah)
+Not all products at Makmur Jaya Store have official warranties. Warranty depends on the product type & brand.
 
 ---
 
-## Bagaimana Garansi Bekerja
+## Products with Official Warranty
 
-### 1. Verifikasi Garansi Saat Beli
-- **Tanya ke kasir:** "Produk ini ada garansi berapa lama?"
-- Kasir akan check informasi di packaging atau sistem POS
-- Jika ada garansi, kasir akan catat nomor garansi & nomor seri produk
+### Product Categories with Warranty
+**Electronics:**
+- Famous brand chargers/power adapters (2W, Anker, Baseus) → **6–12 months**
+- Powerbank → **6–12 months** (depending on brand & capacity)
+- LED lamps → **12–24 months** (depending on watt & brand)
+- Branded alkaline batteries → **12 months**
 
-### 2. Bukti Garansi
-- **Struk pembelian:** Adalah bukti resmi garansi (jangan hilang)
-- **Kartu garansi:** Beberapa produk dilengkapi kartu garansi terpisah (biasanya di packaging)
-- **Kemasan original:** Pastikan disimpan (untuk klaim garansi ke manufaktur)
-
-### 3. Proses Klaim Garansi
-- **Jika produk rusak dalam masa garansi:**
-  1. Bawa produk + struk + kemasan original ke toko
-  2. Kasir akan verifikasi: apakah masih dalam masa garansi? Apakah kerusakan dari manufaktur (bukan kelalaian pengguna)?
-  3. Jika memenuhi syarat: toko akan handle klaim ke produsen/distributor
-  4. Produk akan dikirim ke service center produsen (proses 1–4 minggu)
-  5. Alternatif: ganti barang baru dengan barang sejenis dari toko (jika stock ada)
-
-### 4. Kondisi Garansi BATAL
-❌ Produk rusak karena kelalaian pengguna (jatuh, terkena air, dibongkar)
-❌ Masa garansi sudah expired
-❌ Struk hilang (tidak bisa bukti pembelian)
-❌ Kemasan original sudah dibuang
-❌ Tanda kerusakan tidak natural (tanda terkena benturan)
+**Home Appliances:**
+- Famous brand brooms/mops → **Usually NO warranty** (fast-consuming consumer products)
+- Glasses/plates → **NO warranty** (easily breakable, not a manufacturing factor)
+- Kitchen utensils (knives, rulers, scissors) → **NO warranty** (normal wear and tear)
+- Mirrors → **NO warranty** (easily breakable)
 
 ---
 
-## FAQ Garansi Produk
+## How Warranty Works
 
-**Q: Berapa lama garansi charger/powerbank?**
-A: Tergantung brand:
-- Charger branded (Anker, 2W, Baseus): 6–12 bulan
-- Powerbank: 6–12 bulan (cek packaging atau tanya kasir)
-- Charger generic/no brand: Tidak ada garansi
+### 1. Warranty Verification at Purchase
+- **Ask the cashier:** "How long is the warranty for this product?"
+- The cashier will check information on the packaging or POS system
+- If there is a warranty, the cashier will record the warranty number & product serial number
 
-**Q: Bagaimana cara klaim garansi?**
-A: Bawa produk yang rusak + struk pembelian + kemasan original ke toko. Kasir akan verifikasi & bantu proses klaim ke produsen.
+### 2. Warranty Proof
+- **Purchase receipt:** Is the official warranty proof (do not lose it)
+- **Warranty card:** Some products come with a separate warranty card (usually in the packaging)
+- **Original packaging:** Ensure it is kept (for warranty claims to the manufacturer)
 
-**Q: Berapa lama proses garansi (repair/ganti)?**
-A: Tergantung produsen, rata-rata 1–4 minggu. Toko akan informasikan estimasi waktu saat klaim.
+### 3. Warranty Claim Process
+- **If the product is damaged during the warranty period:**
+  1. Bring the product + receipt + original packaging to the store
+  2. The cashier will verify: is it still within the warranty period? Is the damage from manufacturing (not user negligence)?
+  3. If eligible: the store will handle the claim with the producer/distributor
+  4. The product will be sent to the producer's service center (process 1–4 weeks)
+  5. Alternative: exchange for a new item of the same type from the store (if stock is available)
 
-**Q: Apakah bisa ganti barang baru saat dalam garansi?**
-A: Jika produk rusak dalam garansi & terbukti dari manufaktur, pilihan tergantung kebijakan produsen:
-- Diservice (repair): 1–4 minggu
-- Diganti baru: langsung (jika stock toko ada)
-Tanyakan ke kasir/pemilik untuk pilihan terbaik.
-
-**Q: Jika saya jatuhkan charger & rusak, apakah garansi berlaku?**
-A: Tidak, garansi BATAL untuk kerusakan karena kelalaian/accident. Garansi hanya cover kerusakan manufaktur/cacat pabrik.
-
-**Q: Struk saya sudah hilang, apakah tetap bisa klaim garansi?**
-A: Sangat sulit tanpa struk. Kasir tidak punya bukti Anda membeli dari toko kami. Sarankan Anda simpan struk sebaik mungkin dalam 12 bulan pertama.
-
-**Q: Produk saya rusak 1 tahun 2 bulan setelah beli, apakah garansi masih berlaku?**
-A: Tidak, masa garansi 12 bulan (1 tahun) sudah expired. Garansi tidak berlaku lagi setelah melewati batas waktu.
-
-**Q: Ada label "1 tahun garansi resmi" tapi tidak ada kartu garansi. Apakah valid?**
-A: Ya, label di packaging sudah cukup bukti. Garansi bersifat resmi dari produsen, tidak perlu kartu terpisah (tapi lebih baik simpan kemasan).
-
-**Q: Apakah toko memberikan garansi tambahan (extended warranty)?**
-A: Tidak, toko hanya mengikuti garansi resmi dari produsen. Tidak ada opsi garansi tambahan atau extended warranty.
-
-**Q: Saya beli lampu LED, berapa garansi?**
-A: Lampu LED branded: 12–24 bulan (tergantung brand & watt). Tanyakan ke kasir saat membeli.
+### 4. Warranty Conditions THAT ARE VOID
+❌ Product damaged due to user negligence (dropped, exposed to water, disassembled)
+❌ Warranty period has expired
+❌ Receipt lost (cannot prove purchase)
+❌ Original packaging discarded
+❌ Damage signs are not natural (signs of impact)
 
 ---
 
-## Produk Tanpa Garansi
+## Product Warranty FAQ
 
-### Kategori Produk yang Tidak Ada Garansi
-✗ **Alat Rumah Tangga:**
-- Sapu, kemoceng, lap, tali
-- Gelas, piring, mangkok
-- Sisir, cermin, pengais
-- Gunting, pisau, penggaris
-- Semua item non-elektronik yang mudah rusak dari pemakaian normal
+**Q: How long is the warranty for chargers/powerbanks?**
+A: Depends on brand:
+- Branded chargers (Anker, 2W, Baseus): 6–12 months
+- Powerbank: 6–12 months (check packaging or ask the cashier)
+- Generic/no brand chargers: No warranty
 
-✗ **Makanan & Minuman:**
-- Semua kategori makanan & minuman
-- Tidak ada garansi atau return (lihat kebijakan retur)
+**Q: How do I claim a warranty?**
+A: Bring the damaged product + purchase receipt + original packaging to the store. The cashier will verify & help process the claim with the producer.
 
-✗ **Barang Konsumsi:**
-- Sabun, pembersih, disinfektan
-- Tissue, popok, shampoo
-- Barang ini tidak bisa diklaim garansi
+**Q: How long is the warranty process (repair/replacement)?**
+A: Depends on the producer, usually 1–4 weeks. The store will inform the estimated time when claiming.
 
----
+**Q: Can I get a new item while under warranty?**
+A: If the product is damaged during warranty & proven from manufacturing, the option depends on the producer's policy:
+- Service (repair): 1–4 weeks
+- New replacement: immediate (if store stock is available)
+Ask the cashier/owner for the best option.
 
-## Produk Cacat Saat Diterima (Tanpa Garansi)
+**Q: If I drop the charger and it breaks, is the warranty valid?**
+A: No, warranty VOID for damage due to negligence/accident. Warranty only covers manufacturing damage/factory defects.
 
-**Jika Produk Tidak Ada Garansi Tapi Cacat Saat Diterima:**
-- Bawa barang ke kasir dalam waktu max 3 hari dengan struk
-- Jelaskan kondisi barang cacat/rusak sejak diterima
-- Kasir akan evaluasi & bisa tawarkan:
-  - **Tukar barang sejenis** (lihat kebijakan retur 3 hari)
-  - **Diskon/potongan harga** jika barang sudah tidak bisa ditukar
+**Q: My receipt is lost, can I still claim warranty?**
+A: Very difficult without a receipt. The cashier has no proof you bought from our store. We advise you to keep the receipt as well as possible in the first 12 months.
 
----
+**Q: My product broke 1 year and 2 months after purchase, is the warranty still valid?**
+A: No, the warranty period of 12 months (1 year) has expired. Warranty is no longer valid after the time limit.
 
-## Checklist Sebelum Membeli
+**Q: There is a label "1 year official warranty" but there is no warranty card. Is it valid?**
+A: Yes, the label on the packaging is sufficient proof. The warranty is official from the producer, no separate card needed (but it is better to keep the packaging).
 
-- [ ] Tanya ke kasir: "Produk ini ada garansi berapa lama?"
-- [ ] Simpan struk pembelian (jangan hilang)
-- [ ] Jika ada kartu garansi di packaging, simpan baik-baik
-- [ ] Jangan buang kemasan original (untuk klaim garansi)
-- [ ] Periksa barang sebelum meninggalkan kasir (pastikan tidak cacat)
+**Q: Does the store provide an extended warranty?**
+A: No, the store only follows the official warranty from the producer. There is no option for extended warranty.
+
+**Q: I bought an LED lamp, what is the warranty?**
+A: Branded LED lamps: 12–24 months (depending on brand & watt). Ask the cashier when purchasing.
 
 ---
 
-## Catatan Penting
-- **Garansi adalah tanggung jawab produsen/manufaktur, bukan toko** (toko hanya menjadi mediator)
-- **Struk pembelian adalah bukti garansi terpenting** – jangan hilang dalam 12 bulan pertama
-- **Garansi hanya cover kerusakan manufaktur, bukan kerusakan pemakaian normal atau accident**
-- **Untuk produk elektronik berharga tinggi, tanyakan detail garansi SEBELUM membeli** (jangan sesudahnya)
+## Products Without Warranty
+
+### Product Categories Without Warranty
+✗ **Home Appliances:**
+- Brooms, mops, cloths, ropes
+- Glasses, plates, bowls
+- Combs, mirrors, hair straighteners
+- Scissors, knives, rulers
+- All non-electronic items that are easily damaged from normal use
+
+✗ **Food & Beverages:**
+- All food & beverage categories
+- No warranty or return (see return policy)
+
+✗ **Consumables:**
+- Soap, cleaner, disinfectant
+- Tissue, diapers, shampoo
+- These items are not eligible for warranty claims
+
+---
+
+## Defective Items Upon Receipt (No Warranty)
+
+**If the Product Has No Warranty But Is Defective Upon Receipt:**
+- Bring the item to the cashier within a maximum of 3 days with the receipt
+- Explain the condition of the defective/damaged item since receipt
+- The cashier will evaluate & may offer:
+  - **Exchange for a similar item** (see 3-day return policy)
+  - **Discount/price reduction** if the item is no longer exchangeable
+
+---
+
+## Checklist Before Purchasing
+
+- [ ] Ask the cashier: "How long is the warranty for this product?"
+- [ ] Keep the purchase receipt (do not lose it)
+- [ ] If there is a warranty card in the packaging, keep it safe
+- [ ] Do not discard the original packaging (for warranty claims)
+- [ ] Inspect the item before leaving the cashier (ensure it is not defective)
+
+---
+
+## Important Notes
+- **Warranty is the responsibility of the manufacturer/manufacturer, not the store** (the store is only a mediator)
+- **The purchase receipt is the most important warranty proof** – do not lose it in the first 12 months
+- **Warranty only covers manufacturing defects, not normal wear and tear or accidents**
+- **For high-value electronic products, ask for warranty details BEFORE purchasing** (not afterwards)

@@ -1,200 +1,200 @@
-# Panduan Komplain Keterlambatan Pengantaran
-**Toko Makmur Jaya | Efektif: 2026**
+# Complaint Guide for Delivery Delays
+**Makmur Jaya Store | Effective: 2026**
 
-## Status Layanan Pengantaran
+## Delivery Service Status
 
-**PENTING:** Toko Makmur Jaya **BELUM MEMILIKI LAYANAN DELIVERY RESMI DARI TOKO.**
+**IMPORTANT:** Makmur Jaya Store **DOES NOT HAVE AN OFFICIAL DELIVERY SERVICE FROM THE STORE.**
 
-Panduan ini hanya berlaku jika:
-- Anda menggunakan kurir pihak ketiga (Gojek, Grab, JNE, Tiki) untuk antar barang
-- Atau Anda memesan pre-order dengan estimasi pengiriman barang dari supplier
-
----
-
-## Jenis Keterlambatan Pengantaran
-
-### 1. Keterlambatan Barang dari Supplier (Pre-order)
-
-**Situasi:** Anda pre-order barang dengan estimasi datang 3–7 hari, tapi barang telat lebih lama.
-
-**Contoh:**
-- Pre-order barang, kasir bilang: "Estimasi 5 hari"
-- Hari ke-7 barang belum datang
-- Anda komplain: barang telat 2 hari
+This guide is only applicable if:
+- You use a third-party courier (Gojek, Grab, JNE, Tiki) to deliver items
+- Or you place a pre-order with an estimated delivery time from the supplier
 
 ---
 
-### 2. Keterlambatan Kurir Pihak Ketiga (Gojek/Grab/JNE)
+## Types of Delivery Delays
 
-**Situasi:** Anda pesan Gojek/Grab untuk antar barang dari toko ke rumah, tapi datang telat dari estimasi.
+### 1. Delay of Items from Supplier (Pre-order)
 
-**Contoh:**
-- Pesan Gojek pukul 10.00, estimasi datang 10.45
-- Hingga pukul 11.30 belum datang
-- Anda komplain: kurir telat 45 menit
+**Situation:** You pre-order an item with an estimated arrival of 3–7 days, but the item arrives much later.
+
+**Example:**
+- Pre-order an item, cashier says: "Estimated 5 days"
+- On the 7th day, the item has not arrived
+- You complain: item is delayed by 2 days
 
 ---
 
-## Prosedur Komplain Keterlambatan Pre-order Barang (dari Supplier)
+### 2. Delay of Third-Party Courier (Gojek/Grab/JNE)
 
-### Langkah-Langkah:
+**Situation:** You order Gojek/Grab to deliver items from the store to your home, but it arrives later than the estimate.
 
-1. **Verifikasi Tanggal Estimasi**
-   - Check struk pre-order atau catat estimasi yang dijanjikan kasir
-   - Contoh: estimasi 5 hari = hari ke-5 setelah pre-order diterima
+**Example:**
+- Order Gojek at 10:00 AM, estimated arrival 10:45 AM
+- By 11:30 AM, it still has not arrived
+- You complain: courier is delayed by 45 minutes
 
-2. **Hubungi Toko Jika TELAT**
-   - Tanggal sudah lewat estimasi, hubungi toko
-   - Telepon: (021) xxxx-xxxx
+---
+
+## Procedure for Complaining About Pre-order Item Delays (from Supplier)
+
+### Steps:
+
+1. **Verify Estimated Date**
+   - Check the pre-order receipt or note the estimate promised by the cashier
+   - Example: estimated 5 days = the 5th day after the pre-order was received
+
+2. **Contact the Store If DELAYED**
+   - If the date has passed the estimate, contact the store
+   - Phone: (021) xxxx-xxxx
    - WhatsApp: +62 xxx-xxxx-xxxx
-   - Tanyakan: "Barang saya belum datang, kapan tiba?"
+   - Ask: "My item has not arrived, when will it arrive?"
 
-3. **Kasir Akan Cek ke Supplier**
-   - Kasir akan follow up ke supplier
-   - Kasir akan ask: apakah barang sedang dalam perjalanan? Kapan tiba?
-   - Kasir akan catat status pengiriman
+3. **Cashier Will Check with Supplier**
+   - The cashier will follow up with the supplier
+   - The cashier will ask: is the item on its way? When will it arrive?
+   - The cashier will record the shipping status
 
-4. **Kasir Informasi ke Anda**
-   - Kasir akan hubungi Anda kembali dengan update:
-     - **Status A:** Barang sedang dalam perjalanan, estimasi tiba hari [X]
-     - **Status B:** Barang delayed karena [alasan], estimasi baru hari [X]
-     - **Status C:** Barang hilang/ada masalah, kami akan claim ke supplier
+4. **Cashier Will Inform You**
+   - The cashier will contact you again with an update:
+     - **Status A:** Item is on its way, estimated arrival day [X]
+     - **Status B:** Item is delayed due to [reason], new estimate day [X]
+     - **Status C:** Item is lost/there is a problem, we will claim with the supplier
 
-5. **Jika Barang Sangat TELAT (> 50% dari estimasi)**
-   - **Opsi 1:** Cancel pre-order, DP dikembalikan (atau tukar barang lain)
-   - **Opsi 2:** Tunggu dengan kompensasi (diskon/voucher untuk menunggu)
-   - **Opsi 3:** Barang ganti produk yang sejenis (jika supplier ganti barang)
+5. **If Item is Very DELAYED (> 50% of the estimate)**
+   - **Option 1:** Cancel pre-order, DP refunded (or exchange for another item)
+   - **Option 2:** Wait with compensation (discount/voucher for waiting)
+   - **Option 3:** Exchange the item for a similar product (if the supplier replaces the item)
 
-**Waktu Proses:** 1–3 hari (pending supplier update)
-
----
-
-## Prosedur Komplain Keterlambatan Kurir Pihak Ketiga (Gojek/Grab)
-
-### Penting: Toko TIDAK Bertanggung Jawab Jika Menggunakan Kurir Pihak Ketiga
-
-**Alasan:**
-- Kurir adalah pihak ketiga (bukan karyawan toko)
-- Toko hanya provide barang, kurir handle pengantaran
-- Masalah delay/telat adalah tanggung jawab kurir/aplikasi
-
-### Jika Barang Telat via Kurir Pihak Ketiga:
-
-**Langkah-Langkah:**
-1. **Hubungi Kurir Langsung**
-   - Buka aplikasi Gojek/Grab
-   - Tap "Live Tracking" untuk lihat posisi driver
-   - Tap "Chat/Hubungi Driver" untuk tanya
-   - Driver bisa explain kenapa telat (traffic, jarak, dll)
-
-2. **Jika Driver Sangat TELAT (> 30 menit dari estimasi)**
-   - Anda bisa complaint di aplikasi Gojek/Grab
-   - Aplikasi akan process complaint ke driver
-   - Anda mungkin dapat voucher diskon dari Gojek/Grab (bukan dari toko)
-
-3. **Hubungi Toko (Optional)**
-   - Jika mau informasi, bisa hubungi toko
-   - Tapi toko tidak bisa "intervensi" driver (sudah out of toko's control)
-   - Toko hanya bisa "witness" jika ada masalah besar
-
-**Penting:** **Keterlambatan kurir adalah tanggung jawab kurir, bukan toko.** Hubungi kurir/aplikasi langsung, bukan toko.
+**Processing Time:** 1–3 days (pending supplier update)
 
 ---
 
-## Formulir Komplain Keterlambatan (Pre-order dari Supplier)
+## Procedure for Complaining About Third-Party Courier Delays (Gojek/Grab)
+
+### Important: The Store is NOT Responsible If Using a Third-Party Courier
+
+**Reason:**
+- The courier is a third party (not store employee)
+- The store only provides the item, the courier handles the delivery
+- Delay/late issues are the responsibility of the courier/application
+
+### If Item is Late via Third-Party Courier:
+
+**Steps:**
+1. **Contact the Courier Directly**
+   - Open the Gojek/Grab application
+   - Tap "Live Tracking" to see the driver's location
+   - Tap "Chat/Contact Driver" to ask questions
+   - The driver can explain why it is late (traffic, distance, etc.)
+
+2. **If the Driver is Very DELAYED (> 30 minutes from the estimate)**
+   - You can complain in the Gojek/Grab application
+   - The application will process the complaint to the driver
+   - You may receive a discount voucher from Gojek/Grab (not from the store)
+
+3. **Contact the Store (Optional)**
+   - If you want information, you can contact the store
+   - But the store cannot "intervene" with the driver (it is out of the store's control)
+   - The store can only "witness" if there is a major issue
+
+**Important:** **Courier delays are the courier's responsibility, not the store's.** Contact the courier/application directly, not the store.
+
+---
+
+## Delay Complaint Form (Pre-order from Supplier)
 
 ```
-FORMULIR KOMPLAIN KETERLAMBATAN PENGANTARAN
-Tanggal Komplain: ______________
-Nama Pelanggan: _________________ 
-Nomor Telepon: ________________
+COMPLAINT FORM FOR DELIVERY DELAY
+Complaint Date: ______________
+Customer Name: _________________
+Phone Number: ________________
 
-DATA PRE-ORDER:
-Tanggal Pre-order: _____________ 
-Nomor Struk Pre-order: __________________
-Barang yang Dipesan: _______________________
-Harga Pre-order: Rp _______________
-DP yang Dibayar: Rp ______________
+PRE-ORDER DATA:
+Pre-order Date: _____________
+Pre-order Receipt Number: __________________
+Item Ordered: _______________________
+Pre-order Price: Rp _______________
+DP Paid: Rp ______________
 
-ESTIMASI & REALISASI:
-Estimasi Barang Tiba: _____________ (hari ke- ?)
-Tanggal Saat Ini: _____________
-Telat berapa lama: _____________ (hari/jam)
-Status Barang: [ ] Belum tiba  [ ] Hilang  [ ] Lainnya: ____
+ESTIMATION & REALIZATION:
+Estimated Item Arrival: _____________ (day ?)
+Current Date: _____________
+Delay Duration: _____________ (days/hours)
+Item Status: [ ] Not arrived [ ] Lost [ ] Other: ____
 
-DESKRIPSI KETERLAMBATAN:
-Apakah sudah hubungi toko sebelumnya? [  ] Ya  [  ] Tidak
-Informasi apa yang diberikan toko? _____________________
-Penyebab telat (sesuai info kasir): _____________________
+DELAY DESCRIPTION:
+Have you contacted the store before? [ ] Yes [ ] No
+Information given by the store? _____________________
+Reason for delay (according to cashier info): _____________________
 
-SOLUSI YANG DIINGINKAN:
-[  ] Cancel Pre-order (DP kembali)
-[  ] Tukar Barang Lain
-[  ] Diskon/Kompensasi (karena menunggu)
-[  ] Lainnya: _______________________
+DESIRED SOLUTION:
+[ ] Cancel Pre-order (DP refunded)
+[ ] Exchange for Another Item
+[ ] Discount/Compensation (for waiting)
+[ ] Other: _______________________
 
-VERIFIKASI KASIR:
-Status Validasi: [  ] Diterima  [  ] Ditinjau  [  ] Ditolak
-Alasan: _____________________
-Solusi yang Diberikan: _____________________
+CASHIER VERIFICATION:
+Validation Status: [ ] Received [ ] Reviewed [ ] Rejected
+Reason: _____________________
+Solution Provided: _____________________
 
-Tanda Tangan Kasir: ___________
-Tanda Tangan Pelanggan: __________
-Tanggal: ___________
+Cashier Signature: ___________
+Customer Signature: __________
+Date: ___________
 ```
 
 ---
 
-## Catatan Penting Sebelum Pre-order
+## Important Notes Before Pre-order
 
-1. **Catat Estimasi Tertulis:** Minta kasir tulis tanggal estimasi di struk (jangan hanya verbal)
-2. **Estimasi adalah Perkiraan:** Estimasi 5 hari = estimasi, bisa lebih cepat atau lebih lambat
-3. **Tolerance Delay:** Toleransi keterlambatan: ±2–3 hari (supplier mungkin delay sedikit)
-4. **Jika > 1 Minggu Telat:** Mulai komplain & tanyakan status ke toko
-
----
-
-## Jika Menggunakan Kurir Pihak Ketiga
-
-**Ingat:**
-- ✓ Toko hanya packing & siapkan barang
-- ✓ Kurir mengangkut barang dari toko ke rumah Anda
-- ✗ Toko TIDAK bisa tanggungi keterlambatan kurir
-- ✗ Hubungi kurir/aplikasi, bukan toko
-
-**Rekomendasi:**
-- Gunakan Gojek/Grab Insurance (jika ada) untuk perlindungan pengiriman
-- Monitor live tracking pengiriman
-- Hubungi driver jika ada pertanyaan
+1. **Note Written Estimate:** Ask the cashier to write the estimated date on the receipt (not just verbally)
+2. **Estimate is an Approximation:** 5-day estimate = estimate, it could be faster or slower
+3. **Tolerance Delay:** Delay tolerance: ±2–3 days (supplier might be slightly delayed)
+4. **If > 1 Week Late:** Start complaining & ask for status at the store
 
 ---
 
-## Batas Waktu Komplain Keterlambatan
+## If Using a Third-Party Courier
 
-| Jenis | Batas Waktu | Keterangan |
+**Remember:**
+- ✓ The store only packs & prepares the item
+- ✓ The courier transports the item from the store to your home
+- ✗ The store CANNOT be held responsible for courier delays
+- ✗ Contact the courier/application, not the store
+
+**Recommendations:**
+- Use Gojek/Grab Insurance (if available) for shipping protection
+- Monitor live tracking of the shipment
+- Contact the driver if you have questions
+
+---
+
+## Complaint Deadline for Delays
+
+| Type | Deadline | Notes |
 |---|---|---|
-| Pre-order telat | Max 1 minggu setelah estimasi | Setelah itu: cancel atau terima |
-| Kurir telat | Saat pengiriman berlangsung | Komplain saat itu juga (live) |
+| Late Pre-order | Max 1 week after the estimate | After that: cancel or accept |
+| Late Courier | During the delivery process | Complain immediately (live) |
 
 ---
 
-## Alternatif Jika Terlalu Telat
+## Alternatives If Too Late
 
-1. **Jika Pre-order Sangat Telat (> 10 hari):**
-   - Cancel pre-order, minta DP kembali
-   - Atau tukar barang lain dari toko (gratis)
+1. **If Pre-order is Very Late (> 10 days):**
+   - Cancel the pre-order, request a refund of the deposit (DP)
+   - Or exchange for another item from the store (free)
 
-2. **Jika Kurir Sangat Telat (> 1 jam):**
-   - Komplain ke aplikasi kurir (minta kompensasi)
-   - Atau datang ke toko ambil barang sendiri (jika masih ada stok)
+2. **If Courier is Very Late (> 1 hour):**
+   - Complain to the courier application (request compensation)
+   - Or come to the store to pick up the item yourself (if stock is still available)
 
 ---
 
-## Checklist Sebelum Pre-order/Memesan Pengantaran
+## Checklist Before Pre-order/Ordering Delivery
 
-- [ ] Estimasi sudah ditulis tertulis di struk (bukan verbal)
-- [ ] Nomor kontak toko sudah dicatat
-- [ ] Memahami estimasi adalah perkiraan (±2–3 hari tolerance)
-- [ ] Jika kurir pihak ketiga: sudah install aplikasi kurir
-- [ ] Nomor kontak kurir sudah disiapkan
-- [ ] Monitor status pengiriman secara real-time
+- [ ] Estimate is written down in writing on the receipt (not verbal)
+- [ ] Store contact number is noted
+- [ ] Understand that the estimate is an approximation (±2–3 days tolerance)
+- [ ] If using a third-party courier: the courier application is installed
+- [ ] Courier contact number is prepared
+- [ ] Monitor the shipping status in real-time

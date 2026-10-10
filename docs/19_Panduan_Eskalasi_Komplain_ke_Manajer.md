@@ -1,263 +1,263 @@
-# Panduan Eskalasi Komplain ke Manajer
-**Toko Makmur Jaya | Efektif: 2026**
+# Complaint Escalation Guide to the Manager
+**Makmur Jaya Store | Effective: 2026**
 
-## Definisi Eskalasi
+## Definition of Escalation
 
-Eskalasi adalah proses menaikkan komplain yang tidak terselesaikan dari tingkat kasir/staff ke tingkat manajer (pemilik) untuk keputusan final.
-
----
-
-## Kapan Harus Eskalasi Komplain
-
-### Situasi yang Membutuhkan Eskalasi:
-
-✓ **Komplain Ditolak oleh Kasir** (tapi Anda merasa tidak adil)
-✓ **Komplain Tidak Terselesaikan** (kasir nggak bisa solve, need higher authority)
-✓ **Masalah Serius/Besar** (barang mahal hilang, kesalahan besar, dll)
-✓ **Anda Tidak Puas dengan Solusi Kasir** (kasir kasih solusi, tapi tidak memuaskan)
-✓ **Follow Up Tidak Ada** (kasir janji follow up, tapi tidak ada kabar)
-✓ **Komplain Politis/Serius** (masalah hukum, keamanan, reputasi toko)
-
-### Contoh Kasus yang Perlu Eskalasi:
-
-- Barang hilang/dicuri (nilai besar), kasir tidak bisa handle
-- Kesalahan harga besar (Rp 500.000+), kasir ragu-ragu approve refund
-- Komplain barang rusak ditolak kasir, Anda yakin itu salah toko
-- Komplain pelayanan buruk dari staff tertentu, kasir tidak bisa handle
-- Masalah berulang (sudah komplain berkali-kali, masih tidak fix)
+Escalation is the process of raising an unresolved complaint from the cashier/staff level to the manager (owner) for a final decision.
 
 ---
 
-## Tingkatan Komplain & Eskalasi
+## When to Escalate a Complaint
 
-### Tingkat 1: Kasir/Staff
-- **Wewenang:** Refund/tukar untuk barang rusak/harga salah (max Rp 500.000)
-- **Waktu Solve:** Same day (langsung selesai)
-- **Jika Tidak Solve:** Eskalasi ke Manajer
+### Situations Requiring Escalation:
 
-### Tingkat 2: Manajer/Pemilik (Budi Santoso)
-- **Wewenang:** Approve refund besar, investigate masalah serius, keputusan final
-- **Waktu Solve:** 1–3 hari (pending investigation)
-- **Jika Masih Tidak Puas:** Alternatif (mediasi, rujukan hukum, dll)
+✓ **Complaint Rejected by Cashier** (but you feel it is unfair)
+✓ **Complaint Unresolved** (cashier cannot solve it, need higher authority)
+✓ **Serious/Major Issue** (expensive item lost, major error, etc.)
+✓ **You Are Not Satisfied with the Cashier's Solution** (cashier offers a solution, but it is not satisfactory)
+✓ **No Follow-Up** (cashier promises a follow-up, but there is no news)
+✓ **Political/Serious Complaint** (legal issues, security, store reputation)
 
----
+### Examples of Cases Requiring Escalation:
 
-## Prosedur Eskalasi Komplain ke Manajer
-
-### Langkah 1: Identifikasi Alasan Eskalasi
-- Jelaskan dengan jelas mengapa komplain perlu naik ke manajer
-- Contoh: "Kasir menolak komplain saya, tapi saya yakin itu kesalahan toko"
-
-### Langkah 2: Hubungi Kasir Terlebih Dulu
-- Bilang ke kasir: "Saya ingin berbicara dengan manajer/pemilik tentang komplain ini"
-- Kasir akan arrange meeting dengan manajer (atau manajer datang langsung)
-- **Jangan langsung bypass kasir** (tidak sopan & tidak akan membantu)
-
-### Langkah 3: Hubungi Manajer (Pemilik)
-
-#### Opsi A: Hubungi Langsung di Toko
-1. Datang ke toko
-2. Tanyakan kasir: "Apakah Pak Budi (Pemilik) ada?"
-3. Jika ada: jelaskan komplain langsung ke pemilik (detail, tenang, sopan)
-4. Jika tidak ada: minta nomor kontak pemilik atau catat jam pemilik biasanya ada
-
-#### Opsi B: Hubungi Via WhatsApp (Preferred)
-1. Hubungi nomor WhatsApp Toko Makmur Jaya: +62 xxx-xxxx-xxxx
-2. **Perkenalkan diri:** "Nama saya [nama], saya pelanggan toko Anda"
-3. **Jelaskan Masalah:** "Saya punya komplain yang sudah ditolak kasir, perlu eskalasi ke manajer"
-4. **Detail Komplain:** Tanggal, barang apa, masalah apa, sudah coba komplain apa ke kasir
-5. **Request:** "Bisa saya berbicara dengan Pak Budi/Pemilik?"
-
-#### Opsi C: Hubungi Via Telepon
-1. Telepon: (021) xxxx-xxxx
-2. Tanyakan: "Apakah bisa saya bicara dengan Pemilik?"
-3. Jelaskan singkat: "Saya pelanggan, punya komplain yang perlu eskalasi"
-4. Manajer akan terima panggilan dan listen
-
-### Langkah 4: Siapkan Dokumentasi Lengkap
-
-**Sebelum bicara ke manajer, siapkan:**
-- Struk pembelian asli
-- Barang (jika ada)
-- Foto bukti (rusak, label harga, dll)
-- Nama kasir yang handle komplain (jika perlu)
-- Tanggal komplain awal & tanggal eskalasi
-- Apa solusi kasir tawarkan & kenapa tidak puas
-
-### Langkah 5: Jelaskan Komplain ke Manajer
-
-**Saat bicara ke manajer, jelaskan:**
-
-1. **Singkat & Jelas**
-   - "Kemarin saya beli barang [nama], tapi barangnya rusak. Kasir tolak komplain. Saya ingin eskalasi ke Anda."
-
-2. **Detail Masalah**
-   - Tanggal pembelian: [tanggal]
-   - Barang apa: [nama barang]
-   - Masalah: [detail rusak/salah harga/dll]
-   - Sudah komplain ke kasir: [nama kasir], diberi solusi apa, kenapa tidak terima
-
-3. **Kenapa Merasa Tidak Adil**
-   - "Saya yakin itu cacat pabrik karena [alasan]"
-   - "Harga label jelas Rp 50.000, kasir charge Rp 75.000"
-   - "Ini bukan salah saya, tapi salah toko"
-
-4. **Apa yang Anda Inginkan**
-   - "Saya minta tukar barang / refund / kompensasi [jenis]"
-   - "Saya harap Anda bisa bantu selesaikan ini"
-
-5. **Bersikap Tenang & Sopan**
-   - Jangan marah-marah atau ancam-ancam
-   - Manajer akan lebih suka membantu jika Anda berbicara dengan baik
-
-### Langkah 6: Manajer Akan Investigate
-
-Manajer akan:
-1. Dengarkan cerita Anda
-2. Verify bukti (struk, barang, label, dll)
-3. Check kasir log untuk lihat apa yang terjadi
-4. Investigate lebih dalam (tanya kasir, cek sistem, dll)
-5. Ambil keputusan (terima/tolak komplain)
-
-**Waktu:** 1–3 hari (tergantung kompleksitas masalah)
-
-### Langkah 7: Manajer Beri Hasil Eskalasi
-
-Manajer akan hubungi Anda dengan update:
-
-#### Hasil A: Komplain DITERIMA
-- Manajer setuju komplain Anda valid
-- Tawarkan solusi: tukar barang / refund / kompensasi
-- Anda terima solusi sesuai kesepakatan
-
-#### Hasil B: Komplain DITOLAK (Tetap Ditolak)
-- Manajer review & tetap setuju komplain ditolak
-- Manajer akan jelaskan alasan detail
-- Anda bisa accept atau cari alternatif (misal: lembaga konsumen, dll)
-
-#### Hasil C: KOMPROMIS
-- Manajer tawarkan solusi middle-ground
-- Contoh: "Tidak ada refund, tapi dapat diskon 50% untuk barang berikutnya"
-- Anda bisa negotiate atau accept
+- Lost/stolen item (large value), cashier cannot handle it
+- Major price error (Rp 500,000+), cashier hesitates to approve refund
+- Complaint about damaged goods rejected by cashier, you are sure it is the store's fault
+- Complaint about poor service from a specific staff member, cashier cannot handle it
+- Recurring issues (already complained multiple times, still not fixed)
 
 ---
 
-## Formulir Eskalasi Komplain
+## Complaint Levels & Escalation
+
+### Level 1: Cashier/Staff
+- **Authority:** Refund/exchange for damaged goods/wrong price (max Rp 500,000)
+- **Solve Time:** Same day (immediately resolved)
+- **If Not Solved:** Escalate to Manager
+
+### Level 2: Manager/Owner (Budi Santoso)
+- **Authority:** Approve large refunds, investigate serious issues, final decision
+- **Solve Time:** 1–3 days (pending investigation)
+- **If Still Unsatisfied:** Alternative (mediation, legal referral, etc.)
+
+---
+
+## Procedure for Escalating a Complaint to the Manager
+
+### Step 1: Identify the Reason for Escalation
+- Clearly explain why the complaint needs to go to the manager
+- Example: "The cashier rejected my complaint, but I am sure it is a store error"
+
+### Step 2: Contact the Cashier First
+- Tell the cashier: "I would like to speak with the manager/owner about this complaint"
+- The cashier will arrange a meeting with the manager (or the manager will come directly)
+- **Do not bypass the cashier directly** (it is impolite & will not help)
+
+### Step 3: Contact the Manager (Owner)
+
+#### Option A: Contact Directly at the Store
+1. Go to the store
+2. Ask the cashier: "Is Mr. Budi (Owner) available?"
+3. If yes: explain the complaint directly to the owner (detailed, calm, polite)
+4. If no: ask for the owner's contact number or note the usual time the owner is available
+
+#### Option B: Contact via WhatsApp (Preferred)
+1. Contact the Makmur Jaya Store WhatsApp number: +62 xxx-xxxx-xxxx
+2. **Introduce yourself:** "My name is [name], I am a customer of your store"
+3. **Explain the Issue:** "I have a complaint that the cashier rejected, and it needs escalation to the manager"
+4. **Complaint Details:** Date, item, what is the issue, what complaint you already made to the cashier
+5. **Request:** "Can I speak with Mr. Budi/Owner?"
+
+#### Option C: Contact via Phone
+1. Call: (021) xxxx-xxxx
+2. Ask: "Can I speak with the Owner?"
+3. Briefly explain: "I am a customer with a complaint that needs escalation"
+4. The manager will receive the call and listen
+
+### Step 4: Prepare Complete Documentation
+
+**Before speaking to the manager, prepare:**
+- Original purchase receipt
+- Item (if applicable)
+- Photo evidence (damage, price tag, etc.)
+- Name of the cashier who handled the complaint (if necessary)
+- Initial complaint date & escalation date
+- What solution the cashier offered and why you are not satisfied
+
+### Step 5: Explain the Complaint to the Manager
+
+**When speaking to the manager, explain:**
+
+1. **Brief & Clear**
+   - "Yesterday I bought item [item name], but the item was damaged. The cashier rejected the complaint. I want to escalate this to you."
+
+2. **Issue Details**
+   - Purchase date: [date]
+   - Item: [item name]
+   - Issue: [detail of damage/wrong price/etc.]
+   - Complaint made to cashier: [cashier's name], solution offered, why you are not accepting it
+
+3. **Why You Feel Unfair**
+   - "I am sure it is a manufacturing defect because [reason]"
+   - "The label price is clearly Rp 50,000, but the cashier charged Rp 75,000"
+   - "This is not my fault, but the store's fault"
+
+4. **What You Want**
+   - "I request an item exchange / refund / compensation [type]"
+   - "I hope you can help resolve this"
+
+5. **Be Calm & Polite**
+   - Do not get angry or make threats
+   - The manager will be more willing to help if you speak nicely
+
+### Step 6: The Manager Will Investigate
+
+Manager will:
+1. Listen to your story
+2. Verify evidence (receipt, item, label, etc.)
+3. Check cashier logs to see what happened
+4. Investigate further (ask the cashier, check the system, etc.)
+5. Make a decision (accept/reject the complaint)
+
+**Time:** 1–3 days (depending on the complexity of the issue)
+
+### Step 7: Manager Provides Escalation Outcome
+
+The Manager will contact you with an update:
+
+#### Outcome A: Complaint ACCEPTED
+- Manager agrees that your complaint is valid
+- Offer a solution: exchange item / refund / compensation
+- You accept the solution as agreed
+
+#### Outcome B: Complaint REJECTED (Still Rejected)
+- Manager reviews & still agrees that the complaint is rejected
+- Manager will explain the detailed reason
+- You can accept or look for an alternative (e.g., consumer agency, etc.)
+
+#### Outcome C: COMPROMISE
+- Manager offers a middle-ground solution
+- Example: "No refund, but you can get a 50% discount on the next item"
+- You can negotiate or accept
+
+---
+
+## Complaint Escalation Form
 
 ```
-FORMULIR ESKALASI KOMPLAIN KE MANAJER
-Tanggal Eskalasi: ______________
-Nama Pelanggan: _________________ 
-Nomor Telepon: ________________
+COMPLAINT ESCALATION TO MANAGER FORM
+Escalation Date: ______________
+Customer Name: _________________
+Phone Number: ________________
 
-DATA KOMPLAIN AWAL:
-Tanggal Komplain Awal: _____________ 
-Nama Kasir yang Handle: __________________
-Jenis Komplain: [ ] Barang Rusak  [ ] Harga Salah  [ ] Keterlambatan  [ ] Pelayanan  [ ] Lainnya: ____
-Deskripsi Singkat: ________________________
+INITIAL COMPLAINT DATA:
+Initial Complaint Date: _____________
+Cashier Handling: __________________
+Type of Complaint: [ ] Damaged Item [ ] Incorrect Price [ ] Delay [ ] Service [ ] Other: ____
+Brief Description: ________________________
 
-SOLUSI KASIR (yang ditolak/tidak memuaskan):
-Apa yang Kasir Tawarkan: _____________________
-Kenapa Anda Tidak Puas: _____________________
-Dokumentasi Diberikan ke Kasir: [  ] Ya  [  ] Tidak
+CASHIER SOLUTION (rejected/unsatisfactory):
+What the Cashier Offered: _____________________
+Why You Are Dissatisfied: _____________________
+Documentation Provided to Cashier: [ ] Yes [ ] No
 
-ALASAN ESKALASI:
-Kenapa Perlu Eskalasi ke Manajer: _____________________
-Apakah merasa tidak adil? [  ] Ya  [  ] Tidak
-Alasan detail: ________________________
+REASON FOR ESCALATION:
+Why Escalation to Manager is Needed: _____________________
+Do you feel it is unfair? [ ] Yes [ ] No
+Detailed Reason: ________________________
 
-DOKUMENTASI ESKALASI:
-Struk Pembelian: [  ] Ada  [  ] Tidak
-Barang Fisik: [  ] Ada  [  ] Tidak
-Foto Bukti: [  ] Ada  [  ] Tidak
-Informasi Lain: ________________________
+ESCALATION DOCUMENTATION:
+Purchase Receipt: [ ] Yes [ ] No
+Physical Item: [ ] Yes [ ] No
+Proof Photo: [ ] Yes [ ] No
+Other Information: ________________________
 
-SOLUSI YANG DIHARAPKAN:
-[  ] Tukar Barang
-[  ] Refund Uang
-[  ] Kompensasi/Diskon
-[  ] Investigate Lebih Lanjut
-[  ] Lainnya: _______________________
+DESIRED SOLUTION:
+[ ] Item Exchange
+[ ] Money Refund
+[ ] Compensation/Discount
+[ ] Further Investigation
+[ ] Other: _______________________
 
-VERIFIKASI MANAJER:
-Tanggal Terima Eskalasi: ______________
-Status Eskalasi: [ ] Diterima  [ ] Sedang Diinvestigasi  [ ] Ditutup
-Hasil Investigate: _____________________
-Keputusan Final: [ ] Komplain Diterima  [ ] Komplain Ditolak  [ ] Kompromis
-Solusi Final: _____________________
-Estimasi Eksekusi: _____________________
+MANAGER VERIFICATION:
+Escalation Received Date: ______________
+Escalation Status: [ ] Received [ ] Under Investigation [ ] Closed
+Investigation Result: _____________________
+Final Decision: [ ] Complaint Accepted [ ] Complaint Rejected [ ] Compromise
+Final Solution: _____________________
+Estimated Execution: _____________________
 
-Tanda Tangan Manajer: ___________
-Tanda Tangan Pelanggan: __________
-Tanggal: ___________
+Manager's Signature: ___________
+Customer's Signature: __________
+Date: ___________
 ```
 
 ---
 
-## Kontaksi Manajer Langsung
+## Contact Manager
 
-**Nama Manajer:** Budi Santoso (Pemilik Toko Makmur Jaya)
+**Manager Name:** Budi Santoso (Owner of Makmur Jaya Store)
 
-**Cara Hubungi:**
-- **WhatsApp:** +62 xxx-xxxx-xxxx (Preferred - bisa attach foto bukti)
-- **Telepon:** (021) xxxx-xxxx (Jam 08.00–20.00)
-- **Lokasi Toko:** Jalan Raya Kecamatan No. 45 (untuk bertemu langsung)
+**Contact Methods:**
+- **WhatsApp:** +62 xxx-xxxx-xxxx (Preferred - can attach proof photos)
+- **Phone:** (021) xxxx-xxxx (Hours 08:00–20:00)
+- **Store Location:** Jalan Raya Kecamatan No. 45 (for in-person meeting)
 
-**Jam Respons:**
-- Jam Operasional: 07.00–21.00 (setiap hari)
-- Respons WhatsApp: 1–2 jam (jam operasional)
-- Respons Telepon: 5–10 menit (jika sedang tidak sibuk)
-
----
-
-## Tips Eskalasi Efektif
-
-✓ **Persiapkan Dokumentasi Lengkap** (struk, barang, foto, detail tertulis)
-✓ **Jelaskan Situasi dengan Tenang & Jelas** (jangan emosi)
-✓ **Gunakan Whatsapp untuk Bukti Tertulis** (screenshot chat bisa jadi bukti)
-✓ **Berikan Alasan Logis** (kenapa merasa tidak adil, data konkret)
-✓ **Respek Proses Investigate** (kasih waktu manajer untuk cek)
-✓ **Bersikap Profesional** (jangan ancam, jangan marah, jangan jelek-jelekan toko)
-✓ **Paham Batasan Manajer** (manajer juga punya limit, tidak semua bisa 100% memenuhi)
+**Response Times:**
+- Operating Hours: 07:00–21:00 (every day)
+- WhatsApp Response: 1–2 hours (operating hours)
+- Phone Response: 5–10 minutes (if not busy)
 
 ---
 
-## Batasan Eskalasi
+## Effective Escalation Tips
 
-**Apa yang Bisa Dieska Manajer:**
-✓ Refund barang rusak (tukar/uang kembali)
-✓ Refund kesalahan harga
-✓ Kompensasi pelayanan buruk (diskon/voucher)
-✓ Investigate komplain serius
-✓ Negosiasi solusi
-
-**Apa yang TIDAK Bisa Diselesaikan Manajer:**
-✗ Hukum/kriminal (barang hilang mencurigakan → lapor polisi)
-✗ Garansi pabrik (complaint ke produsen/garansi resmi)
-✗ Masalah external (kurir telat → hubungi kurir)
-✗ Dasar tidak jelas (anda tidak punya bukti, dll)
+✓ **Prepare Complete Documentation** (receipt, item, photos, written details)
+✓ **Explain the Situation Calmly & Clearly** (do not be emotional)
+✓ **Use WhatsApp for Written Proof** (chat screenshots can be evidence)
+✓ **Provide Logical Reasons** (why you feel it is unfair, concrete data)
+✓ **Respect the Investigation Process** (give the manager time to check)
+✓ **Be Professional** (do not threaten, do not get angry, do not badmouth the store)
+✓ **Understand Manager Limitations** (the manager also has limits, not everyone can meet 100%)
 
 ---
 
-## Jika Masih Tidak Puas Setelah Eskalasi
+## Escalation Limits
 
-**Opsi Lanjutan:**
-1. **Lembaga Konsumen Lokal:** Lapor ke Dinas Perdagangan/Perlindungan Konsumen
-2. **Medias Sosial:** Posting review objektif di Google Maps / Facebook (jangan fitnah)
-3. **Rujukan Hukum:** Jika nilai barang besar, konsultasi ke pengacara
-4. **Chargeback Pembayaran:** Jika bayar via QRIS/transfer, bisa chargeback ke bank (jika claim legitimate)
+**What the Manager Can Handle:**
+✓ Refund for damaged goods (exchange/money back)
+✓ Refund for pricing errors
+✓ Compensation for poor service (discount/voucher)
+✓ Investigate serious complaints
+✓ Negotiation of solutions
 
-**Catatan:** Opsi lanjutan hanya jika toko sungguh tidak fair. Preferensi pertama: negosiasi dan compromise.
+**What the Manager CANNOT Resolve:**
+✗ Legal/criminal matters (missing suspicious items → report to police)
+✗ Manufacturer's warranty (complaint to producer/official warranty)
+✗ External issues (late courier → contact courier)
+✗ Unclear basis (you have no proof, etc.)
 
 ---
 
-## Checklist Sebelum Eskalasi
+## If Still Dissatisfied After Escalation
 
-- [ ] Sudah komplain ke kasir 1x (jangan langsung eskalasi)
-- [ ] Kasir menolak atau tidak bisa solve
-- [ ] Anda yakin itu bukan salah Anda
-- [ ] Dokumentasi lengkap (struk, barang, foto)
-- [ ] Detail komplain tertulis dengan jelas
-- [ ] Siap jelaskan situasi dengan tenang ke manajer
-- [ ] Punya nomor kontak manajer
-- [ ] Bersikap profesional (jangan emosi/marah)
+**Further Options:**
+1. **Local Consumer Agency:** Report to the Trade/Consumer Protection Agency
+2. **Social Media:** Post objective reviews on Google Maps / Facebook (do not slander)
+3. **Legal Referral:** If the item value is large, consult a lawyer
+4. **Payment Chargeback:** If payment was via QRIS/transfer, you can chargeback to the bank (if the claim is legitimate)
+
+**Note:** Further options are only if the store is truly unfair. First preference: negotiation and compromise.
+
+---
+
+## Escalation Checklist
+
+- [ ] Have complained to the cashier 1x (do not escalate immediately)
+- [ ] Cashier refuses or cannot solve
+- [ ] You are sure it is not your fault
+- [ ] Complete documentation (receipt, item, photos)
+- [ ] Complaint details written clearly
+- [ ] Ready to explain the situation calmly to the manager
+- [ ] Have the manager's contact number
+- [ ] Be professional (do not be emotional/angry)

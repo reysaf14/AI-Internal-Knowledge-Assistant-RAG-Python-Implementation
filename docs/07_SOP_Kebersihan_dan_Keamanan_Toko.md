@@ -1,202 +1,202 @@
-# SOP Kebersihan & Keamanan Toko
-**Toko Makmur Jaya | Efektif: 2026**
+# Store Cleaning & Safety SOP
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Menjaga toko tetap bersih, higienis, aman dari risiko keamanan fisik, dan memenuhi standar kesehatan untuk kenyamanan pelanggan dan keselamatan karyawan.
+## Objectives
+To keep the store clean, hygienic, safe from physical security risks, and meet health standards for customer comfort and employee safety.
 
-## Tanggung Jawab Kebersihan & Keamanan
-- **Pemilik/Manajer (Budi Santoso):** Supervisory & planning keamanan, inspeksi mingguan
-- **Pramuniaga:** Pembersihan area penjualan harian (shift pagi 1 jam pertama, sore fleksibel)
-- **Staf Gudang:** Pembersihan gudang & area belakang 1x minggu
-- **Kasir:** Pembersihan area kasir & toilet
+## Cleaning & Safety Responsibilities
+- **Owner/Manager (Budi Santoso):** Security supervision & planning, weekly inspections
+- **Sales Staff:** Daily sales area cleaning (morning shift 1st hour, afternoon flexible)
+- **Warehouse Staff:** Warehouse & back area cleaning 1x per week
+- **Cashier:** Cleaning of cashier area & restrooms
 
-## Jadwal Kebersihan Standar
+## Standard Cleaning Schedule
 
-### 1. Pembersihan Harian (Setiap Hari Operasional)
+### 1. Daily Cleaning (Every Operating Day)
 
-**Pagi – Setelah Buka Toko (07.00–08.00) – Pramuniaga Shift Pagi:**
-- Sapai seluruh lantai area penjualan (buang debu, sampah plastik, cairan tumpah)
-- Pelapis perlu, lantai licin dari debu harus ditepis dengan lembab (tidak menggenangi)
-- Usap rak produk dengan lap kering, buang debu terakumulasi
-- Usap display counter kasir dengan lap bersih
-- Periksa area dekat pintu masuk (tempat sampah, area greeting) bersih
-- Nyalakan semua lampu & ventilasi (AC, jendela)
+**Morning – After Opening Store (07.00–08.00) – Morning Shift Staff:**
+- Sweep all sales floor area (remove dust, plastic trash, spills)
+- Wipe down slippery floors from dust with a damp cloth (not soaking)
+- Wipe product shelves with a dry cloth, remove accumulated dust
+- Wipe down cashier display counters with a clean cloth
+- Check the area near the entrance (trash bins, greeting area) for cleanliness
+- Turn on all lights & ventilation (AC, windows)
 
-**Siang – Jam-jam Penjualan Ramai (12.00–13.00) – Pramuniaga Shift Sore (Quick Clean):**
-- Sapai lantai ringan (area checkout & gang penjualan sering ada sampah)
-- Lap tumpahan cairan / makanan (risiko licin atau hama)
-- Rapihkan produk di rak yang tergusur atau berantakan
-- Periksa toilet bersih (kloset nyala, air tersedia, pintu tidak rusak)
-- Kosongkan tempat sampah kasir jika sudah penuh (pukul 13.00)
+**Noon – Busy Sales Hours (12.00–13.00) – Afternoon Shift Staff (Quick Clean):**
+- Light sweep of the floor (checkout area & sales aisle often have trash)
+- Wipe up liquid/food spills (slipping or pest risk)
+- Tidy up products on shelves that are displaced or messy
+- Check restrooms for cleanliness (flush working, water available, doors not damaged)
+- Empty cashier trash bins if full (at 13.00)
 
-**Sore/Malam – Sebelum Tutup Toko (20.45–21.00) – Pramuniaga + Kasir:**
-- Sapai lantai menyeluruh area penjualan (persiapan untuk tutup)
-- Buang semua sampah ke tempat sampah luar
-- Rapihkan kembali semua rak yang berantakan sepanjang hari
-- Lap area kasir & counter transaksi
-- Matikan AC (jika sudah sore) untuk penghematan listrik
-- Periksa toilet & matikan lampu toilet
+**Evening/Night – Before Closing Store (20.45–21.00) – Staff + Cashier:**
+- Thorough sweep of the sales area floor (preparation for closing)
+- Dispose of all trash into the outdoor bins
+- Tidy up all messy shelves from the day
+- Wipe down cashier area & transaction counters
+- Turn off AC (if it is evening) for electricity saving
+- Check restrooms and turn off toilet lights
 
-### 2. Pembersihan Berkala (Mingguan & Bulanan)
+### 2. Periodic Cleaning (Weekly & Monthly)
 
-**Pembersihan Mendalam Gudang (Setiap Sabtu Pagi – Staf Gudang):**
-- Sapai lantai gudang & buang sampah terakumulasi
-- Usap semua rak besi dengan lap kering (buang debu + spider web)
-- Periksa rak ada tanda kerusakan atau karat (laporkan ke Pemilik)
-- Periksa area ventilasi tidak tersumbat
-- Buang kardus bekas / kemasan rusak ke tempat sampah luar
+**Deep Warehouse Cleaning (Every Saturday Morning – Warehouse Staff):**
+- Sweep the warehouse floor & remove accumulated trash
+- Wipe down all metal shelves with a dry cloth (remove dust + spider webs)
+- Check shelves for signs of damage or rust (report to Owner)
+- Check ventilation areas for blockages
+- Dispose of old cardboard / damaged packaging into the outdoor bins
 
-**Pembersihan Toilet & Back Office (Setiap Minggu – Kasir/Pemilik):**
-- Sabtu Siang (14.00): Bersihkan toilet dengan pembersih & desinfektan
-- Lap cermin & wastafel
-- Buang sampah toilet
-- Verifikasi selalu ada tissue & sabun tangan
-- Bersihkan lantai back office (meja, lemari, area kerja)
+**Restroom & Back Office Cleaning (Every Week – Cashier/Owner):**
+- Saturday Afternoon (14.00): Clean restrooms with cleaner & disinfectant
+- Wipe mirrors & sinks
+- Dispose of restroom trash
+- Verify always having tissue & hand soap
+- Clean back office floor (desks, cabinets, work areas)
 
-**Pembersihan Kaca & Etalase (Setiap 2 Minggu – Pramuniaga):**
-- Lap kaca etalase bagian luar & dalam (buang noda, debu)
-- Lap kaca pintu masuk/keluar
-- Verifikasi lampu etalase menyala
-- Rapihkan produk display di etalase
+**Glass & Display Cleaning (Every 2 Weeks – Sales Staff):**
+- Wipe exterior & interior of display glass (remove stains, dust)
+- Wipe entrance/exit glass
+- Verify display lights are on
+- Tidy up display products in the display cases
 
-**Deep Clean Bulanan (Akhir Bulan – Sabtu Pagi – Semua Karyawan):**
-- Sapai lantai keseluruhan toko & gudang dengan lap basah
-- Lap semua rak & counter dengan pembersih (bukan air biasa)
-- Cuci area toilet dengan desinfektan (toilet bowl cleaner)
-- Buang sampah luar area dengan tas besar
-- Periksa semua sudut area ada spider web/hama → bersihkan atau fumigasi jika perlu
-- Nyalakan jendela untuk ventilasi maksimal
+**Monthly Deep Clean (End of Month – Saturday Morning – All Employees):**
+- Sweep the entire store floor & warehouse with a wet mop
+- Wipe down all shelves & counters with cleaner (not just plain water)
+- Wash restroom areas with disinfectant (toilet bowl cleaner)
+- Dispose of outdoor area trash with large bags
+- Check all corners for spider webs/pests → clean or fumigate if necessary
+- Turn on windows for maximum ventilation
 
-## Standar Kebersihan Area Spesifik
+## Specific Area Cleaning Standards
 
-### Area Penjualan
-- **Lantai:** Bebas sampah, tidak ada noda lengket, tidak licin (risiko pelanggan jatuh)
-- **Rak Produk:** Bersih dari debu, label harga terlihat, produk rapih & tidak tumpah
-- **Display Etalase:** Kaca bersih, tidak ada jejak tangan/debu, produk menarik
-- **Area Kasir:** Counter bersih, alat pembayaran hygenis, area penyimpanan rapi
+### Sales Area
+- **Floor:** Free of trash, no sticky stains, non-slip (risk of customer falls)
+- **Product Shelves:** Dust-free, price tags visible, products neat & not spilled
+- **Display Cases:** Glass clean, no fingerprints/dust marks, attractive products
+- **Cashier Area:** Counter clean, payment tools hygienic, storage area tidy
 
-### Area Toilet
-- **Toilet Bowl:** Bersih, tidak ada noda, flush berfungsi
-- **Lantai Toilet:** Kering, tidak licin, bebas bau menyengat
-- **Wastafel:** Air lancar, bersih, tersedia sabun tangan
-- **Tissue & Tempat Sampah:** Tersedia, tidak penuh
-- **Pencahayaan & Ventilasi:** Lampu menyala, jendela/exhaust berfungsi
+### Restroom Area
+- **Toilet Bowl:** Clean, no stains, flush functions
+- **Restroom Floor:** Dry, non-slip, free from strong odors
+- **Sink:** Water flows smoothly, clean, hand soap available
+- **Tissue & Trash Bins:** Available, not full
+- **Lighting & Ventilation:** Lights on, windows/exhaust working
 
-### Area Gudang
-- **Lantai:** Bebas sampah, tidak lembab, tidak ada tanda hama
-- **Rak & Barang:** Terorganisir, label jelas, barang tidak berserakan
-- **Ventilasi:** Jendela terbuka, tidak ada bau menyengat
-- **Keamanan Barang:** Lemari rokok terkunci, barang berharga aman
+### Warehouse Area
+- **Floor:** Free of trash, not damp, no signs of pests
+- **Shelves & Goods:** Organized, clear labels, goods not scattered
+- **Ventilation:** Windows open, no strong odors
+- **Goods Security:** Smoking cabinets locked, valuables safe
 
-## Protokol Keamanan Toko
+## Store Safety Protocol
 
-### 1. Pencegahan Pencurian & Tindak Kriminal
+### 1. Theft Prevention & Criminal Actions
 
-**Sistem Pengamanan:**
-- **Kamera CCTV (jika ada):** Pasang di area kasir & gudang (mencatat transaksi & kemungkinan pencuri)
-- **Alarm Pintu Belakang:** Aktif di jam operasional (peringatan jika ada integrasi pintu tidak sah)
-- **Gembok Kuat:** Pintu utama & belakang menggunakan gembok minimal 3x1 cm (anti ditekak)
-- **Pencahayaan Luar:** Lampu signage/area parkir menyala sepanjang jam buka (deterren pencuri)
+**Security System:**
+- **CCTV Camera (if available):** Installed at the cashier area & warehouse (to record transactions & potential thieves)
+- **Back Door Alarm:** Active during operating hours (alert if there is unauthorized door integration)
+- **Heavy Lock:** Main & back doors use a minimum 3x1 cm lock (anti-prying)
+- **Exterior Lighting:** Signage/parking area lights on throughout operating hours (deterrent for thieves)
 
-**Prosedur Keamanan Harian:**
-- Setiap buka toko: Kasir cek apakah ada barang yang hilang/rusak (laporkan ke Pemilik)
-- Jam operasional: Perhatian pada pelanggan mencurigakan (kelakuan aneh, terburu-buru, sering ke gudang)
-- Sebelum tutup: Verifikasi semua pintu & jendela terkunci, barang berharga masuk brankas
-- Catat di Log Keamanan Harian jika ada insiden (pelanggan mencurigakan, barang hilang, dll)
+**Daily Security Procedures:**
+- Every opening: Cashier checks for missing/damaged items (report to Owner)
+- Operating hours: Attention to suspicious customers (strange behavior, rushing, frequent visits to the warehouse)
+- Before closing: Verify all doors & windows are locked, valuables are in the safe
+- Record in the Daily Security Log if there are incidents (suspicious customers, missing items, etc.)
 
-**Untuk Produk Bernilai Tinggi (Rokok, Elektronik Kecil):**
-- Simpan di lokasi terawasi (dekat kasir atau lemari terkunci)
-- Jangan display terlalu terbuka / mudah diambil
-- Kasir verifikasi saat penjualan rokok (scan barcode, tagih uang terlebih dulu)
+**For High-Value Products (Cigarettes, Small Electronics):**
+- Store in supervised locations (near the cashier or locked cabinet)
+- Do not display too open / easily taken
+- Cashier verifies when selling cigarettes (scan barcode, collect money first)
 
-### 2. Keselamatan Pelanggan
+### 2. Customer Safety
 
-**Risiko Jatuh/Kecelakaan:**
-- Pastikan lantai tidak licin (jika basah dari pembersihan, pasang sign "Hati-hati Licin")
-- Jangan ada barang tercecer di lantai yang bisa ditabrak
-- Pencahayaan cukup di semua area penjualan
-- Rak tidak boleh tidak stabil atau tanda koyak
+**Fall/Accident Risks:**
+- Ensure the floor is not slippery (if wet from cleaning, put up a "Caution Slippery" sign)
+- No items scattered on the floor that could be stepped on
+- Sufficient lighting in all sales areas
+- Shelves must not be unstable or torn
 
-**Risiko Produk Kadaluarsa:**
-- Pramuniaga setiap minggu cek tanggal expired barang di rak
-- Barang yang akan expired (< 1 minggu) dikeluarkan dari display
-- Diskon atau hapus dari sistem (jangan dijual kalau sudah kadaluarsa)
+**Expired Product Risks:**
+- Staff check the expiration date of items on the shelves weekly
+- Items expiring (< 1 week) are removed from display
+- Discount or remove from system (do not sell if expired)
 
-**Risiko Kebakaran:**
-- Verifikasi tidak ada api terbuka atau sumber panas berbahaya
-- Tidak boleh ada barang menyumbat tangga darurat (jika ada)
-- Periksa kabel listrik tidak rusak (risiko korsleting)
-- Simpan pembersih kimia jauh dari api (area terpisah dengan label "MUDAH TERBAKAR")
+**Fire Risks:**
+- Verify no open flames or dangerous heat sources
+- No items should obstruct emergency stairs (if any)
+- Check electrical cables for damage (risk of short circuit)
+- Store chemical cleaners away from fire (separate area with a "FLAMMABLE" label)
 
-### 3. Kesehatan & Hygiene Karyawan
+### 3. Employee Health & Hygiene
 
-**Protokol Kesehatan Umum:**
-- Karyawan yang sakit tidak boleh bekerja (terutama yang menangani makanan/cash)
-- Tersedia hand sanitizer di area kasir & toilet
-- Karyawan harus cuci tangan sebelum & sesudah menangani barang makanan
-- Makanan/minuman karyawan tidak boleh di area penjualan (hanya di back office)
+**General Health Protocols:**
+- Sick employees are not allowed to work (especially those handling food/cash)
+- Hand sanitizer is available at the cashier area & restrooms
+- Employees must wash hands before & after handling food items
+- Employee food/drinks are not allowed in sales areas (only in the back office)
 
-**Keselamatan Kerja Gudang:**
-- Saat mengangkat barang berat: gunakan teknik benar (pegang dari sisi, lutut tekuk, punggung lurus)
-- Hindari tumpukan barang > 3 dus (risiko ambruk)
-- Tas tangan/sarung tangan digunakan jika ada barang tajam atau suhu ekstrem
-- Lapor ke Pemilik jika ada cedera kerja (untuk dokumentasi & tindak lanjut medis)
+**Warehouse Safety:**
+- When lifting heavy items: use correct technique (hold from the side, bend knees, keep back straight)
+- Avoid stacks of > 3 boxes (risk of collapse)
+- Use gloves/hand wraps if there are sharp items or extreme temperatures
+- Report to the Owner if there is a work-related injury (for documentation & medical follow-up)
 
-## Peralatan & Bahan Kebersihan
+## Equipment & Cleaning Supplies
 
-### Standar Persediaan (Disediakan Pemilik/Manajer)
-| Item | Jumlah | Frekuensi Pembelian | Est. Biaya/Bulan |
+### Inventory Standards (Provided by Owner/Manager)
+| Item | Quantity | Purchase Frequency | Est. Monthly Cost |
 |------|--------|-------------------|------------------|
-| Sapu Nilon | 2 | Setiap 3 bulan | Rp 30.000 |
-| Lap/Pel | 4 | Setiap 1 bulan | Rp 20.000 |
-| Sikat Toilet | 2 | Setiap 3 bulan | Rp 15.000 |
-| Pembersih Lantai | 5 liter | 1x per bulan | Rp 50.000 |
-| Sabun Tangan | 5 botol | 1x per bulan | Rp 25.000 |
-| Tissue Toilet | 20 roll | 1x per bulan | Rp 40.000 |
-| Desinfektan | 2 liter | 1x per 2 bulan | Rp 30.000 |
-| Hand Sanitizer | 2 botol | 1x per bulan | Rp 20.000 |
-| **Total Estimasi** | | | **Rp 230.000/bulan** |
+| Nylon Broom | 2 | Every 3 months | Rp 30,000 |
+| Cloth/Rag | 4 | Every 1 month | Rp 20,000 |
+| Toilet Brush | 2 | Every 3 months | Rp 15,000 |
+| Floor Cleaner | 5 liters | 1x per month | Rp 50,000 |
+| Hand Soap | 5 bottles | 1x per month | Rp 25,000 |
+| Toilet Tissue | 20 rolls | 1x per month | Rp 40,000 |
+| Disinfectant | 2 liters | 1x per 2 months | Rp 30,000 |
+| Hand Sanitizer | 2 bottles | 1x per month | Rp 20,000 |
+| **Total Estimate** | | | **Rp 230,000/month** |
 
-## Inspeksi & Monitoring Kebersihan
+## Cleaning Inspection & Monitoring
 
-**Inspeksi Harian (Pemilik/Manajer – 10 menit pagi & sore):**
-- Cek lantai bersih, rak rapih, kasir bersih
-- Catat di buku inspeksi jika ada yang kurang bersih / perlu perbaikan
-- Instruksi pramuniaga untuk perbaikan jika ada
+**Daily Inspection (Owner/Manager – 10 minutes morning & afternoon):**
+- Check floor cleanliness, tidy shelves, clean cashier area
+- Record in the inspection book if anything is unclean / needs repair
+- Instruct staff for repairs if necessary
 
-**Inspeksi Mingguan (Pemilik – Sabtu Siang):**
-- Cek keseluruhan toko & gudang
-- Periksa sistem keamanan berfungsi (kamera, alarm, gembok)
-- Catat masalah maintenance (lampu rusak, rak berkarat, dll)
-- Buat daftar perbaikan yang diperlukan
+**Weekly Inspection (Owner – Saturday Afternoon):**
+- Check the entire store & warehouse
+- Check the functioning of security systems (camera, alarm, locks)
+- Record maintenance issues (broken lights, rusty shelves, etc.)
+- Create a list of necessary repairs
 
-**Monitoring Keamanan (Pemilik – Real-time):**
-- Review CCTV footage jika ada insiden
-- Catat di Log Keamanan Harian
-- Laporkan ke kepolisian jika ada tindak kriminal
+**Security Monitoring (Owner – Real-time):**
+- Review CCTV footage if there is an incident
+- Record in the Daily Security Log
+- Report to the police if there is criminal activity
 
-## Checklist Kebersihan Harian
-- [ ] Lantai disapu & lap (tidak ada sampah, tidak licin)
-- [ ] Rak & counter dibersihkan (tidak ada debu)
-- [ ] Toilet bersih & tersedia tissue/sabun
-- [ ] Area kasir rapi & terorganisir
-- [ ] Tidak ada barang tumpah atau rusak di rak
-- [ ] Semua lampu menyala
-- [ ] Ac/ventilasi berfungsi
-- [ ] Tempat sampah dikosongkan
+## Daily Cleaning Checklist
+- [ ] Floor swept & mopped (no trash, no slippery)
+- [ ] Shelves & counters cleaned (no dust)
+- [ ] Restrooms clean & stocked with tissue/soap
+- [ ] Cashier area tidy & organized
+- [ ] No spills or damaged items on shelves
+- [ ] All lights on
+- [ ] AC/ventilation functioning
+- [ ] Trash bins emptied
 
-## Checklist Keamanan Harian
-- [ ] Semua pintu & jendela terkunci
-- [ ] Gembok utama & belakang terpasang kuat
-- [ ] Kamera CCTV aktif (jika ada)
-- [ ] Barang berharga masuk brankas
-- [ ] Lemari rokok terkunci dengan rapat
-- [ ] Log Keamanan diisi (jika ada insiden)
-- [ ] Tidak ada barang mencurigakan atau orang asing di area gudang
+## Daily Security Checklist
+- [ ] All doors & windows locked
+- [ ] Main & back locks securely fastened
+- [ ] CCTV active (if any)
+- [ ] Valuables stored in safe
+- [ ] Smoking cabinet locked tightly
+- [ ] Security Log filled out (if any incident)
+- [ ] No suspicious items or strangers in the warehouse area
 
-## Catatan Penting
-- Kebersihan adalah prioritas utama untuk reputasi & kepuasan pelanggan
-- Keamanan adalah prioritas untuk melindungi aset & karyawan
-- Laporkan masalah keamanan/maintenance langsung ke Pemilik (jangan ditunda)
-- Bahan pembersih disimpan di area terpisah (jauh dari makanan & produk konsumsi)
-- Setiap karyawan bertanggung jawab atas area kerjanya sendiri (tidak ada "bukan tanggung jawab saya")
+## Important Notes
+- Cleanliness is the top priority for reputation & customer satisfaction
+- Security is the priority to protect assets & employees
+- Report security/maintenance issues directly to the Owner (do not delay)
+- Cleaning supplies are stored in a separate area (far from food & consumables)
+- Every employee is responsible for their own work area (no "not my responsibility")

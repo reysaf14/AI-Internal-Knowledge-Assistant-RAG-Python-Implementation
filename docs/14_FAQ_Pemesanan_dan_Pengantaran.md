@@ -1,172 +1,172 @@
-# FAQ Pemesanan & Pengantaran (Delivery)
-**Toko Makmur Jaya | Update: 2026**
+# FAQ Ordering & Delivery
+**Makmur Jaya Store | Update: 2026**
 
-## Status Layanan Pemesanan & Pengantaran
+## Ordering & Delivery Status
 
-**Toko Makmur Jaya BELUM memiliki layanan delivery resmi.**
-
----
-
-## Informasi Pemesanan & Pengantaran
-
-### Saat Ini (2026)
-✗ Tidak ada sistem order online resmi
-✗ Tidak ada layanan delivery toko (ke rumah/kantor pelanggan)
-✗ Tidak ada layanan pre-order barang
-✗ Tidak ada WhatsApp bot untuk order
-
-### Cara Berbelanja Saat Ini
-**Hanya tersedia belanja datang langsung ke toko:**
-- Lokasi: Jalan Raya Kecamatan No. 45
-- Jam: 07.00–21.00 (setiap hari)
-- Parkir: Gratis di depan toko
+**Makmur Jaya Store DOES NOT have an official delivery service.**
 
 ---
 
-## Alternatif Pemesanan (Manual)
+## Ordering & Delivery Information
 
-### 1. Reservasi via WhatsApp/Telepon
-Jika ingin memastikan barang tersedia sebelum datang:
+### Current (2026)
+✗ No official online ordering system
+✗ No store delivery service (to customer's home/office)
+✗ No pre-order service for items
+✗ No WhatsApp bot for ordering
 
-**Prosedur:**
-1. Hubungi toko via WhatsApp: +62 xxx-xxxx-xxxx
-2. Atau telepon: (021) xxxx-xxxx
-3. Tanyakan: "Apakah ada stok [nama barang]?"
-4. Kasir akan cek & informasikan ketersediaan
-5. Jika ada, minta "hold barang" selama 1–2 jam
-6. Datang langsung ke toko, ambil barang & bayar di kasir
-
-**Biaya:** Gratis (tidak ada biaya tambahan)
-
-**Durasi Hold:** Max 2 jam (jika tidak datang dalam 2 jam, barang kembali ke rak untuk pelanggan lain)
-
-### 2. Pre-Order Barang Khusus (Limited)
-Untuk barang yang tidak ada stok reguler:
-
-**Prosedur:**
-1. Hubungi toko via WhatsApp untuk diskusi
-2. Tanyakan apakah barang bisa di-order dari supplier
-3. Kasir akan cek dengan pemilik & supplier
-4. Jika bisa: Anda bayar DP (down payment) 50% dari harga
-5. Barang dipesan ke supplier (estimasi 3–7 hari)
-6. Kasir akan hubungi via WhatsApp saat barang tiba
-7. Datang ambil barang & bayar sisa pembayaran
-
-**Syarat Pre-Order:**
-- Minimal pemesanan 5 unit (untuk barang tertentu)
-- DP tidak boleh balik (jika Anda membatalkan)
-- Harus bisa dikonfirmasi ada
-
-### 3. Pengantaran via Kurir Pihak Ketiga (Customer Arrange)
-Toko TIDAK menyediakan delivery, tapi Anda bisa pesan melalui aplikasi kurir:
-
-**Cara:**
-1. Pesan & beli barang langsung di toko (atau via call kasir untuk jaminan stok)
-2. Kasir akan kasih alamat toko & barang yang dibeli
-3. Anda pesan via Gojek/Grab/JNE sendiri untuk antar ke rumah
-4. Kurir datang ke toko, ambil paket, antar ke rumah Anda
-
-**Biaya:** Sesuai tarif kurir (bukan tanggung jawab toko)
-
-**Estimasi:** 30 menit – 2 jam tergantung jarak & keramaian aplikasi
+### How to Shop Currently
+**Only in-store pickup is available:**
+- Location: Jalan Raya Kecamatan No. 45
+- Hours: 07:00–21:00 (every day)
+- Parking: Free in front of the store
 
 ---
 
-## FAQ Pemesanan & Pengantaran
+## Manual Ordering Alternatives
 
-**Q: Bagaimana cara order barang online?**
-A: Saat ini belum ada sistem order online. Hanya bisa datang langsung ke toko atau hubungi via WhatsApp untuk reservasi barang.
+### 1. Reservation via WhatsApp/Phone
+If you want to ensure the item is available before coming:
 
-**Q: Apakah ada layanan delivery/antar barang ke rumah?**
-A: Tidak, toko belum menyediakan layanan delivery resmi. Alternatif:
-- Pesan via kurir Gojek/Grab/JNE sendiri (toko hanya sedia barang)
-- Atau datang langsung ke toko untuk belanja
+**Procedure:**
+1. Contact the store via WhatsApp: +62 xxx-xxxx-xxxx
+2. Or call: (021) xxxx-xxxx
+3. Ask: "Is there stock of [item name]?"
+4. The cashier will check & inform availability
+5. If available, request to "hold the item" for 1–2 hours
+6. Come directly to the store, pick the item up & pay at the cashier
 
-**Q: Berapa biaya delivery?**
-A: Toko tidak menangani delivery. Jika menggunakan kurir pihak ketiga, biaya sesuai tarif kurir.
+**Cost:** Free (no additional fees)
 
-**Q: Bagaimana cara reservasi barang agar tidak kosong saat saya tiba?**
-A: Hubungi toko via WhatsApp: +62 xxx-xxxx-xxxx
-- Tanyakan stok barang yang ingin dibeli
-- Minta hold barang max 2 jam
-- Datang ke toko & ambil barang
+**Hold Duration:** Max 2 hours (if you do not come within 2 hours, the item will be returned to the shelf for other customers)
 
-**Q: Apakah bisa pre-order barang yang tidak ada?**
-A: Bisa, dengan syarat:
-- Hubungi toko terlebih dulu untuk verifikasi
-- DP minimal 50% dari harga
-- Estimasi 3–7 hari tergantung supplier
-- DP tidak boleh balik jika membatalkan
+### 2. Pre-Ordering Special Items (Limited)
+For items that are not in regular stock:
 
-**Q: Berapa lama proses pre-order?**
-A: Estimasi 3–7 hari tergantung supplier. Kasir akan hubungi via WhatsApp saat barang tiba.
+**Procedure:**
+1. Contact the store via WhatsApp for discussion
+2. Ask if the item can be ordered from the supplier
+3. The cashier will check with the owner & supplier
+4. If possible: You pay a 50% DP (down payment) of the price
+5. Item is ordered from the supplier (estimated 3–7 days)
+6. The cashier will contact you via WhatsApp when the item arrives
+7. Come pick up the item & pay the remaining balance
 
-**Q: Bisakah order barang dalam jumlah besar (grosir)?**
-A: Bisa, tapi:
-- Hubungi pemilik/kasir via WhatsApp untuk diskusi
-- Mungkin perlu pre-order & DP
-- Harga bisa dinegosiasikan untuk pembelian besar
+**Pre-Order Requirements:**
+- Minimum order of 5 units (for certain items)
+- DP is non-refundable (if you cancel)
+- Must be confirmed available
 
-**Q: Saya ingin order untuk pengiriman ke kota lain, apakah bisa?**
-A: Toko bisa bantu packaging barang, tapi pengiriman Anda urus sendiri via JNE/Tiki/Pos. Prosedur:
-1. Hubungi toko untuk order barang
-2. Datang/minta barang disiapkan
-3. Ambil barang & urus pengiriman sendiri ke kurir
+### 3. Delivery via Third-Party Courier (Customer Arranged)
+The store DOES NOT provide delivery, but you can order through courier applications:
 
-**Q: Apakah ada diskon khusus jika pre-order/order dalam jumlah besar?**
-A: Tidak ada diskon standar, tapi bisa dinegosiasikan dengan pemilik untuk order besar (min 20+ unit). Hubungi pemilik via WhatsApp.
+**How:**
+1. Order & buy the item directly at the store (or via call to the cashier to guarantee stock)
+2. The cashier will provide the store address & the purchased item
+3. You order via Gojek/Grab/JNE yourself for delivery to your home
+4. The courier comes to the store, picks up the package, and delivers it to your home
 
-**Q: Saya sudah tahan barang (hold) 2 jam tapi belum datang, apa yang terjadi?**
-A: Barang akan dikembalikan ke rak untuk pelanggan lain. Jika ingin hold lebih lama, hubungi kasir sebelum 2 jam habis untuk extend (max +1 jam).
+**Cost:** According to courier rates (not the store's responsibility)
 
-**Q: Bagaimana jika saya order pre-order tapi barang tidak sesuai ekspektasi?**
-A: Jika barang berbeda dari yang dijanjikan, Anda bisa:
-- Membatalkan & DP hangus (per kebijakan pre-order)
-- Atau tukar barang dengan barang lain dari supplier (jika ada opsi)
-Hubungi pemilik untuk diskusi.
+**Estimate:** 30 minutes – 2 hours depending on distance & application traffic
 
 ---
 
-## Rencana Masa Depan
+## Ordering & Delivery FAQ
 
-**Pemilik sedang mempertimbangkan:**
-- Layanan delivery resmi toko (via staf gudang + motor) → estimasi 2027/2028
-- Sistem order WhatsApp bot (semi-otomatis) → estimasi 2027
-- Integration dengan aplikasi delivery (Gojek/Grab Official) → under study
+**Q: How do I order items online?**
+A: There is currently no online ordering system. You can only come directly to the store or contact via WhatsApp for item reservation.
 
-**Status:** Masih dalam fase planning. Update akan diumumkan jika ada realisasi.
+**Q: Is there a delivery/item delivery service to the home?**
+A: No, the store does not provide an official delivery service. Alternatives:
+- Order via Gojek/Grab/JNE yourself (the store only provides the item)
+- Or come directly to the store to shop
+
+**Q: How much is the delivery fee?**
+A: The store does not handle delivery. If using a third-party courier, the cost is according to the courier's rate.
+
+**Q: How can I reserve an item so it's not empty when I arrive?**
+A: Contact the store via WhatsApp: +62 xxx-xxxx-xxxx
+- Ask for the stock of the item you want to buy
+- Request a hold on the item for max 2 hours
+- Come to the store & pick up the item
+
+**Q: Can I pre-order items that are unavailable?**
+A: Yes, with the following conditions:
+- Contact the store first for verification
+- Minimum DP of 50% of the price
+- Estimated 3–7 days depending on the supplier
+- DP is non-refundable if you cancel
+
+**Q: How long is the pre-order process?**
+A: Estimated 3–7 days depending on the supplier. The cashier will contact you via WhatsApp when the item arrives.
+
+**Q: Can I order in bulk (wholesale)?**
+A: Yes, but:
+- Contact the owner/cashier via WhatsApp for discussion
+- May require pre-order & DP
+- Prices can be negotiated for large purchases
+
+**Q: I want to order for delivery to another city, is that possible?**
+A: The store can help with packaging the items, but you handle the delivery yourself via JNE/Tiki/Pos. Procedure:
+1. Contact the store to order the items
+2. Come/request the items to be prepared
+3. Pick up the items & arrange the delivery yourself to the courier
+
+**Q: Are there any special discounts for pre-orders/bulk orders?**
+A: There are no standard discounts, but they can be negotiated with the owner for large orders (min 20+ units). Contact the owner via WhatsApp.
+
+**Q: I held the item for 2 hours but haven't come, what happens?**
+A: The item will be returned to the shelf for other customers. If you want to hold it longer, contact the cashier before the 2 hours expire to extend (max +1 hour).
+
+**Q: What if I order pre-order but the item does not meet expectations?**
+A: If the item is different from what was promised, you can:
+- Cancel & DP forfeited (per pre-order policy)
+- Or exchange the item for another item from the supplier (if an option exists)
+Contact the owner for discussion.
 
 ---
 
-## Alternatif & Solusi
+## Future Plans
 
-### Jika Butuh Barang Cepat
-1. **Hubungi via WhatsApp:** Tanyakan stok barang, kasir cek & hold 2 jam
-2. **Datang langsung:** Jika dekat dengan toko, datang aja (jam 07.00–21.00)
-3. **Minta bantuan:** Jika tidak bisa datang, minta staf toko untuk packaging & urus kurir via Gojek/Grab
+**Owner is considering:**
+- Official store delivery service (via warehouse staff + motorcycle) → estimated 2027/2028
+- WhatsApp bot order system (semi-automatic) → estimated 2027
+- Integration with delivery applications (Gojek/Grab Official) → under study
 
-### Jika Butuh Pengiriman Jarak Jauh
-1. **Order ke toko:** Hubungi WhatsApp untuk verifikasi stok & harga
-2. **Buat pre-order:** Jika barang tidak ada, bisa pre-order dgn DP 50%
-3. **Kurir sendiri:** Setelah barang siap, urus pengiriman ke JNE/Tiki/Pos sendiri
-4. **Atau pakai Gojek/Grab:** Mereka bisa ambil barang dari toko & antar ke rumah Anda
+**Status:** Still in the planning phase. Updates will be announced if there is a realization.
 
 ---
 
-## Kontak untuk Pemesanan
+## Alternatives & Solutions
+
+### If You Need Items Quickly
+1. **Contact via WhatsApp:** Ask for stock, cashier checks & hold for 2 hours
+2. **Visit in person:** If close to the store, just come (hours 07:00–21:00)
+3. **Ask for help:** If you cannot come, ask store staff for packaging & arrange courier via Gojek/Grab
+
+### If You Need Long-Distance Delivery
+1. **Order from the store:** Contact WhatsApp to verify stock & price
+2. **Make a pre-order:** If the item is not available, you can pre-order with a 50% DP
+3. **Arrange courier yourself:** After the item is ready, arrange shipping to JNE/Tiki/Pos yourself
+4. **Or use Gojek/Grab:** They can pick up the item from the store & deliver it to your home
+
+---
+
+## Contact for Ordering
 
 **WhatsApp:** +62 xxx-xxxx-xxxx
-**Telepon:** (021) xxxx-xxxx
-**Email:** belum ada (belum aktif)
-**Jam Layanan:** 07.00–21.00 (setiap hari)
-**Lokasi:** Jalan Raya Kecamatan No. 45
+**Phone:** (021) xxxx-xxxx
+**Email:** none yet (not active)
+**Service Hours:** 07:00–21:00 (every day)
+**Location:** Jalan Raya Kecamatan No. 45
 
 ---
 
-## Catatan Penting
-- **Belum ada layanan delivery resmi toko**
-- **Belum ada sistem order online formal**
-- **Reservasi hanya max 2 jam (hold barang)**
-- **Pre-order ada DP 50% (tidak boleh balik jika batal)**
-- **Pengiriman jarak jauh urus sendiri via kurir pihak ketiga**
-- **Pantau update 2027 untuk layanan delivery resmi**
+## Important Notes
+- **No official store delivery service yet**
+- **No formal online ordering system yet**
+- **Reservations are limited to max 2 hours (item hold)**
+- **Pre-order requires a 50% DP (non-refundable if canceled)**
+- **Long-distance shipping must be arranged yourself via third-party couriers**
+- **Monitor updates in 2027 for the official delivery service**

@@ -1,237 +1,237 @@
-# Kebijakan Cuti & Izin Karyawan
-**Toko Makmur Jaya | Efektif: 2026**
+# Employee Leave & Vacation Policy
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Mengatur hak cuti, izin, dan ketidakhadiran karyawan dengan jelas dan adil sesuai peraturan tenaga kerja.
+## Purpose
+To clearly and fairly regulate employee leave, permission, and absences in accordance with labor regulations.
 
 ---
 
-## Data Karyawan Toko Makmur Jaya
+## Makmur Jaya Store Employee Data
 
-| No | Nama | Posisi | Status | Jam Kerja |
+| No | Name | Position | Status | Working Hours |
 |---|---|---|---|---|
-| 1 | Budi Santoso | Pemilik/Manajer | Tetap | 07.00–21.00 (fleksibel) |
-| 2 | Siti Nurhaliza | Kasir Senior | Tetap | 07.00–14.00 (shift pagi) |
-| 3 | Rudi Hartono | Kasir | Tetap | 14.00–21.00 (shift sore) |
-| 4 | Eka Pramuniaga 1 | Pramuniaga | Tetap | 07.00–14.00 |
-| 5 | Dito Pramuniaga 2 | Pramuniaga | Tetap | 14.00–21.00 |
-| 6 | Bima Pramuniaga 3 | Pramuniaga | Tetap | Fleksibel 1–2 hari/minggu |
-| 7 | Hendra Staf Gudang 1 | Staf Gudang | Tetap | 07.00–14.00 |
-| 8 | Joko Staf Gudang 2 | Staf Gudang | Tetap | 14.00–21.00 |
+| 1 | Budi Santoso | Owner/Manager | Permanent | 07.00–21.00 (flexible) |
+| 2 | Siti Nurhaliza | Senior Cashier | Permanent | 07.00–14.00 (morning shift) |
+| 3 | Rudi Hartono | Cashier | Permanent | 14.00–21.00 (afternoon shift) |
+| 4 | Eka Pramuniaga 1 | Sales Associate | Permanent | 07.00–14.00 |
+| 5 | Dito Pramuniaga 2 | Sales Associate | Permanent | 14.00–21.00 |
+| 6 | Bima Pramuniaga 3 | Sales Associate | Permanent | Flexible 1–2 days/week |
+| 7 | Hendra Warehouse Staff 1 | Warehouse Staff | Permanent | 07.00–14.00 |
+| 8 | Joko Warehouse Staff 2 | Warehouse Staff | Permanent | 14.00–21.00 |
 
-**Total Karyawan:** 8 orang (1 pemilik, 2 kasir, 3 pramuniaga, 2 staf gudang)
-
----
-
-## Hak Cuti Karyawan
-
-### Cuti Tahunan
-- **Karyawan Tetap:** 12 hari cuti per tahun (sesuai UU Ketenagakerjaan)
-- **Perhitungan:** Mulai 1 Januari – 31 Desember setiap tahun
-- **Cuti Hang-over:** Cuti yang tidak diambil di tahun N tidak bisa dipindahkan ke tahun N+1 (hangus)
-- **Kompensasi Cuti Tak Terambil:** Jika akhir tahun masih ada cuti tersisa & tidak bisa diambil, akan dibayar (1/12 gaji + THR)
-
-### Cuti Periode Pembayaran
-- **Cuti 1–3 hari:** Gaji penuh (tidak ada potongan)
-- **Cuti > 3 hari:** Gaji penuh (tidak ada potongan)
-- **Cuti Kolektif (Hari Raya, Libur Nasional):** Gaji penuh (masuk penetapan cuti tahunan)
-
-### Persyaratan Mengajukan Cuti
-1. **Ajukan Minimal 1 Minggu Sebelumnya** (jika possible)
-   - Hubungi Pemilik via WhatsApp atau verbally
-   - Jelaskan: tanggal cuti, alasan singkat, siapa pengganti shift
-
-2. **Ajukan Formalnya 3 Hari Sebelumnya**
-   - Isi Formulir Permintaan Cuti (jika ada)
-   - Catat: tanggal cuti, durasi, alasan
-
-3. **Approval dari Pemilik**
-   - Pemilik akan pertimbangkan: ketersediaan staf, kebutuhan operasional
-   - Pemilik akan approve/reject dalam 1 hari
-   - Jika cuti pada weekend/hari ramai, mungkin tidak disetujui (atur ulang)
-
-4. **Pantau Jadwal Toko**
-   - Jangan ajukan cuti saat libur nasional (sudah cuti bersama)
-   - Jangan ajukan > 2 hari cuti bersamaan (kecuali ada alasan khusus)
-
-### Jenis-Jenis Cuti
-
-#### 1. Cuti Tahunan Reguler
-- **Jumlah:** 12 hari per tahun
-- **Alasan:** Istirahat & liburan pribadi
-- **Proses:** Ajukan minimal 1 minggu, tunggu approval pemilik
-
-#### 2. Cuti Sakit
-- **Durasi:** Maksimal 2 hari tanpa surat dokter
-- **> 2 hari:** Harus ada surat dokter dari klinik/rumah sakit
-- **Pengecualian:** Jika sakit hari libur (Minggu), tidak dihitung ke cuti sakit
-- **Prosedur:**
-  - Berita ke kasir/pemilik AS SOON AS POSSIBLE (sebaiknya sebelum shift mulai)
-  - Sediakan surat dokter jika > 2 hari
-  - Cuti sakit dengan surat dokter: tidak dikurangi cuti tahunan
-  - Cuti sakit tanpa surat (> 2 hari): akan dikurangi cuti tahunan atau gaji
-
-#### 3. Cuti Kematian (Duka Cita)
-- **Durasi:** 3–7 hari (tergantung relasi keluarga)
-  - Orangtua/Pasangan: 7 hari
-  - Anak/Kakak/Adik: 5 hari
-  - Mertua/Keluarga lain: 3 hari
-- **Syarat:** Lampirkan surat kematian atau undangan duka cita
-- **Gaji:** Gaji penuh (tidak ada potongan)
-- **Tidak dikurangi cuti tahunan**
-
-#### 4. Cuti Pernikahan
-- **Durasi:** 3 hari
-- **Syarat:** Lampirkan undangan pernikahan atau surat nikah
-- **Gaji:** Gaji penuh
-- **Tidak dikurangi cuti tahunan**
-
-#### 5. Cuti Melahirkan/Paternitas
-- **Karyawan Wanita (Melahirkan):** 3 bulan cuti
-  - 1.5 bulan sebelum melahirkan
-  - 1.5 bulan setelah melahirkan
-- **Karyawan Pria (Paternitas):** 2 hari cuti
-- **Gaji:** Gaji penuh (tidak ada potongan)
-- **Asuransi:** Jika ada BPJS, akan ditanggung BPJS
-
-#### 6. Cuti Tanpa Bayar (Unpaid Leave)
-- **Durasi:** Maksimal 1 bulan per tahun (jika ada alasan khusus)
-- **Alasan:** Keluarga di kampung, keperluan pribadi mendesak, dll
-- **Proses:** Ajukan minimal 1 bulan sebelumnya dengan alasan detail
-- **Gaji:** TIDAK ADA (0% gaji selama cuti)
-- **Syarat:** Harus disetujui pemilik (keputusan diskresioner)
+**Total Employees:** 8 people (1 owner, 2 cashiers, 3 sales associates, 2 warehouse staff)
 
 ---
 
-## Izin Kerja (Tanpa Cuti)
+## Employee Leave Entitlements
 
-### Izin Pulang Cepat
-- **Maksimal:** 2 jam lebih cepat dari shift berakhir
-- **Alasan:** Urusan pribadi mendadak, dokter, dll
-- **Prosedur:** Berita ke kasir/pemilik sesegera mungkin (verbal atau WhatsApp)
-- **Pengganti:** Koordinasikan dengan staff lain untuk cover shift Anda
-- **Pembayaran:** Gaji full (tidak ada potongan untuk izin < 2 jam)
-- **Frekuensi:** Max 2x per bulan (jika > 2x: bisa dapat warning)
+### Annual Leave
+- **Permanent Employees:** 12 days of leave per year (in accordance with Labor Law)
+- **Calculation:** From January 1 – December 31 each year
+- **Carry-over Leave:** Leave not taken in year N cannot be transferred to year N+1 (forfeited)
+- **Compensation for Unused Leave:** If there is remaining leave at the end of the year that cannot be taken, it will be paid (1/12 of salary + THR)
 
-### Izin Terlambat
-- **Maksimal:** 2 jam terlambat
-- **Alasan:** Macet, keperluan mendadak, transportasi bermasalah, dll
-- **Prosedur:** Hubungi kasir/pemilik SEBELUM shift mulai (via WhatsApp/telepon)
-- **Notifikasi:** "Saya akan terlambat [durasi], ketinggalan [alasan]"
-- **Pembayaran:** Gaji penuh (tidak ada potongan untuk izin ≤ 2 jam)
-- **Catatan:** Jika terlambat > 2 jam atau tanpa notifikasi → bisa dianggap absen
+### Payment Period Leave
+- **Leave 1–3 days:** Full salary (no deductions)
+- **Leave > 3 days:** Full salary (no deductions)
+- **Collective Leave (Holidays, National Holidays):** Full salary (subject to annual leave approval)
 
-### Izin Tidak Masuk (Tanpa Cuti)
-- **Maksimal:** 1 hari per bulan
-- **Alasan:** Keperluan mendadak (bukan sakit, bukan persoalan pribadi ringan)
-- **Prosedur:** 
-  - Hubungi pemilik SEBELUM jam shift mulai
-  - Jelaskan alasan detail
-  - Minta approval (tidak bisa sembarangan)
-- **Pembayaran:** 
-  - Izin disetujui: gaji penuh
-  - Izin tidak disetujui / tidak ada kabar: ABSEN (gaji dikurangi)
-- **Catatan:** Izin tidak masuk > 1 hari per bulan akan dapat warning
+### Leave Application Requirements
+1. **Apply at Least 1 Week in Advance** (if possible)
+   - Contact the Owner via WhatsApp or verbally
+   - Explain: leave dates, brief reason, who will cover the shift
+
+2. **Submit Formal Request 3 Days in Advance**
+   - Fill out the Leave Request Form (if available)
+   - Note: leave dates, duration, reason
+
+3. **Approval from the Owner**
+   - The Owner will consider: staff availability, operational needs
+   - The Owner will approve/reject within 1 day
+   - If leave is on the weekend/busy day, it may not be approved (rescheduled)
+
+4. **Monitor Store Schedule**
+   - Do not apply for leave on national holidays (already on collective leave)
+   - Do not apply for > 2 days of collective leave at the same time (unless there is a special reason)
+
+### Types of Leave
+
+#### 1. Regular Annual Leave
+- **Amount:** 12 days per year
+- **Reason:** Rest & personal vacation
+- **Process:** Apply at least 1 week in advance, wait for owner approval
+
+#### 2. Sick Leave
+- **Duration:** Maximum 2 days without a doctor's note
+- **> 2 days:** Must have a doctor's note from a clinic/hospital
+- **Exemption:** If sick on a holiday (Sunday), it is not counted as sick leave
+- **Procedure:**
+  - Inform the cashier/owner AS SOON AS POSSIBLE (preferably before the shift starts)
+  - Provide a doctor's note if > 2 days
+  - Sick leave with a doctor's note: will not be deducted from annual leave
+  - Sick leave without a note (> 2 days): will be deducted from annual leave or salary
+
+#### 3. Bereavement Leave (Condolence)
+- **Duration:** 3–7 days (depending on family relationship)
+  - Parents/Spouse: 7 days
+  - Children/Siblings: 5 days
+  - In-laws/Other family: 3 days
+- **Requirement:** Attach a death certificate or condolence invitation
+- **Salary:** Full salary (no deductions)
+- **Not deducted from annual leave**
+
+#### 4. Marriage Leave
+- **Duration:** 3 days
+- **Requirement:** Attach a wedding invitation or marriage certificate
+- **Salary:** Full salary
+- **Not deducted from annual leave**
+
+#### 5. Maternity/Paternity Leave
+- **Female Employees (Giving Birth):** 3 months leave
+  - 1.5 months before giving birth
+  - 1.5 months after giving birth
+- **Male Employees (Paternity):** 2 days leave
+- **Salary:** Full salary (no deductions)
+- **Insurance:** If there is BPJS, it will be covered by BPJS
+
+#### 6. Unpaid Leave
+- **Duration:** Maximum 1 month per year (if there is a special reason)
+- **Reason:** Family in the hometown, urgent personal needs, etc.
+- **Process:** Apply at least 1 month in advance with detailed reason
+- **Salary:** NONE (0% salary during leave)
+- **Requirement:** Must be approved by the owner (discretionary decision)
 
 ---
 
-## Absensi & Ketidakhadiran
+## Work Permit (Without Leave)
 
-### Definisi Absen
-**Tidak hadir ke tempat kerja tanpa alasan atau tanpa persetujuan pemilik.**
+### Early Leave Permission
+- **Maximum:** 2 hours earlier than the shift end time
+- **Reason:** Sudden personal matters, doctor, etc.
+- **Procedure:** Inform the cashier/owner as soon as possible (verbally or via WhatsApp)
+- **Replacement:** Coordinate with other staff to cover your shift
+- **Payment:** Full salary (no deductions for leave < 2 hours)
+- **Frequency:** Max 2 times per month (if > 2 times: may receive a warning)
 
-### Jenis Absen
-1. **Absen Tanpa Kabar:** Tidak hadir & tidak ada hubungan ke toko
-2. **Absen Dengan Kabar Tapi Ditolak:** Izin tidak masuk ditolak pemilik tapi tetap tidak datang
-3. **Sakit > 2 Hari Tanpa Surat Dokter:** Dianggap absen (bukan sakit)
+### Late Arrival Permission
+- **Maximum:** 2 hours late
+- **Reason:** Traffic, sudden needs, transportation issues, etc.
+- **Procedure:** Contact the cashier/owner BEFORE the shift starts (via WhatsApp/phone)
+- **Notification:** "I will be late [duration], missing [reason]"
+- **Payment:** Full salary (no deductions for leave ≤ 2 hours)
+- **Note:** If late > 2 hours or without notification → may be considered absent
 
-### Potongan Gaji Absen
-- **Absen 1 hari:** Potongan gaji 1 hari kerja + Rp 100.000 denda
-- **Absen 2 hari berturut-turut:** Potongan gaji 2 hari kerja + Rp 200.000 denda + warning tertulis
-- **Absen 3 hari dalam 1 bulan:** Potongan gaji penuh 1 hari kerja + denda Rp 300.000 + warning final
-- **Absen > 3 hari atau 5 hari dalam sebulan:** Dapat dikembalikan/dipecat (sesuai peraturan)
-
-### Proses Penggajian Saat Absen
-- Gaji pokok dikurangi Rp [dihitung dari gaji harian]
-- Uang makan (jika ada) tetap diberikan (tidak dipotong)
-- Bonus/insentif tidak diberikan (jika ada absen dalam bulan itu)
+### Unexcused Absence (Without Leave)
+- **Maximum:** 1 day per month
+- **Reason:** Sudden needs (not illness, not minor personal matters)
+- **Procedure:**
+  - Contact the owner BEFORE the shift starts
+  - Explain the detailed reason
+  - Request approval (cannot be done arbitrarily)
+- **Payment:**
+  - Leave approved: full salary
+  - Leave not approved / no notice: ABSENT (salary deducted)
+- **Note:** Unexcused absence > 1 day per month will result in a warning
 
 ---
 
-## Tabel Ringkasan Hak Cuti & Izin
+## Attendance & Absence
 
-| Jenis | Durasi | Syarat | Gaji | Dikurangi Cuti |
+### Definition of Absence
+**Not present at work without a reason or without the owner's approval.**
+
+### Types of Absence
+1. **No-Show Absence:** Not present & no relationship with the store
+2. **Absence with Notice but Rejected:** Leave request rejected by the owner but still does not show up
+3. **Illness > 2 Days Without Doctor's Note:** Considered absence (not illness)
+
+### Salary Deductions for Absence
+- **1-day Absence:** Salary deduction for 1 working day + IDR 100,000 fine
+- **2 consecutive days Absence:** Salary deduction for 2 working days + IDR 200,000 fine + written warning
+- **3 days Absence in 1 month:** Full salary deduction for 1 working day + IDR 300,000 fine + final warning
+- **Absence > 3 days or 5 days in a month:** Subject to recovery/termination (according to regulations)
+
+### Payroll Process During Absence
+- Basic salary reduced by IDR [calculated from daily salary]
+- Meal allowance (if any) will still be provided (not deducted)
+- Bonus/incentive will not be given (if there is absence in that month)
+
+---
+
+## Leave & Absence Summary Table
+
+| Type | Duration | Requirement | Salary | Leave Deduction |
 |---|---|---|---|---|
-| Cuti Tahunan | 12 hari/tahun | Ajukan 1 minggu | Penuh | Ya (dikurangi dari 12) |
-| Cuti Sakit (tanpa surat) | Max 2 hari | Hubungi pemilik | Penuh | Ya |
-| Cuti Sakit (dengan surat) | > 2 hari | Lampirkan surat dokter | Penuh | Tidak |
-| Cuti Kematian | 3–7 hari | Lampirkan surat | Penuh | Tidak |
-| Cuti Pernikahan | 3 hari | Lampirkan undangan | Penuh | Tidak |
-| Cuti Melahirkan | 3 bulan | Surat medis | Penuh | Tidak |
-| Cuti Paternitas | 2 hari | Surat lahir bayi | Penuh | Tidak |
-| Cuti Tanpa Bayar | Max 1 bulan | Approval pemilik | 0% | Tidak |
-| Izin Pulang Cepat | < 2 jam | Berita ke kasir | Penuh | Tidak |
-| Izin Terlambat | < 2 jam | Hubungi pemilik | Penuh | Tidak |
-| Izin Tidak Masuk | 1 hari/bulan | Approval pemilik | Tergantung | Tidak |
-| Absen | - | - | Dipotong | Tidak |
+| Annual Leave | 12 days/year | Apply 1 week in advance | Full | Yes (deducted from 12) |
+| Sick Leave (without note) | Max 2 days | Contact owner | Full | Yes |
+| Sick Leave (with note) | > 2 days | Attach doctor's note | Full | No |
+| Bereavement Leave | 3–7 days | Attach note | Full | No |
+| Marriage Leave | 3 days | Attach invitation | Full | No |
+| Maternity Leave | 3 months | Medical certificate | Full | No |
+| Paternity Leave | 2 days | Birth certificate | Full | No |
+| Unpaid Leave | Max 1 month | Owner approval | 0% | No |
+| Early Leave Permission | < 2 hours | Inform cashier | Full | No |
+| Late Arrival Permission | < 2 hours | Contact owner | Full | No |
+| Unexcused Absence | 1 day/month | Owner approval | Depends | No |
+| Absence | - | - | Deducted | No |
 
 ---
 
-## Prosedur Pengajuan Cuti
+## Leave Request Procedure
 
-### Formulir Permohonan Cuti
+### Leave Application Form
 ```
-PERMOHONAN CUTI/IZIN
-Tanggal Permohonan: ________________
-Nama Karyawan: ________________
-Posisi: ________________
-Periode Cuti:
-  Mulai: _____________ 
-  Sampai: _____________
-  Durasi: _____ hari
+LEAVE/ABSENCE REQUEST
+Date of Request: ________________
+Employee Name: ________________
+Position: ________________
+Leave Period:
+  Start: _____________ 
+  Until: _____________
+  Duration: _____ days
 
-Jenis Cuti:
-[ ] Cuti Tahunan
-[ ] Cuti Sakit (tanpa surat)
-[ ] Cuti Sakit (dengan surat) - lampirkan surat
-[ ] Cuti Kematian - lampirkan surat
-[ ] Cuti Pernikahan - lampirkan undangan
-[ ] Cuti Tanpa Bayar
-[ ] Izin Tidak Masuk
+Type of Leave:
+[ ] Annual Leave
+[ ] Sick Leave (without letter)
+[ ] Sick Leave (with letter) - attach letter
+[ ] Bereavement Leave - attach letter
+[ ] Marriage Leave - attach invitation
+[ ] Unpaid Leave
+[ ] Absence Permit
 
-Alasan Cuti:
+Reason for Leave:
 _________________________________
 
-Pengganti Shift (siapa yang akan cover):
+Shift Replacement (who will cover):
 _________________________________
 
-Tanda Tangan Karyawan: _________________
-Tgl: ______________
+Employee Signature: _________________
+Date: ______________
 
-APPROVAL PEMILIK:
-Disetujui? [  ] Ya  [  ] Tidak
-Catatan: _________________________________
-Tanda Tangan Pemilik: __________
-Tgl: ______________
+OWNER APPROVAL:
+Approved? [  ] Yes  [  ] No
+Notes: _________________________________
+Owner Signature: __________
+Date: ______________
 ```
 
 ---
 
-## Checklist Sebelum Cuti
+## Checklist Before Leave
 
-- [ ] Ajukan minimal 1 minggu sebelumnya (jika possible)
-- [ ] Isi formulir permohonan cuti
-- [ ] Jika sakit: siapkan surat dokter (jika > 2 hari)
-- [ ] Jika kematian/pernikahan: siapkan dokumen pendukung
-- [ ] Informasi pengganti shift ke toko
-- [ ] Tunggu approval pemilik (jangan cuti sebelum disetujui)
-- [ ] Catat tanggal cuti di kalender pribadi
+- [ ] Submit at least 1 week in advance (if possible)
+- [ ] Fill out the leave request form
+- [ ] If sick: prepare a doctor's note (if > 2 days)
+- [ ] If death/marriage: prepare supporting documents
+- [ ] Inform the shift replacement at the store
+- [ ] Wait for owner approval (do not take leave before approved)
+- [ ] Record the leave dates in your personal calendar
 
 ---
 
-## Catatan Penting
-- **Cuti adalah hak karyawan**, tapi tetap harus dengan approval pemilik (pertimbangkan kebutuhan toko)
-- **Jangan cuti saat rush season** tanpa alasan sangat mendesak (Lebaran, Tahun Baru, dll)
-- **Absen tanpa kabar dapat berpengaruh pada gaji & posisi kerja**
-- **Komunikasi adalah kunci:** hubungi pemilik sesegera mungkin jika ada keperluan cuti/izin mendadak
-- **Cuti hang-over tidak boleh dipindahkan:** ambil cuti sebelum akhir tahun atau hangus
+## Important Notes
+- **Leave is an employee's right**, but still requires owner approval (consider store needs)
+- **Do not take leave during rush season** without an extremely urgent reason (Eid, New Year, etc.)
+- **Absence without notice can affect salary & job position**
+- **Communication is key:** contact the owner as soon as possible if there is an urgent need for leave/permission
+- **Leave hang-over cannot be transferred:** take leave before the end of the year or it will be forfeited

@@ -1,234 +1,234 @@
-# Kebijakan Seragam & Penampilan
-**Toko Makmur Jaya | Efektif: 2026**
+# Uniform & Appearance Policy
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Memastikan semua karyawan berpenampilan profesional, rapi, dan seragam untuk meningkatkan citra toko di mata pelanggan.
-
----
-
-## Standar Penampilan Umum
-
-### Ketentuan Umum
-1. **Seragam Wajib Dipakai** setiap hari kerja (tidak boleh pilih-pilih)
-2. **Penampilan Rapi & Bersih** (rambut, kuku, pakaian, sepatu)
-3. **Tidak Ada Aksesoris Berlebihan** (gelang, kalung hanya 1–2 item sederhana)
-4. **Pertumbuhan Rambut Teratur** (potong regular, rambut tidak menutupi wajah)
-5. **Personal Hygiene** (mandi sebelum kerja, deodorant, tidak bau)
+## Purpose
+To ensure all employees present a professional, neat, and uniform appearance to enhance the store's image in the eyes of customers.
 
 ---
 
-## Jenis Seragam & Keterangan
+## General Appearance Standards
 
-### 1. Seragam Kasir
-- **Item:** Kemeja putih / biru muda + celana/rok hitam + badge ID + sepatu hitam
-- **Kondisi:** Bersih, tidak kusut, tidak robek
-- **Maintenance:** Cuci sendiri di rumah (tanggungan pribadi karyawan)
-- **Ganti Rutin:** Jika rusak/aus, pemilik sediakan seragam pengganti (1x per 6 bulan)
-
-### 2. Seragam Pramuniaga
-- **Item:** Kemeja putih / warna toko (jika ada) + celana/rok hitam + badge ID + sepatu hitam
-- **Variasi:** Boleh memakai rompi/vest warna dengan logo toko (jika ada)
-- **Kondisi:** Bersih, tidak kusut, tidak robek
-- **Maintenance:** Cuci sendiri (tanggungan pribadi)
-
-### 3. Seragam Staf Gudang
-- **Item:** Kemeja warna toko (hijau/biru) + celana hitam + badge ID + sepatu safety (gelap/hitam)
-- **Special:** Boleh pakai apron gudang (untuk perlindungan)
-- **Helm Safety:** Jika ada, wajib dipakai saat mengangkat barang berat
-- **Maintenance:** Cuci sendiri (tanggungan pribadi)
-
-### 4. Penampilan Pemilik
-- **Item:** Kemeja formal atau warna toko + celana/rok formal + sepatu formal
-- **Fleksibilitas:** Lebih fleksibel (tidak harus seragam identik seperti staff)
+### General Provisions
+1. **Uniform Must Be Worn** every workday (no selection allowed)
+2. **Neat & Clean Appearance** (hair, nails, clothing, shoes)
+3. **No Excessive Accessories** (bracelets, necklaces limited to 1–2 simple items)
+4. **Regular Hair Growth** (cut regular, hair must not cover the face)
+5. **Personal Hygiene** (shower before work, deodorant, no body odor)
 
 ---
 
-## Detail Seragam
+## Uniform Types & Descriptions
 
-### Kemeja
-- **Warna:** Putih (standard), atau warna toko jika ada (biru, hijau)
-- **Kondisi:** Tidak boleh kusut, noda, atau lubang
-- **Ukuran:** Pas badan (tidak kebesaran/kekecilan, tidak transparan)
-- **Kancing:** Semua kancing harus terkancing (tidak boleh buka)
-- **Lengan:** Rapi, tidak kusut, bisa dilipat sampai siku (jika panas)
+### 1. Cashier Uniform
+- **Items:** White / light blue shirt + black pants/skirt + ID badge + black shoes
+- **Condition:** Clean, not wrinkled, not torn
+- **Maintenance:** Wash at home (employee's personal responsibility)
+- **Replacement:** If damaged/worn out, the owner will provide a replacement uniform (1x per 6 months)
 
-### Celana/Rok
-- **Warna:** Hitam (standard untuk semua posisi)
-- **Material:** Katun atau blend (tidak elastis berlebihan, terlihat formal)
-- **Kondisi:** Tidak kusut, tidak kusam, tidak robek
-- **Panjang:** Celana panjang (sampai pergelangan kaki), Rok panjang (minimal lutut)
-- **Fit:** Pas badan, tidak ketat/longgar berlebihan
+### 2. Sales Staff Uniform
+- **Items:** White shirt / store color (if available) + black pants/skirt + ID badge + black shoes
+- **Variation:** May wear a vest/waistcoat in store logo color (if available)
+- **Condition:** Clean, not wrinkled, not torn
+- **Maintenance:** Wash at home (personal responsibility)
 
-### Sepatu
-- **Warna:** Hitam (standard)
-- **Tipe:** 
-  - Kasir/Pramuniaga: Sepatu formal (pantofel/flatshoes) atau sepatu olahraga rapi (tidak sneaker casual)
-  - Staf Gudang: Sepatu safety atau sepatu olahraga tertutup (untuk keamanan)
-- **Kondisi:** Bersih, tidak bau, tidak rusak
-- **Material:** Tidak transparan, cover kaki sepenuhnya
+### 3. Warehouse Staff Uniform
+- **Items:** Store color shirt (green/blue) + black pants + ID badge + safety shoes (dark/black)
+- **Special:** May wear a warehouse apron (for protection)
+- **Safety Helmet:** If available, must be worn when lifting heavy items
+- **Maintenance:** Wash at home (personal responsibility)
+
+### 4. Owner Appearance
+- **Items:** Formal shirt or store color + formal pants/skirt + formal shoes
+- **Flexibility:** More flexible (does not need to be an identical uniform like staff)
+
+---
+
+## Uniform Details
+
+### Shirt
+- **Color:** White (standard), or store color if available (blue, green)
+- **Condition:** Must not be wrinkled, stained, or have holes
+- **Size:** Fitted (not too big/small, not transparent)
+- **Buttons:** All buttons must be fastened (cannot be open)
+- **Sleeves:** Neat, not wrinkled, can be rolled up to the elbow (if hot)
+
+### Pants/Skirt
+- **Color:** Black (standard for all positions)
+- **Material:** Cotton or blend (not excessively stretchy, looks formal)
+- **Condition:** Not wrinkled, not faded, not torn
+- **Length:** Long pants (to the ankle), Long skirt (minimum knee length)
+- **Fit:** Fitted, not excessively tight/loose
+
+### Shoes
+- **Color:** Black (standard)
+- **Type:**
+  - Cashier/Sales Staff: Formal shoes (loafers/flat shoes) or neat athletic shoes (not casual sneakers)
+  - Warehouse Staff: Safety shoes or closed athletic shoes (for safety)
+- **Condition:** Clean, no odor, not damaged
+- **Material:** Not transparent, full foot coverage
 
 ### Badge/ID Card
-- **Wajib Dipakai:** Setiap hari kerja (di bagian dada atau lanyard)
-- **Kondisi:** Fotokopi jelas, nama terlihat, badge tidak hilang
-- **Ganti:** Jika hilang, pemilik sediakan pengganti (1x gratis, selanjutnya karyawan ganti sendiri)
+- **Must Be Worn:** Every workday (on the chest area or lanyard)
+- **Condition:** Clear photocopy, name visible, badge must not be lost
+- **Replacement:** If lost, the owner will provide a replacement (1x free, subsequent replacements are the employee's responsibility)
 
 ---
 
-## Penampilan Rambut
+## Hair Appearance
 
-### Ketentuan Rambut
-- **Panjang:** Rambut panjang harus diikat/dijepit (tidak boleh menutupi wajah/jabang hidung)
-- **Warna:** Warna alami / hitam (tidak boleh warna-warni: merah, biru, ungu, dll)
-- **Potongan:** Regular potong (setiap 4–6 minggu sekali minimal)
-- **Perawatan:** Rambut harus bersih & tidak berminyak (cuci regular)
-- **Gaya:** Rapi & professional (tidak nge-blend/acak-acakan)
+### Hair Regulations
+- **Length:** Long hair must be tied up/pinned back (must not cover the face/nose area)
+- **Color:** Natural color / black (no bright colors: red, blue, purple, etc.)
+- **Cut:** Regular cut (at least every 4–6 weeks)
+- **Care:** Hair must be clean & not oily (regular washing)
+- **Style:** Neat & professional (no blending/messy styles)
 
-### Aksesori Rambut
-- **Jepit/Pengikat:** Warna gelap atau warna rapi (tidak warna-warni neon)
-- **Bandana/Turban:** Diperbolehkan jika rapi & professional
-- **Aksesoris Berlebihan:** Tidak boleh (cukup 1 jepit atau 1 pengikat)
-
----
-
-## Perawatan Pribadi (Hygiene)
-
-### Kuku
-- **Panjang:** Pendek & rapi (tidak boleh panjang > 5 mm dari ujung jari)
-- **Warna:** Alami / tidak mengkilap (jika nail polish diperbolehkan: warna natural/transparan saja)
-- **Kebersihan:** Bersih, tidak ada noda / bekas (terutama kasir/pramuniaga yang kontak pelanggan)
-
-### Wajah & Rambut
-- **Kebersihan:** Cuci muka & rambut sebelum kerja
-- **Makeup:** Jika ada, subtle & professional (tidak heavy makeup seperti pesta)
-- **Janggut/Kumis:** Rapi & terrawat (jika punya, harus potong regular)
-
-### Bau Badan
-- **Deodorant/Antiperspiran:** Wajib dipakai untuk mencegah bau
-- **Parfum:** Boleh, tapi jangan berlebihan (subtle, tidak menyengat)
-- **Kebersihan Kaki:** Cuci kaki, gunakan kaos kaki (tidak boleh kaki basah/lembab saat kerja)
-
-### Saat Menstruasi/Tidak Sehat
-- **Tetap Kerja:** Jika bisa (tidak wajib cuti)
-- **Penampilan:** Tetap rapi & professional (jangan biar terlihat "tidak sehat" dengan penampilan berantakan)
-- **Produk Perihal:** Jaga kebersihan (ganti teratur agar tidak bau)
+### Hair Accessories
+- **Clips/Hair Ties:** Dark color or neat color (no neon colors)
+- **Bandana/Turban:** Permitted if neat & professional
+- **Excessive Accessories:** Not allowed (only 1 clip or 1 tie)
 
 ---
 
-## Aksesori & Tambahan
+## Personal Care (Hygiene)
 
-### Boleh Dipakai
-✓ **Jam Tangan:** 1 buah (warna formal: hitam, silver, gold)
-✓ **Cincin:** 1–2 buah (simple, tidak berlebihan, tidak menggangu kerja)
-✓ **Kalung:** 1 buah (simple, tidak panjang/bergoyang, tidak menggangu)
-✓ **Gelang:** 1–2 buah (simple, tidak berisik)
-✓ **Anting:** Kecil & rapi (tidak boleh besar/banyak/bergoyang)
+### Nails
+- **Length:** Short & neat (must not be > 5 mm from the fingertip)
+- **Color:** Natural / not glossy (if nail polish is allowed: only natural/transparent colors)
+- **Cleanliness:** Clean, no stains / marks (especially for cashiers/sales staff who have customer contact)
 
-### Tidak Boleh Dipakai
-✗ **Piercing Ekstrem:** Hidung, lidah, dll (tidak professional)
-✗ **Tatuoo Terbuka:** Jika ada, harus ditutup seragam (tidak visible di tangan/leher)
-✗ **Aksesoris Berisik:** Gelang banyak, rantai berat yang berubah bunyi
-✗ **Keramahan Berlebihan:** Banyak aksesori yang bikin penampilan "berantakan"
+### Face & Hair
+- **Cleanliness:** Wash face & hair before work
+- **Makeup:** If applicable, subtle & professional (not heavy makeup like for a party)
+- **Beard/Mustache:** Neat & well-groomed (if applicable, must be cut regular)
 
----
+### Body Odor
+- **Deodorant/Antiperspirant:** Must be used to prevent odor
+- **Perfume:** Allowed, but not excessive (subtle, not overpowering)
+- **Foot Hygiene:** Wash feet, wear socks (feet must not be wet/damp while working)
 
-## Pakaian Khusus
-
-### Saat Cuaca/Situasi Khusus
-
-**Cuaca Dingin (AC Berlebihan / Malam Hari):**
-- Boleh memakai cardigan/jaket tipis di atas seragam
-- Warna cardigan: hitam, putih, atau warna toko
-
-**Saat Sedang Memancing (Tangkap):**
-- Wajib memakai apron (untuk perlindungan & professional)
-- Apron warna gelap atau warna toko
-
-**Saat Stock Opname / Kerja Berat:**
-- Boleh memakai rompi/safety vest (jika ada)
-- Tetap harus rapi & identifiable sebagai staff toko
+### During Menstruation/Unwell
+- **Work:** If possible (not mandatory leave)
+- **Appearance:** Remain neat & professional (do not look "unwell" with a messy appearance)
+- **Product Handling:** Maintain cleanliness (change regularly so it doesn't smell)
 
 ---
 
-## Tata Cara Perawatan Seragam
+## Accessories & Extras
 
-### Tanggung Jawab Karyawan
-- **Mencuci Seragam:** Karyawan cuci sendiri (di rumah)
-- **Menjaga Kondisi:** Jangan merusak (robek, hilang, kusut parah)
-- **Penyimpanan:** Simpan rapi di rumah (tidak boleh hilang)
+### Permitted Items
+✓ **Watch:** 1 piece (formal colors: black, silver, gold)
+✓ **Rings:** 1–2 pieces (simple, not excessive, not distracting from work)
+✓ **Necklace:** 1 piece (simple, not long/swinging, not distracting)
+✓ **Bracelet:** 1–2 pieces (simple, not noisy)
+✓ **Earrings:** Small & neat (must not be large/many/swinging)
 
-### Tanggung Jawab Toko (Pemilik)
-- **Sediakan Seragam Awal:** Saat karyawan pertama kali bekerja
-- **Ganti Rusak:** Jika seragam rusak karena pemakaian normal (1x per 6 bulan)
-- **Tambahan Jika Diperlukan:** Jika karyawan minta ukuran berbeda karena sizing error
-
-### Biaya Ganti Seragam
-- **Rusak Karena Normal Wear:** Tanggungan toko (gratis ganti)
-- **Hilang/Rusak Karena Kelalaian:** Karyawan ganti sendiri (atau potong gaji)
-- **Upgrade Seragam/Tambahan:** Jika karyawan minta, bisa dibayar sendiri (atau potong gaji cicilan)
+### Prohibited Items
+✗ **Extreme Piercings:** Nose, tongue, etc. (not professional)
+✗ **Open Tattoos:** If present, must be covered by uniform (not visible on hands/neck)
+✗ **Noisy Accessories:** Many bracelets, heavy chains that make noise
+✗ **Excessive Friendliness:** Many accessories that make the appearance look "messy"
 
 ---
 
-## Pemeriksaan Penampilan
+## Special Attire
 
-### Inspeksi Harian
-- **Pemilik/Kasir Senior:** Setiap pagi sebelum buka, check penampilan staff
-- **Kriteria:** Seragam rapi, bersih, rambut rapi, kuku bersih, sepatu bersih
-- **Jika Ada yang Tidak Rapi:** Ingatkan staff untuk perbaiki (atau pulang ganti jika terlalu berantakan)
+### During Special Weather/Situations
 
-### Warning & Sanksi
-| Kali ke- | Deskripsi | Tindakan |
+**Cold Weather (Excessive AC / Nighttime):**
+- May wear a cardigan/light jacket over the uniform
+- Cardigan color: black, white, or store color
+
+**During Fishing (Catching):**
+- Mandatory wearing of an apron (for protection & professionalism)
+- Apron color: dark or store color
+
+**During Stock Opname / Heavy Work:**
+- May wear a vest/safety vest (if available)
+- Must remain neat & identifiable as store staff
+
+---
+
+## Uniform Care Procedures
+
+### Employee Responsibilities
+- **Washing Uniforms:** Employees wash themselves (at home)
+- **Maintaining Condition:** Do not damage (tear, lose, severely wrinkled)
+- **Storage:** Store neatly at home (must not be lost)
+
+### Store Responsibilities (Owner)
+- **Provide Initial Uniform:** When the first employee starts working
+- **Replace Damaged Items:** If the uniform is damaged due to normal wear (1x per 6 months)
+- **Additions If Needed:** If an employee requests a different size due to sizing error
+
+### Uniform Replacement Costs
+- **Damaged Due to Normal Wear:** Store responsibility (free replacement)
+- **Lost/Damaged Due to Negligence:** Employee replaces themselves (or salary deduction)
+- **Uniform Upgrade/Additions:** If requested by the employee, can be paid by themselves (or salary deduction)
+
+---
+
+## Appearance Checks
+
+### Daily Inspection
+- **Owner/Senior Cashier:** Every morning before opening, check staff appearance
+- **Criteria:** Neat uniform, clean, neat hair, clean nails, clean shoes
+- **If Anything is Not Neat:** Remind staff to fix it (or go home to change if too messy)
+
+### Warning & Sanctions
+| Count | Description | Action |
 |---|---|---|
-| 1–2 | Penampilan tidak rapi (minor) | Reminder verbal |
-| 3–5 | Penampilan tidak rapi berulang | Warning tertulis |
-| > 5 | Penampilan tidak rapi konsisten | Pemotongan bonus / pemberhentian |
+| 1–2 | Unneat appearance (minor) | Verbal reminder |
+| 3–5 | Repeated unneat appearance | Written warning |
+| > 5 | Consistent unneat appearance | Bonus cut / termination |
 
 ---
 
-## Standar Penampilan Per Posisi
+## Appearance Standards Per Position
 
-### Kasir
-- Seragam putih/warna toko + celana hitam + sepatu formal
-- Rambut rapi, badge terlihat jelas
-- Kuku pendek & bersih (karena kontak uang/kasir)
-- Penampilan paling formal di antara semua posisi
+### Cashier
+- White/store color uniform + black pants + formal shoes
+- Neat hair, badge clearly visible
+- Short & clean nails (due to contact with money/cash register)
+- Most formal appearance among all positions
 
-### Pramuniaga
-- Seragam putih/warna toko + celana hitam + sepatu rapi
-- Rambut rapi, badge terlihat
-- Postur tubuh tegak (berdiri, melayani dengan friendly)
-- Penampilan ramah & professional
+### Sales Associate
+- White/store color uniform + black pants + neat shoes
+- Neat hair, badge visible
+- Upright posture (standing, serving in a friendly manner)
+- Friendly & professional appearance
 
-### Staf Gudang
-- Seragam warna toko + celana hitam + sepatu safety
-- Rambut rapi, boleh lebih kasual daripada kasir
-- Penampilan: kuat, rapi, aman (siap kerja berat)
+### Warehouse Staff
+- Store color uniform + black pants + safety shoes
+- Neat hair, can be more casual than a cashier
+- Appearance: strong, neat, safe (ready for heavy work)
 
-### Pemilik
-- Penampilan lebih fleksibel (leadership image)
-- Harus rapi & professional (jadi teladan staff)
-- Preferensi: kemeja + celana formal
-
----
-
-## Checklist Penampilan Sebelum Mulai Kerja
-
-**Sebelum Jam Kerja (10 Menit Lebih Awal):**
-- [ ] Seragam bersih & tidak kusut
-- [ ] Kemeja kancing semua, rapi
-- [ ] Celana/rok tidak kusut, bersih
-- [ ] Sepatu bersih & rapi
-- [ ] Rambut rapi (diikat jika panjang, tidak menutupi wajah)
-- [ ] Kuku pendek & bersih
-- [ ] Badge ID terlihat di dada
-- [ ] Wajah bersih, tidak berminyak
-- [ ] Bau badan normal (deodorant sudah pakai)
-- [ ] Aksesori minimal & rapi
+### Owner
+- More flexible appearance (leadership image)
+- Must be neat & professional (to be a staff role model)
+- Preference: shirt + formal pants
 
 ---
 
-## Catatan Penting
-- **Penampilan = Profesionalisme:** Pelanggan menilai toko dari penampilan staff
-- **Seragam = Identitas:** Dengan seragam, pelanggan tahu siapa staff toko
-- **Kebersihan Adalah Kewajiban:** Jangan abaikan personal hygiene
-- **Konsistensi:** Penampilan harus rapi SETIAP HARI (bukan hari-hari tertentu)
-- **Reminder Friendly:** Jika ada staff yang tidak rapi, ingatkan dengan baik-baik (bukan marah-marah)
+## Appearance Checklist Before Starting Work
+
+**Before Work Hours (10 Minutes Earlier):**
+- [ ] Uniform clean & not wrinkled
+- [ ] Shirt buttons all fastened, neat
+- [ ] Pants/skirt not wrinkled, clean
+- [ ] Shoes clean & neat
+- [ ] Hair neat (tied if long, not covering the face)
+- [ ] Nails short & clean
+- [ ] ID Badge visible on chest
+- [ ] Face clean, not oily
+- [ ] Body odor normal (deodorant used)
+- [ ] Accessories minimal & neat
+
+---
+
+## Important Notes
+- **Appearance = Professionalism:** Customers judge the store based on staff appearance
+- **Uniform = Identity:** With a uniform, customers know who the store staff is
+- **Cleanliness is Mandatory:** Do not ignore personal hygiene
+- **Consistency:** Appearance must be neat EVERY DAY (not on specific days)
+- **Friendly Reminder:** If there is staff who is not neat, remind them kindly (not angrily)

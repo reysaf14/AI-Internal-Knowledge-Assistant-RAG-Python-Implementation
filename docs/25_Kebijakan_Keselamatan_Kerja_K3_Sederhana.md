@@ -1,356 +1,356 @@
-# Kebijakan Keselamatan Kerja (K3 Sederhana)
-**Toko Makmur Jaya | Efektif: 2026**
+# Workplace Safety Policy (Simple K3)
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Menjamin keselamatan fisik dan kesehatan semua karyawan saat bekerja di toko.
-
----
-
-## Risiko Keselamatan Kerja di Toko Makmur Jaya
-
-### Risiko Identifikasi
-1. **Risiko Jatuh:** Lantai licin (pembersihan pagi), barang berserakan, area terbatas
-2. **Risiko Luka/Terpotong:** Mengangkat barang tajam, menggunakan cutter/gunting, barang pecah
-3. **Risiko Cedera Tangan:** Terjepit pintu, tertabrak barang, benda berat jatuh
-4. **Risiko Penyakit:** Kontak dengan banyak orang (flu, covid, dll), kontak dengan bahan kimia pembersih
-5. **Risiko Kebakaran:** Masalah listrik, gas, barang mudah terbakar, dll
-6. **Risiko Kejahatan:** Pencuri, kekerasan fisik, dll
-7. **Risiko Ergonomi:** Postur berdiri lama, mengangkat barang berat berulang, stress
+## Objectives
+To ensure the physical safety and health of all employees while working in the store.
 
 ---
 
-## Peralatan Keselamatan Kerja (PPE)
+## Workplace Safety Risks at Makmur Jaya Store
 
-### PPE yang Disediakan Toko
-| Peralatan | Posisi | Jumlah | Frekuensi Ganti |
+### Risk Identification
+1. **Fall Risk:** Slippery floors (morning cleaning), scattered items, restricted areas
+2. **Cut/Injury Risk:** Lifting sharp items, using cutters/scissors, broken items
+3. **Hand Injury Risk:** Door entrapment, being hit by items, heavy objects falling
+4. **Illness Risk:** Contact with many people (flu, covid, etc.), contact with cleaning chemicals
+5. **Fire Risk:** Electrical issues, gas, flammable items, etc.
+6. **Crime Risk:** Thieves, physical violence, etc.
+7. **Ergonomic Risk:** Prolonged standing posture, repetitive lifting of heavy items, stress
+
+---
+
+## Personal Protective Equipment (PPE)
+
+### PPE Provided by the Store
+| Equipment | Location | Quantity | Replacement Frequency |
 |---|---|---|---|
-| Apron Kerja | Staf Gudang | 2 per orang | 1x per 6 bulan |
-| Sarung Tangan | Staf Gudang (berat) | 2 per orang | 1x per 3 bulan |
-| Sepatu Safety | Staf Gudang | 1 per orang | 1x per 1 tahun |
-| Masker (jika ada KLB) | Semua karyawan | 50 pcs per bulan | Supply terbatas |
-| Hand Sanitizer | Semua karyawan | 2 botol per bulan | Supply terbatas |
-| First Aid Kit | Area kerja | 1 box | Supply terbatas |
+| Work Apron | Warehouse Staff | 2 per person | 1x per 6 months |
+| Gloves | Warehouse Staff (heavy) | 2 per person | 1x per 3 months |
+| Safety Shoes | Warehouse Staff | 1 per person | 1x per 1 year |
+| Mask (if epidemic) | All employees | 50 pcs per month | Limited supply |
+| Hand Sanitizer | All employees | 2 bottles per month | Limited supply |
+| First Aid Kit | Work area | 1 box | Limited supply |
 
-### Penggunaan PPE
-- **Wajib Dipakai:** Saat melakukan aktivitas dengan risiko tinggi (mengangkat barang berat, handling bahan kimia, dll)
-- **Disimpan Rapi:** PPE disimpan di tempat yang mudah diakses (tidak hilang/rusak)
-- **Maintenance:** Karyawan bertanggung jawab membersihkan & merawat PPE mereka
-- **Ganti Rusak:** Jika PPE rusak, minta ganti ke pemilik (1x gratis, selanjutnya karyawan ganti)
+### PPE Usage
+- **Mandatory Use:** When performing activities with high risk (lifting heavy items, handling chemicals, etc.)
+- **Keep Tidy:** PPE is stored in an easily accessible place (not lost/damaged)
+- **Maintenance:** Employees are responsible for cleaning & maintaining their PPE
+- **Replace Damaged:** If PPE is damaged, request replacement from the owner (1x free, subsequent replacements by employee)
 
 ---
 
-## Prosedur Keselamatan Kerja Per Area
+## Workplace Safety Procedures Per Area
 
-### Area Penjualan (Kasir & Pramuniaga)
+### Sales Area (Cashiers & Sales Assistants)
 
-**Bahaya Potensial:**
-- Lantai licin (pembersihan pagi)
-- Terjatuh barang dari rak
-- Terjepit pintu otomatis (jika ada)
-- Kontak dengan banyak pelanggan (penyakit)
+**Potential Hazards:**
+- Slippery floors (morning cleaning)
+- Falling items from shelves
+- Automatic door entrapment (if applicable)
+- Contact with many customers (illness)
 
-**Tindakan Pencegahan:**
-1. **Lantai Licin:**
-   - Pasang sign "Hati-hati Lantai Licin" setelah pembersihan pagi
-   - Gunakan kain/lap untuk cegah keselamatan
-   - Berjalan dengan hati-hati (jangan berlari)
+**Preventive Actions:**
+1. **Slippery Floors:**
+   - Install "Caution: Slippery Floor" signs after morning cleaning
+   - Use cloths/mops to prevent accidents
+   - Walk carefully (do not run)
 
-2. **Jatuh Barang:**
-   - Rak harus stabil & tidak koyak
-   - Jangan tumpuk barang > 3 dus di rak
-   - Rutin cek rak (weekly maintenance)
+2. **Falling Items:**
+   - Shelves must be stable & not torn
+   - Do not stack items > 3 boxes on shelves
+   - Routine shelf checks (weekly maintenance)
 
-3. **Keselamatan Pelanggan = Tanggung Jawab Kami:**
-   - Jika ada barang jatuh, segera ambil & aman tidak ada pelanggan jatuh
-   - Beritahu pelanggan jika ada area bahaya (wet floor, dll)
+3. **Customer Safety = Our Responsibility:**
+   - If an item falls, immediately pick it up & ensure no customers fall
+   - Inform customers if there is a hazard area (wet floor, etc.)
 
 4. **Hand Hygiene:**
-   - Cuci tangan sebelum/sesudah melayani pelanggan (terutama kasir)
-   - Gunakan hand sanitizer jika tidak ada air
-   - Hindari menyentuh wajah saat kerja
+   - Wash hands before/after serving customers (especially cashiers)
+   - Use hand sanitizer if water is unavailable
+   - Avoid touching the face while working
 
-### Area Gudang (Staf Gudang)
+### Warehouse Area (Warehouse Staff)
 
-**Bahaya Potensial:**
-- Mengangkat barang berat (risiko cedera punggung)
-- Barang jatuh dari rak tinggi
-- Lantai licin (kelembaban tinggi)
-- Kontak dengan bahan kimia (pembersih)
-- Terikat/tertarik barang bergerak
+**Potential Hazards:**
+- Lifting heavy items (back injury risk)
+- Items falling from high shelves
+- Slippery floors (high humidity)
+- Contact with chemicals (cleaners)
+- Being tied/pulled by moving items
 
-**Tindakan Pencegahan:**
+**Preventive Actions:**
 
-1. **Teknik Mengangkat Barang Berat:**
-   - Gunakan kaki (jangan punggung) untuk angkat beban
-   - Teknik yang benar: kaki ditekuk, punggung lurus, angkat perlahan
-   - Jangan angkat barang > 25 kg sendiri (minta bantuan rekan)
-   - Gunakan dolly/gerobak untuk barang sangat berat
+1. **Heavy Lifting Technique:**
+   - Use your legs (not your back) to lift loads
+   - Correct technique: bend knees, keep back straight, lift slowly
+   - Do not lift items > 25 kg alone (ask for help from colleagues)
+   - Use a dolly/hand truck for very heavy items
 
-2. **Rak & Tata Letak:**
-   - Barang berat di rak bawah (jangan di atas)
-   - Barang ringan di rak atas
-   - Jarak barang dari edge rak ≥ 10 cm (cegah jatuh)
-   - Rak harus stabil & tidak goyang
+2. **Shelving & Layout:**
+   - Heavy items on lower shelves (not on top)
+   - Light items on upper shelves
+   - Distance from shelf edge $\ge$ 10 cm (prevent falling)
+   - Shelves must be stable & not wobbly
 
-3. **Lantai Gudang:**
-   - Bersihkan lumpur/air yang menumpuk (cegah licin)
-   - Gunakan kain penyerap air (jika ada)
-   - Berjalan dengan hati-hati di area licin
-   - Gunakan sepatu safety dengan grip baik
+3. **Warehouse Floor:**
+   - Clean up dirt/water buildup (prevent slipping)
+   - Use absorbent cloths (if available)
+   - Walk carefully in slippery areas
+   - Use safety shoes with good grip
 
-4. **Handling Bahan Kimia:**
-   - Sarung tangan wajib (saat handling pembersih)
-   - Jangan campurkan bahan kimia (risiko reaksi berbahaya)
-   - Baca label kemasan sebelum pakai (ikuti petunjuk)
-   - Segera cuci tangan jika terkena bahan kimia
+4. **Chemical Handling:**
+   - Gloves are mandatory (when handling cleaners)
+   - Do not mix chemicals (risk of dangerous reactions)
+   - Read packaging labels before use (follow instructions)
+   - Wash hands immediately if exposed to chemicals
 
-5. **First Aid - Cedera Tangan:**
-   - Jika terpotong/terluka: cuci dengan air bersih & sabun
-   - Tekan dengan kain steril (cegah perdarahan berlebih)
-   - Terapkan antiseptik / iodine (jika ada)
-   - Balut dengan perban
-   - Jika serius: bawa ke rumah sakit / klinik
+5. **First Aid - Hand Injuries:**
+   - If cut/injured: wash with clean water & soap
+   - Apply pressure with a sterile cloth (prevent excessive bleeding)
+   - Apply antiseptic / iodine (if available)
+   - Bandage
+   - If serious: take to hospital / clinic
 
-6. **Cedera Punggung:**
-   - Jika terasa nyeri punggung: segera istirahat
-   - Kompres dengan air hangat atau dingin
-   - Minumkan obat panas (jika ada)
-   - Jika nyeri berlanjut: bawa ke dokter
+6. **Back Injuries:**
+   - If experiencing back pain: rest immediately
+   - Compress with warm or cold water
+   - Take pain relievers (if available)
+   - If pain persists: see a doctor
 
-### Area Kamar Mandi & Toilet
+### Restroom Area
 
-**Bahaya Potensial:**
-- Lantai licin (basah)
-- Air panas/dingin ekstrem
-- Benda tajam (pisau, kaca)
+**Potential Hazards:**
+- Slippery floors (wet)
+- Extreme hot/cold water
+- Sharp objects (knives, glass)
 
-**Tindakan Pencegahan:**
-- Bersihkan lantai toilet regular (jangan licin)
-- Pasang sign "Hati-hati Lantai Licin" jika basah
-- Air suhu normal (tidak terlalu panas)
-- Jangan buang barang tajam di toilet
+**Preventive Measures:**
+- Clean regular toilet floors (keep dry)
+- Install "Caution Wet Floor" sign if wet
+- Normal temperature water (not too hot)
+- Do not flush sharp objects in the toilet
 
-### Area Kasir
+### Cashier Area
 
-**Bahaya Potensial:**
-- Stress mental (banyak transaksi)
-- Kontak dengan uang/barang banyak (penyakit)
-- Cedera tangan (saat handle barang)
+**Potential Hazards:**
+- Mental stress (many transactions)
+- Contact with money/many items (illness)
+- Hand injuries (when handling items)
 
-**Tindakan Pencegahan:**
-- Cuci tangan regular (kontak uang)
-- Istirahat 5 menit setiap jam (jika possible)
-- Stretching tangan (cegah repetitive strain injury)
-- Mental health support (tanyakan ke pemilik jika stress)
+**Preventive Measures:**
+- Regular handwashing (contact with money)
+- Rest 5 minutes every hour (if possible)
+- Hand stretching (prevent repetitive strain injury)
+- Mental health support (ask the owner if stressed)
 
 ---
 
-## Prosedur Emergency & First Aid
+## Emergency & First Aid Procedures
 
-### Perlengkapan First Aid (Standar Minimal)
+### First Aid Supplies (Minimum Standard)
 
-**First Aid Kit Toko Makmur Jaya Berisi:**
-- [ ] Perban/bandage (berbagai ukuran)
-- [ ] Plester (band-aid)
-- [ ] Kain kasa steril
-- [ ] Antiseptik/iodine
-- [ ] Obat panas/salep (untuk memar, bengkak)
-- [ ] Analgesik (obat pereda nyeri) - Paracetamol
-- [ ] Antihistamin (untuk alergi ringan)
-- [ ] Thermal pack (panas/dingin)
-- [ ] Gunting kecil
-- [ ] Sarung tangan latex
-- [ ] Masker
+**Makmur Jaya Store First Aid Kit Contains:**
+- [ ] Bandages (various sizes)
+- [ ] Band-aids
+- [ ] Sterile gauze
+- [ ] Antiseptic/iodine
+- [ ] Pain relief medicine/ointment (for bruises, swelling)
+- [ ] Analgesic (pain reliever) - Paracetamol
+- [ ] Antihistamine (for mild allergies)
+- [ ] Thermal pack (hot/cold)
+- [ ] Small scissors
+- [ ] Latex gloves
+- [ ] Mask
 - [ ] Alcohol swab
 
-**Lokasi:** Di meja pemilik / back office (mudah diakses)
+**Location:** Owner's desk / back office (easily accessible)
 
-### Prosedur Saat Ada Kecelakaan Kerja
+### Procedure During Work Accident
 
-1. **Immediate Response (Segera):**
-   - Hentikan aktivitas kecelakaan
-   - Telepon pemilik / kasir senior (beritahu ada cedera)
-   - Isolasi area cedera (jangan ada orang lain)
-   - Assess kondisi karyawan (cedera ringan atau berat?)
+1. **Immediate Response:**
+   - Stop the accident activity
+   - Call the owner / senior cashier (inform about the injury)
+   - Isolate the injured area (no other people)
+   - Assess the employee's condition (minor or serious injury?)
 
-2. **First Aid Pertama:**
-   - Jika cedera ringan (luka kecil, memar): treatment di toko dengan first aid kit
-   - Jika cedera sedang (perdarahan banyak, tulang terkilir): siapkan untuk ke rumah sakit
-   - Jika cedera berat (kehilangan kesadaran, patah tulang terbuka): hubungi ambulans segera
+2. **First Aid:**
+   - If minor injury (small wound, bruise): treatment at the store with the first aid kit
+   - If moderate injury (severe bleeding, sprain): prepare for the hospital
+   - If serious injury (loss of consciousness, open fracture): call an ambulance immediately
 
-3. **Dokumentasi:**
-   - Catat tanggal, jam, lokasi kecelakaan
-   - Catat nama karyawan, jenis cedera, penyebab
-   - Catat tindakan yang dilakukan (first aid apa saja)
-   - Catat apakah dibawa ke rumah sakit / klinik
-   - Isi Formulir Laporan Kecelakaan Kerja
+3. **Documentation:**
+   - Record date, time, location of the accident
+   - Record employee's name, type of injury, cause
+   - Record actions taken (what first aid was done)
+   - Record whether taken to the hospital / clinic
+   - Fill out the Work Accident Report Form
 
 4. **Follow-Up:**
-   - Jika ke rumah sakit: minta surat keterangan dokter
-   - Sakit karena kecelakaan kerja: cicovered oleh BPJS (jika ada)
-   - Monitor recovery karyawan (berikan cuti jika perlu)
-   - Investigasi penyebab kecelakaan (cegah terulang)
+   - If taken to the hospital: request a doctor's note
+   - Sickness due to work accident: covered by BPJS (if applicable)
+   - Monitor employee recovery (provide leave if necessary)
+   - Investigate the cause of the accident (prevent recurrence)
 
-### Formulir Laporan Kecelakaan Kerja
+### Work Accident Report Form
 
 ```
-LAPORAN KECELAKAAN KERJA
-Tanggal Kecelakaan: ________________
-Jam Kecelakaan: ________________
-Lokasi: ________________
+WORK ACCIDENT REPORT
+Accident Date: ________________
+Accident Time: ________________
+Location: ________________
 
-KARYAWAN YANG CEDERA:
-Nama: ________________
-Posisi: ________________
-Lama Kerja di Toko: ________________
+INJURED EMPLOYEE:
+Name: ________________
+Position: ________________
+Length of Service in Store: ________________
 
-DESKRIPSI KECELAKAAN:
-Jenis Cedera: [ ] Luka Luar  [ ] Cedera Internal  [ ] Fraktur  [ ] Lainnya: ____
-Area Tubuh yang Cedera: ________________
-Kronologi/Penyebab: ________________
-Faktor Penyebab:
-[ ] Lantai Licin
-[ ] Barang Jatuh
-[ ] Teknik Angkat Salah
-[ ] Alat Rusak
-[ ] Tidak Ada Warning
-[ ] Lainnya: ________________
+ACCIDENT DESCRIPTION:
+Type of Injury: [ ] External Wound [ ] Internal Injury [ ] Fracture [ ] Other: ____
+Body Area Injured: ________________
+Chronology/Cause: ________________
+Contributing Factors:
+[ ] Slippery Floor
+[ ] Object Fall
+[ ] Incorrect Lifting Technique
+[ ] Equipment Damaged
+[ ] No Warning
+[ ] Other: ________________
 
-TINDAKAN PERTOLONGAN:
-First Aid Diberikan: ________________
-Dibawa ke Rumah Sakit: [ ] Ya  [ ] Tidak
-Nama Rumah Sakit/Klinik: ________________
-Surat Keterangan Dokter: [ ] Ada  [ ] Tidak
+FIRST AID ACTIONS:
+First Aid Given: ________________
+Taken to Hospital: [ ] Yes [ ] No
+Hospital/Clinic Name: ________________
+Doctor's Certificate: [ ] Yes [ ] No
 
-INVESTIGASI & TINDAKAN PENCEGAHAN:
+INVESTIGATION & PREVENTION ACTIONS:
 Root Cause: ________________
-Tindakan Pencegahan untuk Masa Depan: ________________
+Preventive Actions for the Future: ________________
 
-Tanda Tangan Karyawan (Cedera): ________________ Tgl: __________
-Tanda Tangan Pemilik: ________________ Tgl: __________
-Saksi (Rekan Kerja): ________________ Tgl: __________
+Employee Signature (Injured): ________________ Date: __________
+Owner Signature: ________________ Date: __________
+Witness (Colleague): ________________ Date: __________
 
-CATATAN: Form ini disimpan di file untuk dokumentasi BPJS/asuransi.
+NOTES: This form is kept in the file for BPJS/insurance documentation.
 ```
 
 ---
 
-## Prosedur Pencegahan Kebakaran
+## Fire Prevention Procedures
 
-### Risiko Kebakaran di Toko
-- Hubungan pendek listrik (korsleting)
-- Barang mudah terbakar (tisu, pembersih mudah terbakar)
-- Cooking area (jika ada microwave/pemanas)
+### Fire Risks in the Store
+- Short electrical circuits (short-circuiting)
+- Flammable materials (tissues, flammable cleaners)
+- Cooking area (if there is a microwave/heater)
 
-### Tindakan Pencegahan
+### Prevention Measures
 
 1. **Electrical Safety:**
-   - Cek kabel listrik regular (tidak boleh rusak/exposed)
-   - Jangan overload kabel (1 soket untuk 1 alat)
-   - Matikan alat listrik saat tutup toko
-   - Jangan letakkan barang di atas kabel listrik
+   - Check regular electrical cables (must not be damaged/exposed)
+   - Do not overload cables (1 socket for 1 appliance)
+   - Turn off electrical appliances when the store is closed
+   - Do not place items on top of electrical cables
 
-2. **Barang Mudah Terbakar:**
-   - Simpan barang pembersih di area terpisah (away from heat/spark)
-   - Label: "MUDAH TERBAKAR"
-   - Jauh dari sumber api (lampu, heater, dll)
+2. **Flammable Materials:**
+   - Store cleaning supplies in a separate area (away from heat/spark)
+   - Label: "FLAMMABLE"
+   - Keep away from ignition sources (lights, heaters, etc.)
 
 3. **Fire Extinguisher:**
-   - Toko sebaiknya punya fire extinguisher (tabung pemadam api)
-   - Letakkan di area mudah diakses (dekat pintu, dll)
-   - Training penggunaan: tekan pin → arahkan ke api → tekan handle
+   - The store should have a fire extinguisher
+   - Place it in an easily accessible area (near doors, etc.)
+   - Training on use: press pin → direct to fire → press handle
 
 4. **Escape Route:**
-   - Pintu keluar harus clear (tidak ada barang menghalangi)
-   - Jika ada tangga darurat, harus clear
-   - Semua orang tahu rute keluar darurat
+   - Exit doors must be clear (no items obstructing)
+   - If there is an emergency staircase, it must be clear
+   - Everyone knows the emergency exit route
 
-5. **Saat Ada Kebakaran:**
-   - Hubungi pemadam kebakaran (119 atau nomor lokal)
-   - Evakuasi semua orang dari toko
-   - Gunakan tangga, JANGAN lift
-   - Kumpul di area aman di luar toko
-   - Jangan kembali masuk hingga pemadam selesai
+5. **When Fire Occurs:**
+   - Contact the fire department (119 or local number)
+   - Evacuate everyone from the store
+   - Use stairs, DO NOT use the lift
+   - Gather in a safe area outside the store
+   - Do not re-enter until the fire is extinguished
 
 ---
 
-## Kesehatan & Hygiene
+## Health & Hygiene
 
 ### Personal Hygiene
-- Cuci tangan regular (terutama sebelum makan, sesudah toilet)
-- Gunakan hand sanitizer (jika air tidak tersedia)
-- Jangan berbagi peralatan pribadi (cangkir, sendok, dll)
-- Jangan berbagi makanan/minuman (risiko penyakit)
+- Wash hands regularly (especially before eating, after using the toilet)
+- Use hand sanitizer (if water is unavailable)
+- Do not share personal equipment (cups, spoons, etc.)
+- Do not share food/drinks (risk of illness)
 
-### Saat Sakit
-- **Jika Demam/Batuk/Flu:** Ambil cuti (jangan datang & infeksi orang lain)
-- **Saat COVID:** Ambil cuti & konsultasi dokter
-- **Pakai Masker:** Jika harus datang (sedang sakit tapi ringan), pakai masker
-- **Isolasi:** Jangan sentuh rekan kerja
+### When Sick
+- **If Fever/Cough/Flu:** Take leave (do not come and infect others)
+- **During COVID:** Take leave & consult a doctor
+- **Wear a Mask:** If you must come (sick but mild), wear a mask
+- **Isolation:** Do not touch colleagues
 
-### Ventilasi Toko
-- AC/ventilasi harus berfungsi (cegah penumpukan kuman)
-- Buka jendela regular (udara segar)
-- Bersihkan filter AC regular
+### Store Ventilation
+- AC/ventilation must be functional (prevent accumulation of germs)
+- Open windows regularly (fresh air)
+- Clean AC filters regularly
 
 ### Food Safety
-- Jangan makan di area penjualan
-- Jangan letakkan makanan pribadi di area barang dagangan
-- Makanan/minum hanya di back office atau tempat istirahat
-- Cuci tangan sebelum makan
+- Do not eat in the sales area
+- Do not place personal food items in the merchandise area
+- Food/drinks only in the back office or rest area
+- Wash hands before eating
 
 ---
 
-## Pemeriksaan Keselamatan Reguler
+## Regular Safety Checks
 
-### Daily (Setiap Hari)
-- Cek lantai (ada barang tercecer? Licin?)
-- Cek rak (stabil? Barang tidak jatuh?)
-- Cek area kerja (bersih? Ada hazard?)
+### Daily (Every Day)
+- Check the floor (any scattered items? Slippery?)
+- Check the shelves (stable? Items not falling?)
+- Check the work area (clean? Any hazards?)
 
-### Weekly (Setiap Minggu)
-- Cek kabel listrik (rusak?)
-- Cek fire extinguisher (ada? Accessible?)
-- Cek first aid kit (supply cukup?)
-- Cek PPE (rusak/hilang?)
+### Weekly (Every Week)
+- Check electrical cables (damaged?)
+- Check fire extinguishers (present? Accessible?)
+- Check the first aid kit (sufficient supply?)
+- Check PPE (damaged/missing?)
 
-### Monthly (Setiap Bulan)
-- Pemeriksaan keamanan lengkap (oleh pemilik)
-- Catat temuan & tindakan perbaikan
-- Training keselamatan (jika ada temuan baru)
+### Monthly (Every Month)
+- Complete safety inspection (by the owner)
+- Record findings & corrective actions
+- Safety training (if new findings exist)
 
 ---
 
-## Checklist Keselamatan Kerja
+## Work Safety Checklist
 
-**Sebelum & Selama Shift:**
-- [ ] Lantai bersih (tidak licin/ada barang)
-- [ ] Rak stabil & barang tidak overload
-- [ ] Kabel listrik dalam kondisi baik
+**Before & During Shift:**
+- [ ] Floor clean (not slippery/no items)
+- [ ] Shelves stable & not overloaded
+- [ ] Electrical cables in good condition
 - [ ] Fire extinguisher accessible
-- [ ] First aid kit ada & accessible
-- [ ] PPE tersedia (untuk gudang)
+- [ ] First aid kit present & accessible
+- [ ] PPE available (for the warehouse)
 - [ ] Emergency exit clear
-- [ ] Semua orang sehat (tidak ada yang sakit)
+- [ ] Everyone healthy (no one sick)
 
-**Saat Mengangkat Barang Berat:**
-- [ ] Gunakan teknik angkat yang benar (kaki tekuk, punggung lurus)
-- [ ] Minta bantuan jika barang > 25 kg
-- [ ] Gunakan alat (dolly, gerobak) jika diperlukan
-- [ ] Letakkan barang dengan hati-hati
+**When Lifting Heavy Items:**
+- [ ] Use correct lifting technique (bent knees, straight back)
+- [ ] Ask for help if the item > 25 kg
+- [ ] Use equipment (dolly, cart) if necessary
+- [ ] Place items carefully
 
-**Saat Handling Bahan Kimia:**
-- [ ] Sarung tangan dipakai
-- [ ] Cek label bahan kemasan
-- [ ] Hindari inhalasi uap berbahaya
-- [ ] Cuci tangan setelah selesai
+**When Handling Chemicals:**
+- [ ] Wear gloves
+- [ ] Check packaging labels
+- [ ] Avoid inhaling harmful vapors
+- [ ] Wash hands after finishing
 
 ---
 
-## Catatan Penting
-- **Keselamatan = Prioritas Utama:** Prioritas kerja bukan cepat, tapi aman
-- **Prevention > Treatment:** Lebih baik cegah kecelakaan daripada mengobati
-- **Report Hazard:** Jika ada area berbahaya, lapor ke pemilik segera
-- **Communication:** Inform rekan kerja tentang area bahaya/hazard
-- **Training:** Semua karyawan harus trained tentang keselamatan kerja (saat onboarding)
-- **BPJS:** Jika ada kecelakaan kerja, layanan kesehatan ditanggung BPJS (jika karyawan terdaftar)
+## Important Notes
+- **Safety = Top Priority:** Work priority is not speed, but safety
+- **Prevention > Treatment:** It is better to prevent accidents than to treat them
+- **Report Hazard:** If there is a dangerous area, report to the owner immediately
+- **Communication:** Inform colleagues about dangerous areas/hazards
+- **Training:** All employees must be trained on work safety (during onboarding)
+- **BPJS:** If there is a work accident, health services are covered by BPJS (if the employee is registered)

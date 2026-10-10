@@ -1,91 +1,91 @@
-# FAQ Jam Operasional & Lokasi
-**Toko Makmur Jaya | Update: 2026**
+# FAQ Operating Hours & Location
+**Makmur Jaya Store | Update: 2026**
 
-## Informasi Jam Operasional
+## Operating Hours Information
 
-### Jam Buka Standar
-**Senin – Minggu: 07.00–21.00 (tidak libur)**
+### Standard Opening Hours
+**Monday – Sunday: 07:00–21:00 (not closed)**
 
-Toko Makmur Jaya buka setiap hari tanpa hari libur, untuk memudahkan Anda berbelanja kebutuhan sehari-hari.
+Makmur Jaya Store is open every day without holidays, to make it easier for you to shop for daily necessities.
 
-### Libur & Jam Khusus
-- **Hari Raya Idul Fitri:** Libur 2–3 hari (tanggal akan diumumkan Mei/Juni)
-- **Hari Raya Idul Adha:** Libur 1 hari (diumumkan)
-- **Hari Kemerdekaan (17 Agustus):** Buka normal (07.00–21.00)
-- **Tahun Baru:** Buka normal (07.00–21.00)
+### Holidays & Special Hours
+- **Eid al-Fitr:** Closed for 2–3 days (dates will be announced in May/June)
+- **Eid al-Adha:** Closed for 1 day (announced)
+- **Independence Day (August 17th):** Open normally (07:00–21:00)
+- **New Year:** Open normally (07:00–21:00)
 
-### Jam Ramai & Rekomendasi Kunjungan
-- **Jam Ramai:** Pukul 07.00–09.00 (pagi), 12.00–14.00 (siang), 17.00–19.00 (sore)
-- **Jam Sepi:** Pukul 10.00–11.00 (pagi), 15.00–16.00 (sore), 20.00–21.00 (malam)
-- **Rekomendasi:** Kunjungi di jam sepi untuk pengalaman berbelanja lebih nyaman tanpa antri
+### Busy Hours & Visit Recommendations
+- **Busy Hours:** 07:00–09:00 (morning), 12:00–14:00 (noon), 17:00–19:00 (evening)
+- **Quiet Hours:** 10:00–11:00 (morning), 15:00–16:00 (afternoon), 20:00–21:00 (night)
+- **Recommendation:** Visit during quiet hours for a more comfortable shopping experience without waiting in line.
 
 ---
 
-## Lokasi Toko
+## Store Location
 
-### Alamat Lengkap
-**Toko Makmur Jaya**
-Jalan Raya Kecamatan No. 45  
-Kelurahan Pasar Baru  
-Kecamatan Pusat  
-Kabupaten/Kota [Wilayah]  
-Provinsi [Provinsi]
+### Full Address
+**Makmur Jaya Store**
+Jalan Raya Kecamatan No. 45
+Pasar Baru Village
+Pusat District
+Regency/City [Region]
+Province [Province]
 
-### Cara Menjangkau Toko
+### How to Get to the Store
 
-**Dari Terminal Bus Kota:**
-- Rute: Naik angkutan umum ke arah Jalan Raya Kecamatan
-- Waktu: ~10–15 menit
-- Turun di dekat toko (pastikan tanya sopir)
+**From City Bus Terminal:**
+- Route: Take public transport towards Jalan Raya Kecamatan
+- Time: ~10–15 minutes
+- Get off near the store (be sure to ask the driver)
 
-**Dari Jalan Utama:**
-- Lokasi toko di depan jalan utama, mudah terlihat (ada signage "Toko Makmur Jaya" berwarna terang)
-- Dekat dengan warung kopi & toko fotokopi lain
+**From Main Road:**
+- The store is located in front of the main road, easy to see (there is a bright "Makmur Jaya Store" signage)
+- Near coffee stalls & other photocopy shops
 
-**Dari Rumah (Taxi/Ride-sharing):**
-- Berikan alamat: Jalan Raya Kecamatan No. 45, Kelurahan Pasar Baru
-- Atau share lokasi dari maps ke aplikasi Gojek/Grab
+**From Home (Taxi/Ride-sharing):**
+- Provide the address: Jalan Raya Kecamatan No. 45, Pasar Baru Village
+- Or share the location from maps to Gojek/Grab applications
 
-### Tempat Parkir
-- **Area Parkir:** Depan toko, cukup untuk ~10 motor, 5 mobil
-- **Parkir Gratis:** Ya, tanpa biaya tambahan
-- **Keamanan:** Area parkir tersupervisi (tidak dijaga khusus, tapi area terbuka dan aman)
+### Parking Area
+- **Parking Area:** In front of the store, enough for ~10 motorcycles, 5 cars
+- **Free Parking:** Yes, no additional fees
+- **Security:** The parking area is supervised (not specifically guarded, but the area is open and safe)
 
-### Nomor Kontak Toko
-- **Telepon:** (021) xxxx-xxxx (ganti dengan nomor real)
+### Store Contact Number
+- **Phone:** (021) xxxx-xxxx (replace with real number)
 - **WhatsApp:** +62 xxx-xxxx-xxxx
-- **Jam Respon:** 07.00–21.00 (jam operasional)
+- **Response Hours:** 07:00–21:00 (operating hours)
 
 ---
 
-## Pertanyaan Umum
+## Frequently Asked Questions
 
-**Q: Apakah toko buka hari Minggu?**
-A: Ya, toko buka normal setiap hari Minggu pukul 07.00–21.00.
+**Q: Is the store open on Sundays?**
+A: Yes, the store is open normally every Sunday from 07:00–21:00.
 
-**Q: Saya sampai ke toko jam 20.55, masih bisa berbelanja?**
-A: Ya, tapi kami sarankan selesaikan belanja sebelum 20.50 agar cukup waktu untuk checkout. Setelah 21.00, toko tutup.
+**Q: I arrive at the store at 20:55, can I still shop?**
+A: Yes, but we recommend finishing shopping before 20:50 to have enough time for checkout. After 21:00, the store is closed.
 
-**Q: Bagaimana jika saya tiba saat toko sedang penuh (jam ramai)?**
-A: Tunggu sebentar di area depan atau kembali pada jam sepi (10.00–11.00 atau 15.00–16.00) untuk pengalaman lebih nyaman.
+**Q: What if I arrive when the store is busy (busy hours)?**
+A: Wait a moment in the front area or return during quiet hours (10:00–11:00 or 15:00–16:00) for a more comfortable experience.
 
-**Q: Ada tempat parkir untuk mobil besar (MPV)?**
-A: Tempat parkir depan toko standar untuk mobil sedang. Jika MPV, coba parkir di area sebelah atau di jalan lebar terdekat.
+**Q: Is there parking for large cars (MPV)?**
+A: The front parking area is standard for medium cars. For an MPV, try parking in the adjacent area or on the nearest wide road.
 
-**Q: Apakah toko ada restroom untuk pelanggan?**
-A: Ya, ada toilet umum di dalam toko yang bersih dan terawat.
+**Q: Does the store have restrooms for customers?**
+A: Yes, there are clean and well-maintained public restrooms inside the store.
 
-**Q: Apa alamat lengkap untuk pengiriman online?**
-A: Kirim ke: Toko Makmur Jaya, Jalan Raya Kecamatan No. 45, Kelurahan Pasar Baru, Kecamatan Pusat. Untuk pengiriman, hubungi kami via WhatsApp atau telepon.
+**Q: What is the full address for online delivery?**
+A: Deliver to: Makmur Jaya Store, Jalan Raya Kecamatan No. 45, Pasar Baru Village, Pusat District. For delivery, please contact us via WhatsApp or phone.
 
 ---
 
-## Peta & Petunjuk Visual
+## Map & Visual Directions
 
-Toko Makmur Jaya terletak di Jalan Raya Kecamatan dengan signage besar di depan. Tidak sulit ditemukan.
+Makmur Jaya Store is located on Jalan Raya Kecamatan with a large sign in front. It is not difficult to find.
 
-**Landmark Terdekat:**
-- Sebelah kiri: Warung Kopi Simpel
-- Sebelah kanan: Toko Fotokopi "Cepat Jadi"
-- Depan: Jalan Raya Kecamatan (jalan utama)
-- Belakang: Jalan gang/kecil (akses back office)
+**Nearest Landmarks:**
+- Left: Warung Kopi Simpel
+- Right: Photocopy Shop "Cepat Jadi"
+- Front: Jalan Raya Kecamatan (main road)
+- Back: Alley/small street (back office access)

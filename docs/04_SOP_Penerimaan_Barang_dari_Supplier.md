@@ -1,129 +1,129 @@
-# SOP Penerimaan Barang dari Supplier
-**Toko Makmur Jaya | Efektif: 2026**
+# SOP for Receiving Goods from Suppliers
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Memastikan semua barang dari supplier diterima dengan benar, sesuai pesanan, dalam kondisi baik, dan tercatat dengan akurat di sistem inventory.
+## Objective
+To ensure all goods from suppliers are received correctly, according to the order, in good condition, and accurately recorded in the inventory system.
 
-## Waktu Pelaksanaan
-Penerimaan barang dilakukan sesuai jadwal supplier (rata-rata 2–4 kali per minggu)
+## Schedule
+Goods reception is conducted according to the supplier's schedule (average 2–4 times per week)
 
-## Supplier Utama Toko Makmur Jaya
-1. **PT Surya Makmur (Distributor Makanan & Minuman)** – Senin, Rabu, Jumat
-2. **PT Sinar Retail (Peralatan Rumah Tangga)** – Senin, Kamis
-3. **CV Kebersihan Jaya (Produk Pembersih & Sanitasi)** – Selasa
-4. **Supplier Lokal Tembakau/Rokok** – Selasa, Kamis (pengiriman terbatas)
+## Main Suppliers of Makmur Jaya Store
+1. **PT Surya Makmur (Food & Beverage Distributor)** – Monday, Wednesday, Friday
+2. **PT Sinar Retail (Household Appliances)** – Monday, Thursday
+3. **CV Kebersihan Jaya (Cleaning & Sanitation Products)** – Tuesday
+4. **Local Tobacco/Cigarette Suppliers** – Tuesday, Thursday (limited delivery)
 
-## Personel yang Bertanggung Jawab
-- Staf Gudang (2 orang) – penerima utama
-- Kasir atau Pramuniaga – membantu verifikasi harga
-- Pemilik/Manajer – approval pemesanan dan penolakan barang (jika perlu)
+## Responsible Personnel
+- Warehouse Staff (2 people) – primary receivers
+- Cashier or Sales Associate – assist in price verification
+- Owner/Manager – approval of orders and rejection of goods (if necessary)
 
-## Prosedur Penerimaan Barang
+## Goods Receiving Procedure
 
-### 1. Persiapan Penerimaan
-- Sebelum supplier tiba, staf gudang cek daftar pesanan terakhir (Formulir Pesanan Supplier)
-- Verifikasi tanggal pengiriman yang dijanjikan supplier (catat di whiteboard gudang)
-- Siapkan area penerimaan di depan gudang: bersih, cukup luas untuk barang, tidak menghalangi jalan
-- Siapkan keranjang/palet kosong untuk barang masuk
-- Persiapkan alat dokumentasi: pulpen, formulir GRN (Goods Receipt Note), kamera/foto barang
+### 1. Receiving Preparation
+- Before the supplier arrives, warehouse staff check the last order list (Supplier Order Form)
+- Verify the promised delivery date from the supplier (record on the warehouse whiteboard)
+- Prepare the receiving area in front of the warehouse: clean, spacious enough for goods, not obstructing walkways
+- Prepare empty baskets/pallets for incoming goods
+- Prepare documentation tools: pen, GRN (Goods Receipt Note) form, camera/photos of goods
 
-### 2. Verifikasi Surat Jalan & Jumlah Barang
-**Saat Supplier Tiba:**
-- Terima Surat Jalan dari driver/kurir supplier
-- Catat nomor surat jalan, tanggal, nama supplier, nomor kendaraan di Formulir GRN
-- Verifikasi jumlah item di surat jalan vs jumlah barang fisik yang dibawa:
-  - Contoh: Surat jalan tertulis 20 dus, fisik harus ada 20 dus juga
-  - Jika tidak cocok, catat perbedaan dan segera konsultasi dengan driver
-- Catat foto barang (packaging/kondisi) sebelum diterima penuh (optional tapi recommended)
+### 2. Verification of Delivery Note & Quantity
+**When Supplier Arrives:**
+- Receive the Delivery Note from the supplier's driver/courier
+- Record the delivery note number, date, supplier name, and vehicle number on the GRN Form
+- Verify the item quantity on the delivery note vs. the physical goods brought:
+  - Example: Delivery note states 20 boxes, there must be 20 boxes physically
+  - If they do not match, record the difference and immediately consult with the driver
+- Take photos of the goods (packaging/condition) before full acceptance (optional but recommended)
 
-### 3. Pengecekan Kondisi Barang
-- Inspeksi setiap dus/kemasan:
-  - Cek kemasan tidak rusak, tidak basah, tidak lecet parah
-  - Cek seal/label tidak terbuka
-  - Cek tanggal produksi & kadaluarsa pada packaging (khusus makanan/minuman)
-- Untuk makanan/minuman: minimum 60% umur sisa (misal: produk dengan umur simpan 12 bulan, minimal 7 bulan sisa)
-- Untuk produk elektronik/alat: cek packaging original, tidak ada kerusakan fisik tampak
-- Jika ada barang rusak/cacat, pisahkan dan catat di kolom "Barang Rusak" di Formulir GRN
+### 3. Goods Condition Check
+- Inspect each box/packaging:
+  - Check packaging is not damaged, not wet, not severely dented
+  - Check seals/labels are not open
+  - Check production date & expiration date on packaging (for food/beverages)
+- For food/beverages: minimum 60% remaining shelf life (e.g., products with a 12-month shelf life, minimum 7 months remaining)
+- For electronics/equipment: check original packaging, no visible physical damage
+- If there are damaged/defective items, separate them and record them in the "Damaged Goods" column of the GRN Form
 
-### 4. Pengecekan Harga & Kecocokan Invoice
-- Kasir atau Pramuniaga cek harga satuan di surat jalan vs harga di Formulir Pesanan yang lalu
-- Verifikasi tidak ada kenaikan harga yang tidak disetujui (jika ada perubahan, catat dan lapor ke Pemilik)
-- Hitung total invoice (jumlah item × harga satuan) dan verifikasi dengan surat jalan
-- Catat total harga di Formulir GRN
+### 4. Price Check & Invoice Matching
+- Cashier or Sales Associate check the unit price on the delivery note vs. the price in the previous Order Form
+- Verify there are no unauthorized price increases (if there are changes, record and report to the Owner)
+- Calculate the total invoice (number of items × unit price) and verify with the delivery note
+- Record the total price on the GRN Form
 
-### 5. Input Data ke Sistem Inventory
-- Setelah verifikasi semua selesai, staf gudang input data barang ke sistem POS/Inventory:
-  - Nomor SKU produk
-  - Nama produk
-  - Jumlah masuk
-  - Harga pembelian (cost)
-  - Harga jual/markup (jika ada perubahan)
-  - Tanggal expired (untuk produk berkadaluarsa)
-- Sistem secara otomatis update stok di lokasi gudang
-- Print laporan masuk barang (Barang Masuk Report) dari sistem
+### 5. Data Input into Inventory System
+- After all verification is complete, warehouse staff input the goods data into the POS/Inventory system:
+  - Product SKU number
+  - Product name
+  - Quantity received
+  - Purchase price (cost)
+  - Selling price/markup (if there are changes)
+  - Expiration date (for perishable products)
+- The system automatically updates the stock in the warehouse location
+- Print the goods incoming report (Barang Masuk Report) from the system
 
-### 6. Penempatan Barang di Gudang
-**Sistem Penempatan (FIFO = First In First Out):**
-- Barang lama yang masih ada di rak digeser ke depan (untuk penjualan lebih dulu)
-- Barang baru diletakkan di belakang/samping barang lama
-- Khusus produk berkadaluarsa (makanan/minuman), kelompokkan per tanggal kadaluarsa:
-  - Kelompok 1: Kadaluarsa paling lama (letakkan di belakang)
-  - Kelompok 2: Tengah-tengah
-  - Kelompok 3: Kadaluarsa paling dekat (letakkan di depan untuk segera terjual)
-- Beri label tanggal barang masuk dengan pulpen/sticker pada kemasan
-- Tata barang rapi, stabil, tidak bertumpuk sembarangan (risiko rusak)
+### 6. Goods Placement in Warehouse
+**Placement System (FIFO = First In First Out):**
+- Older items still on the shelf are moved to the front (for first sale)
+- New items are placed at the back/side of older items
+- Specifically for perishable products (food/beverages), group by expiration date:
+  - Group 1: Oldest expiration date (place at the back)
+  - Group 2: Middle
+  - Group 3: Closest expiration date (place at the front for immediate sale)
+- Label the item's arrival date with a pen/sticker on the packaging
+- Arrange goods neatly, stably, not piled haphazardly (risk of damage)
 
-### 7. Penyimpanan Barang Khusus
-**Untuk Produk Tembakau/Rokok:**
-- Simpan di area gudang terpisah (sesuai regulasi)
-- Lock in cabinet khusus (jika volume besar)
-- Catat jumlah dan seri/batch dengan teliti
-- Akses hanya untuk staf tertentu (kasir, Pemilik)
+### 7. Storage of Special Goods
+**For Tobacco/Cigarettes:**
+- Store in a separate warehouse area (according to regulations)
+- Lock in a special cabinet (if volume is large)
+- Record the quantity and series/batch carefully
+- Access is restricted to certain staff (cashier, Owner)
 
-**Untuk Produk Pembersih/Kimia:**
-- Simpan di area ventilasi baik
-- Jauhkan dari makanan/minuman
-- Simpan dalam posisi tegak (jika produk cairan)
+**For Cleaning/Chemical Products:**
+- Store in a well-ventilated area
+- Keep away from food/beverages
+- Store upright (if the product is liquid)
 
-### 8. Dokumentasi & Arsip
-- Isi Formulir GRN lengkap (tanggal, supplier, jumlah, harga, kondisi barang, staf penerima, tanda tangan)
-- Serah bukti penerimaan (GRN) ke Pemilik/Manajer untuk approval pembayaran
-- Simpan surat jalan original di map per supplier (arsip bulanan)
-- Catat di Buku Log Penerimaan Barang (date, supplier, jumlah item, total nilai)
-- Formulir GRN disimpan untuk rekonsilasi inventory bulanan
+### 8. Documentation & Archive
+- Complete the GRN Form (date, supplier, quantity, price, item condition, receiving staff, signature)
+- Hand over the receiving proof (GRN) to the Owner/Manager for payment approval
+- Keep the original delivery note in the map per supplier (monthly archive)
+- Record in the Goods Receiving Log (date, supplier, item quantity, total value)
+- The GRN form is kept for monthly inventory reconciliation
 
-## Tabel Supplier & Jadwal Penerimaan
-| Supplier | Produk | Jadwal | Contact |
-|----------|--------|--------|---------|
-| PT Surya Makmur | Makanan, Minuman, Snack | Senin, Rabu, Jumat | 021-xxxx-xxxx |
-| PT Sinar Retail | Peralatan Rumah Tangga | Senin, Kamis | 021-xxxx-xxxx |
-| CV Kebersihan Jaya | Pembersih, Sanitasi | Selasa | 0274-xxxx-xxxx |
-| Supplier Lokal | Tembakau, Rokok | Selasa, Kamis | Langsung datang |
+## Supplier & Receiving Schedule Table
+| Supplier | Product | Schedule | Contact |
+|----------|--------|----------|---------|
+| PT Surya Makmur | Food, Beverages, Snacks | Monday, Wednesday, Friday | 021-xxxx-xxxx |
+| PT Sinar Retail | Household Equipment | Monday, Thursday | 021-xxxx-xxxx |
+| CV Kebersihan Jaya | Cleaners, Sanitation | Tuesday | 0274-xxxx-xxxx |
+| Local Supplier | Tobacco, Cigarettes | Tuesday, Thursday | Arrive directly |
 
-## Prosedur Penolakan Barang
-**Jika Barang Tidak Sesuai atau Rusak:**
-1. Catat detail barang yang ditolak di Formulir Penolakan Barang
-2. Pisahkan barang ditolak dari barang diterima
-3. Foto barang yang ditolak (untuk dokumentasi)
-4. Informasikan ke driver/kurir bahwa barang ditolak
-5. Minta tanda tangan driver di Formulir Penolakan
-6. Lapor ke Pemilik/Manajer untuk follow-up dengan supplier
-7. Catat nomor retur & tanggal di Log Retur Barang
+## Goods Rejection Procedure
+**If Goods Are Not Conforming or Damaged:**
+1. Record the details of the rejected goods in the Goods Rejection Form
+2. Separate the rejected goods from the accepted goods
+3. Photograph the rejected goods (for documentation)
+4. Inform the driver/courier that the goods are rejected
+5. Obtain the driver's signature on the Rejection Form
+6. Report to the Owner/Manager for follow-up with the supplier
+7. Record the return number & date in the Goods Return Log
 
-## Checklist Penerimaan Barang
-- [ ] Surat jalan diterima dan data dicatat
-- [ ] Jumlah barang sesuai surat jalan
-- [ ] Kondisi kemasan baik (tidak rusak/basah)
-- [ ] Tanggal expired sesuai standar (60% umur minimal)
-- [ ] Harga invoice sesuai Formulir Pesanan
-- [ ] Barang masuk ke sistem inventory
-- [ ] Barang ditata rapi di gudang (FIFO)
-- [ ] Barang khusus di lokasi yang sesuai
-- [ ] GRN diisi lengkap dan ditanda tangan
-- [ ] Dokumen diarsipkan
+## Goods Receiving Checklist
+- [ ] Delivery note received and data recorded
+- [ ] Item quantity matches the delivery note
+- [ ] Packaging condition is good (not damaged/wet)
+- [ ] Expiry date is according to standards (minimum 60% shelf life remaining)
+- [ ] Invoice price matches the Order Form
+- [ ] Goods entered into the inventory system
+- [ ] Goods arranged neatly in the warehouse (FIFO)
+- [ ] Special goods in the appropriate location
+- [ ] GRN is fully filled out and signed
+- [ ] Documents are archived
 
-## Catatan Penting
-- Penerimaan barang maksimal 30 menit per pengiriman
-- Jika ada keraguan kualitas barang, tanya kepada Pemilik sebelum terima sepenuhnya
-- Pastikan expired barang minimal masih 60% umur, jangan terima barang expired < 60% tersisa
-- FIFO adalah prioritas untuk produk berkadaluarsa agar tidak ada barang kadaluarsa tertinggal
+## Important Notes
+- Goods acceptance maximum 30 minutes per delivery
+- If there is any doubt about the quality of the goods, ask the Owner before fully accepting them
+- Ensure the goods have at least 60% of their shelf life remaining; do not accept goods with less than 60% remaining expiry
+- FIFO is a priority for perishable products so that no expired goods are left behind

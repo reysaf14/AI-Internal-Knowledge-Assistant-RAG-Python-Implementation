@@ -1,209 +1,209 @@
-# Panduan Komplain Barang Rusak
-**Toko Makmur Jaya | Efektif: 2026**
+# Damaged Item Complaint Guide
+**Makmur Jaya Store | Effective: 2026**
 
-## Definisi Barang Rusak
-Barang yang mempunyai cacat atau kerusakan yang membuat produk tidak bisa digunakan sesuai fungsi normalnya. Contoh: kemasan pecah, isi tumpah, barang mati/tidak berfungsi, cacat pabrik.
-
----
-
-## Jenis Barang Rusak yang Bisa Diklaim
-
-### ✓ Barang Rusak yang BISA Diklaim (Tanggung Jawab Toko/Pabrik)
-1. **Cacat Pabrik:** Barang mati/tidak berfungsi (misal: powerbank tidak charge, lampu tidak nyala)
-2. **Kemasan Rusak Saat Penerimaan:** Kemasan pecah/cacat yang terlihat saat dibeli
-3. **Isi Barang Tumpah/Pecah:** Misalnya gelas dalam kemasan pecah, minyak tumpah, dll
-4. **Cacat Fungsi:** Produk berfungsi tidak sempurna (misal: gelas ada garis halus, piring ada chip halus)
-5. **Barang Rusak Saat Pengangkutan (Toko):** Jika barang rusak karena penanganan kurir/toko
-
-### ✗ Barang Rusak yang TIDAK Bisa Diklaim (Kelalaian Pelanggan)
-1. **Kerusakan Karena Accident:** Jatuh, terkena benturan, tergencet
-2. **Kerusakan Karena Penyimpanan Buruk:** Terkena panas/lembab, disimpan sembarangan
-3. **Kerusakan Karena Modifikasi/Pembongkaran:** Barang dibongkar atau dimodifikasi pengguna
-4. **Kerusakan Karena Pemakaian:** Aus normal, goresan dari penggunaan, dll
-5. **Kerusakan Setelah > 3 Hari:** Jika rusak ditemukan lebih dari 3 hari setelah pembelian (sulit verifikasi penyebab)
+## Definition of Damaged Goods
+Goods that have defects or damage that make the product unusable for its normal function. Examples: broken packaging, spilled contents, dead/non-functional items, manufacturing defects.
 
 ---
 
-## Prosedur Klaim Barang Rusak
+## Types of Damaged Goods Eligible for Claim
 
-### Skenario 1: Barang Rusak Ditemukan SAAT DI TOKO (Sebelum Pulang)
+### ✓ Damaged Goods That CAN Be Claimed (Store/Manufacturer Responsibility)
+1. **Manufacturing Defect:** Dead/non-functional item (e.g., power bank not charging, light not turning on)
+2. **Damaged Packaging Upon Receipt:** Broken/defective packaging visible when purchased
+3. **Spilled/Broken Contents:** For example, a glass in a broken package, spilled oil, etc.
+4. **Functional Defect:** The product functions imperfectly (e.g., a glass has fine lines, a plate has fine chips)
+5. **Damage During Transportation (Store):** If the item is damaged due to courier/store handling
 
-**Langkah-Langkah:**
-1. **Segera Lapor ke Kasir**
-   - Jangan tunggu di rumah, lapor langsung saat masih di toko
-   - Tunjukkan barang yang rusak ke kasir
-   - Jelaskan detail kerusakan (pecah, mati, cacat, dll)
-
-2. **Kasir Akan Verifikasi**
-   - Periksa kondisi fisik barang (apakah benar rusak dari pabrik?)
-   - Cek struk & cocokkan dengan barang yang dibeli
-   - Cek tanggal pembelian (harus hari ini juga)
-
-3. **Jika Diterima Komplain**
-   - Kasir akan catat di Formulir Komplain Barang Rusak
-   - Kasir akan tawarkan solusi:
-     - **Opsi 1:** Tukar barang dengan barang sejenis baru (gratis, langsung ambil)
-     - **Opsi 2:** Refund 100% (uang kembali langsung)
-     - **Opsi 3:** Diskon 20–50% jika Anda masih mau barang tersebut
-
-4. **Verifikasi & Proses**
-   - Kasir akan input ke sistem POS (cancel penjualan & ganti baru atau refund)
-   - Ambil barang baru atau terima uang kembali
-   - Barang rusak akan dipisahkan untuk di-return ke supplier (jika claim supplier)
-
-**Waktu Proses:** Same day (langsung selesai)
-**Bukti:** Struk baru (tukar/refund) atau bukti refund
+### ✗ Damaged Goods That CANNOT Be Claimed (Customer Negligence)
+1. **Accident Damage:** Dropped, hit, crushed
+2. **Poor Storage Damage:** Exposed to heat/humidity, stored haphazardly
+3. **Damage Due to Modification/Disassembly:** Item disassembled or modified by the user
+4. **Wear and Tear Damage:** Normal wear and tear, scratches from use, etc.
+5. **Damage After > 3 Days:** If damage is found more than 3 days after purchase (difficult to verify the cause)
 
 ---
 
-### Skenario 2: Barang Rusak Ditemukan DI RUMAH (Setelah Pulang)
+## Damaged Item Claim Procedure
 
-**Langkah-Langkah:**
-1. **Datang Kembali ke Toko (Max 3 Hari)**
-   - Bawa barang rusak (dalam kondisi asli, jangan dibongkar/dimodifikasi)
-   - Bawa struk pembelian original
-   - Datang max 3 hari dari tanggal pembelian
+### Scenario 1: Damaged Item Found AT THE STORE (Before Leaving)
 
-2. **Lapor ke Kasir/Pemilik**
-   - Tunjukkan barang rusak ke kasir
-   - Jelaskan: kapan ditemukan rusak, bagian mana yang rusak, apakah dibongkar?
-   - Jangan lupa: jangan bongkar/modifikasi barang (untuk investigasi)
+**Steps:**
+1. **Immediately Report to Cashier**
+   - Do not wait at home, report directly while still at the store
+   - Show the damaged item to the cashier
+   - Explain the details of the damage (broken, dead, defective, etc.)
 
-3. **Kasir Akan Investigasi**
-   - Periksa packaging asli (apakah ada tanda pembukaan?)
-   - Periksa kerusakan (apakah dari pabrik atau dari pemakaian?)
-   - Verifikasi tanggal pembelian di struk (harus ≤ 3 hari)
-   - **Catatan Penting:** Jika barang sudah dibongkar, sulit kasir verifikasi penyebab rusak → komplain bisa ditolak
+2. **Cashier Will Verify**
+   - Check the physical condition of the item (is it truly a manufacturing defect?)
+   - Check the receipt & match it with the purchased item
+   - Check the purchase date (must be today)
 
-4. **Jika Verifikasi Diterima**
-   - Kasir akan catat di Formulir Komplain Barang Rusak
-   - Tawarkan solusi:
-     - **Opsi 1:** Tukar barang baru (gratis)
-     - **Opsi 2:** Refund uang 100%
-     - **Opsi 3:** Diskon jika masih mau barang tersebut
+3. **If Complaint is Accepted**
+   - Cashier will record it on the Damaged Item Complaint Form
+   - Cashier will offer a solution:
+     - **Option 1:** Exchange item for a new similar item (free, take immediately)
+     - **Option 2:** 100% Refund (money returned immediately)
+     - **Option 3:** 20–50% discount if you still want the item
 
-5. **Jika Verifikasi Ditolak**
-   - Kasir akan jelaskan alasan penolakan (misal: sudah dibongkar, sudah ≥ 3 hari, kerusakan dari pemakaian, dll)
-   - Anda bisa negosiasi dengan pemilik (jika merasa tidak adil)
+4. **Verification & Processing**
+   - Cashier will input into the POS system (cancel sale & exchange for new or refund)
+   - Take the new item or receive the money back
+   - The damaged item will be separated to be returned to the supplier (if supplier claim)
 
-**Waktu Proses:** 1–2 hari (kasir akan investigate terlebih dulu)
-**Bukti:** Struk original, Formulir Komplain, Barang rusak
+**Processing Time:** Same day (immediately completed)
+**Proof:** New receipt (exchange/refund) or refund proof
 
 ---
 
-### Skenario 3: Barang Rusak tapi > 3 Hari (Di Luar Batas Klaim)
+### Scenario 2: Damaged Item Found AT HOME (After Leaving)
 
-**Status:** Komplain bisa DITOLAK karena di luar batas waktu
+**Steps:**
+1. **Return to Store (Max 3 Days)**
+   - Bring the damaged item (in original condition, do not disassemble/modify)
+   - Bring the original purchase receipt
+   - Must arrive max 3 days from the purchase date
 
-**Alasan:**
-- Sulit verifikasi penyebab rusak (apakah dari pabrik atau dari pemakaian di rumah?)
-- Risiko barang sudah digunakan/dimodifikasi
+2. **Report to Cashier/Owner**
+   - Show the damaged item to the cashier
+   - Explain: when it was found damaged, which part is damaged, whether it was disassembled?
+   - Don't forget: do not disassemble/modify the item (for investigation)
 
-**Alternatif:**
-- Hubungi supplier langsung untuk claim garansi (jika produk ada garansi resmi)
-- Negosiasikan dengan pemilik toko (jika masih dalam kebaikan hati)
+3. **Cashier Will Investigate**
+   - Check the original packaging (is there a sign of opening?)
+   - Check the damage (is it from the factory or from use?)
+   - Verify the purchase date on the receipt (must be ≤ 3 days)
+   - **Important Note:** If the item has been disassembled, it is difficult for the cashier to verify the cause of damage → the complaint may be rejected
+
+4. **If Verification is Accepted**
+   - Cashier will record it on the Damaged Item Complaint Form
+   - Offer a solution:
+     - **Option 1:** Exchange for a new item (free)
+     - **Option 2:** 100% Refund
+     - **Option 3:** Discount if you still want the item
+
+5. **If Verification is Rejected**
+   - Cashier will explain the reason for rejection (e.g., disassembled, more than 3 days, damage from use, etc.)
+   - You can negotiate with the owner (if you feel it is unfair)
+
+**Processing Time:** 1–2 days (cashier will investigate first)
+**Proof:** Original receipt, Complaint Form, Damaged item
 
 ---
 
-## Formulir Komplain Barang Rusak
+### Scenario 3: Damaged Item but > 3 Days (Outside Claim Limit)
+
+**Status:** Complaint can BE REJECTED because it is outside the time limit
+
+**Reasons:**
+- Difficult to verify the cause of damage (is it from the factory or from use at home?)
+- Risk that the item has been used/modified
+
+**Alternatives:**
+- Contact the supplier directly for a warranty claim (if the product has an official warranty)
+- Negotiate with the store owner (if still in good faith)
+
+---
+
+## Damaged Item Complaint Form
 
 ```
-FORMULIR KOMPLAIN BARANG RUSAK
-Tanggal Komplain: ____________
-Nama Pelanggan: _________________ 
-Nomor Telepon: ________________
-Tanggal Pembelian: _____________ (dari struk)
-Nomor Struk: __________________
+DAMAGED ITEM COMPLAINT FORM
+Complaint Date: ____________
+Customer Name: _________________
+Phone Number: ________________
+Purchase Date: _____________ (from receipt)
+Receipt Number: __________________
 
-DATA BARANG:
-Nama Barang: _______________________
-SKU/Kode Produk: __________________
-Harga Pembelian: Rp ______________
-Jumlah: _____ unit
+ITEM DATA:
+Item Name: _______________________
+SKU/Product Code: __________________
+Purchase Price: Rp ______________
+Quantity: _____ unit
 
-DESKRIPSI KERUSAKAN:
-Bagian yang Rusak: _____________________
-Detail Kerusakan: ________________________
-Kapan Ditemukan: ________________________
-Bagian Barang sudah dibongkar? [  ] Ya  [  ] Tidak
-Foto Kerusakan Tersedia? [  ] Ya  [  ] Tidak
+DESCRIPTION OF DAMAGE:
+Part Damaged: _____________________
+Damage Details: ________________________
+When Discovered: ________________________
+Has the item been disassembled? [  ] Yes [  ] No
+Damage Photos Available? [  ] Yes [  ] No
 
-SOLUSI YANG DIINGINKAN:
-[  ] Tukar Barang Baru
-[  ] Refund Uang Kembali
-[  ] Diskon (jika masih mau barang)
-[  ] Lainnya: _______________________
+DESIRED SOLUTION:
+[  ] Replace with New Item
+[  ] Refund
+[  ] Discount (if still want the item)
+[  ] Other: _______________________
 
-VERIFIKASI KASIR:
-Barang Diterima? [  ] Ya  [  ] Tidak
-Alasan (jika ditolak): _____________________
-Solusi yang Diberikan: _____________________
+CASHIER VERIFICATION:
+Item Received? [  ] Yes [  ] No
+Reason (if rejected): _____________________
+Solution Provided: _____________________
 
-Tanda Tangan Kasir: ___________
-Tanda Tangan Pelanggan: __________
-Tanggal: ___________
+Cashier Signature: ___________
+Customer Signature: __________
+Date: ___________
 ```
 
 ---
 
-## Dokumentasi yang Diperlukan
+## Required Documentation
 
-| Jenis Klaim | Bukti Wajib | Bukti Opsional | Batas Waktu |
+| Claim Type | Mandatory Proof | Optional Proof | Deadline |
 |---|---|---|---|
-| Barang Rusak Saat Terima | Struk + Barang Rusak | Foto kerusakan | Same day |
-| Barang Rusak di Rumah | Struk + Barang Rusak | Foto kerusakan | Max 3 hari |
-| Barang Rusak > 3 Hari | Struk + Barang Rusak | Foto, Riwayat | Tidak bisa claim |
+| Item Damaged Upon Receipt | Receipt + Damaged Item | Damage Photos | Same day |
+| Item Damaged at Home | Receipt + Damaged Item | Damage Photos | Max 3 days |
+| Item Damaged > 3 Days | Receipt + Damaged Item | Photos, History | Cannot claim |
 
 ---
 
-## Kondisi Barang Rusak yang Mudah Diterima
+## Conditions for Easily Acceptable Damaged Items
 
-✓ **Paling Mudah Diterima:**
-- Barang mati/tidak berfungsi sama sekali (powerbank tidak charge, lampu tidak nyala)
-- Kemasan pecah (gelas pecah, botol pecah, dus penyok parah)
-- Isi tumpah (minyak tumpah, makanan berserak)
-- Cacat manufaktur terlihat (garis halus pada gelas, chip pada piring)
+✓ **Easiest to Accept:**
+- Dead/non-functional item at all (powerbank not charging, light not turning on)
+- Broken packaging (broken glass, broken bottle, severely dented box)
+- Spilled contents (oil spill, scattered food)
+- Visible manufacturing defects (fine lines on glass, chips on plates)
 
-⚠️ **Medium (Tergantung Investigasi):**
-- Cacat halus (goresan kecil, warna tidak seragam)
-- Fungsi setengah jalan (barang masih bisa digunakan tapi tidak sempurna)
-- Kemasan sedikit penyok (tapi isi barang baik)
+⚠️ **Medium (Depending on Investigation):**
+- Minor defects (small scratches, uneven color)
+- Partially functional (item is still usable but not perfect)
+- Slightly dented packaging (but the item contents are fine)
 
-❌ **Sulit Diterima:**
-- Kerusakan karena jatuh/benturan (bukan cacat pabrik)
-- Kerusakan karena disimpan tidak baik (terkena panas, lembab)
-- Kerusakan karena pemakaian normal (aus, goresan dari penggunaan)
-- Barang sudah dibongkar/dimodifikasi
-
----
-
-## Tips Agar Komplain Barang Rusak Diterima
-
-1. **Jangan Tunda:** Lapor segera saat menemukan rusak (jangan tunggu berhari-hari)
-2. **Simpan Struk:** Struk adalah bukti utama → simpan baik-baik
-3. **Jangan Dibongkar:** Jangan bongkar/modifikasi barang rusak sebelum komplain (untuk investigasi kasir)
-4. **Foto Bukti:** Ambil foto kerusakan (sebagai dokumentasi tambahan)
-5. **Jelaskan Detail:** Jelaskan kapan rusak, bagian mana, bagaimana kondisinya (detail membuat kasir mudah verifikasi)
-6. **Bersikap Sopan:** Kasir lebih suka membantu jika pelanggan berperilaku baik & tidak menuduh
+❌ **Difficult to Accept:**
+- Damage due to falling/impact (not a manufacturing defect)
+- Damage due to improper storage (exposed to heat, humidity)
+- Damage due to normal use (wear and tear, scratches from use)
+- Item has been disassembled/modified
 
 ---
 
-## Eskalasi Jika Komplain Ditolak
+## Tips for Accepting Complaints About Damaged Items
 
-**Jika Anda Merasa Komplain Ditolak Tidak Adil:**
-1. Minta berbicara dengan pemilik toko (Budi Santoso)
-2. Jelaskan alasan Anda merasa tidak adil (dengan tenang & detail)
-3. Pemilik akan re-evaluate komplain & mungkin memberikan solusi alternatif
-4. Jika masih tidak puas, Anda bisa hubungi via WhatsApp untuk follow up
+1. **Do Not Delay:** Report immediately when you find damage (do not wait for days)
+2. **Keep the Receipt:** The receipt is the main proof → keep it well
+3. **Do Not Disassemble:** Do not disassemble/modify the damaged item before complaining (for cashier investigation)
+4. **Take Proof Photos:** Take photos of the damage (as additional documentation)
+5. **Explain Details:** Explain when it was damaged, which part, and its condition (details make it easier for the cashier to verify)
+6. **Be Polite:** The cashier prefers to help if the customer behaves well & does not accuse
 
 ---
 
-## Checklist Sebelum Komplain
+## Escalation If Complaint is Rejected
 
-- [ ] Barang benar-benar rusak (bukan goresan kecil)
-- [ ] Struk pembelian ada
-- [ ] Tanggal komplain ≤ 3 hari dari pembelian
-- [ ] Barang tidak dibongkar/dimodifikasi
-- [ ] Siap jelaskan detail kerusakan ke kasir
-- [ ] Bersikap tenang & sopan
-- [ ] Foto kerusakan (jika ada)
+**If You Feel the Complaint is Unfairly Rejected:**
+1. Ask to speak with the store owner (Budi Santoso)
+2. Explain why you feel it is unfair (calmly & in detail)
+3. The owner will re-evaluate the complaint & may provide an alternative solution
+4. If still unsatisfied, you can contact via WhatsApp for follow-up
+
+---
+
+## Checklist Before Complaining
+
+- [ ] Item is truly damaged (not minor scratches)
+- [ ] Purchase receipt is available
+- [ ] Complaint date ≤ 3 days from purchase
+- [ ] Item has not been disassembled/modified
+- [ ] Ready to explain damage details to the cashier
+- [ ] Be calm & polite
+- [ ] Damage photos (if any)

@@ -1,254 +1,254 @@
-# Kebijakan Bonus & Insentif Penjualan
-**Toko Makmur Jaya | Efektif: 2026**
+# Bonus & Sales Incentive Policy
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Memberikan insentif karyawan untuk meningkatkan performa penjualan, customer service, dan loyalitas terhadap toko.
+## Objectives
+To provide incentives to employees to improve sales performance, customer service, and loyalty to the store.
 
 ---
 
-## Jenis Bonus & Insentif
+## Types of Bonus & Incentives
 
-### 1. Bonus Bulanan (Tetap)
-Semua karyawan tetap mendapat bonus bulanan sebagai insentif dasar.
+### 1. Monthly Bonus (Fixed)
+All permanent employees receive a monthly bonus as a basic incentive.
 
-**Kriteria Penerima:**
-- ✓ Kehadiran ≥ 90% dalam bulan itu (max 3 hari absen/izin)
-- ✓ Tidak ada pelanggaran berat dalam bulan itu
-- ✓ Telah bekerja minimum 1 bulan di toko
+**Eligibility Criteria:**
+- ✓ Attendance $\ge$ 90% in that month (max 3 days absence/leave)
+- ✓ No serious violations in that month
+- ✓ Has worked at the store for a minimum of 1 month
 
-**Besaran Bonus:**
-| Posisi | Bonus Bulanan | Keterangan |
+**Bonus Amount:**
+| Position | Monthly Bonus | Notes |
 |---|---|---|
-| Kasir Senior | Rp 500.000 | 1/6 gaji pokok |
-| Kasir | Rp 400.000 | 1/7.5 gaji pokok |
-| Pramuniaga | Rp 300.000 | 1/10 gaji pokok |
-| Staf Gudang | Rp 300.000 | 1/10 gaji pokok |
-| Pemilik | Rp 1.000.000 | Discretionary |
+| Senior Cashier | Rp 500,000 | 1/6 of basic salary |
+| Cashier | Rp 400,000 | 1/7.5 of basic salary |
+| Sales Associate | Rp 300,000 | 1/10 of basic salary |
+| Warehouse Staff | Rp 300,000 | 1/10 of basic salary |
+| Owner | Rp 1,000,000 | Discretionary |
 
-**Waktu Pembayaran:** Akhir bulan (tanggal 30–31) atau awal bulan berikutnya
+**Payment Time:** End of the month (30–31st) or the beginning of the next month
 
 ---
 
-### 2. Insentif Penjualan (Performance-Based)
+### 2. Sales Incentive (Performance-Based)
 
-Kasir yang mencapai target penjualan mendapat bonus tambahan.
+Cashiers who achieve the sales target will receive additional bonuses.
 
-**Target Penjualan Bulanan:** Rp 50.000.000 (estimasi normal)
+**Monthly Sales Target:** Rp 50,000,000 (normal estimate)
 
-| Pencapaian | Bonus Tambahan | Detail |
+| Achievement | Additional Bonus | Detail |
 |---|---|---|
-| 100–110% target | Rp 200.000 | Kasir dapat Rp 200k tambahan |
-| 111–120% target | Rp 400.000 | Kasir dapat Rp 400k tambahan |
-| 121–130% target | Rp 600.000 | Kasir dapat Rp 600k tambahan |
-| > 130% target | Rp 1.000.000 | Kasir dapat Rp 1juta tambahan |
+| 100–110% of target | Rp 200,000 | Cashier receives an additional Rp 200k |
+| 111–120% of target | Rp 400,000 | Cashier receives an additional Rp 400k |
+| 121–130% of target | Rp 600,000 | Cashier receives an additional Rp 600k |
+| > 130% of target | Rp 1,000,000 | Cashier receives an additional Rp 1 million |
 
-**Keterangan:**
-- Target dihitung berdasarkan total transaksi seluruh kasir (jika ada 2 kasir, target dibagi 2 shift)
-- Bonus diberikan ke kasir yang shift saat target tercapai (shared bonus untuk shift pagi/sore)
+**Notes:**
+- Target is calculated based on the total transactions of all cashiers (if there are 2 cashiers, the target is divided by 2 shifts)
+- Bonus is given to the cashier who is on shift when the target is reached (shared bonus for morning/afternoon shifts)
 
-**Contoh Perhitungan:**
-- Target bulanan: Rp 50.000.000
-- Actual penjualan Shift Pagi: Rp 28.000.000 (56% target)
-- Actual penjualan Shift Sore: Rp 29.000.000 (58% target)
-- Total: Rp 57.000.000 (114% target)
-- Bonus: Rp 400.000 → dibagi 2 kasir (Siti & Rudi) = Rp 200.000 masing-masing
+**Calculation Example:**
+- Monthly Target: Rp 50,000,000
+- Morning Shift Actual Sales: Rp 28,000,000 (56% of target)
+- Afternoon Shift Actual Sales: Rp 29,000,000 (58% of target)
+- Total: Rp 57,000,000 (114% of target)
+- Bonus: Rp 400,000 $\rightarrow$ divided by 2 cashiers (Siti & Rudi) = Rp 200,000 each
 
 ---
 
-### 3. Insentif Customer Service (Keramahan Pelanggan)
+### 3. Customer Service Incentive (Customer Friendliness)
 
-Pramuniaga atau kasir yang mendapat rating bagus dari pelanggan mendapat bonus.
+Sales associates or cashiers who receive good ratings from customers will receive a bonus.
 
-**Sistem Rating:**
-- Kasir mencatat feedback positif pelanggan (verbal atau kartu komplain)
-- Minimum 5 feedback positif per bulan untuk dapat insentif
+**Rating System:**
+- Cashiers record positive customer feedback (verbal or complaint card)
+- Minimum 5 positive feedbacks per month to qualify for an incentive
 
-| Feedback Positif | Bonus |
+| Positive Feedback | Bonus |
 |---|---|
-| 5–10 feedback | Rp 100.000 |
-| 11–20 feedback | Rp 200.000 |
-| 21+ feedback | Rp 300.000 |
+| 5–10 feedbacks | Rp 100,000 |
+| 11–20 feedbacks | Rp 200,000 |
+| 21+ feedbacks | Rp 300,000 |
 
-**Contoh Feedback:**
-- "Kasir ramah, thank you!"
-- "Pelayanan cepat, sangat puas!"
-- "Pramuniaga membantu cari barang yang saya minta!"
+**Feedback Examples:**
+- "Cashier is friendly, thank you!"
+- "Service is fast, very satisfied!"
+- "Sales associate helped find the item I requested!"
 
 ---
 
-### 4. Insentif Kehadiran (Attendance Bonus)
+### 4. Attendance Incentive (Attendance Bonus)
 
-Karyawan yang hadir tepat waktu (tidak terlambat) selama 1 bulan penuh mendapat bonus.
+Employees who are on time (not late) for a full month will receive a bonus.
 
-| Kehadiran | Bonus |
+| Attendance | Bonus |
 |---|---|
-| 100% tepat waktu (tidak terlambat) | Rp 250.000 |
-| 1–2x terlambat | Rp 150.000 |
-| 3+ terlambat atau ada absen | Rp 0 |
+| 100% on time (not late) | Rp 250,000 |
+| 1–2x late | Rp 150,000 |
+| 3+ late or any absence | Rp 0 |
 
 ---
 
-### 5. Bonus Tanggal Gajian (Benefit Tambahan)
+### 5. Payday Date Bonus (Additional Benefit)
 
-Sebagai apresiasi, toko memberikan uang tambahan saat gajian.
+As an appreciation, the store provides additional cash during payday.
 
-**Besaran:**
-- Setiap karyawan: Rp 50.000 per bulan (diberikan saat gajian)
-- Pemilik: Rp 100.000
+**Amount:**
+- Each employee: Rp 50,000 per month (given on payday)
+- Owner: Rp 100,000
 
-**Waktu:** Tanggal gajian (akhir bulan)
-
----
-
-### 6. Insentif Program Khusus (Seasonal/Event)
-
-**Bonus Hari Raya:**
-- Semua karyawan mendapat THR (Tunjangan Hari Raya) sesuai peraturan
-- Besaran: 1× gaji per bulan (minimum)
-
-**Bonus Akhir Tahun:**
-- Semua karyawan: Rp 500.000–1.000.000 (tergantung performa tahunan)
-- Pemilik: Discretionary
-
-**Bonus Proyek Khusus:**
-- Stock opname harian (selain tanggal libur): bonus Rp 100.000 per orang
-- Grand cleaning/renovasi: bonus Rp 150.000 per orang
+**Time:** Payday date (end of the month)
 
 ---
 
-## Total Kemungkinan Bonus Per Bulan
+### 6. Special Program Incentives (Seasonal/Event)
 
-### Best Case (Kasir yang perform optimal)
+**Holiday Bonus:**
+- All employees receive THR (Holiday Allowance) according to regulations
+- Amount: 1 $\times$ monthly salary (minimum)
 
-**Gaji Pokok:** Rp 3.000.000
+**Year-End Bonus:**
+- All employees: Rp 500,000–1,000,000 (depending on annual performance)
+- Owner: Discretionary
 
-| Komponen Bonus | Besaran |
+**Special Project Bonus:**
+- Daily stock opname (excluding holiday dates): bonus Rp 100,000 per person
+- Grand cleaning/renovation: bonus Rp 150,000 per person
+
+---
+
+## Total Possible Bonus Per Month
+
+### Best Case (Cashier with optimal performance)
+
+**Basic Salary:** Rp 3,000,000
+
+| Bonus Component | Amount |
 |---|---|
-| Bonus Bulanan | Rp 400.000 |
-| Insentif Penjualan (114% target) | Rp 200.000 |
-| Insentif Customer Service (10 feedback) | Rp 150.000 |
-| Insentif Kehadiran (100% tepat waktu) | Rp 250.000 |
-| Bonus Tanggal Gajian | Rp 50.000 |
-| **TOTAL BONUS** | **Rp 1.050.000** |
-| **Total Penghasilan** | **Rp 4.050.000** |
+| Monthly Bonus | Rp 400,000 |
+| Sales Incentive (114% target) | Rp 200,000 |
+| Customer Service Incentive (10 feedbacks) | Rp 150,000 |
+| Attendance Incentive (100% on time) | Rp 250,000 |
+| Payday Bonus | Rp 50,000 |
+| **TOTAL BONUS** | **Rp 1,050,000** |
+| **Total Income** | **Rp 4,050,000** |
 
 ---
 
-### Worst Case (Karyawan dengan performa buruk)
+### Worst Case (Employee with poor performance)
 
-| Komponen | Besaran |
+| Component | Amount |
 |---|---|
-| Gaji Pokok | Rp 3.000.000 |
-| Bonus Bulanan | Rp 0 (karena absen > 3 hari) |
-| Insentif Penjualan | Rp 0 (tidak reach target) |
-| Insentif Customer Service | Rp 0 (tidak ada feedback) |
-| Insentif Kehadiran | Rp 0 (banyak terlambat) |
-| Potongan Denda/Sanksi | -Rp 200.000 (contoh) |
-| **Total Penghasilan** | **Rp 2.800.000** |
+| Basic Salary | Rp 3,000,000 |
+| Monthly Bonus | Rp 0 (due to > 3 days absence) |
+| Sales Incentive | Rp 0 (did not reach target) |
+| Customer Service Incentive | Rp 0 (no feedback) |
+| Attendance Incentive | Rp 0 (many late arrivals) |
+| Penalty/Fine Deduction | -Rp 200,000 (example) |
+| **Total Income** | **Rp 2,800,000** |
 
 ---
 
-## Kriteria Bonus Gajian
+## Payday Bonus Criteria
 
-### Bonus Bulanan - Syarat Lengkap
+### Monthly Bonus - Full Requirements
 ```
-CHECKLIST BONUS BULANAN:
-✓ Kehadiran ≥ 90% (max 3 hari absen/cuti/izin approved)
-✓ Tidak ada pelanggaran berat (pencurian, mabuk, kekerasan)
-✓ Tidak ada warning final dalam bulan itu
-✓ Telah bekerja di toko ≥ 1 bulan
-✓ Seragam & penampilan rapi setiap hari
-✓ Tidak ada komplain serius dari pelanggan
+MONTHLY BONUS CHECKLIST:
+✓ Attendance $\ge$ 90% (max 3 days absent/leave/permission approved)
+✓ No serious violations (theft, drunkenness, violence)
+✓ No final warning in that month
+✓ Has worked at the store $\ge$ 1 month
+✓ Uniform & neat appearance every day
+✓ No serious complaints from customers
 ```
 
-### Perhitungan Kehadiran
-- **Hari Kerja Bulan Itu:** Total hari operasional (misal: Senin–Minggu = 28 hari kerja)
-- **Hari Hadir:** Hari yang benar-benar hadir
-- **Hari Tidak Hadir:** Sakit, cuti, izin, absen
-- **Rumus:** (Hari Hadir / Hari Kerja) × 100% ≥ 90%
+### Attendance Calculation
+- **Working Days in the Month:** Total operational days (e.g.: Monday–Sunday = 28 working days)
+- **Present Days:** Days actually present
+- **Absent Days:** Sick leave, leave, permission, absence
+- **Formula:** (Present Days / Working Days) × 100% ≥ 90%
 
-**Contoh:** 
-- Hari kerja Sept 2026: 28 hari
-- Hari hadir: 26 hari (absen 1 hari, cuti 1 hari)
-- Persentase: (26/28) × 100% = 92.8% ✓ (dapat bonus)
+**Example:**
+- Working days Sept 2026: 28 days
+- Present days: 26 days (1 absence, 1 leave)
+- Percentage: (26/28) × 100% = 92.8% ✓ (eligible for bonus)
 
 ---
 
-## Prosedur Perhitungan & Pembayaran Bonus
+## Calculation and Bonus Payment Procedure
 
-### Step 1: Data Gathering (Akhir Bulan)
-- Kasir Senior collect attendance data (kehadiran, keterlambatan)
-- Kasir hitung total penjualan bulan itu (dari laporan POS)
-- Pramuniaga collect customer feedback (jika ada)
-- Pemilik review performa keseluruhan staff
+### Step 1: Data Gathering (End of Month)
+- Senior Cashier collects attendance data (attendance, tardiness)
+- Cashier calculates total sales for that month (from POS report)
+- Sales Associate collects customer feedback (if any)
+- Owner reviews overall staff performance
 
-### Step 2: Kalkulasi Bonus
-- Kasir menggunakan tabel di atas untuk hitung bonus masing-masing
-- Buat daftar bonus (Bonus Calculation Sheet)
-- Total bonus = Bonus Bulanan + Insentif Penjualan + Insentif CS + Insentif Kehadiran + Bonus Gajian
+### Step 2: Bonus Calculation
+- Cashier uses the table above to calculate individual bonuses
+- Create a bonus list (Bonus Calculation Sheet)
+- Total bonus = Monthly Bonus + Sales Incentive + CS Incentive + Attendance Incentive + Salary Bonus
 
 ### Step 3: Cross-Check & Approval
-- Pemilik review daftar bonus
-- Verify tidak ada error perhitungan
-- Approve & sign daftar bonus
+- Owner reviews the bonus list
+- Verify no calculation errors
+- Approve & sign the bonus list
 
-### Step 4: Pembayaran
-- Kasir bayarkan bonus saat gajian (tanggal 30–1 bulan berikutnya)
-- Bayar via tunai atau transfer (sesuai preferensi karyawan)
-- Berikan bukti pembayaran (slip bonus atau catatan di log gaji)
+### Step 4: Payment
+- Cashier pays the bonus during payday (30th–1st of the following month)
+- Pay via cash or transfer (according to employee preference)
+- Provide proof of payment (bonus slip or note in the payroll log)
 
-### Step 5: Komunikasi ke Karyawan
-- Informasi bonus yang diterima (bisa individually atau group)
-- Jelaskan breakdown bonus (dari mana saja kompotennya)
-- Encourage untuk improve performa bulan depan
+### Step 5: Communication to Employees
+- Information about the bonus received (can be individually or group)
+- Explain the bonus breakdown (where the components come from)
+- Encourage improvement in next month's performance
 
 ---
 
 ## Bonus Calculation Sheet Template
 
 ```
-BONUS CALCULATION SHEET – [BULAN/TAHUN]
+BONUS CALCULATION SHEET – [MONTH/YEAR]
 
-KASIR SENIOR: Siti Nurhaliza
-Gaji Pokok: Rp 3.000.000
+SENIOR CASHIER: Siti Nurhaliza
+Basic Salary: Rp 3,000,000
 
-Kehadiran:
-- Total hari kerja: 28 hari
-- Hari hadir: 27 hari
-- Persentase: 96.4% ✓ (dapat bonus bulanan)
+Attendance:
+- Total working days: 28 days
+- Days present: 27 days
+- Percentage: 96.4% ✓ (eligible for monthly bonus)
 
-Bonus Bulanan: Rp 500.000
+Monthly Bonus: Rp 500,000
 
-Insentif Penjualan:
-- Target: Rp 50.000.000
-- Actual: Rp 57.000.000 (114% target)
-- Bonus: Rp 400.000 ÷ 2 kasir = Rp 200.000
+Sales Incentive:
+- Target: Rp 50,000,000
+- Actual: Rp 57,000,000 (114% target)
+- Bonus: Rp 400,000 ÷ 2 cashiers = Rp 200,000
 
-Insentif Customer Service:
-- Feedback positif: 12 feedback ✓
-- Bonus: Rp 200.000
+Customer Service Incentive:
+- Positive feedback: 12 feedback ✓
+- Bonus: Rp 200,000
 
-Insentif Kehadiran:
-- Keterlambatan: 0x (100% tepat waktu) ✓
-- Bonus: Rp 250.000
+Attendance Incentive:
+- Lateness: 0x (100% on time) ✓
+- Bonus: Rp 250,000
 
-Bonus Gajian: Rp 50.000
+Salary Bonus: Rp 50,000
 
 ---
-TOTAL BONUS: Rp 1.200.000
-TOTAL PENGHASILAN BULAN INI: Rp 4.200.000
+TOTAL BONUS: Rp 1,200,000
+TOTAL INCOME THIS MONTH: Rp 4,200,000
 
-Tanda Tangan Kasir: _____________ Tgl: __________
-Tanda Tangan Pemilik: _____________ Tgl: __________
+Cashier Signature: _____________ Date: __________
+Owner Signature: _____________ Date: __________
 ```
 
 ---
 
-## Catatan Penting
+## Important Notes
 
-- **Bonus Adalah Insentif, Bukan Hak:** Bonus dapat dikurangi/dihentikan jika tidak memenuhi kriteria
-- **Transparansi:** Semua karyawan harus tahu bagaimana bonus dihitung (tidak misterius)
-- **Consistency:** Perhitungan bonus harus konsisten setiap bulan
-- **Motivation:** Bonus dirancang untuk motivate karyawan (bekerja lebih baik = earning lebih)
-- **Fairness:** Sistem bonus harus fair untuk semua posisi (tidak ada diskriminasi)
-- **Feedback:** Pemilik memberikan feedback individu tentang performa & bonus yang diterima
+- **Bonus is an Incentive, Not a Right:** Bonus may be reduced/stopped if criteria are not met
+- **Transparency:** All employees must know how the bonus is calculated (not mysterious)
+- **Consistency:** Bonus calculations must be consistent every month
+- **Motivation:** The bonus is designed to motivate employees (work better = earn more)
+- **Fairness:** The bonus system must be fair for all positions (no discrimination)
+- **Feedback:** The owner provides individual feedback on performance & bonus received

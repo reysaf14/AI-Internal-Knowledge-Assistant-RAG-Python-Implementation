@@ -1,60 +1,60 @@
-# SOP Buka Toko
-**Toko Makmur Jaya | Efektif: 2026**
+# Store Opening SOP
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Memastikan toko siap melayani pelanggan dengan standar keamanan, kebersihan, dan kesiapan produk yang sesuai.
+## Objective
+To ensure the store is ready to serve customers with standards of security, cleanliness, and product readiness.
 
-## Waktu Pelaksanaan
-Pukul 06.30–07.00 (30 menit sebelum jam buka operasional)
+## Execution Time
+06:30–07:00 (30 minutes before operational opening time)
 
-## Personel yang Bertanggung Jawab
-- Pemilik/Manajer (Budi Santoso) atau Kasir Shift Pagi
-- Staf Gudang (untuk pengecekan keamanan area belakang)
+## Responsible Personnel
+- Owner/Manager (Budi Santoso) or Morning Shift Cashier
+- Warehouse Staff (for checking security in the back area)
 
-## Prosedur Standar
+## Standard Procedures
 
-### 1. Pengecekan Keamanan Area Luar (06.30–06.40)
-- Periksa pintu utama dan area parkir apakah ada tanda-tanda kerusakan atau aktivitas mencurigakan
-- Buka gembok dan kunci utama toko secara perlahan
-- Pastikan lampu luar/signage sudah hidup (jika otomatis) atau nyalakan manual
-- Periksa etalase display dari luar untuk memastikan tidak ada barang yang terjatuh atau hilang
+### 1. Exterior Security Check (06:30–06:40)
+- Check the main door and parking area for signs of damage or suspicious activity
+- Slowly unlock the main door and lock of the store
+- Ensure exterior lights/signage are on (if automatic) or turn them on manually
+- Check the display cases from the outside to ensure no items have fallen or been misplaced
 
-### 2. Pengecekan Keamanan Dalam (06.40–06.50)
-- Masuk toko dan segera nonaktifkan alarm keamanan (jika ada) dengan kode yang sesuai
-- Lakukan patrol visual di semua area: kasir, rak produk, toilet, gudang, area stock
-- Catat di Formulir Pengecekan Keamanan jika ada temuan abnormal (barang hilang, kerusakan, dll)
-- Konfirmasi area gudang dan back office aman
+### 2. Interior Security Check (06:40–06:50)
+- Enter the store and immediately deactivate the security alarm (if any) with the appropriate code
+- Conduct a visual patrol of all areas: cashier, product shelves, restrooms, warehouse, stock area
+- Record any abnormal findings on the Security Check Form (missing items, damage, etc.)
+- Confirm the warehouse and back office areas are secure
 
-### 3. Setup Area Kasir (06.50–07.00)
-- Nyalakan mesin POS dan lakukan boot-up sistem
-- Verifikasi printer kasir berfungsi dengan baik (cetak test receipt)
-- Masukkan cash float sebesar Rp 500.000,00 ke dalam drawer kasir (pecahan: 2×Rp 100.000, 2×Rp 50.000, 3×Rp 20.000, 2×Rp 10.000, sisanya receh Rp 1.000–5.000)
-- Pastikan mesin pembayaran QRIS dan card reader terhubung dan responsif
-- Nyalakan AC ruangan dan monitor display produk digital (jika ada)
+### 3. Cashier Area Setup (06:50–07:00)
+- Turn on the POS machine and perform system boot-up
+- Verify the cashier printer is working properly (print test receipt)
+- Insert a cash float of Rp 500,000.00 into the cash drawer (denominations: 2×Rp 100,000, 2×Rp 50,000, 3×Rp 20,000, 2×Rp 10,000, remainder in small change Rp 1,000–5,000)
+- Ensure the QRIS and card reader payment machines are connected and responsive
+- Turn on the room AC and digital product display monitors (if any)
 
-### 4. Setup Area Penjualan (07.00)
-- Pastikan semua lampu display dan rak menyala penuh
-- Verifikasi produk di rak tidak ada yang tumpah atau rusak
-- Periksa harga label di produk-produk terpilih (minimal 5 item) untuk memastikan input harga POS sudah benar
-- Periksa ketersediaan plastik belanja dan tas kertas di area kasir (stok minimal 100 pcs)
-- Nyalakan musik latar (jika ada) pada volume sedang
+### 4. Sales Area Setup (07:00)
+- Ensure all display lights and shelves are fully illuminated
+- Verify that products on the shelves are not spilled or damaged
+- Check the price labels on selected products (minimum 5 items) to ensure the POS price input is correct
+- Check the availability of shopping plastic and paper bags in the cashier area (minimum stock of 100 pcs)
+- Turn on background music (if any) at a moderate volume
 
-### 5. Dokumentasi
-- Isi Formulir Pengecekan Keamanan dengan tanggal, jam, nama petugas, dan catatan temuan
-- Jika ada temuan abnormal, lapor langsung ke Pemilik/Manajer sebelum toko resmi buka
+### 5. Documentation
+- Fill out the Security Check Form with the date, time, officer's name, and findings notes
+- If there are abnormal findings, report directly to the Owner/Manager before the store officially opens
 
-## Checklist Akhir Sebelum Jam Operasional
-- [ ] Semua pintu dan gembok aman
-- [ ] Alarm telah dinonaktifkan
-- [ ] Sistem POS aktif dan siap
-- [ ] Cash float Rp 500.000 sudah dimasukkan
-- [ ] Semua alat pembayaran (QRIS, card reader) responsif
-- [ ] AC dan lampu menyala
-- [ ] Area penjualan bersih dan rapih
-- [ ] Stok plastik/tas tersedia
-- [ ] Formulir pengecekan sudah diisi
+## Final Checklist Before Operational Hours
+- [ ] All doors and locks are secure
+- [ ] Alarm has been deactivated
+- [ ] POS system is active and ready
+- [ ] Cash float of Rp 500,000 has been inserted
+- [ ] All payment tools (QRIS, card reader) are responsive
+- [ ] AC and lights are on
+- [ ] Sales area is clean and tidy
+- [ ] Plastic/bag stock is available
+- [ ] Check form has been filled out
 
-## Catatan Penting
-- Jika ada temuan darurat (tanda pecah masuk, barang hilang signifikan), jangan buka toko dan lapor Pemilik/Manajer dan kepolisian
-- Jangan izinkan pelanggan masuk sebelum pukul 07.00 tepat
-- Proses opening maksimal selesai pukul 07.00 agar tidak terlambat buka
+## Important Notes
+- If there are emergency findings (broken glass entry, significant missing items), do not open the store and report to the Owner/Manager and the police
+- Do not allow customers to enter before exactly 07:00
+- The opening process must be completed by 07:00 at the latest to avoid being late opening

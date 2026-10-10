@@ -1,127 +1,127 @@
-# FAQ Kebijakan Retur & Tukar Barang
-**Toko Makmur Jaya | Update: 2026**
+# FAQ Return & Exchange Policy
+**Makmur Jaya Store | Update: 2026**
 
-## Kebijakan Retur & Tukar Barang
+## Return & Exchange Policy
 
-### Syarat & Ketentuan Umum
+### General Terms and Conditions
 
-**Barang bisa ditukar maksimal 3 hari dengan struk, kecuali makanan/minuman.**
+**Items can be exchanged within a maximum of 3 days with a receipt, except for food/drinks.**
 
-#### Barang yang Bisa Ditukar (Batas 3 Hari)
-✓ Alat rumah tangga (gelas, piring, sapu, lap)
-✓ Produk elektronik kecil (charger, powerbank, lampu)
-✓ Peralatan & aksesoris (sisir, cermin, tali, dll)
-✓ Produk pembersih (sabun, pembersih lantai, desinfektan)
-✓ Tembakau/rokok (dalam kondisi packaging sealed)
+#### Items Eligible for Exchange (3-Day Limit)
+✓ Household items (glasses, plates, broom, mop)
+✓ Small electronic products (charger, power bank, lamp)
+✓ Tools & accessories (comb, mirror, strap, etc.)
+✓ Cleaning products (soap, floor cleaner, disinfectant)
+✓ Tobacco/cigarettes (in sealed packaging condition)
 
-**Syarat Diterima:**
-1. Struk pembelian asli harus ada (jangan hilang)
-2. Tanggal pembelian ≤ 3 hari dari tanggal klaim (dihitung dari jam pukul 07.00)
-3. Barang dalam kondisi baik (kemasan rapih, tidak ada tanda dibuka/dipakai)
-4. Label harga toko masih tertempel
-5. Barang tidak rusak karena kesalahan/kelalaian pelanggan
+**Acceptance Requirements:**
+1. Original purchase receipt must be present (do not lose it)
+2. Purchase date ≤ 3 days from the claim date (calculated from 07:00 AM)
+3. Item in good condition (neat packaging, no signs of being opened/used)
+4. Store price label must still be attached
+5. Item is not damaged due to customer error/negligence
 
-#### Barang yang TIDAK Bisa Ditukar (Kategori Makanan & Minuman)
-✗ Makanan (mie instan, makanan kaleng, snack, roti, dll)
-✗ Minuman (air minum, juice, minuman energi, susu UHT, dll)
-✗ Barang segar (telur, roti lembut, dll)
-✗ Semua kategori makanan/minuman tidak ada kecuali yang berlaku khusus
+#### Items NOT Eligible for Exchange (Food & Drink Category)
+✗ Food (instant noodles, canned food, snacks, bread, etc.)
+✗ Drinks (drinking water, juice, energy drinks, UHT milk, etc.)
+✗ Perishable goods (eggs, soft bread, etc.)
+✗ All food/drink categories are not accepted except for specific applicable exceptions
 
-**Alasan:** Kebijakan kesehatan & kebersihan (tidak bisa verifikasi kondisi produk setelah dibeli).
-
----
-
-## Prosedur Tukar Barang
-
-### Langkah-Langkah
-1. **Siapkan Barang & Struk**
-   - Bawa barang yang akan ditukar (dalam kemasan original, kondisi baik)
-   - Bawa struk pembelian asli (jangan fotokopi)
-   - Pastikan tanggal pembelian masih dalam 3 hari
-
-2. **Datang ke Kasir**
-   - Kemukakan keluhan/alasan tukar ke kasir
-   - Kasir akan verifikasi struk & barang
-
-3. **Verifikasi Kasir**
-   - Cek tanggal struk (apakah ≤ 3 hari?)
-   - Cek barang (kondisi kemasan, label harga, tanda dibuka?)
-   - Cocokkan data struk dengan barang (nama produk, harga match?)
-
-4. **Jika Diterima**
-   - Kasir terima barang & catat di Log Return Pelanggan
-   - Pelanggan pilih barang pengganti (harga sama atau + selisih jika lebih mahal)
-   - Kasir input di sistem: pengembalian barang lama + penjualan barang baru
-   - Pelanggan terima barang baru & struk baru
-
-5. **Jika Ditolak**
-   - Kasir jelaskan alasan penolakan (misal: tanggal > 3 hari, kondisi rusak, dll)
-   - Kasir catat di Log Penolakan Return
+**Reason:** Health & hygiene policy (product condition cannot be verified after purchase).
 
 ---
 
-## Skenario & Jawaban FAQ
+## Exchange Procedure
 
-**Q: Saya beli barang kemarin, sekarang rusak. Bisa ditukar?**
-A: Jika barang rusak karena cacat produk dari pabrik/toko: ya, bisa ditukar dengan syarat struk ada, tanggal ≤ 3 hari. Kasir akan verifikasi barang.
+### Steps
+1. **Prepare Item & Receipt**
+   - Bring the item to be exchanged (in original packaging, good condition)
+   - Bring the original purchase receipt (do not photocopy)
+   - Ensure the purchase date is within 3 days
 
-**Q: Saya beli barang 4 hari yang lalu, bisa retur?**
-A: Sayang, sudah di luar batas 3 hari. Kebijakan kami adalah max 3 hari dari tanggal pembelian.
+2. **Visit the Cashier**
+   - State the complaint/reason for exchange to the cashier
+   - The cashier will verify the receipt & item
 
-**Q: Barang saya sudah dibuka tapi masih dalam condition baik. Bisa ditukar?**
-A: Jika packaging dibuka tapi isi barang baik-baik saja, kasir akan evaluasi. Biasanya untuk alat (misalnya gelas yg udah dikeluarin dari box) masih bisa diterima jika tidak ada kerusakan. Datang aja & tanyakan.
+3. **Cashier Verification**
+   - Check the receipt date (is it ≤ 3 days?)
+   - Check the item (packaging condition, price label, signs of being opened?)
+   - Match receipt data with the item (product name, price match?)
 
-**Q: Bisa tukar barang yang lebih mahal?**
-A: Bisa, tapi Anda harus serahkan selisih harga. Misal: barang lama Rp 50.000, barang baru Rp 80.000 → Anda bayar + Rp 30.000.
+4. **If Accepted**
+   - Cashier accepts the item & records it in the Customer Return Log
+   - Customer chooses the replacement item (same price or + difference if more expensive)
+   - Cashier inputs into the system: return of old item + sale of new item
+   - Customer receives the new item & new receipt
 
-**Q: Bisa tukar barang yang lebih murah?**
-A: Bisa, selisih harga akan dikembalikan ke Anda (dalam bentuk diskon atau uang tunai tergantung kasir).
-
-**Q: Struk saya hilang, bisa ditukar?**
-A: Sangat sulit tanpa struk. Kasir tidak bisa verifikasi tanggal & barang tanpa struk. Sarankan Anda simpan struk sebaik mungkin atau jangan hilang.
-
-**Q: Barang rusak 2 jam setelah dibeli, bisa ditukar hari itu juga?**
-A: Ya, selama hari itu masih dalam jam operasional toko (07.00–21.00) & struk ada, kasir akan terima tukar.
-
-**Q: Apakah tukar barang bisa jadi uang kembali (refund)?**
-A: Tidak, kebijakan kami adalah tukar barang, bukan refund uang tunai. Namun untuk selisih harga barang yg lebih murah, kasir bisa berikan potongan/diskon untuk pembelian berikutnya.
-
-**Q: Barang makanan saya rusak/cacat. Kenapa tidak bisa ditukar?**
-A: Alasan utama adalah kebersihan & kesehatan. Kami tidak bisa verifikasi apakah barang makanan rusak karena pabrik atau karena disimpan tidak baik di rumah. Demi keselamatan konsumen lain, kami tidak terima return makanan.
-
-**Q: Berapa lama proses tukar barang?**
-A: Rata-rata 10–15 menit (dari verifikasi struk sampai dapat barang baru).
+5. **If Rejected**
+   - Cashier explains the reason for rejection (e.g., date > 3 days, damaged condition, etc.)
+   - Cashier records it in the Return Rejection Log
 
 ---
 
-## Tabel Ringkasan Kebijakan Retur
+## Scenarios & FAQ Answers
 
-| Kategori Barang | Bisa Ditukar? | Batas Waktu | Syarat |
-|-----------------|---------------|------------|--------|
-| Alat RT (gelas, piring, sapu) | Ya | 3 hari | Struk, kondisi baik |
-| Elektronik kecil (charger, powerbank) | Ya | 3 hari | Struk, kemasan sealed |
-| Produk pembersih (sabun, pembersih) | Ya | 3 hari | Struk, belum dibuka |
-| Tembakau/rokok | Ya | 3 hari | Struk, packaging sealed |
-| Makanan (mie, snack, kaleng) | Tidak | - | Kebijakan kesehatan |
-| Minuman (air, juice, susu) | Tidak | - | Kebijakan kesehatan |
-| Barang segar (telur, roti) | Tidak | - | Kebijakan kesehatan |
+**Q: I bought an item yesterday, and now it's damaged. Can I exchange it?**
+A: If the item is damaged due to product defect from the factory/store: yes, it can be exchanged with the condition that the receipt is present and the date is ≤ 3 days. The cashier will verify the item.
+
+**Q: I bought an item 4 days ago, can I return it?**
+A: Unfortunately, it is outside the 3-day limit. Our policy is max 3 days from the purchase date.
+
+**Q: My item has been opened but is still in good condition. Can I exchange it?**
+A: If the packaging is opened but the contents are fine, the cashier will evaluate it. Usually for tools (e.g., a glass that has been taken out of the box), it can still be accepted if there is no damage. Just come and ask.
+
+**Q: Can I exchange for a more expensive item?**
+A: Yes, but you must pay the price difference. For example: old item Rp 50,000, new item Rp 80,000 → you pay + Rp 30,000.
+
+**Q: Can I exchange for a cheaper item?**
+A: Yes, the price difference will be refunded to you (in the form of a discount or cash depending on the cashier).
+
+**Q: My receipt is lost, can I exchange it?**
+A: Very difficult without a receipt. The cashier cannot verify the date & item without a receipt. We advise you to keep the receipt as well as possible or do not lose it.
+
+**Q: Can I exchange an item damaged 2 hours after purchase on the same day?**
+A: Yes, as long as it is within the store's operating hours (07:00–21:00) and the receipt is present, the cashier will accept the exchange.
+
+**Q: Can an item exchange result in a refund?**
+A: No, our policy is item exchange, not cash refund. However, for the price difference of a cheaper item, the cashier can give a discount/credit for the next purchase.
+
+**Q: My food item is damaged/defective. Why can't I exchange it?**
+A: The main reason is hygiene & health. We cannot verify whether the food item is damaged by the factory or due to improper storage at home. For the safety of other consumers, we do not accept food returns.
+
+**Q: How long is the exchange process?**
+A: Average 10–15 minutes (from receipt verification to receiving the new item).
 
 ---
 
-## Proses Keluhan & Komplain
+## Return Policy Summary Table
 
-**Jika Barang Cacat Tapi Belum Diketahui (Menemukan Cacat Sesudah Pulang):**
-1. Segera kembali ke toko dengan barang & struk
-2. Tunjukkan kerusakan/cacat ke kasir atau pemilik
-3. Jelaskan kapan ditemukan cacat (saat di rumah? saat dibuka packaging?)
-4. Kasir akan evaluasi & verifkasi apakah cacat dari pabrik atau dari pelanggan
-5. Jika terbukti cacat pabrik: tukar barang sesuai kebijakan
-6. Jika tidak terbukti dari pabrik: tolak dengan penjelasan (lihat skenario FAQ di atas)
+| Item Category | Can Be Exchanged? | Time Limit | Conditions |
+|---|---|---|---|
+| Community Tools (glasses, plates, broom) | Yes | 3 days | Receipt, good condition |
+| Small Electronics (charger, powerbank) | Yes | 3 days | Receipt, sealed packaging |
+| Cleaning Products (soap, cleaner) | Yes | 3 days | Receipt, unopened |
+| Tobacco/Cigarettes | Yes | 3 days | Receipt, sealed packaging |
+| Food (noodles, snacks, cans) | No | - | Health policy |
+| Beverages (water, juice, milk) | No | - | Health policy |
+| Fresh Goods (eggs, bread) | No | - | Health policy |
 
 ---
 
-## Catatan Penting
-- **Selalu simpan struk** pembelian dalam 3 hari untuk kemudahan klaim (disimpan di dompet atau foto)
-- **Jangan membuka kemasan** barang sebelum pulang (kecuali saat di kasir verifikasi)
-- **Untuk makanan/minuman:** tidak ada kebijakan tukar/retur, jadi pastikan pilih barang dengan teliti sebelum membayar
-- **Jika ada keraguan:** tanyakan ke kasir SEBELUM membeli, jangan sesudahnya
+## Complaint & Complaint Process
+
+**If the Item is Defective But Not Known (Finding Defect After Returning Home):**
+1. Immediately return to the store with the item & receipt
+2. Show the damage/defect to the cashier or owner
+3. Explain when the defect was found (at home? after opening the packaging?)
+4. The cashier will evaluate & verify whether the defect is from the factory or from the customer
+5. If proven to be a factory defect: exchange the item according to policy
+6. If not proven to be a factory defect: refuse with an explanation (see FAQ scenario above)
+
+---
+
+## Important Notes
+- **Always keep the purchase receipt** for 3 days for easier claims (keep in wallet or photo)
+- **Do not open the packaging** of items before returning home (except during cashier verification)
+- **For food/drinks:** there is no exchange/return policy, so make sure to choose items carefully before paying
+- **If you have any doubts:** ask the cashier BEFORE purchasing, not afterwards

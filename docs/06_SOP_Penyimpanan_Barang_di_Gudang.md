@@ -1,193 +1,193 @@
-# SOP Penyimpanan Barang di Gudang
-**Toko Makmur Jaya | Efektif: 2026**
+# Warehouse Storage SOP
+**Makmur Jaya Store | Effective: 2026**
 
-## Tujuan
-Menjamin barang tersimpan dengan aman, terorganisir, mudah diakses, dan terlindungi dari kerusakan atau kehilangan di area gudang toko.
+## Objective
+To ensure goods are stored safely, organized, easily accessible, and protected from damage or loss in the store warehouse area.
 
-## Area Gudang Toko Makmur Jaya
-- **Ukuran:** ~30 m² (area belakang toko, terpisah dari area penjualan)
-- **Fasilitas:** Rak besi berlapis 4, 1 lemari terkunci (untuk rokok), ventilasi standar, 2 lampu neon 40W
-- **Kapasitas Penyimpanan:** ~300 dus barang (estimasi volume normal per bulan)
-- **Personel Gudang:** 2 orang staf tetap (shift pagi & sore)
+## Makmur Jaya Store Warehouse Area
+- **Size:** ~30 m² (rear area of the store, separate from the sales area)
+- **Facilities:** 4-tier metal shelving, 1 locked cabinet (for cigarettes), standard ventilation, 2 x 40W fluorescent lights
+- **Storage Capacity:** ~300 boxes of goods (estimated normal volume per month)
+- **Warehouse Personnel:** 2 permanent staff (morning & afternoon shift)
 
-## Sistem Penyimpanan & Penempatan Barang
+## Storage & Placement System
 
-### 1. Zonasi Gudang (5 Zona Penyimpanan)
-Gudang dibagi menjadi 5 zona untuk organisasi maksimal:
+### 1. Warehouse Zoning (5 Storage Zones)
+The warehouse is divided into 5 zones for maximum organization:
 
-**Zona 1 – Makanan & Minuman (Rak 1–2)**
-- Makanan kaleng, mie instan, snack, minuman kaleng/botol
-- Tata FIFO (First In First Out) – barang lama di depan
-- Terpisah per sub-kategori dengan label zona (A1, A2, dll)
+**Zone 1 – Food & Beverages (Shelves 1–2)**
+- Canned food, instant noodles, snacks, canned/bottled drinks
+- FIFO (First In First Out) arrangement – older items in front
+- Separated by sub-category with zone labels (A1, A2, etc.)
 
-**Zona 2 – Peralatan Rumah Tangga (Rak 3)**
-- Sapu, kemoceng, lap, sisir, cermin, piring, gelas, sendok
-- Tata per jenis, mudah dipetik untuk restock ke rak penjualan
-- Item fragile (gelas/piring) di rak tengah untuk kemudahan akses & keamanan
+**Zone 2 – Household Items (Shelf 3)**
+- Brooms, dusters, rags, combs, mirrors, plates, glasses, spoons
+- Organized by type, easy to pick for restocking to sales shelves
+- Fragile items (glasses/plates) on the middle shelf for easy access & safety
 
-**Zona 3 – Produk Pembersih & Sanitasi (Rak 4 bawah + corner terpisah)**
-- Sabun, shampo, pembersih lantai, desinfektan, tisu, popok
-- **Penting:** Pisahkan jauh dari zona makanan untuk alasan kebersihan
-- Letakkan di corner gudang dengan ventilasi baik
-- Jangan di atas makanan
+**Zone 3 – Cleaning & Sanitizing Products (Bottom Shelf 4 + separate corner)**
+- Soap, shampoo, floor cleaner, disinfectant, tissues, diapers
+- **Important:** Keep far away from the food zone for hygiene reasons
+- Place in the warehouse corner with good ventilation
+- Do not place above food items
 
-**Zona 4 – Tembakau & Rokok (Lemari Terkunci)**
-- Gudang Garam, Sampoerna, A Mild, rokok lokal, sigaret, tembakau
-- **Akses terbatas:** Hanya Pemilik, Kasir Senior, & Staf Gudang yang berwenang
-- Simpan dalam lemari besi berlunci dengan 2 kunci (1 Pemilik, 1 Kasir Senior)
-- Catat setiap pengambilan rokok dari lemari di Log Rokok
-- Jangan expose ke lembab berlebihan
+**Zone 4 – Tobacco & Cigarettes (Locked Cabinet)**
+- Garam, Sampoerna, A Mild, local cigarettes, cigarettes, tobacco
+- **Limited Access:** Only Owner, Senior Cashier, & Warehouse Staff are authorized
+- Store in a lockable cabinet with 2 keys (1 Owner, 1 Senior Cashier)
+- Record every cigarette withdrawal from the cabinet in the Cigarette Log
+- Do not expose to excessive moisture
 
-**Zona 5 – Stock Cadangan/Barang Hold (Rak kosong/sudut)**
-- Barang return dari pelanggan (menunggu proses)
-- Barang rusak (menunggu penghapusan/retur ke supplier)
-- Barang promo/musiman (jika ada)
-- Catatan jelas untuk setiap item
+**Zone 5 – Reserve Stock/Hold Items (Empty shelves/corners)**
+- Customer returns (awaiting processing)
+- Damaged goods (awaiting disposal/return to supplier)
+- Promotional/seasonal items (if any)
+- Clear notes for each item
 
-### 2. Tata Cara Penempatan Barang (FIFO Principle)
+### 2. Item Placement Procedure (FIFO Principle)
 
-**Standar FIFO untuk Makanan/Minuman:**
-1. Barang lama yang sudah ada di gudang → posisi depan (dekat pintu/akses)
-2. Barang baru masuk → posisi belakang
-3. Pengecekan rutin 1x seminggu untuk rotasi barang
+**Standard FIFO for Food/Beverages:**
+1. Older items already in the warehouse → front position (near door/access)
+2. New items arriving → back position
+3. Routine check 1x per week for item rotation
 
-**Contoh Penempatan Makanan Kaleng:**
-- Rak Tinggi (Level 4): Barang baru, bobot ringan
-- Rak Sedang (Level 2–3): Barang medium, akses mudah
-- Rak Rendah (Level 1): Barang lama, berat, dekat untuk restock
-- Setiap pergerakan ditandai dengan sticker tanggal baru
+**Example Placement for Canned Goods:**
+- High Shelf (Level 4): New items, light weight
+- Medium Shelf (Level 2–3): Medium items, easy access
+- Low Shelf (Level 1): Older items, heavy, close for restocking
+- Every movement is marked with a new date sticker
 
-**Untuk Barang Non-Makanan:**
-- Tata per jenis/SKU
-- Tumpukkan max 3–4 dus (untuk stabilitas & hindari kerusakan)
-- Jangan menimpa barang yang fragile
+**For Non-Food Items:**
+- Organized by type/SKU
+- Stack max 3–4 boxes (for stability & avoid damage)
+- Do not stack on fragile items
 
-### 3. Penandaan & Labeling Barang
+### 3. Item Labeling & Marking
 
-**Label Setiap Kemasan Barang Masuk:**
-- Gunakan sticker atau pulpen marker
-- Tulis: Tanggal Masuk, Nama Produk, Jumlah, Harga Beli
+**Label Every Incoming Item:**
+- Use stickers or marker pens
+- Write: Date Received, Product Name, Quantity, Purchase Price
 - Format: `[TGL-BULAN] PRODUK | JML | RPM`
-  - Contoh: `[13-Sep] Minyak Goreng 2L | 20 | Rp 48.000`
+  - Example: `[13-Sep] Minyak Goreng 2L | 20 | Rp 48.000`
 
-**Label Zona di Rak:**
-- Buat label karton di setiap rak: "ZONA 1: MAKANAN", "ZONA 4: ROKOK" (jelas & terlihat)
-- Label sub-zona: "A1-Minuman", "A2-Makanan Kaleng", dll
-- Ganti label jika pudar atau hilang
+**Shelf Zoning Labeling:**
+- Create cardboard labels on every shelf: "ZONE 1: FOOD", "ZONE 4: TOBACCO" (clear & visible)
+- Sub-zone labels: "A1-Beverages", "A2-Canned Food", etc.
+- Replace labels if faded or lost
 
-**QR Code/Barcode (Optional untuk Tracking):**
-- Jika sistem POS mendukung barcode, catat lokasi penyimpanan barang (misal: Rak 2-C3)
-- Scan barcode saat barang masuk & keluar gudang
+**QR Code/Barcode (Optional for Tracking):**
+- If the POS system supports barcodes, record the storage location of the item (e.g., Shelf 2-C3)
+- Scan the barcode when items enter & leave the warehouse
 
-### 4. Penempatan Barang per Karakteristik
+### 4. Item Placement by Characteristic
 
-**Barang Berat (Minyak, Air Minum, Minuman Kaleng):**
-- Letakkan di rak bawah (level 1) untuk kemudahan akses & keamanan
-- Jangan tumpuk > 3 dus (risiko ambruk atau kaki rak lemah)
-- Periksa rak berkala apakah ada tanda-tanda lengkungan/kerusakan
+**Heavy Items (Oil, Drinking Water, Canned Beverages):**
+- Place on lower shelves (level 1) for ease of access & safety
+- Do not stack > 3 crates (risk of collapse or weak shelf legs)
+- Periodically check shelves for signs of bowing/damage
 
-**Barang Ringan (Snack, Permen, Rokok):**
-- Bisa di rak atas (level 3–4)
-- Tata rapat untuk efisiensi ruang
-- Hindari tempat panas langsung (risiko leleh/rusak)
+**Light Items (Snacks, Candy, Cigarettes):**
+- Can be on upper shelves (level 3–4)
+- Arrange tightly for space efficiency
+- Avoid direct hot areas (risk of melting/damage)
 
-**Barang Fragile (Gelas, Piring, Cermin):**
-- Rak tengah (level 2–3) untuk akses aman
-- Beri alas kardus bekas di antara dus untuk peredam guncangan
-- Jangan letakkan barang berat di atas
-- Pasang label "FRAGILE" atau "HATI-HATI PECAH"
+**Fragile Items (Glasses, Plates, Mirrors):**
+- Middle shelves (level 2–3) for safe access
+- Place old cardboard under crates between boxes for shock absorption
+- Do not place heavy items on top
+- Attach "FRAGILE" or "HANDLE WITH CARE" labels
 
-**Barang Perish/Berkadaluarsa (Makanan dengan tanggal expired):**
-- Kelompokkan per tanggal expired
-- Kelompok expired tercepat di depan (untuk penjualan prioritas)
-- Kelompok expired paling lama di belakang
-- Catat tanggal expired dengan marker merah di kemasan
-- Setiap minggu, pramuniaga cek & pindahkan barang yang akan expired dalam 2 minggu ke display penjualan (untuk diskon/geser cepat)
+**Perishable/Expiring Items (Food with expiration dates):**
+- Group by expiration date
+- Group the fastest expiring items in the front (for priority sales)
+- Group the longest expiring items in the back
+- Record the expiration date with a red marker on the packaging
+- Every week, the sales associate checks & moves items expiring within 2 weeks to the sales display (for discounts/quick turnover)
 
-**Barang Mudah Menyerap Lembab (Tisu, Popok, Pembersih Kering):**
-- Letakkan di area ventilasi baik
-- Jangan dekat dengan produk cairan/sabun yang basah
-- Gunakan silica gel jika kelembaban gudang tinggi
+**Items Prone to Moisture Absorption (Tissues, Diapers, Dry Cleaners):**
+- Place in well-ventilated areas
+- Do not place near wet liquid/soap products
+- Use silica gel if warehouse humidity is high
 
-### 5. Keamanan & Pembatasan Akses
+### 5. Security & Access Restrictions
 
-**Akses Gudang:**
-- Gudang terkunci setiap hari pukul 21.00 (tutup toko)
-- Hanya Pemilik, Kasir Senior, & 2 Staf Gudang yang punya kunci
-- Pramuniaga bisa akses setelah diminta staf gudang dengan supervisi
+**Warehouse Access:**
+- The warehouse is locked every day at 21:00 (store closed)
+- Only the Owner, Senior Cashier, & 2 Warehouse Staff have keys
+- Sales associates can access after being requested by warehouse staff with supervision
 
-**Lemari Rokok (Keamanan Ketat):**
-- Lemari selalu terkunci, dibuka hanya saat dibutuhkan restock
-- Catatan akses: siapa, tanggal, jam, jumlah barang diambil
-- Verifikasi saldo rokok setiap 2 minggu
+**Tobacco Cabinet (Strict Security):**
+- The cabinet is always locked, opened only when needed for restocking
+- Access log: who, date, time, quantity of items taken
+- Verify tobacco balance every 2 weeks
 
-**Monitoring Barang Berharga:**
-- Periksa stok barang bernilai tinggi (minyak premium, rokok branded, elektronik) setiap hari
-- Lapor ke Pemilik jika ada selisih atau barang mencurigakan hilang
+**Monitoring of Valuables:**
+- Check stock of high-value items (premium oil, branded cigarettes, electronics) every day
+- Report to the Owner if there is a discrepancy or suspicious item missing
 
-### 6. Kebersihan & Perawatan Gudang
+### 6. Warehouse Cleaning & Maintenance
 
-**Pembersihan Gudang (Setiap Minggu – Sabtu pagi):**
-1. Sapai lantai gudang (buang debu, sampah makanan)
-2. Usap rak besi dengan lap kering (buang debu)
-3. Periksa rak ada barang tumpah atau rusak
-4. Buang sampah ke tempat sampah luar
-5. Periksa ventilasi tidak tersumbat
+**Warehouse Cleaning (Every Week – Saturday morning):**
+1. Sweep the warehouse floor (remove dust, food waste)
+2. Wipe metal shelves with a dry cloth (remove dust)
+3. Check shelves for spilled or damaged items
+4. Dispose of trash in the outdoor bin
+5. Check ventilation for blockages
 
-**Pengecekan Kelembaban & Suhu:**
-- Gudang standar suhu 20–30°C, kelembaban 40–60% ideal
-- Jika terasa lembab: buka jendela, pasang dehumidifier (jika ada budget)
-- Hindari area gudang terkena sinar matahari langsung (letakkan tirai/tertutup)
+**Humidity & Temperature Checks:**
+- Standard warehouse temperature 20–30°C, humidity 40–60% is ideal
+- If it feels damp: open windows, install dehumidifier (if budget allows)
+- Avoid areas of the warehouse exposed to direct sunlight (place curtains/cover)
 
-**Penanganan Hama/Serangga:**
-- Periksa minggu-minggu tidak ada tanda hama (ceceran butiran, sarang serangga)
-- Jika ditemukan: segera bersihkan area & pertimbangkan fumigasi professional
-- Laporkan ke Pemilik untuk tindakan lanjut
+**Pest/Insect Handling:**
+- Check weekly for signs of pests (grain droppings, insect nests)
+- If found: immediately clean the area & consider professional fumigation
+- Report to the Owner for further action
 
-### 7. Prosedur Restock Barang ke Rak Penjualan
+### 7. Procedure for Restocking Items to Sales Shelves
 
-**Setiap Hari (Pramuniaga melakukan restock sesuai kebutuhan):**
-1. Cek stok di rak penjualan (apakah sudah lowstock?)
-2. Ambil barang dari gudang zona yang sesuai (gunakan prinsip FIFO)
-3. Catat jumlah barang yang diambil di Log Restock Harian (optional, atau langsung input ke POS)
-4. Bawa barang ke rak penjualan, tata ulang sesuai display standar
-5. Hapus label lama gudang dari kemasan
-6. Input stok di sistem POS: pengambilan dari gudang ke penjualan
+**Every Day (Sales associate restocks as needed):**
+1. Check stock on the sales shelves (is it low stock?)
+2. Take items from the corresponding zone in the warehouse (use FIFO principle)
+3. Record the quantity of items taken in the Daily Restock Log (optional, or directly input to POS)
+4. Bring items to the sales shelf, arrange according to standard display
+5. Remove old warehouse labels from the packaging
+6. Input stock into the POS system: transfer from warehouse to sales
 
-### 8. Dokumentasi & Reporting
+### 8. Documentation & Reporting
 
-**Log Penyimpanan Gudang (harian):**
-- Tanggal
-- Barang masuk: nama, jumlah, supplier, kondisi
-- Barang keluar: nama, jumlah, tujuan (restock/penjualan)
-- Nama staf gudang
-- Catatan khusus (kerusakan, hama, dll)
+**Warehouse Storage Log (daily):**
+- Date
+- Items In: name, quantity, supplier, condition
+- Items Out: name, quantity, destination (restock/sale)
+- Warehouse staff name
+- Special notes (damage, pests, etc.)
 
-**Laporan Minggu Gudang (Setiap Hari Kamis):**
-- Pemilik menerima laporan: total barang di gudang (per zona), barang expired, barang rusak, keadaan gudang
-- Tindakan yang diperlukan (retur barang rusak, diskon barang expired, dll)
+**Weekly Warehouse Report (Every Thursday):**
+- Owner receives report: total items in the warehouse (per zone), expired items, damaged items, warehouse condition
+- Actions required (return damaged goods, discount expired goods, etc.)
 
-## Checklist Pengelolaan Gudang Harian
-- [ ] Barang masuk sudah berlabel tanggal & ditata FIFO
-- [ ] Zona terpisah sesuai kategori barang
-- [ ] Lemari rokok terkunci & access log diisi
-- [ ] Barang fragile & berat di lokasi yang aman
-- [ ] Gudang bersih & tidak ada hama
-- [ ] Log penempatan barang diisi
-- [ ] Restock ke rak penjualan sesuai kebutuhan
-- [ ] Barang expired terpisah & diprioritaskan diskon
+## Daily Warehouse Management Checklist
+- [ ] Items received are labeled with date & arranged FIFO
+- [ ] Zones are separated according to item category
+- [ ] Tobacco cabinet is locked & access log is filled
+- [ ] Fragile & heavy items are in safe locations
+- [ ] Warehouse is clean & pest-free
+- [ ] Item placement log is filled
+- [ ] Restock to sales shelves as needed
+- [ ] Expired items are separated & prioritized for discount
 
-## Standar Penyimpanan Maksimal per Zona
-| Zona | Kategori | Kapasitas | Durasi Simpan Rata-rata |
-|------|----------|-----------|------------------------|
-| Zona 1 | Makanan/Minuman | 100 dus | 7–14 hari |
-| Zona 2 | Alat RT | 80 dus | 30–45 hari |
-| Zona 3 | Pembersih | 40 dus | 45–60 hari |
-| Zona 4 | Rokok | 50 dus | 60–90 hari |
-| Zona 5 | Hold/Barang Rusak | 20 dus | 3–7 hari |
+## Maximum Storage Standards per Zone
+| Zone | Category | Capacity | Average Storage Duration |
+|------|----------|-----------|----------------------------|
+| Zone 1 | Food/Beverages | 100 boxes | 7–14 days |
+| Zone 2 | Community Tools | 80 boxes | 30–45 days |
+| Zone 3 | Cleaning Supplies | 40 boxes | 45–60 days |
+| Zone 4 | Tobacco | 50 boxes | 60–90 days |
+| Zone 5 | Hold/Damaged Goods | 20 boxes | 3–7 days |
 
-## Catatan Penting
-- FIFO adalah prinsip utama agar barang tidak kadaluarsa
-- Rokok harus 100% akurat dalam inventory (peraturan pemerintah ketat)
-- Jangan overcapacity gudang (max 80% dari total rak untuk fleksibilitas)
-- Gudang harus selalu rapi & terorganisir untuk efisiensi operasional
+## Important Notes
+- FIFO is the main principle so that goods do not expire
+- Tobacco must be 100% accurate in inventory (strict government regulations)
+- Do not overcapacity the warehouse (max 80% of total shelving for flexibility)
+- The warehouse must always be tidy & organized for operational efficiency
