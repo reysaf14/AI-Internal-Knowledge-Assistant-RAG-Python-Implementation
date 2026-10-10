@@ -16,7 +16,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
-from rag_assistant.answering.prompts import ABSTENTION_TEXT, SOURCE_LINE_PREFIX
+from rag_assistant.answering.prompts import ABSTENTION_TEXT
 from rag_assistant.domain.types import AnswerResult
 from rag_assistant.retrieval.grounding import (
     GroundedContext,
@@ -25,22 +25,21 @@ from rag_assistant.retrieval.grounding import (
 
 # The prompt asks for the source on its own line, and the line-start check runs
 # first so a compliant model is parsed exactly as before.  Local models often
-# emit the marker inline instead ("12 hari per tahun. SUMBER: doc.md"); that is
+# emit the marker inline instead ("12 days per year. SOURCE: doc.md"); that is
 # a formatting variance, not a grounding failure, so a fallback accepts the
 # final inline marker.  Grounding is unchanged either way: every claimed source
 # is still validated against the context, so a fake source can never pass.
-_INLINE_SOURCE_RE = re.compile(
-    re.escape(SOURCE_LINE_PREFIX), re.IGNORECASE
-)
+_INLINE_SOURCE_RE = re.compile(r"SOURCES?:", re.IGNORECASE)
 
 ABSTENTION_MARKERS = (
-    "tidak menemukan",
-    "tidak tahu",
-    "tidak ada informasi",
-    "tidak cukup",
-    "tidak dapat menjawab",
-    "tidak ditemukan",
-    "belum ada informasi",
+    "could not find",
+    "do not know",
+    "don't know",
+    "no information",
+    "not enough",
+    "cannot answer",
+    "can't answer",
+    "information was not found",
 )
 
 
@@ -53,7 +52,7 @@ class ValidatedAnswer:
 
 
 def extract_claimed_sources(answer_text: str) -> tuple[str, ...]:
-    """Return source names from every ``SUMBER:`` marker, in first-seen order.
+    """Return source names from every ``SOURCE:`` marker, in first-seen order.
 
     Line-start markers are preferred (the documented output contract).  When a
     model emits the marker inline on the same line as the answer body, the
@@ -64,8 +63,9 @@ def extract_claimed_sources(answer_text: str) -> tuple[str, ...]:
     seen: set[str] = set()
     for raw_line in answer_text.splitlines():
         line = raw_line.strip()
-        if line.upper().startswith(SOURCE_LINE_PREFIX):
-            remainder = line[len(SOURCE_LINE_PREFIX):]
+        marker = _INLINE_SOURCE_RE.match(line)
+        if marker:
+            remainder = line[marker.end() :]
             for token in _split_sources(remainder):
                 if token not in seen:
                     seen.add(token)
@@ -76,14 +76,14 @@ def extract_claimed_sources(answer_text: str) -> tuple[str, ...]:
 
 
 def strip_source_line(answer_text: str) -> str:
-    """Return the answer body without any ``SUMBER:`` marker.
+    """Return the answer body without any ``SOURCE:`` marker.
 
     A line that is entirely a marker is dropped; an inline marker is truncated
     so the citation does not remain glued to the answer body.
     """
     kept: list[str] = []
     for raw in answer_text.splitlines():
-        if raw.strip().upper().startswith(SOURCE_LINE_PREFIX):
+        if _INLINE_SOURCE_RE.match(raw.strip()):
             continue
         kept.append(_INLINE_SOURCE_RE.split(raw)[0].rstrip())
     return "\n".join(kept).strip()
@@ -148,7 +148,7 @@ def _split_sources(value: str) -> tuple[str, ...]:
 
 
 def _claimed_sources_inline(text: str) -> tuple[str, ...]:
-    """Return sources from a trailing inline ``SUMBER:`` marker, if any.
+    """Return sources from a trailing inline ``SOURCE:`` marker, if any.
 
     Only the text after the *last* marker is considered, so an answer body that
     happens to mention the word earlier cannot be mistaken for a citation list.

@@ -32,7 +32,7 @@ from rag_assistant.storage.index_store import IndexStore
 SUPPORTED_QUESTION = "Apa saja metode pembayaran yang diterima?"
 GROUNDED_CONTENT = (
     "Toko menerima tunai, kartu debit, kartu kredit, dan QRIS.\n"
-    "SUMBER: 02_FAQ_Pembayaran.md"
+    "SOURCE: 02_FAQ_Pembayaran.md"
 )
 
 

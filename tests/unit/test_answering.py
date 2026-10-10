@@ -32,7 +32,7 @@ SUPPORTED_QUESTION = "Apa saja metode pembayaran yang diterima?"
 UNSUPPORTED_QUESTION = "Bagaimana kebijakan layanan laundry antar kota?"
 VALID_ANSWER = (
     "Toko menerima tunai, kartu debit, kartu kredit, dan QRIS.\n"
-    "SUMBER: 02_FAQ_Pembayaran.md"
+    "SOURCE: 02_FAQ_Pembayaran.md"
 )
 
 
@@ -85,8 +85,8 @@ def test_supported_answer_is_sourced(tmp_path: Path, synthetic_docs: Path):
     assert result.supported
     assert not result.abstained
     assert result.sources == ["02_FAQ_Pembayaran.md"]
-    assert "SUMBER:" not in result.text.upper()
-    assert "Sumber: 02_FAQ_Pembayaran.md" in format_answer(result)
+    assert "SOURCE:" not in result.text.upper()
+    assert "Sources: 02_FAQ_Pembayaran.md" in format_answer(result)
     assert len(client.calls) == 1
 
 
@@ -94,7 +94,7 @@ def test_out_of_context_source_is_rejected(tmp_path: Path, synthetic_docs: Path)
     """AC-018/023 model side: an invented source never reaches the user."""
     retrieval = _retriever(tmp_path, synthetic_docs).retrieve(SUPPORTED_QUESTION)
     client = FakeModelClient(
-        content="Jawaban palsu.\nSUMBER: 99_Kebijakan_Palsu.md"
+        content="Fake answer.\nSOURCE: 99_Kebijakan_Palsu.md"
     )
 
     result = AnswerService(client, timeout_seconds=1.0).answer(
@@ -115,7 +115,7 @@ def test_mixed_valid_and_invalid_source_claim_is_rejected_atomically(
     client = FakeModelClient(
         content=(
             "Toko menerima tunai.\n"
-            "SUMBER: 02_FAQ_Pembayaran.md, 99_Kebijakan_Palsu.md"
+            "SOURCE: 02_FAQ_Pembayaran.md, 99_Kebijakan_Palsu.md"
         )
     )
 
@@ -146,7 +146,7 @@ def test_model_self_abstention_is_passed_through_safely(
     """AC-013/023: a model that says it does not know yields the safe abstention."""
     retrieval = _retriever(tmp_path, synthetic_docs).retrieve(SUPPORTED_QUESTION)
     client = FakeModelClient(
-        content="Saya tidak menemukan informasi tersebut pada dokumen."
+        content="I could not find that information in the documents."
     )
 
     result = AnswerService(client, timeout_seconds=1.0).answer(
@@ -269,7 +269,7 @@ def test_logs_never_contain_question_or_answer_text(
     answer_marker = "MARKERANSWER1234"
     retrieval = _retriever(tmp_path, synthetic_docs).retrieve(SUPPORTED_QUESTION)
     client = FakeModelClient(
-        content=f"{answer_marker} Toko menerima tunai.\nSUMBER: 02_FAQ_Pembayaran.md"
+        content=f"{answer_marker} The store accepts cash.\nSOURCE: 02_FAQ_Pembayaran.md"
     )
 
     with caplog.at_level(logging.INFO):
@@ -313,7 +313,7 @@ def test_format_answer_never_adds_a_source_section_to_abstention():
     rendered = format_answer(abstention)
 
     assert rendered == ABSTENTION_TEXT
-    assert "Sumber:" not in rendered
+    assert "Sources:" not in rendered
 
 
 def test_service_rejects_invalid_construction_arguments():

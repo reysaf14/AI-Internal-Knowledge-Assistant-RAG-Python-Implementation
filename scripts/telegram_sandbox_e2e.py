@@ -53,9 +53,9 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 # Two supported questions plus one deliberately out-of-corpus question.  These
 # are printed for the operator to type verbatim, so the run is reproducible.
 QUESTIONS: tuple[str, ...] = (
-    "Jam berapa toko Makmur Jaya tutup?",
-    "Berapa hari cuti tahunan karyawan?",
-    "Siapa pemenang piala dunia 1998?",
+    "What are Makmur Jaya Store operating hours?",
+    "How many annual leave days does an employee have?",
+    "Who won the 1998 FIFA World Cup?",
 )
 EXPECTED_UPDATES = len(QUESTIONS)
 
@@ -65,7 +65,7 @@ DRAIN_POLL_TIMEOUT_SECONDS = 2
 DRAIN_IDLE_ROUNDS = 2
 HEARTBEAT_SECONDS = 20.0
 
-ABSTENTION_MARKERS = ("tidak menemukan", "tidak tahu", "belum ada informasi")
+ABSTENTION_MARKERS = ("could not find", "do not know", "no information")
 
 # The group id is learned from live traffic once, then cached.  Telegram drops
 # an update once a higher offset is consumed, so without the cache a second run
@@ -565,7 +565,7 @@ def _main() -> int:
         latency_ms = None
         if uid in boundary.sent:
             latency_ms = (boundary.sent[uid] - boundary.received[uid]) * 1000
-        sourced = "sumber" in body.casefold()
+        sourced = "source" in body.casefold()
         abstained = any(m in body.casefold() for m in ABSTENTION_MARKERS)
         statuses.append((len(bodies), sourced, abstained, latency_ms))
         lat = f"{latency_ms:.0f}ms" if latency_ms is not None else "none"

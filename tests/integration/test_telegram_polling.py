@@ -54,10 +54,10 @@ class GroundedModel:
         user = messages[1].content
         source = ""
         for line in user.splitlines():
-            if line.startswith("[Dokumen "):
+            if line.startswith("[Document "):
                 source = line.split("] ", 1)[1].split(" | ", 1)[0].strip()
                 break
-        return f"Toko menerima pembayaran sesuai dokumen resmi.\nSUMBER: {source}"
+        return f"The store accepts payment according to the official documents.\nSOURCE: {source}"
 
 
 def _poller(tmp_path: Path, synthetic_docs: Path, boundary, max_iterations=1):
@@ -89,7 +89,7 @@ def test_supported_question_is_answered_with_a_source(tmp_path: Path, synthetic_
 
     assert len(boundary.sent) == 1
     _chat_id, text = boundary.sent[0]
-    assert "Sumber: 02_FAQ_Pembayaran.md" in text
+    assert "Sources: 02_FAQ_Pembayaran.md" in text
     assert poller.counters.answers_delivered == 1
 
 
@@ -102,8 +102,8 @@ def test_unsupported_question_abstains_without_sources(tmp_path: Path, synthetic
 
     assert len(boundary.sent) == 1
     _chat_id, text = boundary.sent[0]
-    assert "Sumber:" not in text
-    assert "tidak menemukan informasi" in text.lower()
+    assert "Sources:" not in text
+    assert "could not find enough information" in text.lower()
 
 
 def test_duplicate_update_is_answered_once(tmp_path: Path, synthetic_docs: Path):

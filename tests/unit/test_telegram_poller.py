@@ -22,7 +22,7 @@ from rag_assistant.telegram.poller import TelegramPoller
 from rag_assistant.telegram.validation import HELP_TEXT, REPLY_EMPTY
 
 ANSWERED = AnswerResult(
-    text="Toko menerima tunai dan QRIS.",
+    text="The store accepts cash and QRIS.",
     sources=["02_FAQ_Pembayaran.md"],
     supported=True,
     abstained=False,
@@ -112,7 +112,7 @@ def test_valid_update_produces_exactly_one_response(tmp_path: Path):
     assert len(boundary.sent) == 1
     assert retriever.calls == 1
     assert answer.calls == 1
-    assert boundary.sent[0][1] == "Toko menerima tunai dan QRIS.\n\nSumber: 02_FAQ_Pembayaran.md"
+    assert boundary.sent[0][1] == "The store accepts cash and QRIS.\n\nSources: 02_FAQ_Pembayaran.md"
 
 
 def test_duplicate_redelivery_never_answers_twice(tmp_path: Path):

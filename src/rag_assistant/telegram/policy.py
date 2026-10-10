@@ -4,10 +4,10 @@ These bounds are module-level constants with rationale rather than magic numbers
 buried in the loop, because architecture.md requires the retention window and
 retry/backoff bounds to be locked and recorded *before* implementation:
 
-- ``architecture.md``: "Retensi state teknis dibatasi pada kebutuhan
-  deduplication/recovery ... durasi retention yang spesifik harus dikunci
-  Engineer sebelum implementasi."
-- ``architecture.md``: polling performs "reconnect/backoff terbatas"; send has a
+- ``architecture.md``: "Technical state retention is limited to
+  deduplication/recovery needs ... a specific retention duration must be
+  locked by the Engineer before implementation."
+- ``architecture.md``: polling performs "bounded reconnect/backoff"; send has a
   timeout and reports ``UNKNOWN`` for an undecidable result.
 
 Each value is restated with its justification in the M4 report §2.

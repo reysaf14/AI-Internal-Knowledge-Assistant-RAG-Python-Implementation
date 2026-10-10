@@ -27,14 +27,14 @@ class M5GroundedModel:
 
     def complete(self, messages: list[ChatMessage], timeout_seconds: float) -> str:
         user_message = messages[1].content
-        question = user_message.split("PERTANYAAN:\n", 1)[1].strip()
+        question = user_message.split("QUESTION:\n", 1)[1].strip()
         if "pembayaran" in question.casefold():
             body = "Pembayaran dapat dilakukan secara tunai dan QRIS."
         else:
             body = "Hak cuti tahunan adalah 12 hari per tahun."
         source = ""
         for line in user_message.splitlines():
-            if line.startswith("[Dokumen "):
+            if line.startswith("[Document "):
                 source = line.split("] ", 1)[1].split(" | ", 1)[0].strip()
                 break
         citations = [source]
@@ -43,7 +43,7 @@ class M5GroundedModel:
             for extra in self.EXTRA_CITED_DOCUMENTS
             if extra in user_message and extra not in citations
         )
-        return f"{body}\nSUMBER: {', '.join(citations)}"
+        return f"{body}\nSOURCE: {', '.join(citations)}"
 
 
 class SlowM5GroundedModel(M5GroundedModel):

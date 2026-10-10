@@ -2,8 +2,8 @@
 
 Validation runs *before* retrieval and before any model call, so an invalid
 update can never trigger a corpus read or a generation. Each rejection reason
-maps to exactly one short, policy-free Indonesian reply (AC-007: "maksimal satu
-pesan penjelasan yang aman").
+maps to exactly one short, policy-free English reply (AC-007: at most one safe
+explanatory message).
 
 The decision object excludes the question text from ``repr`` so a logged
 decision cannot leak the user's message.
@@ -19,14 +19,15 @@ from rag_assistant.telegram.policy import MAX_SAFE_REPLY_CHARS
 HELP_COMMANDS = frozenset({"/start", "/help"})
 
 HELP_TEXT = (
-    "Kirim pertanyaan teks tentang kebijakan, SOP, atau informasi resmi toko. "
-    "Saya menjawab hanya dari dokumen resmi dan menyertakan sumbernya. "
-    "Jika dokumen tidak mendukung jawabannya, saya akan bilang tidak tahu."
+    "Send a text question about the store's policies, SOPs, or official "
+    "information. I answer only from the official documents and include the "
+    "sources. If the documents do not support an answer, I will say that I "
+    "do not know."
 )
-REPLY_EMPTY = "Pesan kosong. Silakan kirim pertanyaan teks tentang kebijakan atau SOP resmi."
-REPLY_NON_TEXT = "Saya hanya memproses pertanyaan teks. Kirim pertanyaan sebagai teks."
-REPLY_UNKNOWN_COMMAND = "Perintah tidak dikenal. Kirim pertanyaan teks, atau gunakan /help."
-REPLY_TOO_LONG = "Pertanyaan terlalu panjang. Mohon kirim pertanyaan yang lebih singkat."
+REPLY_EMPTY = "Empty message. Please send a text question about an official policy or SOP."
+REPLY_NON_TEXT = "I only process text questions. Please send your question as text."
+REPLY_UNKNOWN_COMMAND = "Unknown command. Send a text question or use /help."
+REPLY_TOO_LONG = "The question is too long. Please send a shorter question."
 
 
 class UpdateKind(Enum):

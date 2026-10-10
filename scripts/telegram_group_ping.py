@@ -31,7 +31,7 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 from rag_assistant.config import load_config, load_operator_env
 
-PING_TEXT = "Ping uji koneksi. Balas pesan ini dengan pertanyaan uji."
+PING_TEXT = "Connection ping. Reply to this message with a test question."
 
 
 def _call(token: str, method: str, params: dict | None = None) -> tuple[int, dict]:

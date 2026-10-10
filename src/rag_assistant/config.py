@@ -34,7 +34,7 @@ _REQUIRED_KEYS = [
 # must cover a model that is not resident yet: a local model endpoint unloads an
 # idle model (Ollama's default is roughly five minutes) and the next request
 # pays a one-off cold load of ~26 s.  At 3 s that request always timed out, and
-# every timeout is answered with a fixed "tidak menemukan informasi yang cukup"
+# every timeout is answered with the fixed English abstention message
 # line -- which the caller cannot distinguish from a genuine abstention.  A warm
 # answer costs ~1-4 s, so 30 s leaves the steady state untouched and only
 # absorbs the cold path.  This is a ceiling, not a target: ``REQ-006`` still

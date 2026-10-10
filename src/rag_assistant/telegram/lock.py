@@ -1,8 +1,9 @@
 """Single-instance guard for the polling bot.
 
-architecture.md: "Satu instance bot memakai file lock atau mekanisme host
-setara; dua instance polling bersamaan tidak didukung." A non-blocking OS file
-lock is used so a second process fails fast instead of silently double-polling.
+architecture.md: "One bot instance uses a file lock or equivalent host
+mechanism; concurrent polling instances are not supported." A non-blocking OS
+file lock is used so a second process fails fast instead of silently
+double-polling.
 """
 from __future__ import annotations
 

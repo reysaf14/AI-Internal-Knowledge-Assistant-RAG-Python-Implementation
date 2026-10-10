@@ -1,4 +1,4 @@
-"""Entry point dispatch: ingest (rebuild corpus) atau bot (Telegram polling).
+"""Entry point dispatch: ingest (rebuild corpus) or bot (Telegram polling).
 
 Usage:
     python -m rag_assistant ingest   -- rebuild knowledge base index

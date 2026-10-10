@@ -42,8 +42,8 @@ from rag_assistant.config import load_config, load_operator_env
 from rag_assistant.telegram.ptb_client import PtbTelegramClient
 
 PROMPT_TEXT = (
-    "Uji koneksi: balas pesan INI dengan pertanyaan "
-    "'Jam berapa toko Makmur Jaya tutup?'"
+    "Connection test: reply to THIS message with a question "
+    "'What are Makmur Jaya Store operating hours?'"
 )
 
 
