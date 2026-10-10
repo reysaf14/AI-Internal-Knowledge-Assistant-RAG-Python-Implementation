@@ -1,96 +1,96 @@
-# PRD — Asisten Pengetahuan Internal Toko Makmur Jaya
+# PRD — Toko Makmur Jaya Internal Knowledge Assistant
 
 - Delivery lane: `PROFESSIONAL`
 - Scope version: `0.3`
 - PRD version: `1.1`
-- Tanggal: `2026-09-14`
+- Date: `2026-09-14`
 - Status: `APPROVED`
 - Approved by: `Human`
 - Approval date: `2026-09-14`
 
-## Latar Belakang
+## Background
 
-SOP operasional, kebijakan pelanggan, panduan komplain, dan kebijakan internal Toko Makmur Jaya telah didokumentasikan, tetapi tersebar dan jarang dirujuk setelah pelatihan awal. Akibatnya, karyawan sering meminta jawaban kepada manajer dan dapat memberikan informasi yang tidak konsisten.
+Operational SOPs, customer policies, complaint guides, and internal policies for Toko Makmur Jaya have been documented but are scattered and rarely referenced after initial training. As a result, employees frequently ask managers for answers and may provide inconsistent information.
 
-Project ini menyediakan asisten tanya-jawab internal bagi kasir, pramuniaga, dan staf gudang. Asisten harus menjawab berdasarkan dokumen resmi, menyebutkan sumber yang benar, dan menyatakan tidak tahu ketika corpus tidak mendukung jawaban. Karyawan tetap menjadi human-in-the-loop sebelum informasi diteruskan kepada pelanggan.
+This project provides an internal Q&A assistant for cashiers, sales associates, and warehouse staff. The assistant must answer based on official documents, cite correct sources, and admit when the corpus does not support an answer. Employees remain human-in-the-loop before passing information to customers.
 
-Tujuan bisnis:
+Business objectives:
 
-- mengurangi interupsi repetitif kepada manajer;
-- meningkatkan konsistensi jawaban karyawan;
-- mempermudah pemakaian dan pembaruan pengetahuan resmi;
-- mencegah jawaban kebijakan yang tidak didukung dokumen.
+- reduce repetitive interruptions to managers;
+- improve consistency of employee answers;
+- simplify use and updating of official knowledge;
+- prevent unsupported policy answers.
 
 ## Data & Operational Boundary
 
-| Area | Kategori data | Representasi yang diizinkan | Sumber / tujuan dan owner |
+| Area | Data Category | Allowed Representation | Source / Destination and Owner |
 |---|---|---|---|
-| Corpus kebijakan | `Confidential` | `minimized-and-masked`; hanya materi yang telah dibersihkan dari identitas langsung, credential, tanda tangan, kontak pribadi, dan record individual | Sumber resmi adalah seluruh dokumen yang disahkan di `/docs`; baseline 26 file Markdown `00`–`25`. Pemilik/manajer mengesahkan perubahan corpus |
-| Pertanyaan dan jawaban pengembangan/evaluasi | `Internal` bila sintetis; selain itu mengikuti kelas data aktual | `synthetic` sebagai default | Fixture dan laporan dimiliki tim delivery; kunci jawaban serta sumber disahkan pemilik/manajer sebelum evaluasi |
-| Kandidat `QA_Dataset_15_Pasangan.csv` | `Internal` karena seluruh isi dikonfirmasi sintetis oleh Human pada `2026-09-13` | `synthetic`; boleh diproses menjadi salinan kerja yang sesuai rubric | Belum menjadi eval set approved sampai komposisi 12+3 dan kunci jawaban disesuaikan serta disahkan |
-| Pertanyaan operasional karyawan | Berpotensi `Confidential` atau `Restricted` tergantung isi | Dibatasi pada pertanyaan kebijakan umum; pengguna tidak boleh memasukkan record individual, data transaksi, atau identitas pelanggan/karyawan | Masuk melalui kanal internal Telegram bersama dan menghasilkan jawaban kepada karyawan |
-| Credential dan konfigurasi rahasia | `Restricted` | `blocked` dari prompt, repository, fixture, screenshot, laporan, dan project state | Human/klien melakukan provisioning melalui penyimpanan credential/runtime yang disetujui pada tahap teknis |
-| Record HR/pelanggan, data pembayaran, dan payload produksi | `Restricted` | `blocked` | Di luar scope; kebutuhan baru atas data ini kembali ke Human untuk klasifikasi dan perubahan scope |
+| Policy corpus | `Confidential` | `minimized-and-masked`; only material cleansed of direct identities, credentials, signatures, personal contacts, and individual records | Official source is all ratified documents in `/docs`; baseline 26 Markdown files `00`–`25`. Owner/manager ratifies corpus changes |
+| Dev/eval questions and answers | `Internal` if synthetic; otherwise follows actual data class | `synthetic` by default | Fixtures and reports owned by delivery team; answer keys and sources ratified by owner/manager before evaluation |
+| Candidate `QA_Dataset_15_Pasangan.csv` | `Internal` because all content confirmed synthetic by Human on `2026-09-13` | `synthetic`; may be processed into a working copy matching the rubric | Not yet an approved eval set until 12+3 composition and answer keys are adjusted and ratified |
+| Operational employee questions | Potentially `Confidential` or `Restricted` depending on content | Limited to general policy questions; users must not input individual records, transaction data, or customer/employee identities | Entered via shared internal Telegram channel and produce answers to employees |
+| Credentials and secret configuration | `Restricted` | `blocked` from prompts, repository, fixtures, screenshots, reports, and project state | Human/client provisions via approved credential/runtime storage at technical stage |
+| HR/customer records, payment data, production payloads | `Restricted` | `blocked` | Out of scope; new needs for this data return to Human for classification and scope change |
 
-Pemilik/manajer menjadi pengesah corpus dan owner operasi awal sampai Human menetapkan pihak lain. Operator hanya memuat dokumen yang sudah disahkan. Dokumen yang ditambah atau diganti harus tercatat sebagai bagian corpus berlaku sebelum pemuatan ulang.
+Owner/manager ratifies corpus and is initial operations owner until Human designates another party. Operator only loads pre-ratified documents. Added or replaced documents must be recorded as part of the active corpus before reload.
 
-Tidak ada autentikasi per karyawan pada scope ini. Satu bot dipakai bersama oleh karyawan internal. Runtime Telegram menggunakan polling. Isi percakapan tidak disimpan oleh aplikasi; pemrosesan hanya berlangsung selama request aktif. Metadata teknis minimum boleh disimpan bila diperlukan untuk offset/update, idempotency, observability, atau diagnosis, tetapi tidak boleh memuat isi pertanyaan/jawaban, identitas pengguna, username, atau chat ID.
+No per-employee authentication in this scope. One bot shared by internal employees. Telegram runtime uses polling. Conversation content is not stored by the application; processing only occurs during active request. Minimal technical metadata may be stored if needed for offset/update, idempotency, observability, or diagnosis, but must not contain question/answer content, user identities, usernames, or chat IDs.
 
 ## Implementation & Runtime Boundary
 
-Implementasi menggunakan kode aplikasi penuh dan tidak menggunakan n8n atau platform orkestrasi workflow sejenis. Delivery memiliki dua entry point kode: pemuatan ulang knowledge base dan runtime tanya-jawab Telegram. Runtime pertama ditujukan untuk mesin lokal dan harus dapat dipindahkan ke VPS melalui konfigurasi yang sama secara konseptual. Komponen model ditulis secara generik agar percobaan lokal dapat menggunakan model yang tersedia tanpa mengunci PRD pada vendor atau teknologi tertentu.
+Implementation uses full application code and does not use n8n or similar workflow orchestration platforms. Delivery has two code entry points: knowledge base reload and Telegram Q&A runtime. The first runtime targets local machines and must be portable to VPS via conceptually identical configuration. Model components are written generically so local experiments can use available models without locking the PRD to a specific vendor or technology.
 
 ## User Stories
 
-- Sebagai karyawan toko, saya ingin bertanya dengan bahasa sehari-hari agar dapat menemukan kebijakan yang relevan tanpa selalu menghubungi manajer.
-- Sebagai karyawan toko, saya ingin melihat nama dokumen sumber agar dapat memeriksa dasar jawaban sebelum menyampaikannya kepada pelanggan.
-- Sebagai karyawan toko, saya ingin asisten mengakui ketika informasi tidak ditemukan agar saya tidak mengikuti jawaban yang dibuat-buat.
-- Sebagai pemilik/manajer, saya ingin memperbarui corpus resmi agar jawaban mengikuti SOP dan kebijakan yang berlaku.
-- Sebagai pemilik/manajer, saya ingin melihat hasil evaluasi dan kegagalan per pertanyaan agar kelayakan penggunaan dapat dinilai secara transparan.
+- As a store employee, I want to ask questions in everyday language so I can find relevant policies without always contacting the manager.
+- As a store employee, I want to see the source document name so I can verify the basis of the answer before passing it to a customer.
+- As a store employee, I want the assistant to admit when information is not found so I don't follow made-up answers.
+- As an owner/manager, I want to update the official corpus so answers follow current SOPs and policies.
+- As an owner/manager, I want to see evaluation results and per-question failures so I can transparently assess fitness for use.
 
-## Fitur Wajib
+## Required Features
 
-| ID | Kebutuhan bisnis | Prioritas | Hasil yang disepakati |
+| ID | Business Need | Priority | Agreed Outcome |
 |---|---|---|---|
-| `REQ-001` | Knowledge base menggunakan seluruh dokumen resmi yang berlaku dan dapat dimuat ulang setelah pembaruan | Wajib | Baseline mencakup 26 dokumen Markdown `00`–`25`; operator dapat menjalankan pemuatan ulang dan mengidentifikasi corpus yang berlaku |
-| `REQ-002` | Karyawan internal dapat mengirim pertanyaan dan menerima jawaban melalui bot Telegram bersama | Wajib | Setiap pertanyaan valid menghasilkan satu respons yang dapat dibaca karyawan melalui runtime polling; autentikasi/personalization per karyawan tidak disediakan |
-| `REQ-003` | Isi jawaban hanya didasarkan pada corpus resmi | Wajib | Akurasi isi mencapai sedikitnya `12/15` pada eval set approved berdasarkan rubric biner yang tidak menuntut kecocokan kata-per-kata |
-| `REQ-004` | Jawaban supported menyebut sumber yang benar | Wajib | Seluruh 12 pertanyaan supported mencantumkan setidaknya satu nama dokumen yang mendukung; setiap sumber tambahan juga relevan |
-| `REQ-005` | Asisten tidak mengarang ketika corpus tidak mendukung jawaban | Wajib | Seluruh 3 pertanyaan unsupported menghasilkan pernyataan tidak tahu, tanpa klaim kebijakan atau sumber palsu |
-| `REQ-006` | Respons tersedia dalam waktu yang layak untuk penggunaan operasional | Wajib | Masing-masing dari 15 pertanyaan eval menerima respons dalam `<5,0 detik`, diukur sejak aplikasi menerima pertanyaan sampai pengiriman jawaban ke Telegram dinyatakan berhasil |
-| `REQ-007` | Hasil dapat disiapkan, dievaluasi, dan dipelihara oleh operator yang ditunjuk | Wajib | Tersedia aplikasi kode penuh dengan dua entry point operasional—pemuatan ulang knowledge base dan runtime bot tanya-jawab—beserta panduan setup lokal/VPS, panduan penggantian dokumen, hasil evaluasi per pertanyaan dengan catatan kegagalan, dan demo percakapan tersanitasi |
+| `REQ-001` | Knowledge base uses all current official documents and can be reloaded after updates | Mandatory | Baseline covers 26 Markdown documents `00`–`25`; operator can run reload and identify the active corpus |
+| `REQ-002` | Internal employees can send questions and receive answers via shared Telegram bot | Mandatory | Every valid question produces one response readable by employees through polling runtime; no per-employee authentication/personalization |
+| `REQ-003` | Answer content is based only on official corpus | Mandatory | Content accuracy reaches at least `12/15` on approved eval set per binary rubric not requiring word-for-word match |
+| `REQ-004` | Supported answers cite correct sources | Mandatory | All 12 supported questions cite at least one correct supporting document name; any additional sources must also be relevant |
+| `REQ-005` | Assistant does not fabricate when corpus does not support an answer | Mandatory | All 3 unsupported questions produce a "don't know" statement, without policy claims or fake sources |
+| `REQ-006` | Response available within reasonable time for operational use | Mandatory | Each of 15 eval questions receives a response within `<5.0 seconds`, measured from app receipt of question to successful Telegram answer delivery |
+| `REQ-007` | Deliverables can be prepared, evaluated, and maintained by designated operator | Mandatory | Full application code with two operational entry points—knowledge base reload and Q&A bot runtime—plus local/VPS setup guide, document replacement guide, per-question evaluation results with failure notes, and sanitized conversation demo |
 
-## Fitur Tambahan
+## Optional Features
 
-Tidak ada fitur tambahan pada version ini. Integrasi POS/stok real-time, autentikasi per karyawan, personalisasi, akses pelanggan langsung, dan jawaban di luar corpus tetap di luar scope.
+No optional features in this version. POS/realtime stock integration, per-employee authentication, personalization, direct customer access, and out-of-corpus answers remain out of scope.
 
-## Kriteria Sukses
+## Success Criteria
 
-Eval set approved terdiri dari 15 pertanyaan sintetis:
+Approved eval set consists of 15 synthetic questions:
 
-- 12 pertanyaan supported: 3 SOP operasional, 3 FAQ pelanggan, 2 panduan komplain, 3 kebijakan internal, dan 1 profil perusahaan;
-- 3 pertanyaan unsupported yang jawabannya sengaja tidak tersedia di corpus;
-- kunci jawaban dan dokumen sumber ditetapkan sebelum pengujian serta disahkan pemilik/manajer.
+- 12 supported questions: 3 operational SOPs, 3 customer FAQs, 2 complaint guides, 3 internal policies, and 1 company profile;
+- 3 unsupported questions whose answers are deliberately absent from corpus;
+- answer keys and source documents defined before testing and ratified by owner/manager.
 
-Rubric isi menggunakan nilai biner `LULUS` atau `GAGAL`. Jawaban supported lulus bila seluruh fakta wajib tersampaikan, tidak bertentangan dengan corpus, dan tidak menambahkan klaim kebijakan yang tidak didukung. Jawaban unsupported lulus hanya bila menyatakan informasi tidak ditemukan/tidak diketahui, tidak menebak, dan tidak mencantumkan sumber palsu.
+Content rubric uses binary `PASS`/`FAIL`. Supported answer passes if all required facts are conveyed, do not contradict corpus, and add no unsupported policy claims. Unsupported answer passes only if it states information not found/unknown, does not guess, and cites no fake sources.
 
-| Requirement | Kriteria keberhasilan | Dasar pengukuran aman |
+| Requirement | Success Criterion | Safe Measurement Basis |
 |---|---|---|
-| `REQ-001` | Seluruh 26 dokumen baseline tercatat sebagai corpus berlaku dan pemuatan ulang dapat menghasilkan corpus versi terbaru yang dapat diidentifikasi | Inventaris nama file dan metadata proses yang disanitasi; tanpa credential atau isi mentah dalam laporan |
-| `REQ-002` | 15 pertanyaan eval masing-masing menghasilkan satu respons Telegram yang dapat dibaca | Fixture sintetis dan evidence eksekusi polling yang disanitasi |
-| `REQ-003` | Minimal 12 dari 15 jawaban lulus rubric isi (`≥80%`) | Penilaian per pertanyaan terhadap kunci jawaban approved; wording tidak harus identik |
-| `REQ-004` | Ketepatan sumber `12/12` untuk pertanyaan supported | Perbandingan nama dokumen yang disebut dengan sumber approved; setiap sumber tambahan harus relevan |
-| `REQ-005` | Abstention `3/3` untuk pertanyaan unsupported | Pemeriksaan bahwa jawaban menyatakan tidak tahu, tidak membuat klaim kebijakan, dan tidak mengarang sumber |
-| `REQ-006` | Waktu respons `<5,0 detik` pada `15/15` pertanyaan | Selisih timestamp penerimaan pertanyaan oleh aplikasi dan keberhasilan pengiriman respons; laporkan setiap durasi |
-| `REQ-007` | Seluruh deliverable wajib tersedia dan dapat ditinjau oleh pemilik/manajer | Daftar entry point kode, panduan penggunaan lokal/VPS, panduan penggantian dokumen, laporan evaluasi, dan demo tersanitasi; tidak ada credential atau payload mentah |
+| `REQ-001` | All 26 baseline documents recorded as active corpus and reload can produce latest identifiable corpus version | Sanitized file name inventory and process metadata; no credentials or raw content in reports |
+| `REQ-002` | 15 eval questions each produce one readable Telegram response | Synthetic fixtures and sanitized polling execution evidence |
+| `REQ-003` | At least 12 of 15 answers pass content rubric (`≥80%`) | Per-question assessment against approved answer key; wording need not be identical |
+| `REQ-004` | Source accuracy `12/12` for supported questions | Comparison of cited document names with approved sources; any additional sources must be relevant |
+| `REQ-005` | Abstention `3/3` for unsupported questions | Check that answer states don't know, makes no policy claim, and fabricates no sources |
+| `REQ-006` | Response time `<5.0 seconds` on `15/15` questions | Timestamp delta from app receipt of question to successful response delivery; report each duration |
+| `REQ-007` | All deliverables available and reviewable by owner/manager | Code entry point list, local/VPS usage guide, document replacement guide, evaluation report, sanitized demo; no credentials or raw payloads |
 
-Kegagalan pada hard gate sumber, abstention, atau waktu respons tidak dapat ditutupi oleh skor akurasi agregat. Hasil evaluasi harus tetap menampilkan status setiap pertanyaan dan catatan kegagalan.
+Failure on hard gates for source, abstention, or response time cannot be masked by aggregate accuracy score. Evaluation results must still show per-question status and failure notes.
 
-Dataset `QA_Dataset_15_Pasangan.csv` yang diberikan Human berisi 15 baris unik dengan kolom `Pertanyaan`, `Jawaban_Benar`, dan `Dokumen_Sumber`; pemeriksaan struktur menemukan tidak ada sel kosong. Baris 3, 7, 8, dan 15 merujuk dokumen di luar corpus resmi `00–25`. Tiga baris pertama akan menjadi skenario unsupported, sedangkan baris 15 harus diganti dengan pertanyaan supported dari dokumen `00` agar komposisi final menjadi 12 supported + 3 unsupported. Human telah mengonfirmasi seluruh isi dataset sebagai sintetis, sehingga salinan kerja boleh disiapkan pada tahap berikutnya. File sumber di `D:/QA_Dataset_15_Pasangan.csv` tidak diubah dan kandidat belum menjadi eval set approved sampai penyesuaian serta kunci jawaban disahkan.
+Dataset `QA_Dataset_15_Pasangan.csv` provided by Human contains 15 unique rows with columns `Question`, `Correct_Answer`, and `Source_Document`; structural check found no empty cells. Rows 3, 7, 8, and 15 reference documents outside the official `00–25` corpus. The first three will become unsupported scenarios, while row 15 must be replaced with a supported question from document `00` so final composition becomes 12 supported + 3 unsupported. Human has confirmed all dataset content as synthetic, so a working copy may be prepared at the next stage. Source file at `D:/QA_Dataset_15_Pasangan.csv` is unchanged and candidate is not yet an approved eval set until adjustment and answer key ratification.
 
-## Riwayat Revisi
+## Revision History
 
-| Versi | Tanggal | Perubahan | Diminta oleh |
+| Version | Date | Changes | Requested By |
 |---|---|---|---|
-| `1.0` | `2026-09-13` | PRD awal berdasarkan Scope Card `0.3` yang approved; menetapkan corpus 26 dokumen dan rubric 12 supported + 3 unsupported | Human |
-| `1.1` | `2026-09-14` | Menetapkan implementasi kode penuh tanpa n8n, Telegram polling, kebijakan tanpa penyimpanan isi percakapan, entry point operasional, serta status dataset kandidat 12+3 | Human |
+| `1.0` | `2026-09-13` | Initial PRD based on approved Scope Card `0.3`; establishes 26-document corpus and 12 supported + 3 unsupported rubric | Human |
+| `1.1` | `2026-09-14` | Establishes full code implementation without n8n, Telegram polling, no-conversation-storage policy, operational entry points, and candidate dataset 12+3 status | Human |
