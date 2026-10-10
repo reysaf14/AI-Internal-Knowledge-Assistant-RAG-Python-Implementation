@@ -5,11 +5,13 @@ Internal knowledge assistant for Toko Makmur Jaya. The application indexes the
 through an OpenAI-compatible local model endpoint, and can deliver responses
 through a Telegram polling boundary.
 
-M0–M6 are implemented and self-tested, and M5 is verified at the
-`telegram-sandbox` level over the full approved 12+3 set (`content` 12/15,
-`sources` 12/12, `abstention` 3/3, `latency` 15/15). This guide documents the
-reproducible local operator path; it does not replace independent QA or
-Security review, which remain separate gates.
+M0–M6 implementation evidence is historical and was produced before the
+2026-10-10 English corpus migration. The project is currently **PAUSED** while
+the migrated corpus and response contract are reviewed. The index has been
+rebuilt locally (`26 files`, `433 chunks`), but post-migration M5 remains
+`NOT_VERIFIED`; the older Telegram-sandbox result must not be treated as
+current acceptance evidence. This guide documents the reproducible local
+operator path and does not replace independent QA or Security review.
 
 ## Prerequisites
 
@@ -109,19 +111,16 @@ them means changing an approved artefact, so it needs a Human decision first
 - **Wording, not meaning, is matched.** Retrieval requires every search term of
   a question to appear in a document; the support gate is lexical and the
   approved architecture excludes vector search by name. A question phrased in
-  the corpus's own vocabulary is answered even when it is a full paraphrase:
-  *"toko ini tutup jam berapa?"* is answered correctly from a different
-  document than the one *"Jam berapa toko Makmur Jaya tutup?"* uses. A question
-  that swaps a word is not: *"kapan tokonya tutup?"* abstains, because `tokonya`
-  is `toko` plus a suffix (and `toko` is itself a stopword), and
-  *"berapa jatah cuti setahun?"* abstains because `jatah`/`setahun` are
-  synonyms of `hari`/`tahunan`.
+  the corpus vocabulary is answered when it uses the same terms as the source:
+  *"What are the store operating hours?"* can be answered from a matching
+  document. A synonym-based or inflected question may abstain because the
+  lexical support gate does not perform semantic expansion.
 - **Consequence for reading an abstention.** An abstention does **not** mean the
   corpus lacks the answer. It may mean the question used different words. If a
   reasonable question abstains, try rephrasing it with the vocabulary the
   documents use before concluding the answer is missing (ADR-004).
 - **No typo correction and no stemming.** Misspellings and inflected forms
-  (`cutinya`, `cuti2`) are not recognised.
+  (`leaves`, `leave2`) are not recognised.
 - **The bot answers any chat that reaches it.** The runtime does not restrict
   which chat it replies in, so anyone who finds the bot can query internal
   policy. An allowlist is recommended before this runs beyond a test machine,
