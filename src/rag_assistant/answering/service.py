@@ -23,10 +23,11 @@ from rag_assistant.answering.adapter import (
     ModelError,
     ModelTimeoutError,
     OllamaModelClient,
+    is_ollama_endpoint,
 )
 from rag_assistant.answering.prompts import ABSTENTION_TEXT, build_messages
 from rag_assistant.answering.validator import validate_model_answer
-from rag_assistant.config import AppConfig
+from rag_assistant.config import AppConfig, validate_model_runtime_config
 from rag_assistant.domain.types import AnswerResult, RetrievalResult
 from rag_assistant.observability.logger import SanitizedLogger
 from rag_assistant.retrieval.grounding import build_grounded_context
@@ -181,14 +182,15 @@ def build_answer_service(
     cfg: AppConfig, client: ModelClient | None = None
 ) -> AnswerService:
     """Wire configuration and the default HTTP adapter into a service."""
+    if client is None:
+        validate_model_runtime_config(cfg)
     model_client = client or _build_configured_model_client(cfg)
     return AnswerService(model_client, timeout_seconds=float(cfg.llm_timeout))
 
 
 def _build_configured_model_client(cfg: AppConfig) -> ModelClient:
     """Select native Ollama only for the explicitly local Ollama endpoint."""
-    parsed = urlparse(cfg.llm_base_url)
-    if parsed.hostname in {"127.0.0.1", "localhost"} and parsed.port == 11434:
+    if is_ollama_endpoint(cfg.llm_base_url):
         return OllamaModelClient(
             base_url=cfg.llm_base_url,
             model_name=cfg.llm_model,
@@ -198,4 +200,8 @@ def _build_configured_model_client(cfg: AppConfig) -> ModelClient:
         base_url=cfg.llm_base_url,
         model_name=cfg.llm_model,
         api_key=cfg.llm_api_key or None,
+        disable_thinking=(
+            (urlparse(cfg.llm_base_url).hostname or "").lower()
+            == "api.deepseek.com"
+        ),
     )
