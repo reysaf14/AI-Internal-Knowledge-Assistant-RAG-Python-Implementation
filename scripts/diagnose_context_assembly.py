@@ -31,7 +31,7 @@ from rag_assistant.retrieval.service import RetrievalPolicy
 from rag_assistant.retrieval.support_gate import SupportGate
 from rag_assistant.storage.index_store import IndexStore
 
-EXPECTED_HEADERS = ("Pertanyaan", "Jawaban_Benar", "Dokumen_Sumber")
+EXPECTED_HEADERS = ("Question", "Answer_Key", "Source_Document")
 
 
 def main() -> int:
@@ -72,13 +72,13 @@ def main() -> int:
     dropped = 0
     mismatched = 0
     for row_number, row in enumerate(rows, start=1):
-        stem = (row.get("Dokumen_Sumber") or "").strip()
+        stem = (row.get("Source_Document") or "").strip()
         if stem not in corpus_stems:
             print(f"row={row_number:02d}|skipped=out_of_corpus")
             continue
 
         expected = f"{stem}.md"
-        terms = normalize_query((row.get("Pertanyaan") or "").strip()).terms
+        terms = normalize_query((row.get("Question") or "").strip()).terms
         candidates = store.search_terms(terms, limit=policy.candidate_limit)
         decision = gate.evaluate(terms, candidates.chunks)
         if decision.support_level.value != "sufficient":
