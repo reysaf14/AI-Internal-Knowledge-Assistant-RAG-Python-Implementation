@@ -10,6 +10,7 @@ import re
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
+from urllib.parse import urlparse
 
 _VALID_PROFILES = {"local", "test", "container"}
 _VALID_OPERATIONS = {"ingest", "bot"}
@@ -26,24 +27,20 @@ _REQUIRED_KEYS = [
 # retrieval breadth handed to the answering model, not a calibrated M2 gate.
 # Generic LLM endpoint keys. ``LLM_*`` is the current name and ``MODEL_*`` is
 # accepted as a legacy fallback so an environment written against
-# environment-schema v1.0 keeps working unchanged.  The API key is optional:
-# an empty value means "no auth header" (local model), a value enables
-# ``Authorization: Bearer <key>``.  The key value is never logged.
+# environment-schema v1.0 keeps working unchanged. DeepSeek is the default
+# runtime; its API key is required only when the configured host is DeepSeek.
+# Other endpoints may remain unauthenticated. The key value is never logged.
 #
-# ``LLM_TIMEOUT_SECONDS`` default is 30, raised from 3 by ADR-004.  The budget
-# must cover a model that is not resident yet: a local model endpoint unloads an
-# idle model (Ollama's default is roughly five minutes) and the next request
-# pays a one-off cold load of ~26 s.  At 3 s that request always timed out, and
-# every timeout is answered with the fixed English abstention message
-# line -- which the caller cannot distinguish from a genuine abstention.  A warm
-# answer costs ~1-4 s, so 30 s leaves the steady state untouched and only
-# absorbs the cold path.  This is a ceiling, not a target: ``REQ-006`` still
-# measures delivered latency against its own threshold.
+# ``LLM_TIMEOUT_SECONDS`` default is 30, raised from 3 by ADR-004 after the
+# previous Ollama runtime's cold-load path exceeded three seconds. The same
+# value is now a request ceiling for DeepSeek; it does not imply that provider
+# latency meets the stricter REQ-006 delivery target. Timeout fallback remains
+# indistinguishable from a genuine abstention at the user boundary.
 _OPTIONAL_DEFAULTS: dict[str, str] = {
     "TELEGRAM_POLL_TIMEOUT_SECONDS": "30",
     "TELEGRAM_REQUEST_TIMEOUT_SECONDS": "4",
-    "LLM_BASE_URL": "http://127.0.0.1:8080/v1",
-    "LLM_MODEL": "local-default",
+    "LLM_BASE_URL": "https://api.deepseek.com",
+    "LLM_MODEL": "deepseek-flash",
     "LLM_TIMEOUT_SECONDS": "30",
     "MAX_QUESTION_CHARS": "2000",
     "LOG_LEVEL": "info",
@@ -216,6 +213,8 @@ def validate_runtime_config(cfg: AppConfig, operation: str) -> None:
             errors.append("LLM_BASE_URL is required for the bot runtime")
         if not cfg.llm_model or cfg.llm_model in {"REPLACE_ME", "local-default"}:
             errors.append("LLM_MODEL must be a concrete model identifier for the bot runtime")
+        if _requires_deepseek_api_key(cfg.llm_base_url) and not cfg.llm_api_key:
+            errors.append("LLM_API_KEY is required when LLM_BASE_URL uses DeepSeek")
 
     if cfg.log_level not in _VALID_LOG_LEVELS:
         errors.append("LOG_LEVEL must be one of: debug, info, warning, error, critical")
@@ -223,6 +222,23 @@ def validate_runtime_config(cfg: AppConfig, operation: str) -> None:
     if errors:
         _diagnostic("INVALID_CONFIG", "; ".join(errors))
         raise SystemExit(3)
+
+
+def validate_model_runtime_config(cfg: AppConfig) -> None:
+    """Fail before model access when the configured provider lacks credentials."""
+    if _requires_deepseek_api_key(cfg.llm_base_url) and not cfg.llm_api_key:
+        _diagnostic(
+            "INVALID_CONFIG",
+            "LLM_API_KEY is required when LLM_BASE_URL uses DeepSeek",
+        )
+        raise SystemExit(3)
+
+
+def _requires_deepseek_api_key(base_url: str) -> bool:
+    try:
+        return (urlparse(base_url).hostname or "").lower() == "api.deepseek.com"
+    except ValueError:
+        return False
 
 
 def load_config(project_root: Path | None = None) -> AppConfig:
