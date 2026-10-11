@@ -1,0 +1,28 @@
+# Runtime secrets and generated state must never enter the image build context.
+.env*
+**/.env*
+.runtime/
+**/.runtime/
+
+# Local development and Git metadata.
+.git/
+.ai/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+tests/
+eval/
+scripts/
+translate_docs_to_english.py
+
+# Local databases, exports, and temporary build artifacts.
+*.sqlite3
+*.db
+*.tar
+*.tgz
+dist/
+build/
