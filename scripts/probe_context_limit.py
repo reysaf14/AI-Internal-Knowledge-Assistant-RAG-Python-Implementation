@@ -29,21 +29,24 @@ from tempfile import TemporaryDirectory
 
 import httpx
 
+from rag_assistant.answering.adapter import is_ollama_endpoint
 from rag_assistant.answering.service import build_answer_service
 from rag_assistant.config import load_config, load_operator_env
 from rag_assistant.evaluation import EvaluationCase, LocalEvaluationRunner
 from rag_assistant.retrieval.service import RetrievalPolicy, Retriever
 from rag_assistant.storage.index_store import IndexStore
 
-EXPECTED_HEADERS = ("Pertanyaan", "Jawaban_Benar", "Dokumen_Sumber")
+EXPECTED_HEADERS = ("Question", "Answer_Key", "Source_Document")
 
 # The rubric lives in one place so this probe and run_candidate_eval.py can never
 # disagree about what a correct answer looks like.
 from candidate_rubric import RUBRIC as CANDIDATE_RUBRIC
 
 
-def prewarm(cfg) -> float:
-    """Load the model before any latency is measured."""
+def prewarm(cfg) -> float | None:
+    """Load local Ollama before measuring; do not send a warm-up to APIs."""
+    if not is_ollama_endpoint(cfg.llm_base_url):
+        return None
     base = cfg.llm_base_url.rstrip("/").removesuffix("/v1")
     started = time.perf_counter()
     try:
@@ -73,8 +76,8 @@ def _cases(dataset: Path, corpus: Path) -> tuple[EvaluationCase, ...]:
 
     cases: list[EvaluationCase] = []
     for number, row in enumerate(rows, start=1):
-        question = (row.get("Pertanyaan") or "").strip()
-        stem = (row.get("Dokumen_Sumber") or "").strip()
+        question = (row.get("Question") or "").strip()
+        stem = (row.get("Source_Document") or "").strip()
         supported = stem in stems
         cases.append(
             EvaluationCase(
@@ -113,7 +116,12 @@ def main() -> int:
     cases = _cases((root / args.dataset).resolve(), cfg.resolve_docs_path())
     state_root = cfg.resolve_index_path().parent
 
-    print(f"prewarm_ms={prewarm(cfg):.0f}")
+    prewarm_ms = prewarm(cfg)
+    print(
+        f"prewarm_ms={prewarm_ms:.0f}"
+        if prewarm_ms is not None
+        else "prewarm=skipped reason=non_ollama_provider"
+    )
     print(f"rows={len(cases)}")
     print(
         "context_limit|content|sources|abstention|latency|failing_rows"
