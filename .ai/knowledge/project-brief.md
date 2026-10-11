@@ -1,9 +1,11 @@
 # Scope Card — Asisten Pengetahuan Internal Toko Makmur Jaya
 
 - Delivery lane: `PROFESSIONAL` (disetujui Human pada `2026-09-13`)
-- Scope version: `0.3`
-- Tanggal: `2026-09-13`
+- Scope version: `0.4`
+- Date: `2026-10-11`
 - Status: `APPROVED`
+- Approved by: `Human`
+- Approval date: `2026-10-11`
 - Sumber intake: brief Human `project-brief-rag-n8n.md`
 
 ## Tujuan dan pengguna
@@ -26,7 +28,7 @@ Hasil bisnis yang dituju:
 - Menyertakan nama dokumen sumber pada jawaban yang didukung dokumen.
 - Memberikan respons tidak tahu ketika jawaban tidak didukung knowledge base.
 - Menjalankan ulang proses pemuatan dokumen ketika kebijakan atau SOP berubah.
-- Menyerahkan dua workflow yang dapat diekspor (pemuatan dokumen dan tanya-jawab), panduan setup/penggantian dokumen, hasil evaluasi, serta bukti demo percakapan yang telah disanitasi.
+- Menyerahkan satu Docker image untuk aplikasi dan corpus, panduan build/run dan promosi image yang sama antar host Docker yang kompatibel, panduan pembaruan dokumen, hasil evaluasi, serta demo percakapan yang telah disanitasi.
 
 ### Out of scope
 
@@ -60,7 +62,7 @@ Asumsi operasional awal: pemilik/manajer mengesahkan perubahan corpus dan menjad
 | `REQ-004` | Jawaban yang didukung knowledge base menyebut dokumen sumber yang benar | Wajib | Ketepatan sumber wajib 12/12 untuk pertanyaan supported; pertanyaan unsupported tidak boleh mengarang sumber |
 | `REQ-005` | Sistem tidak mengarang jawaban ketika dukungan dokumen tidak memadai | Wajib | Pertanyaan unsupported pada eval set menghasilkan pernyataan tidak tahu dan tidak menyajikan klaim kebijakan yang tidak didukung |
 | `REQ-006` | Respons cukup cepat untuk pemakaian operasional | Wajib | Waktu respons wajib `<5,0 detik` pada 15/15 pertanyaan, dari penerimaan oleh workflow hingga pengiriman ke Telegram berhasil |
-| `REQ-007` | Hasil dapat disiapkan dan dipelihara oleh operator yang ditunjuk | Wajib | Tersedia workflow ekspor, panduan setup/penggantian dokumen, hasil evaluasi beserta catatan kegagalan, dan demo yang telah disanitasi |
+| `REQ-007` | Hasil dapat disiapkan dan dipelihara oleh operator yang ditunjuk | Wajib | Tersedia Docker image dan panduan build/run/pembaruan corpus, hasil evaluasi beserta catatan kegagalan, dan demo yang telah disanitasi |
 
 ## Rubric evaluasi yang disetujui
 
@@ -120,3 +122,4 @@ Human mengonfirmasi pada `2026-09-13` bahwa seluruh isi `QA_Dataset_15_Pasangan.
 | `0.1` | `2026-09-13` | Scope Card intake awal dan rekomendasi Professional Lane | Human / PM |
 | `0.2` | `2026-09-13` | Professional Lane dicatat disetujui; corpus ditetapkan sebagai seluruh isi `/docs` dengan baseline 26 file Markdown; keputusan metrik dipersempit | Human |
 | `0.3` | `2026-09-13` | Rubric 12 supported + 3 unsupported disetujui; rencana penyesuaian kandidat eval set dicatat; Scope & Lane ditutup sebagai approved | Human |
+| `0.4` | `2026-10-11` | Replaces host-specific VPS readiness with a portable Docker image deliverable; business scope and evaluation outcomes are unchanged | Human |
