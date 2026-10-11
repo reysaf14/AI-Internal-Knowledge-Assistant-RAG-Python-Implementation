@@ -1,50 +1,81 @@
-# Environment Schema — Asisten Pengetahuan Internal Toko Makmur Jaya
+# Environment Schema — Internal Knowledge Assistant
 
-- Schema version: `1.3`
-- Tanggal: `2026-09-17` (versi `1.2`/`1.1`: `2026-09-17`/`2026-09-14`)
-- Status: `APPROVED`. Versi `1.2` menambahkan satu baris `RAG_CONTEXT_LIMIT`
-  berdasarkan ADR-002, disetujui Human `2026-09-17`. Versi `1.3` mengubah
-  **safe example** `LLM_TIMEOUT_SECONDS` dari `3` menjadi `30` berdasarkan
-  ADR-004 (naik agar mencakup cold load model; lihat baris `LLM_TIMEOUT_SECONDS`).
-  Tidak ada baris lain yang diubah atau dihapus.
-- Canonical template yang akan dibuat Engineer: `.env.example` di root project
-- Nilai credential nyata tidak dicatat di sini.
+- Schema version: `1.4`
+- Date: `2026-10-11`
+- Status: `APPROVED`
+- Approved by: `Human` on `2026-10-11`
+- Canonical runtime template: root `.env.example`
+- Real credential values must never be recorded in this schema.
 
-| Name | Purpose / type | Required / optional / condition | Environment | Safe example | Owner / source | Secret? | Consumer / validation |
+| Name | Purpose / type | Required / condition | Environment | Safe example | Owner / source | Secret? | Consumer / validation |
 |---|---|---|---|---|---|---|---|
-| `APP_ENV` | Profile enum aplikasi | Required | `local`, `test`, `vps` | `local` | Engineer / selected runtime profile | No | Entrypoint; hanya menerima profile yang didukung |
-| `DOCS_PATH` | Root corpus resmi relatif terhadap project root | Required untuk ingest; tidak diperlukan bot setelah index tersedia | `local`, `test`, `vps` bila rebuild di host | `docs` | Human/manajer menentukan corpus; Engineer memvalidasi | No | Ingest; resolve path harus tetap di bawah `docs/` dan tidak keluar boundary |
-| `INDEX_PATH` | Lokasi SQLite index dan state runtime | Required | `local`, `test`, `vps` | `.runtime/index.sqlite3` | Engineer / runtime profile | No | Ingest dan bot; parent directory dibuat aman, bukan path produksi pada test |
-| `TELEGRAM_BOT_TOKEN` | Credential bot Telegram | Required untuk bot live; tidak diperlukan ingest; test memakai dummy/mocked boundary atau sandbox token yang diprovision Human | `local`, `test-sandbox`, `vps` | kosong: `TELEGRAM_BOT_TOKEN=` | Human/client melalui credential store/runtime injection | Yes | Polling/send client; validasi presence sebelum network, tidak pernah log nilainya |
-| `TELEGRAM_POLL_TIMEOUT_SECONDS` | Durasi long polling request | Optional; default aplikasi tercatat oleh Engineer | `local`, `test`, `vps` | `30` | Engineer / Telegram runtime profile | No | Polling loop; positive numeric value, tidak menentukan SLA REQ-006 |
-| `TELEGRAM_REQUEST_TIMEOUT_SECONDS` | Timeout request Telegram selain long polling | Required untuk bot runtime | `local`, `test`, `vps` | `4` | Architect/Engineer; dikalibrasi terhadap REQ-006 | No | Telegram client; positive numeric value dan tercatat dalam evidence |
-| `LLM_BASE_URL` | Endpoint model generik OpenAI-compatible | Required untuk bot runtime; test dapat menunjuk mock lokal | `local`, `test`, `vps` | `http://127.0.0.1:8080/v1` | Human/Engineer berdasarkan runtime model yang dipilih | No | Model adapter; URL tervalidasi terhadap profile/allowlist target |
-| `LLM_API_KEY` | Credential endpoint model bila diperlukan | Optional; kosong untuk Qwen lokal tanpa auth | `local`, `test`, `vps` | kosong: `LLM_API_KEY=` | Human melalui runtime injection bila endpoint memerlukan auth | Yes | Model adapter; tidak pernah dilog |
-| `LLM_MODEL` | Identifier model generik | Required untuk bot runtime | `local`, `test`, `vps` | `local-default` | Human/Engineer melalui runtime profile | No | Model adapter; tidak boleh kosong atau placeholder saat runtime aktif |
-| `LLM_TIMEOUT_SECONDS` | Batas waktu pembangkitan jawaban | Required untuk bot runtime | `local`, `test`, `vps` | `30` | Architect/Engineer; nilai harus mencakup cold load model (ADR-004). Nilai `3` (versi `1.0`–`1.2`) **selalu** timeout saat model belum residen dan jatuh ke fallback yang tak dapat dibedakan dari abstention sungguhan | No | Model adapter; positive numeric value. **Timeout tidak fail-closed**: jawabannya adalah teks fallback yang dikirim sebagai respons sukses (`supported=False`, tanpa sumber). `REQ-006` mengukur latensi tersampaikan terhadap ambangnya sendiri, jadi nilai ini adalah plafon, bukan target |
-| `RAG_CONTEXT_LIMIT` | Jumlah chunk konteks retrieval yang diserahkan ke model jawaban | Optional; default aplikasi `5`, yaitu nilai seluruh pengukuran M2/M5 yang di-approve | `local`, `test`, `vps` | `5` | Engineer/Architect; nilai optimal bergantung model jawaban (lihat ADR-002) | No | `build_retrieval_policy`; positive integer; **hanya** mengekspos `context_limit` — field support gate (`min_coverage`, `min_matched_terms`) tetap beku di kode |
-| `MAX_QUESTION_CHARS` | Batas ukuran pertanyaan teks | Optional; default aplikasi harus didokumentasikan | `local`, `test`, `vps` | `2000` | Architect/Engineer | No | Update validator; positive integer, input di atas batas ditolak sebelum model |
-| `LOG_LEVEL` | Level logging | Optional; default `info` | `local`, `test`, `vps` | `info` | Engineer / application default | No | Logger; enum tervalidasi dan tidak menonaktifkan redaction |
+| `APP_ENV` | Application profile enum | Required | `local`, `test`, `container` | `container` | Engineer / selected launcher | No | Entrypoint; rejects unsupported profiles |
+| `RAG_IMAGE` | Prebuilt image reference used by Compose | Optional; default is `rag-assistant:local` | Compose host only | `rag-assistant:local` | Operator selects an approved tag or digest | No | Compose image selector; Compose does not build or publish the image |
+| `DOCS_PATH` | Approved corpus root, relative to the application root | Required for ingest | `local`, `test`, `container` | `docs` | Human/manager ratifies corpus; Engineer validates boundary | No | Ingest; resolved path must remain below the approved `docs/` directory |
+| `INDEX_PATH` | SQLite index and technical runtime-state path | Required | `local`, `test`, `container` | `.runtime/index.sqlite3` | Engineer / runtime profile | No | Ingest and bot; must remain below `.runtime/`; test uses isolated state |
+| `TELEGRAM_BOT_TOKEN` | Telegram bot credential | Required for bot; not needed for ingest | `local`, `test`, `container` | Empty for documentation: `TELEGRAM_BOT_TOKEN=` | Human provisions through an approved runtime secret path | Yes | Telegram client; presence checked before network access; never logged |
+| `TELEGRAM_POLL_TIMEOUT_SECONDS` | Long-poll request duration | Optional | `local`, `test`, `container` | `30` | Engineer / Telegram runtime profile | No | Polling loop; positive number; not itself the REQ-006 SLA |
+| `TELEGRAM_REQUEST_TIMEOUT_SECONDS` | Timeout for Telegram calls other than long polling | Required for bot | `local`, `test`, `container` | `4` | Architect/Engineer; calibrated against REQ-006 | No | Telegram client; positive number |
+| `LLM_BASE_URL` | OpenAI-compatible model endpoint | Required for bot | `local`, `test`, `container` | `http://host.docker.internal:8080/v1` | Human/Engineer chooses a reachable runtime endpoint | No | Model adapter; must be reachable from the selected runtime |
+| `LLM_API_KEY` | Optional credential for the model endpoint | Optional; empty for unauthenticated local endpoints | `local`, `test`, `container` | Empty: `LLM_API_KEY=` | Human provisions at runtime if required | Yes | Model adapter; never logged or baked into an image |
+| `LLM_MODEL` | Model identifier | Required for bot | `local`, `test`, `container` | `local-default` | Human/Engineer via runtime config | No | Model adapter; cannot be empty or a placeholder when the bot runs |
+| `LLM_TIMEOUT_SECONDS` | Answer-generation timeout | Required for bot | `local`, `test`, `container` | `30` | Architect/Engineer; must account for cold model loading (ADR-004) | No | Model adapter; positive number. A timeout currently returns the standard unsupported-answer text and is not fail-closed; REQ-006 measures delivered latency separately |
+| `RAG_CONTEXT_LIMIT` | Number of retrieved chunks passed to the answer model | Optional; application default is `5` | `local`, `test`, `container` | `5` | Engineer/Architect; see ADR-002 | No | Retrieval policy; positive integer. Does not expose or change the frozen support-gate thresholds |
+| `MAX_QUESTION_CHARS` | Maximum question length | Optional | `local`, `test`, `container` | `2000` | Architect/Engineer | No | Update validator; positive integer; oversized input is rejected before model access |
+| `LOG_LEVEL` | Application logging level | Optional; default is `info` | `local`, `test`, `container` | `info` | Engineer / application default | No | Logger; validated enum and must not disable redaction |
+| `TELEGRAM_ECHO_BOT_TOKEN` | Sandbox-only token for host-side Telegram E2E harness | Optional; never required by the application container | Host-side test harness only | Empty | Human provisions only for an approved sandbox run | Yes | Harness only; Compose intentionally does not pass it to the application container |
 
-## Runtime profiles dan source precedence
+## Runtime profiles and configuration precedence
 
-Semua path relatif terhadap root project. Precedence yang dikunci: process environment atau injected runtime secret menang atas file profile; CLI aplikasi secara eksplisit memuat `.env` **hanya untuk profile `local`**; profile `test` dan `vps` menerima konfigurasi dari launcher/process environment; default aplikasi hanya berlaku untuk variabel optional. Nama sumber yang sama tidak boleh diam-diam mengambil nilai dari profile lain.
+The Docker image contains the Python runtime, locked dependencies, application
+source, and the approved 26-document corpus. The corpus and derived image
+assets are classified Confidential. Distribute images only through a
+Human-approved private route. Never provide credentials through build
+arguments, build context files, image layers, or logs.
 
-| Profile | Working directory / launcher | Sumber konfigurasi | Target dan boundary | Missing-value behavior |
+The runtime index and minimal polling/idempotency state live in the persistent
+Docker named volume mounted at `/app/.runtime`. The model service remains an
+external runtime dependency. The bot uses outbound Telegram and model calls;
+Compose publishes no inbound ports.
+
+| Profile | Launcher / working directory | Configuration source | Data and trust boundary | Missing-value behavior |
 |---|---|---|---|---|
-| `local` | Root project; entry point Python ingest atau bot | Process environment mengalahkan `.env` lokal yang dimuat eksplisit oleh CLI | Folder `docs/`, SQLite lokal, model yang berjalan di endpoint lokal, dan bot yang diprovision Human | Required kosong/hilang/placeholder menghentikan startup sebelum network/write |
-| `test` | Root project; command test terisolasi | Process environment dan `.env.test` yang dipilih eksplisit; tidak fallback ke `.env` | Fixture sintetis, SQLite test terpisah, mock/model lokal, Telegram mock atau sandbox yang disetujui | Required test value memakai dummy yang benar-benar valid untuk target test; target live ditolak |
-| `vps` | Directory deployment yang ditetapkan DevOps; launcher service | Injected process environment/credential store; tidak mengandalkan file `.env` yang tidak diaudit | Satu service polling, corpus/index pada disk host yang dibatasi, model endpoint sesuai profile | Service tidak start dan tidak polling bila required config hilang/placeholder |
+| `local` | Python entrypoint from the project root | Process environment takes precedence over the explicitly loaded root `.env` | Approved `docs/`, local SQLite state, reachable model endpoint, Human-provisioned Telegram bot | Missing required values stop before network access or writes |
+| `test` | Isolated test command | Explicit process environment or explicitly selected test config; never falls back to root `.env` | Synthetic fixtures, isolated SQLite state, mocks or approved sandbox credentials | Live targets and production corpus/credentials are rejected |
+| `container` | Compose starts the prebuilt image in `/app` | Compose interpolates an operator-selected env file, then passes only the explicit allowlist in `compose.yaml`; application does not load an image `.env` | Read-only image filesystem; approved corpus in image; writable `/app/.runtime` named volume; external model and Telegram endpoints | Missing required values stop the process before polling or model calls |
 
-Engineer wajib membuat template root `.env.example` dengan nilai aman saja. Human mengisi credential melalui jalur runtime yang disetujui. `.env`, `.env.test`, backup, export credential, dan file key tidak boleh masuk Git atau log. Test profile tidak boleh membaca credential atau corpus production untuk menutup gap. Loader local hanya mendukung assignment sederhana `KEY=VALUE`, tidak melakukan interpolasi atau command execution, dan tidak menimpa process environment.
+For Compose commands, use `docker compose --env-file .env ...`. Shell variables
+override values in the selected Compose env file; the Compose file's explicit
+environment entries are the only values passed to the container. Never print
+the resolved configuration. Do not pass `TELEGRAM_ECHO_BOT_TOKEN` to the
+service.
+
+The root `.env.example` is the only canonical template. Real `.env`,
+`.env.test`, backups, credential exports, and key files must not enter Git or
+the Docker build context. The local CLI loader accepts simple `KEY=VALUE`
+assignments only, does not interpolate or execute commands, and does not
+overwrite existing process environment values.
 
 ## Credential references
 
-Tidak ada credential store n8n. Referensi credential yang direncanakan adalah `TELEGRAM_BOT_TOKEN` dan, bila endpoint model tidak lokal, `LLM_API_KEY` melalui runtime injection/credential store yang disetujui Human. Nilai credential tidak diperlukan untuk desain, implementasi sintetik, atau report. Jika target VPS menyediakan secret store khusus, DevOps mencatat nama referensi aman dan source precedence tanpa menyalin nilainya.
+The application has no n8n credential store. The runtime credentials are
+`TELEGRAM_BOT_TOKEN` and, when required by the selected model endpoint,
+`LLM_API_KEY`. Human provisions them through the approved runtime path. Their
+values are not needed for design, synthetic implementation, or reports.
 
-## Validasi dan verifikasi yang direncanakan
+## Validation and verification
 
-- Validasi konfigurasi harus menyebut nama variabel yang bermasalah, bukan nilainya, dan berhenti sebelum efek jaringan/tulis.
-- Engineer menyediakan command validasi tanpa mencetak environment; exact command dan hasil aktual dicatat pada handoff.
-- DevOps memverifikasi source precedence, isolasi test, dan target host; validasi konfigurasi bukan bukti bot berhasil.
-- QA memverifikasi bahwa test tidak fallback ke `.env`, target VPS, corpus produksi, atau credential live.
+- Configuration errors identify the variable or path category, never its value.
+- Validation commands must not print environment values.
+- A valid configuration is not evidence that Telegram delivery or model
+  generation succeeded.
+- QA must verify that tests do not fall back to `.env`, live endpoints,
+  production corpus, or live credentials.
+- Docker image-build and runtime evidence must record the artifact identity
+  without disclosing credentials or corpus contents.
+
+## Revision history
+
+| Version | Date | Change | Approval |
+|---|---|---|---|
+| `1.4` | `2026-10-11` | Replaces the host-specific VPS profile with `container`; documents the Compose allowlist, named-volume state, private image boundary, and runtime-only credentials | Human |
