@@ -39,6 +39,7 @@ from pathlib import Path
 
 import httpx
 
+from rag_assistant.answering.adapter import is_ollama_endpoint
 from rag_assistant.answering.service import build_answer_service
 from rag_assistant.config import load_config, load_operator_env
 from rag_assistant.retrieval.service import Retriever
@@ -166,8 +167,8 @@ def _print_group_discovery_help() -> None:
     )
 
 
-def _prewarm_model(cfg) -> bool:
-    """Load the model before the clock starts, and say so in the output.
+def _prewarm_model(cfg) -> bool | None:
+    """Load local Ollama before the clock; skip prewarm for API providers.
 
     A cold local model needs ~25-30 s for its first answer, which can never fit
     the locked <5 s budget.  A continuously running bot keeps its model
@@ -175,6 +176,10 @@ def _prewarm_model(cfg) -> bool:
     paying the load cost once, up front -- and prints a flag so the evidence is
     unambiguous about which condition was measured.
     """
+    if not is_ollama_endpoint(cfg.llm_base_url):
+        print("model_prewarm=skipped reason=non_ollama_provider")
+        return None
+
     base = cfg.llm_base_url.rstrip("/").removesuffix("/v1")
     payload = {
         "model": cfg.llm_model,
