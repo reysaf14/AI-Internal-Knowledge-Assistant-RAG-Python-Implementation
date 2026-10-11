@@ -2,11 +2,11 @@
 
 - Delivery lane: `PROFESSIONAL`
 - Scope version: `0.3`
-- PRD version: `1.1`
-- Date: `2026-09-14`
+- PRD version: `1.2`
+- Date: `2026-10-11`
 - Status: `APPROVED`
 - Approved by: `Human`
-- Approval date: `2026-09-14`
+- Approval date: `2026-10-11`
 
 ## Background
 
@@ -30,6 +30,7 @@ Business objectives:
 | Candidate `QA_Dataset_15_Pasangan.csv` | `Internal` because all content confirmed synthetic by Human on `2026-09-13` | `synthetic`; may be processed into a working copy matching the rubric | Not yet an approved eval set until 12+3 composition and answer keys are adjusted and ratified |
 | Operational employee questions | Potentially `Confidential` or `Restricted` depending on content | Limited to general policy questions; users must not input individual records, transaction data, or customer/employee identities | Entered via shared internal Telegram channel and produce answers to employees |
 | Credentials and secret configuration | `Restricted` | `blocked` from prompts, repository, fixtures, screenshots, reports, and project state | Human/client provisions via approved credential/runtime storage at technical stage |
+| Docker image and build artifacts | `Confidential` because the image contains the approved SOP corpus and derived application assets | Distribute only through a Human-approved private channel; never publish the image or build context publicly | Image and transfer access are controlled by Human/operator; secrets are injected only at runtime and never baked into image layers |
 | HR/customer records, payment data, production payloads | `Restricted` | `blocked` | Out of scope; new needs for this data return to Human for classification and scope change |
 
 Owner/manager ratifies corpus and is initial operations owner until Human designates another party. Operator only loads pre-ratified documents. Added or replaced documents must be recorded as part of the active corpus before reload.
@@ -38,7 +39,7 @@ No per-employee authentication in this scope. One bot shared by internal employe
 
 ## Implementation & Runtime Boundary
 
-Implementation uses full application code and does not use n8n or similar workflow orchestration platforms. Delivery has two code entry points: knowledge base reload and Telegram Q&A runtime. The first runtime targets local machines and must be portable to VPS via conceptually identical configuration. Model components are written generically so local experiments can use available models without locking the PRD to a specific vendor or technology.
+Implementation uses full application code and does not use n8n or similar workflow orchestration platforms. Delivery has two application entry points: knowledge base reload and Telegram Q&A runtime. The operator runtime is packaged as one OCI container image containing the application and the approved 26-document corpus. The same built image artifact is promoted by immutable image digest between compatible Docker hosts; environment-specific settings and secrets are supplied at runtime. The SQLite index and polling state persist in a named volume. The model endpoint remains an external runtime dependency configured per environment. This milestone packages and runs the image; it does not authorize deployment to a particular VPS, registry, or production environment.
 
 ## User Stories
 
@@ -58,7 +59,7 @@ Implementation uses full application code and does not use n8n or similar workfl
 | `REQ-004` | Supported answers cite correct sources | Mandatory | All 12 supported questions cite at least one correct supporting document name; any additional sources must also be relevant |
 | `REQ-005` | Assistant does not fabricate when corpus does not support an answer | Mandatory | All 3 unsupported questions produce a "don't know" statement, without policy claims or fake sources |
 | `REQ-006` | Response available within reasonable time for operational use | Mandatory | Each of 15 eval questions receives a response within `<5.0 seconds`, measured from app receipt of question to successful Telegram answer delivery |
-| `REQ-007` | Deliverables can be prepared, evaluated, and maintained by designated operator | Mandatory | Full application code with two operational entry points—knowledge base reload and Q&A bot runtime—plus local/VPS setup guide, document replacement guide, per-question evaluation results with failure notes, and sanitized conversation demo |
+| `REQ-007` | Deliverables can be prepared, evaluated, and maintained by designated operator | Mandatory | Full application code with two operational entry points—knowledge base reload and Q&A bot runtime—plus a Docker image build/run guide, image promotion by digest, persistent-volume and approved-corpus update instructions, per-question evaluation results with failure notes, and a sanitized conversation demo |
 
 ## Optional Features
 
@@ -82,7 +83,7 @@ Content rubric uses binary `PASS`/`FAIL`. Supported answer passes if all require
 | `REQ-004` | Source accuracy `12/12` for supported questions | Comparison of cited document names with approved sources; any additional sources must be relevant |
 | `REQ-005` | Abstention `3/3` for unsupported questions | Check that answer states don't know, makes no policy claim, and fabricates no sources |
 | `REQ-006` | Response time `<5.0 seconds` on `15/15` questions | Timestamp delta from app receipt of question to successful response delivery; report each duration |
-| `REQ-007` | All deliverables available and reviewable by owner/manager | Code entry point list, local/VPS usage guide, document replacement guide, evaluation report, sanitized demo; no credentials or raw payloads |
+| `REQ-007` | All deliverables available and reviewable by owner/manager | Code entry point list, Docker build/run and image-promotion guide, persistent-volume and document-update guide, evaluation report, sanitized demo; no credentials or raw payloads |
 
 Failure on hard gates for source, abstention, or response time cannot be masked by aggregate accuracy score. Evaluation results must still show per-question status and failure notes.
 
@@ -94,3 +95,4 @@ Dataset `QA_Dataset_15_Pasangan.csv` provided by Human contains 15 unique rows w
 |---|---|---|---|
 | `1.0` | `2026-09-13` | Initial PRD based on approved Scope Card `0.3`; establishes 26-document corpus and 12 supported + 3 unsupported rubric | Human |
 | `1.1` | `2026-09-14` | Establishes full code implementation without n8n, Telegram polling, no-conversation-storage policy, operational entry points, and candidate dataset 12+3 status | Human |
+| `1.2` | `2026-10-11` | Replaces host-specific VPS readiness with Docker image packaging; one image contains application and approved corpus, runtime secrets remain injected, SQLite state uses a persistent named volume, and image distribution remains a separate Human-controlled action | Human |
