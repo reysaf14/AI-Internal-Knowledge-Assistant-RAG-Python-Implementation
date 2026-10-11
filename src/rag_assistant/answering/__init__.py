@@ -9,6 +9,7 @@ from rag_assistant.answering.adapter import (
     ModelProviderError,
     ModelTimeoutError,
     OllamaModelClient,
+    is_ollama_endpoint,
 )
 from rag_assistant.answering.prompts import (
     ABSTENTION_TEXT,
@@ -38,5 +39,6 @@ __all__ = [
     "build_answer_service",
     "build_messages",
     "format_answer",
+    "is_ollama_endpoint",
     "validate_model_answer",
 ]
