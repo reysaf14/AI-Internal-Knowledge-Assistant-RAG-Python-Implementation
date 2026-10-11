@@ -7,6 +7,10 @@
 - Pengambil keputusan: `Human` (arah: **A2 + B1**, dipilih `2026-09-17`)
 - Terkait: PRD `1.1` (`REQ-005`, `REQ-006`), architecture `1.1` §`20`/§`117`/§`245`, ADR-002, ADR-003
 
+> Runtime planning note (2026-10-11): M7 now means Docker Packaging &
+> Portable Runtime under ADR-005, not VPS readiness. This ADR's open chat
+> allowlist risk remains unchanged and must be considered before broader use.
+
 ## Konteks
 
 Saat runtime diuji langsung oleh Human, **setiap** jawaban berbunyi sama:
@@ -114,7 +118,8 @@ informasi**, bukan sekadar kebisingan.
 Di luar dua keputusan di atas: allowlist adalah kontrol **lingkup akses**, tidak
 berhubungan dengan anggaran waktu maupun batas kueri, dan menyentuh
 `src/rag_assistant/__main__.py` serta `telegram/`. Direkomendasikan sebagai ADR
-terpisah sebelum runtime menyentuh VPS (`M7`). Dicatat di sini supaya tidak
+terpisah sebelum runtime digunakan secara operasional (`M7`, now Docker
+packaging). Dicatat di sini supaya tidak
 hilang.
 
 ## Alternatif yang ditolak

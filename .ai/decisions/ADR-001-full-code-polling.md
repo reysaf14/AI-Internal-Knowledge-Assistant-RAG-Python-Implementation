@@ -5,6 +5,11 @@
 - Scope: PRD `1.1`, architecture `1.1`
 - Pengambil keputusan: `Human`, disetujui bersama architecture `1.1` pada `2026-09-14`
 
+> Current runtime note (2026-10-11): ADR-005 replaces the host-specific
+> local/VPS packaging assumption with a Docker image and portable Compose
+> runtime. This ADR remains authoritative for full-code implementation,
+> Telegram long polling, and the no-transcript policy.
+
 ## Keputusan
 
 Implementasi menggunakan aplikasi Python penuh tanpa n8n atau platform orkestrasi workflow sejenis. Aplikasi memiliki entry point untuk rebuild knowledge base dan entry point untuk runtime bot Telegram. Telegram menggunakan long polling untuk runtime lokal dan VPS awal. Isi percakapan tidak disimpan; hanya state teknis minimum untuk polling, deduplication, timing, dan status operasi yang diperbolehkan.
