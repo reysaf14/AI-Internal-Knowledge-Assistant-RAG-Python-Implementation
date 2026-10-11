@@ -11,7 +11,7 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
-_VALID_PROFILES = {"local", "test", "vps"}
+_VALID_PROFILES = {"local", "test", "container"}
 _VALID_OPERATIONS = {"ingest", "bot"}
 _ENV_KEY_PATTERN = re.compile(r"^[A-Z][A-Z0-9_]*$")
 _VALID_LOG_LEVELS = {"debug", "info", "warning", "error", "critical"}
@@ -236,7 +236,9 @@ def load_config(project_root: Path | None = None) -> AppConfig:
 
     profile = os.environ.get("APP_ENV", "").strip()
     if not profile or profile not in _VALID_PROFILES:
-        _diagnostic("INVALID_CONFIG", "APP_ENV must be one of: local, test, vps")
+        _diagnostic(
+            "INVALID_CONFIG", "APP_ENV must be one of: local, test, container"
+        )
         raise SystemExit(3)
 
     for key in _REQUIRED_KEYS:
