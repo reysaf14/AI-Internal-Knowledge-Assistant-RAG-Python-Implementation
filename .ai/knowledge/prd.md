@@ -2,7 +2,7 @@
 
 - Delivery lane: `PROFESSIONAL`
 - Scope version: `0.3`
-- PRD version: `1.2`
+- PRD version: `1.3`
 - Date: `2026-10-11`
 - Status: `APPROVED`
 - Approved by: `Human`
@@ -31,6 +31,7 @@ Business objectives:
 | Operational employee questions | Potentially `Confidential` or `Restricted` depending on content | Limited to general policy questions; users must not input individual records, transaction data, or customer/employee identities | Entered via shared internal Telegram channel and produce answers to employees |
 | Credentials and secret configuration | `Restricted` | `blocked` from prompts, repository, fixtures, screenshots, reports, and project state | Human/client provisions via approved credential/runtime storage at technical stage |
 | Docker image and build artifacts | `Confidential` because the image contains the approved SOP corpus and derived application assets | Distribute only through a Human-approved private channel; never publish the image or build context publicly | Image and transfer access are controlled by Human/operator; secrets are injected only at runtime and never baked into image layers |
+| DeepSeek request data | Derived from `Confidential` corpus and potentially `Confidential` questions | Only the user's current question and the minimum retrieved chunks required to answer; direct identities, records, credentials, and production payloads remain blocked | The Human has approved DeepSeek as the external model provider on `2026-10-11`; the application does not persist conversation content. Provider-side processing/retention is governed by the provider and has not been independently verified here |
 | HR/customer records, payment data, production payloads | `Restricted` | `blocked` | Out of scope; new needs for this data return to Human for classification and scope change |
 
 Owner/manager ratifies corpus and is initial operations owner until Human designates another party. Operator only loads pre-ratified documents. Added or replaced documents must be recorded as part of the active corpus before reload.
@@ -39,7 +40,7 @@ No per-employee authentication in this scope. One bot shared by internal employe
 
 ## Implementation & Runtime Boundary
 
-Implementation uses full application code and does not use n8n or similar workflow orchestration platforms. Delivery has two application entry points: knowledge base reload and Telegram Q&A runtime. The operator runtime is packaged as one OCI container image containing the application and the approved 26-document corpus. The same built image artifact is promoted by immutable image digest between compatible Docker hosts; environment-specific settings and secrets are supplied at runtime. The SQLite index and polling state persist in a named volume. The model endpoint remains an external runtime dependency configured per environment. This milestone packages and runs the image; it does not authorize deployment to a particular VPS, registry, or production environment.
+Implementation uses full application code and does not use n8n or similar workflow orchestration platforms. Delivery has two application entry points: knowledge base reload and Telegram Q&A runtime. The operator runtime is packaged as one OCI container image containing the application and the approved 26-document corpus. The same built image artifact is promoted by immutable image digest between compatible Docker hosts; environment-specific settings and secrets are supplied at runtime. The SQLite index and polling state persist in a named volume. The default model runtime is DeepSeek API (`https://api.deepseek.com`, model `deepseek-flash`); the API key is supplied through the ignored runtime `.env` file. For supported questions, the application sends the current question and only the minimum chunks selected by the active index to DeepSeek. Provider processing/retention terms have not been verified as part of this project. This milestone packages and runs the image; it does not authorize deployment to a particular VPS, registry, or production environment.
 
 ## User Stories
 
@@ -96,3 +97,4 @@ Dataset `QA_Dataset_15_Pasangan.csv` provided by Human contains 15 unique rows w
 | `1.0` | `2026-09-13` | Initial PRD based on approved Scope Card `0.3`; establishes 26-document corpus and 12 supported + 3 unsupported rubric | Human |
 | `1.1` | `2026-09-14` | Establishes full code implementation without n8n, Telegram polling, no-conversation-storage policy, operational entry points, and candidate dataset 12+3 status | Human |
 | `1.2` | `2026-10-11` | Replaces host-specific VPS readiness with Docker image packaging; one image contains application and approved corpus, runtime secrets remain injected, SQLite state uses a persistent named volume, and image distribution remains a separate Human-controlled action | Human |
+| `1.3` | `2026-10-11` | Human selects DeepSeek as the default API model; documents minimized question/context egress, runtime-only API-key provisioning, and provider-side retention as unverified | Human |
