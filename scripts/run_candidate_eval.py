@@ -1,6 +1,6 @@
 """Run the amended 12+3 eval candidate through the real M2/M3/M4 pipeline.
 
-Local-model metrics only.  ``verification_level="local-model"`` means the
+Model-backed metrics only. ``verification_level="model-api"`` means the
 runner can never return PASS here -- the required evidence is the Telegram
 sandbox run (AC-027..031).  This script exists to prove the amended dataset
 produces matching metrics before the sandbox run is attempted.
@@ -16,6 +16,7 @@ import time
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
+from rag_assistant.answering.adapter import is_ollama_endpoint
 from rag_assistant.answering.service import build_answer_service
 from rag_assistant.config import load_config, load_operator_env
 from rag_assistant.evaluation import EvaluationCase, LocalEvaluationRunner
@@ -23,8 +24,8 @@ from rag_assistant.retrieval.service import Retriever, build_retrieval_policy
 from rag_assistant.storage.index_store import IndexStore
 
 
-def prewarm_model(cfg) -> tuple[bool, float]:
-    """Load the local model into memory before measuring.
+def prewarm_model(cfg) -> tuple[bool, float] | None:
+    """Load an Ollama model before measuring; skip remote providers.
 
     A cold local model needs ~30s to load. The application budget is <5s, so a
     cold call aborts the request, which cancels generation and leaves the model
@@ -36,6 +37,9 @@ def prewarm_model(cfg) -> tuple[bool, float]:
     model in ~0.5-1s warm, while the OpenAI-compatible facade takes tens of
     seconds on this runtime.
     """
+    if not is_ollama_endpoint(cfg.llm_base_url):
+        return None
+
     import httpx
 
     base = cfg.llm_base_url.rstrip("/")
@@ -57,7 +61,7 @@ def prewarm_model(cfg) -> tuple[bool, float]:
     except httpx.HTTPError:
         return False, (time.perf_counter() - started) * 1000
 
-EXPECTED_HEADERS = ("Pertanyaan", "Jawaban_Benar", "Dokumen_Sumber")
+EXPECTED_HEADERS = ("Question", "Answer_Key", "Source_Document")
 
 # Row -> assertion terms, from the single shared table (scripts/candidate_rubric.py).
 # Two copies of a rubric drift apart, and a rubric that disagrees with itself
@@ -75,8 +79,8 @@ def _cases(dataset: Path, corpus: Path) -> tuple[EvaluationCase, ...]:
 
     cases: list[EvaluationCase] = []
     for number, row in enumerate(rows, start=1):
-        question = (row.get("Pertanyaan") or "").strip()
-        stem = (row.get("Dokumen_Sumber") or "").strip()
+        question = (row.get("Question") or "").strip()
+        stem = (row.get("Source_Document") or "").strip()
         if not question or not stem:
             raise ValueError(f"row {number} has an empty required value")
         supported = stem in stems
@@ -111,8 +115,12 @@ def main() -> int:
     if IndexStore(cfg.resolve_index_path()).get_index_info() is None:
         raise RuntimeError("active index is unavailable or invalid")
 
-    warmed, warm_ms = prewarm_model(cfg)
-    print(f"prewarm_ok={warmed} prewarm_ms={round(warm_ms)}")
+    prewarm = prewarm_model(cfg)
+    if prewarm is None:
+        print("prewarm=skipped reason=non_ollama_provider")
+    else:
+        warmed, warm_ms = prewarm
+        print(f"prewarm_ok={warmed} prewarm_ms={round(warm_ms)}")
     # State the effective breadth in the evidence, not just the source default.
     # An eval run at RAG_CONTEXT_LIMIT != 5 is not a reproduction of the approved
     # M5 baseline, and a report that does not say which value produced it cannot
@@ -128,7 +136,7 @@ def main() -> int:
         ),
         answer_service=build_answer_service(cfg),
         state_dir=Path(state_root),
-        verification_level="local-model",
+        verification_level="model-api",
         max_latency_seconds=5.0,
         poll_timeout_seconds=1,
         max_question_chars=cfg.max_question_chars,
