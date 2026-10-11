@@ -19,7 +19,7 @@ from rag_assistant.retrieval.query import normalize_query
 from rag_assistant.retrieval.support_gate import SupportGate
 from rag_assistant.storage.index_store import IndexStore
 
-EXPECTED_HEADERS = ("Pertanyaan", "Jawaban_Benar", "Dokumen_Sumber")
+EXPECTED_HEADERS = ("Question", "Answer_Key", "Source_Document")
 TARGET_SUPPORTED = 12
 TARGET_UNSUPPORTED = 3
 
@@ -49,8 +49,8 @@ def main() -> int:
     supported_total = 0
     unsupported_total = 0
     for number, row in enumerate(rows, start=1):
-        stem = (row.get("Dokumen_Sumber") or "").strip()
-        question = (row.get("Pertanyaan") or "").strip()
+        stem = (row.get("Source_Document") or "").strip()
+        question = (row.get("Question") or "").strip()
         terms = normalize_query(question).terms
         candidates = store.search_terms(terms, limit=args.limit).chunks
         decision = gate.evaluate(terms, candidates)
