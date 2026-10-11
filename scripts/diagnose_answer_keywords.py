@@ -78,7 +78,12 @@ def main() -> int:
     cfg = load_config(PROJECT_ROOT)
     # Must match the probe: a cold model returns MODEL_TIMEOUT and its 130-char
     # fallback text, which is easy to misread as "the model answered badly".
-    print(f"prewarm_ms={prewarm(cfg):.0f}")
+    prewarm_ms = prewarm(cfg)
+    print(
+        f"prewarm_ms={prewarm_ms:.0f}"
+        if prewarm_ms is not None
+        else "prewarm=skipped reason=non_ollama_provider"
+    )
     rows = list(csv.DictReader((PROJECT_ROOT / args.dataset).open(encoding="utf-8")))
     targets = args.rows or sorted(CANDIDATE_RUBRIC)
 
@@ -94,7 +99,7 @@ def main() -> int:
         if number < 1 or number > len(rows):
             print(f"{number:02d}|skipped=out_of_range")
             continue
-        question = rows[number - 1]["Pertanyaan"]
+        question = rows[number - 1]["Question"]
         required = CANDIDATE_RUBRIC[number]
 
         retrieval = retriever.retrieve(question)
