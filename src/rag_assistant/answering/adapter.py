@@ -13,6 +13,7 @@ from __future__ import annotations
 from collections.abc import Sequence
 from dataclasses import dataclass
 from typing import Any, Protocol
+from urllib.parse import urlparse
 
 import httpx
 
@@ -84,6 +85,7 @@ class HttpModelClient:
         *,
         api_key: str | None = None,
         max_tokens: int = DEFAULT_MAX_TOKENS,
+        disable_thinking: bool = False,
         http_client: httpx.Client | None = None,
     ) -> None:
         if not base_url or not base_url.strip():
@@ -94,6 +96,7 @@ class HttpModelClient:
         self._model_name = model_name
         self._api_key = (api_key or "").strip()
         self._max_tokens = max_tokens
+        self._disable_thinking = disable_thinking
         self._client = http_client
 
     def endpoint(self) -> str:
@@ -121,6 +124,8 @@ class HttpModelClient:
             "max_tokens": self._max_tokens,
             "temperature": 0.0,
         }
+        if self._disable_thinking:
+            payload["thinking"] = {"type": "disabled"}
 
         try:
             response = self._post(payload, timeout_seconds)
@@ -258,3 +263,15 @@ def _ollama_base_url(base_url: str) -> str:
     if normalized.endswith("/v1"):
         return normalized[:-3]
     return normalized
+
+
+def is_ollama_endpoint(base_url: str) -> bool:
+    """Return whether a URL targets the supported local Ollama listener."""
+    try:
+        parsed = urlparse(base_url)
+        return (
+            (parsed.hostname or "").lower() in {"127.0.0.1", "localhost"}
+            and parsed.port == 11434
+        )
+    except ValueError:
+        return False
